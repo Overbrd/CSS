@@ -1,0 +1,25 @@
+both tags go in body section: makes a mouseover on an image have a darker effect, clear 100% opacity: without mouseover image is 75% opacity...
+
+
+<img style="opacity: 0.75;
+                                    filter:alpha(opacity=75);
+                                    border: solid 1px #CCCCCC"
+                                id="aimg133"
+                                name="aimg133"
+                                onMouseOver="onimg('133');"
+                                onMouseOut="offimg('133');"
+                                src="content/images/agents/133.jpg">
+
+
+<script language="javascript" type="text/javascript">
+            function onimg(a){t=document.getElementById("aimg"+a);
+            t.style.border="solid 1px #000000";
+            t.style.opacity="1";
+            t.style.filter="alpha(opacity=100)";}
+
+            function offimg(a){t=document.getElementById("aimg"+a);
+            t.style.border="solid 1px #CCCCCC";
+            t.style.opacity="0.75";
+            t.style.filter="alpha(opacity=75)";}
+        </script>
+

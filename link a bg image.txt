@@ -1,0 +1,11 @@
+1:
+2:
+3:
+4:
+5:
+ <div style="background:url(something.gif) no-repeat; width:200px; height200px;">
+<a href="something.htm" style="text-indent:-10000px; display:block; width:200px; height:200px;">
+    Sample
+</a>
+</div>
+ 

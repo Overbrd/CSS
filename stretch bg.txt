@@ -1,0 +1,108 @@
+Faking a Stretched Background
+
+Until CSS 3 is accepted as a recommendation and user-agents catch up, in order to get a background image to stretch, we have to fake it.
+
+The easiest way to fake a stretched background image is to stretch it across the entire page. Then you don't end up with extra space or have to worry that your text fits in the stretched area. Here's how to do it:
+
+   1. First, make sure that all browsers have a 100% height, 0 margin, and 0 padding on the html and body tags:
+
+          <style type="text/css">
+          html, body {
+          height: 100%;
+          margin: 0;
+          padding: 0;
+          }
+          </style>
+
+   2. Add the image you want as the background as the first element of the Web page, and give it the id of bg:
+
+          <body>
+          <img src="bgimage.jpg" alt="background image" id="bg" />
+          </body>
+
+   3. Position the background image so that it's fixed at the top left and is 100% wide and 100% in height. Add this to your style sheet:
+
+          img#bg {
+          position:fixed;
+          top:0;
+          left:0;
+          width:100%;
+          height:100%;
+          }
+
+   4. Add all your content to the page inside of a division called "content". Add this below the image:
+
+          <div id="content">All your content here - including headers, paragraphs, etc.</div>
+
+      Note: it's interesting to look at your page now. The image should display stretched out, but your content is completely missing. Why? Because the background image is 100% in height, and the content division is after the image in the flow of the document - most browsers won't display it.
+   5. Position your content so that it's relative and has a z-index of 1. This will bring it above the background image in standards-compliant browsers. Add this to your style sheet:
+
+          #content {
+          position:relative;
+          z-index:1;
+          }
+
+   6. But you're not done. Internet Explorer 6 isn't standards compliant and still has some problems. There are many ways to hide the CSS from every browser but IE 6, but the easiest (and least dangerous) is to use conditional comments. Put the following after your style sheet:
+
+          ...
+          </style>
+          <!--[if IE 6]>
+          <![endif]-->
+
+   7. Inside the comment, add another style sheet with some styles to get IE 6 to play nice:
+
+          <!--[if IE 6]>
+          <style type="text/css">
+          html { overflow-y: hidden; }
+          body { overflow-y: auto; }
+          #bg { position:absolute; z-index:-1; }
+          #content { position:static; }
+          </style>
+          <![endif]-->
+
+See an example
+Faking a Stretched Background Image Over a Smaller Space
+
+You can use a similar technique to fake a stretched background image across a div or other element on your Web page. This is a bit trickier as you have to either use absolute positioning or have strange spacing issues for other parts of your page.
+
+   1. Place the image on the page that I want to use as the background.
+
+          <img src="bgimage.jpg" alt="background" id="bg" />
+
+   2. In the style sheet, set a width and height for the image. Note, you can use percentages for width or height, but I find it easier to adjust with length values for the height.
+
+          #bg {
+          width:20em;
+          height:30em;
+          }
+
+   3. Place your content in a div with the id "content" as above:
+
+          <div id="content">All your content here</div>
+
+   4. Style the content div to be the same width and height as the background image:
+
+          #content {
+          width: 20em;
+          height: 30em;
+          }
+
+   5. Then position the content up the same height as the image. So if your image is 30em you would have a style of top: -30em; Don't forget to put a z-index of 1 on the content.
+
+          #content {
+          position: relative;
+          top: -30em;
+          z-index: 1;
+          width: 20em;
+          height: 30em;
+          }
+
+   6. Then add in a z-index of -1 for IE 6 users, as you did above:
+
+          <!--[if IE 6]>
+          <style type="text/css">
+          #bg { z-index: -1; }
+          </style>
+          <![endif]-->
+
+Be sure to test this in as many browsers as you can. And if your content changes size, you'll need to change the size of your container and background image, otherwise you'll end up with strange results. 

@@ -1,0 +1,52 @@
+.roundcont {
+	width: 250px;
+	background-color: #f90;
+	color: #fff;
+}
+
+.roundcont p {
+	margin: 0 10px;
+}
+
+.roundtop { 
+	background: url(tr.gif) no-repeat top right; 
+}
+
+.roundbottom {
+	background: url(br.gif) no-repeat top right; 
+}
+
+img.corner {
+   width: 15px;
+   height: 15px;
+   border: none;
+   display: block !important;
+}
+
+
+
+<div class="roundcont">
+   <div class="roundtop">
+	 <img src="tl.gif" alt="" 
+	 width="15" height="15" class="corner" 
+	 style="display: none" />
+   </div>
+
+   <p>Lorem ipsum dolor sit amet, consectetur adipisicing 
+   elit, sed do eiusmod tempor incididunt ut labore et 
+   dolore magna aliqua. Ut enim ad minim veniam, quis 
+   nostrud exercitation ullamco laboris nisi ut aliquip 
+   ex ea commodo consequat. Duis aute irure dolor in 
+   reprehenderit in voluptate velit esse cillum dolore eu 
+   fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
+   non proident, sunt in culpa qui officia deserunt mollit 
+   anim id est laborum.</p>
+  
+   <div class="roundbottom">
+	 <img src="bl.gif" alt="" 
+	 width="15" height="15" class="corner" 
+	 style="display: none" />
+   </div>
+</div>	
+
+

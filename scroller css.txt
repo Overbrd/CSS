@@ -1,0 +1,20 @@
+<!--SCROLLER TEXT-->
+
+<div id="divScrlWrap" style="position: relative; left: 0px; top: 0px; width: 100%; height: 25px; z-index: 100; overflow: hidden;">
+
+<div id="divScrlTxt" nowrap="true" style="position: absolute; left: -2000px; width: 2000px; height: 25px; top: 0px; z-index: 99; text-align: left;">
+
+<span id="spnScrlTxt" class="scroller" style="font-family:Trebuchet;color:#000000;font-weight: bold;font-size:14pt;">
+
+
+
+NEW ON THE MARKET!! 2BR/2BA Single Family Home on .43 Acres in Orange Blossom Hills. Located in Summerfield, Florida near the Villages. $159,900. Click <a href="http://ocalarealestateonline.com/summerfieldsinglefamilyhomeforsale001.php">HERE</a> for more information.
+
+
+</span>
+
+
+</div>
+
+
+</div><!--SCROLLER TEXT-->

@@ -1,0 +1,6 @@
+	behavior: url(/css/border-radius.htc);
+    border-radius: 20px;
+	-moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+	position: relative;

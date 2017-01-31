@@ -1,0 +1,4 @@
+	background-image:  url(http://www.delraycomputer.us/computer_services/images/bg.jpg);
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-position: top center;

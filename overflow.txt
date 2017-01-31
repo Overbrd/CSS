@@ -1,0 +1,6 @@
+Value Description 
+visible The overflow is not clipped. It renders outside the element's box. This is default 
+hidden The overflow is clipped, and the rest of the content will be invisible 
+scroll The overflow is clipped, but a scroll-bar is added to see the rest of the content 
+auto If overflow is clipped, a scroll-bar should be added to see the rest of the content 
+inherit Specifies that the value of the overflow property should be inherited from the parent element 

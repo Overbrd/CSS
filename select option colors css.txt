@@ -1,0 +1,17 @@
+select {  
+  background-color: #ebebeb;  
+  color: #a9a9a9; 
+}  
+textarea {  
+  background-color: #ebebeb;  
+  color: #a9a9a9; 
+  border: 1px solid #c5c5c5; 
+}  
+select.type {  
+  background-color: #ebebeb;  
+  color: #a9a9a9; 
+}
+select.type  option{  
+  background-color: #ffffff;  
+  color: #000000; 
+}

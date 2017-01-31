@@ -1,0 +1,306 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Infrared Thermography- Infrared Imaging, Thermography, Non-destructive testing, Non-contact, PPM</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<META HTTP-EQUIV="Set-Cookie" CONTENT="delraycomputer=1;expires=Wednesday, 08-Aug-99 23:59:59 GMT; path=/">
+<meta name="keywords" content="Infrared Imaging, Thermography, Non-destructive testing, Non-contact, PPM, ELECTRICAL, MECHANICAL, COMPONENTS, BUILDING, OPERATING, PERFORMING, costing, customers, MONEY, rising costs, energy, afford,  waste, businesses, customers, stockholders, good managers, properly manage, operating costs, cost of production, profits, service, accurate, shut down, equipment, dollar, IR, saving, early detection, prioritizing, equipment maintenance schedule">
+<meta name="description" content="Infrared Thermography web site. Professional Consulting and Inspecting service provide, providing, provides Infrared Imaging, Thermography for maintenance, electrical, Environmental, and Mechanical Thermography, and is Non destructive testing.">
+<META NAME="GENERATOR" content="DelrayComputer.com">
+<META NAME="ROBOTS" CONTENT="INDEX,FOLLOW">
+<style type="text/css">
+body {
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 16px;
+	color: #000000;
+	margin: 28px 5px 5px 5px;
+}
+h4 {
+	font-family: Georgia, "Times New Roman", serif;
+	font-weight: bold;
+	font-size: 26px;
+	color: #FF0000;
+	margin: 5px;
+	display: blink;
+}
+.banner {
+	vertical-align: middle;
+	background-image: url('images/banner.gif');
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 66px;
+	width: 800px;
+}
+.logo {
+	font-family: Georgia, "Times New Roman", serif;
+	font-weight: bold;
+	color: #0000FF;
+	font-style: italic;
+	font-size: 18px;
+	vertical-align: middle;
+	background-image: none;
+	text-align: center;
+	background-color: #FFFFFF;
+}
+.columntopleft {
+	vertical-align: top;
+	background-image: url('images/columnlefttop.gif');
+	background-repeat: no-repeat;
+	background-position: top left;
+	width: 129px;
+	height: 69px;
+}
+.columntopright {
+	vertical-align: top;
+	background-image: url('images/columnrighttop.gif');
+	background-repeat: no-repeat;
+	background-position: top left;
+	width: 129px;
+	height: 69px;
+}
+.columnleft {
+	vertical-align: top;
+	background-image: url('images/columnbgleft.gif');
+	background-repeat: repeat-y;
+	background-position: top left;
+	width: 129px;
+}
+.columnright {
+	vertical-align: top;
+	background-image: url('images/columnbgright.gif');
+	background-repeat: repeat-y;
+	background-position: top left;
+	width: 129px;
+}
+.columnbottomleft {
+	vertical-align: top;
+	background-image: url('images/columnleftbottom.gif');
+	background-repeat: no-repeat;
+	background-position: top left;
+	width: 129px;
+	height: 69px;
+}
+.columnbottomright {
+	vertical-align: top;
+	background-image: url('images/columnrightbottom.gif');
+	background-repeat: no-repeat;
+	background-position: top left;
+	width: 129px;
+	height: 69px;
+}
+.nav {
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	text-align: center;
+	width: 100%;
+	padding: 3px;
+}
+	a.nav {
+		color: #FF0000;
+		text-decoration: none;
+		border: none;
+		background-color: #000066;
+		border: none;
+		padding: 3px;
+		margin: 3px;
+		width: 165px;
+}
+	a.nav:hover {
+		color: #FFFFFF;
+		text-decoration: none;
+		background-color: #6666ff;
+		border: none;
+}
+	a.nav:active {
+		color: #FF0000;
+}
+	a.nav:visited {
+		color: #ffcccc;
+}
+.content {
+	font-family: Times, "Times New Roman", serif;
+	font-size: 18px;
+	color: #000000;
+	margin: 5px 5px 5px 5px;
+	text-align: left;
+	background-color: #FFFFFF;
+}
+.bottom {
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 11px;
+	color: #000000;
+	padding: 5px 5px 5px 5px;
+	vertical-align: bottom;
+	background-image: url('bottomcenter.gif');
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-color: #FFFFFF;
+}
+</style>
+
+
+</head>
+
+
+<body background="images/bg.jpg"> 
+
+<table width="95%" border="0" align="center" cellpadding="0" cellspacing="0">
+  
+<tr>
+
+    <td ALIGN="center" class="banner">
+
+</td>
+
+</tr>
+
+</table>
+
+
+
+<table width="95%" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td class="nav">
+
+<a href="index.htm" class="nav">Home</a>
+
+<a href="environmentalthermography.htm" class="nav">Environmental</a>
+
+<a href="electricalthermography.htm" class="nav">Electrical</a>
+
+<a href="mechanicalthermography.htm" class="nav">Mechanical</a>
+
+<a href="buildingenvelopethermography.htm" class="nav">Building Envelope</a>
+
+
+
+</td>
+
+</tr>
+
+</table>
+
+<table width="95%" border="0" align="center" cellpadding="0" cellspacing="0">
+  
+<tr>
+
+    <td class="columntopleft">&nbsp;</td>
+    <td class="logo">"We're All About Saving You Money!"</td>
+    <td class="columntopright">&nbsp;</td>
+
+</td>
+
+</tr>
+
+</table>
+
+<table width="95%" border="0" align="center" cellpadding="0" cellspacing="0">
+  
+<tr>
+
+    <td class="columnleft">&nbsp;</td>
+    <td class="content">
+
+<p align="center"><img src="images/warning.gif" width="411" height="36" border="0" alt=""><br>
+
+
+<strong>ARE THE ELECTRICAL AND MECHANICAL COMPONENTS IN YOUR BUILDING<br>OPERATING AND PERFORMING WITHIN ITS’ LIMITS?<br><br>If not, it is costing you and your customers <u>MONEY</u>!</strong></p>
+
+<img src="images/home/IR20041216_2120.jpg" align="right" width="320" height="240" border="1" alt="Photo of Infrared Thermography">With the rising costs of energy, we cannot afford to waste it- personally or within our businesses. We owe it to our customers and stockholders to be good managers and properly manage operating costs. This waste affects the cost of production and eats away at profits.<br><br>
+
+One of the most common replies we receive is: “We did not know this service was even available and certainly had no idea such results were so accurate; we didn’t even have to shut down the equipment!”<br><br>
+
+We have been told that for every dollar spend on IR; we are saving $10 - $200 or more, by early detection and prioritizing our equipment maintenance schedule.<br><br>
+<br><br>
+
+<h2>Please Contact Us through the Form Below:</h2><br><hr>
+<form action="gdform.php" method="post">
+<input type="hidden" name="subject" value="Form Submission" />
+<input type="hidden" name="redirect" value="ok.htm" />
+<p>First Name:<input type="text" name="FirstName" /></p>
+<p>Last Name:<input type="text" name="LastName" /></p>
+<p>E-Mail:<input type="text" name="email" /></p>
+<p>Comments:<textarea name="comments" cols="40" rows="10">
+Type comments here.</textarea></p>
+<input type="submit" name="submit" value="submit"/>
+</form>
+
+<br>Or, You can <a href="mailto:pcinsp[at]comcast.net">Email</a> Us as well.<br>
+
+
+
+
+</td>
+    <td class="columnright">&nbsp;</td>
+
+</td>
+
+</tr>
+
+</table>
+
+<table width="95%" border="0" align="center" cellpadding="0" cellspacing="0">
+  
+<tr>
+
+    <td class="columnbottomleft">&nbsp;</td>
+    <td align="center" class="bottom">
+
+<a href="index.htm">Home</a> | 
+
+<a href="environmentalthermography.htm">Environmental</a> | 
+
+<a href="electricalthermography.htm">Electrical</a> | 
+
+<a href="mechanicalthermography.htm">Mechanical</a> | 
+
+<a href="buildingenvelopethermography.htm">Building Envelope</a>
+</td>
+    <td class="columnbottomright">&nbsp;</td>
+
+</td>
+
+</tr>
+
+</table>
+
+
+
+<script type="text/javascript">
+
+/***********************************************
+* Easy Email Scrambler script- © Dynamic Drive (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit http://www.dynamicdrive.com/ for full source code
+***********************************************/
+
+var maildivider="[at]" //enter divider you use to divide your email address strings
+
+for (i=0; i<=(document.links.length-1); i++){
+if (document.links[i].href.indexOf(maildivider)!=-1)
+document.links[i].href=document.links[i].href.split(maildivider)[0]+"@"+document.links[i].href.split(maildivider)[1]
+}
+</script>
+
+
+
+
+</body>
+</html>
+
+
+
+
+<!--
+/////////////////////////////////////////////////////////////////
+/                                                               
+/                                               
+/ Site Designed By: Delray Computer                     
+/ Designer: Matthew Lind                                        
+/ Copyright © 2006 DelrayComputer.com
+/ God Bless America                          
+/                                                               
+/////////////////////////////////////////////////////////////////
+-->
