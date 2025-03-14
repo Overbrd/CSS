@@ -1,0 +1,616 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+ font-family: 'AbadiMTCondensedExtraBoldRg';
+ src: url('ufonts.com_abadi-mt-condensed-extra-bold-2-webfont.eot');
+ src: url('ufonts.com_abadi-mt-condensed-extra-bold-2-webfont.eot?#iefix') format('embedded-opentype'),  url('ufonts.com_abadi-mt-condensed-extra-bold-2-webfont.woff') format('woff'),  url('ufonts.com_abadi-mt-condensed-extra-bold-2-webfont.ttf') format('truetype'),  url('ufonts.com_abadi-mt-condensed-extra-bold-2-webfont.svg#AbadiMTCondensedExtraBoldRg') format('svg');
+ font-weight: normal;
+ font-style: normal;
+}
+ @font-face {
+ font-family: 'AbadiMTCondensedLightRegular';
+ src: url('abalc-webfont.eot');
+ src: url('abalc-webfont.eot?#iefix') format('embedded-opentype'),  url('abalc-webfont.woff') format('woff'),  url('abalc-webfont.ttf') format('truetype'),  url('abalc-webfont.svg#AbadiMTCondensedLightRegular') format('svg');
+ font-weight: normal;
+ font-style: normal;
+}
+ @font-face {
+ font-family: 'AbadiMTCondensedRegular';
+ src: url('abac-webfont.eot');
+ src: url('abac-webfont.eot?#iefix') format('embedded-opentype'),  url('abac-webfont.woff') format('woff'),  url('abac-webfont.ttf') format('truetype'),  url('abac-webfont.svg#AbadiMTCondensedRegular') format('svg');
+ font-weight: normal;
+ font-style: normal;
+}
+body {
+	background: #2D2C2A;
+}
+ul, ol, dl {
+	padding: 0;
+	margin: 0;
+}
+html, body, h2, h3, h4, h5, h6, p, input, textarea, select, form {
+	font-family:"Verdana", Geneva, sans-serif;
+	font-size: 14px;
+	color: #333;
+	font-weight: normal;
+	padding: 0;
+	margin: 0;
+}
+
+.wrap {
+	width: 500px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.header-wrapper {
+}
+.header-top-links {
+	height: 48px;
+	width: 500px;
+	background-image: url(../images/h_links_normal_bg.png);
+	background-repeat: repeat-x;
+	background-color: #135E80;
+	overflow: hidden;
+}
+a.phoneno {
+	text-decoration: none;
+}
+a.phoneno:link {
+	text-decoration: none;
+}
+a.phoneno-footer {
+	text-decoration: none;
+	color: #CCC;
+	font-weight: bold;
+}
+a.phoneno-footer:link {
+	text-decoration: none;
+	color: #CCC;
+}
+/********************header top links***********************/
+#h_links {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+#h_links li {
+	float: left;
+	height: 48px;
+}
+#h_links a {
+	font-family: Arial, Helvetica, sans-serif;
+	display: block;
+	padding-right: 9px;
+	padding-left: 9px;
+	font-size: 12px;
+	text-decoration: none;
+	color: #FFF;
+	height: 34px;
+	padding-top: 14px;
+}
+#h_links a:hover {
+	background-image: url(../images/h_links_hover_bg.png);
+	background-repeat: repeat-x;
+}
+#h_links #h_selected a {
+	background-image: url(../images/h_links_hover_bg.png);
+	background-repeat: repeat-x;
+}
+.seperator {
+	background-image: url(../images/h_links_seperator.png);
+	background-repeat: no-repeat;
+	width: 2px;
+}
+.h_links_bottom_line {
+	height: 3px;
+	width: 500px;
+	background-image: url(../images/h_links_bottom_line.gif);
+	background-repeat: repeat-x;
+	background-color: #9AB178;
+	overflow: hidden;
+}
+.header-middle {
+	background-image: url(../images/header-middle-bg.png);
+	background-repeat: repeat-x;
+	height: 107px;
+	width: 500px;
+	background-color: #9AB178;
+	margin-bottom: 1px;
+}
+.header-middle-content {
+	background-image: url(../images/logo.jpg);
+	background-repeat: no-repeat;
+	height: 107px;
+	background-position: 10px 10px;
+	padding-left: 250px;
+	width: 250px;
+}
+.phoneno-field {
+	background-image: url(../images/clicktocall-img.png);
+	background-repeat: no-repeat;
+	background-position: right top;
+	height: 52px;
+	padding-top: 45px;
+}
+.tel {
+	background-image: url(../images/phone-icon.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 35px;
+	padding-left: 35px;
+	font-size: 22px;
+	font-weight: bold;
+}
+/*********************bucket page navigatio********************/
+.navigation {
+	background-image: url(../images/navigation-bg.png);
+	background-color: #9AB178;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+}
+.navigation-left {
+	float: left;
+	width: 220px;
+}
+.navigation-right {
+	float: left;
+	width: 220px;
+	margin-left: 20px;
+}
+#navilist {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+#navilist a {
+	display: block;
+	background-image: url(../images/arrow.png);
+	background-repeat: no-repeat;
+	background-position: left 5px;
+	padding-left: 25px;
+	height: 25px;
+	width: 195px;
+	text-decoration: none;
+	font-size: 16px;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #145F81;
+	margin-bottom: 5px;
+}
+#navilist a:hover {
+	color: #FFF;
+}
+#navilist #b_selected a {
+	color: #FFF;
+}
+.header-bottom-border {
+	background-image: url(../images/header-bottom-line-bg.gif);
+	background-repeat: repeat-x;
+	height: 3px;
+	width: 500px;
+	overflow: hidden;
+}
+/*************site content*************/
+.site-content {
+	background-image: url(../images/site-content-top-left-bg.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-color: #E3DFD6;
+	padding: 15px;
+	width: 470px;
+	min-height:200px;
+}
+h1 {
+	font-size:30px;
+	color:#333;
+	font-family:AbadiMTCondensedExtraBoldRg;
+	padding: 0px;
+	margin: 0px;
+}
+a img {
+	border: none;
+}
+a:link {
+	color:#064770;
+	text-decoration: underline;
+}
+a:visited {
+	color:#064770;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus {
+	color:#064770;
+	text-decoration: none;
+}
+.border1 {
+	border:1px #eeeeee solid;
+}
+.content ul, .content ol {
+	padding: 0 15px 15px 40px;
+}
+a.qualitydentalplan:link, a.qualitydentalplan:visited {
+	color:#9EB974;
+	font-size:12px;
+	text-decoration:none
+}
+a.qualitydentalplan:hover {
+	text-decoration:underline;
+}
+.appointment-form {
+	margin-top:30px;
+}
+.testimonial-title {
+	color: #105C7E;
+	font-size: 17px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.copyright {
+	text-align:center;
+	color:#ababab;
+	margin-top:2px;
+	font-size:11px;
+}
+.copyright a:link, .copyright a:visited {
+	font-size:12px;
+	color:#e1ff62;
+	text-decoration:none;
+}
+.copyright a:hover, .copyright a:active, .copyright a:focus {
+	text-decoration:underline;
+}
+.testimonials-text {
+	border-top: 1px dashed #666666;
+	font-style: italic;
+	padding-top: 10px;
+}
+.testimonials-name {
+	margin-top:10px;
+	margin-bottom:15px;
+	font-weight:bold;
+}
+.subtext-color {
+	font-size: 18px;
+	color: #9fbb76;
+	font-weight: normal;
+	float:left;
+	width:100%;
+	margin-top:-25px;
+}
+.cotetxt {
+	font-size: 24px;
+	color: #96b26e;
+	font-weight: normal;
+}
+.content-txt {
+	font-family:"Verdana", Geneva, sans-serif;
+	font-size: 14px;
+	color: #333333;
+	font-weight: 400;
+}
+.contenthig-txt {
+	font-family:"Verdana", Geneva, sans-serif;
+	font-size: 14px;
+	color: #333333;
+	font-weight: bold;
+	padding-top: 5px;
+	padding-bottom:30px;
+	border-bottom:1px dashed #cdcac3;
+}
+.contentblu-txt {
+	font-family:"Verdana", Geneva, sans-serif;
+	font-size: 14px;
+	color: #176283;
+	font-style:italic;
+	padding-top: 10px;
+	float: left;
+	width: 660px;
+	margin-top: -30px;
+}
+.bluetitle {
+	color: #105c7e;
+	font-size: 17px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+img.border2 {
+	border:3px solid #9FBB76;
+}
+.clear {
+	clear:both;
+}
+.article-title {
+	font-size: 30px;
+	color: #9fbb76;
+	font-weight: normal;
+	margin-bottom:15px;
+}
+.inner-heading {
+	padding-left:70px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.keyword {
+	font-size: 18px;
+	color: #9fbb76;
+	font-weight: normal;
+	width:470px;
+	padding-bottom: 10px;
+}
+.margineline {
+	height: 18px;
+}
+.backtotop {
+	text-align: center;
+	padding-top: 10px;
+}
+
+.page-testimonial {
+	font-style:italic;
+	border-bottom:1px dashed #7DAB5D;
+	border-top:1px dashed #7DAB5D;
+	padding:20px 0;
+}
+/******************footer***************/
+.footer {
+	text-align: center;
+}
+.footer-top-border {
+	height: 3px;
+	width: 500px;
+	background-color: #135E7E;
+	overflow: hidden;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #90AB68;
+}
+.footer-content {
+	padding: 10px;
+	text-align: center;
+	background-color: #3E3D3B;
+	color: #999;
+}
+.footer_kw {
+	color: #FFF;
+	font-size: 10px;
+	padding: 10px;
+}
+.address {
+	color: #CCC;
+	padding-top: 10px;
+	border-top-width: 1px;
+	border-top-style: dotted;
+	border-top-color: #666;
+	margin-top: 5px;
+}
+.image-set {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 70px;
+}
+.left-image {
+	float: left;
+	width: 156px;
+}
+.right-image {
+	float: left;
+	width: 156px;
+	margin-left: 10px;
+}
+.video-wrap {
+	width: 450px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 3px solid #9FBB76;
+}
+.video-title {
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.seperator-line-inner {
+	margin-top:15px;
+	border-top:1px dashed #333;
+	margin-bottom: 15px;
+}
+/****************IMAGE GALLERY***************/
+.gallery-wrapper {
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #333;
+	padding-bottom: 10px;
+	text-align: center;
+	padding-top: 10px;
+}
+.gallery-image-first {
+	margin-bottom: 5px;
+}
+.gallery-image-second {}
+
+.offers-div {
+	border: 2px dashed #9FBB76;
+	padding: 10px;
+	text-align: center;
+}
+/******************CONTACT US***************/
+.contact-us-left {
+	float: left;
+	width: 290px;
+}
+.contact-us-right {
+	float: left;
+	width: 160px;
+	padding-left: 15px;
+}
+.day {float:left;}
+.time {
+	float:left;
+	margin-left:20px;
+}
+/**************TESTIMONIALS**************/
+.testimonials-tabs {}
+#testimonials-links {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+#testimonials-links li {
+	float: left;
+	padding-right: 10px;
+	color: #105C7E;
+}
+#testimonials-links  a {
+	text-decoration: none;
+	font-size: 15px;
+}
+#testimonials-links  a:hover {
+	text-decoration: underline;
+}
+.index-image-gallery {
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+/************CONTACT US FORM**************/
+/* contact form */
+
+
+.form_left {
+	float:left;
+	width: 250px;
+}
+.form_sub {
+	margin-bottom:5px;
+	text-align:left;
+	padding-right:5px;
+	height:24px;
+	padding-top: 3px;
+}
+.form_right_c {
+	width: 300px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.form_sub_r {
+	margin-bottom:5px;
+	height:27px;
+}
+.contact_us {
+	float: right;
+	width: 202px;
+	margin-left: 10px;
+	padding: 0px 0px 0px 10px;
+	border-left: 1px solid #ccc;
+}
+.verification_code {
+	color:#FFF;
+	margin-top:10px;
+	float: left;
+	width: 100%;
+	background:#FF0000;
+	text-align:center;
+	padding-top:2px;
+	padding-bottom:2px;
+}
+.button {
+	width:230px;
+	font-weight:bold;
+	color:#FFF;
+	height:28px;
+	padding-bottom:3px;
+	border:1px solid #000;
+	cursor:pointer;
+	background-color: #678141;
+}
+.form-wrapper {
+	background-color: #A2BD7B;
+	width: 300px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 10px;
+	border: 2px solid #FFF;
+}
+.formfeild {
+	border: 1px solid #FFF;
+}
+.social-media {
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+}
+.social-media img {
+	border: 2px solid #A2BD7B;
+	margin-left: 10px;
+}
+#patient-info-list {
+	margin-left: 40px;
+}
+.dr-bios{
+	padding: 0px;
+	margin-top: 15px;
+	margin-right: 0;
+	margin-bottom: 15px;
+	margin-left: 0;
+}
+.dr-bios .bio{
+    background-color: #BED59A;
+    border: 1px solid #C2C2C2;
+    margin-bottom: 20px;
+    min-height: 163px;
+    padding: 10px;
+}
+.dr-bios .bio .name{
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #105C7E;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.dr-bios .bio img{
+    background-color: #FFFFFF;
+    border: 1px solid #C2C2C2;
+    padding: 3px;
+    float: left;
+    margin: 0 15px 15px 0;
+}
+.mobile-image img { width:100%; height:auto;}
+.belt {
+	width: 400px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.belt img {
+	margin-bottom: 10px;
+	border: 2px solid #9FBB76;
+}
+/*edited by peer 7-29-2013*/
+.itemscope{
+	padding-top: 10px;
+	border-top-width: 1px;
+	border-top-style: dotted;
+	border-top-color: #666;
+	margin-top: 5px;
+	text-align:center;
+	color:#ababab;
+	margin-top:2px;
+	font-size:11px;
+}
+.itemscope a:link, .itemscope a:visited {
+	font-size:12px;
+	color:#e1ff62;
+	text-decoration:none;
+}
+.itemscope a:hover, .itemscope a:active, .itemscope a:focus {
+	text-decoration:underline;
+}	

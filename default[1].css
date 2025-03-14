@@ -1,0 +1,616 @@
+/*****************************
+Modified: 5/26/2005 - PJK
+Removed (commented out) several conflicting styles with the new QM style sheets
+
+Last Modified: 7/20/2006 - MFH
+*****************************/
+body
+{
+	font-family: verdana, geneva, arial;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+	background-color: white;
+}
+
+form
+{
+	margin: 0;
+	padding: 0;
+}
+
+div
+{
+	font-family: verdana, geneva, arial;
+	font-size: 10px;
+}
+
+.promoTitle
+{
+	font-family: Tahoma, Verdana, Arial;
+	font-size: 11px;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.promoText
+{
+	font-family: Tahoma, Verdana, Arial;
+	font-size: 11px;
+	color: #000000;
+	font-weight: normal;
+}
+
+.small
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+.smallest
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #000000;
+}
+b
+{
+	font-weight: bold;
+}
+
+.red
+{
+	color: #d21034;
+}
+
+.blue
+{
+	color: #1b468e;
+}
+
+A.nodec
+{
+	text-decoration: none;
+}
+
+p
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #444;
+}
+
+li
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #444;
+}
+
+h2
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #444;
+	font-weight: bold;
+}
+
+h1
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #444;
+	font-weight: bold;
+}
+
+.tiny
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #000000;
+}
+
+.sm
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+}
+
+.hi_lite
+{
+	background-color: #ffffcc;
+	padding-top: 2px;
+	padding-left: 2px;
+	padding-bottom: 2px;
+	padding-right: 2px;
+}
+
+.button_blue {
+	background-color: #639ace;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #ffffff;
+	border-color: #639ace;
+	border-width: 2px;
+}
+
+.button_red
+{
+	background-color: #cc0000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #ffffff;
+	border-color: #cc0000;
+	border-width: 2px;
+}
+
+.button_green
+{
+	background-color: #189e18;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #ffffff;
+	border-color: #189e18;
+	border-width: 2px;
+}
+
+.title_old
+{
+	font-family: verdana, geneva, arial;
+	font-size: 16px;
+	font-weight: bold;
+	color: #003366;
+	padding-top: 6px;
+	padding-left: 1px;
+}
+
+.title
+{
+	font-family: verdana, geneva, arial;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFFFFF;
+	padding-top: 6px;
+	padding-left: 1px;
+	line-height: 30px;
+}
+
+.white
+{
+	color: #ffffff;
+}
+
+td
+{
+	font-family: verdana, geneva, arial;
+	font-size: 10px;
+}
+
+.normal
+{
+	font-family: verdana, geneva, arial;
+	font-size: 12px;
+}
+
+.bigRed
+{
+	color: #d21034;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.bigBlue
+{
+	color: #1b468e;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.bigWhite
+{
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.preview
+{
+	font-size: 9px;
+}
+
+.bauhaus_black
+{
+	font-family: bauhaus;
+	font-size: 9px;
+	color: #000000;
+}
+
+.bauhaus_blue
+{
+	font-family: bauhaus;
+	font-size: 9px;
+	color: #0000ff;
+}
+
+.bauhaus_red
+{
+	font-family: bauhaus;
+	font-size: 9px;
+	color: #ff0000;
+}
+
+.bauhaus_green
+{
+	font-family: bauhaus;
+	font-size: 9px;
+	color: #00cc00;
+}
+
+.helvetica_blue
+{
+	font-family: helvetica;
+	font-size: 9px;
+	color: #0000ff;
+}
+
+.helvetica_green
+{
+	font-family: helvatica;
+	font-size: 9px;
+	color: #00cc00;
+}
+
+.helvetica_red
+{
+	font-family: helvetica;
+	font-size: 9px;
+	color: #ff0000;
+}
+
+.helvetica_black
+{
+	font-family: helvetica;
+	font-size: 9px;
+	color: #000000;
+}
+
+.times_red
+{
+	font-family: times;
+	font-size: 9px;
+	color: #ff0000;
+}
+
+.times_blue
+{
+	font-family: times;
+	font-size: 9px;
+	color: #0000ff;
+}
+
+.times_green
+{
+	font-family: times;
+	font-size: 9px;
+	color: #00cc00;
+}
+
+.times_black
+{
+	font-family: times;
+	font-size: 9px;
+	color: #000000;
+}
+
+.text2
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 16px;
+	padding-right: 5px;
+	text-decoration: none;
+	color: #262626;
+}
+
+.text2_bold
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 16px;
+	padding-right: 5px;
+	text-decoration: none;
+	color: #262626;
+}
+
+.text3
+{
+	font-family: lucida sans unicode, verdana, sans, arial, helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	line-height: 16px;
+	padding-right: 5px;
+	text-decoration: none;
+	color: #262626;
+}
+
+.text3_bold
+{
+	font-family: lucida sans unicode, verdana, sans, arial, helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 16px;
+	padding-right: 5px;
+	text-decoration: none;
+	color: #262626;
+}
+
+
+.disclaimer
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #999999;
+}
+
+.helplink
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #ffffff;
+	text-decoration: none;
+	background-color: #6699cc;
+}
+
+.smallred
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #cc0000;
+}
+
+.pointerhand
+{
+	cursor: pointer;
+	cursor: hand;
+}
+
+.selectedtab
+{
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 1px solid #555555;
+	cursor: pointer;
+	cursor: hand;
+}
+
+.unselectedtab
+{
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	cursor: pointer;
+	cursor: hand;
+}
+
+table
+{
+	border-collapse: collapse;
+	border: 0px;
+}
+
+img
+{
+	border: 0px;
+}
+
+table.agentLevelCardsTable,
+table.companyLevelCardsTable,
+table.genericLevelCardsTable
+{
+	width: 100%;
+	border: 0px;
+}
+
+table.agentLevelCardsTable th,
+table.agentLevelCardsTable td,
+table.companyLevelCardsTable th,
+table.companyLevelCardsTable td,
+table.genericLevelCardsTable th,
+table.genericLevelCardsTable td
+{
+	padding: 10px;
+	vertical-align: top;
+	border: 0px;
+}
+
+table.agentLevelCardsTable th,
+table.companyLevelCardsTable th,
+table.genericLevelCardsTable th
+{
+	font-size: 60%;
+	background-color: #003366;
+	color: #ffffff;
+	padding: 3px;
+}
+
+table.agentLevelCardsTable th,
+table.companyLevelCardsTable th,
+table.genericLevelCardsTable th
+{
+	text-align: center;
+}
+
+table.agentLevelCardsTable td,
+table.companyLevelCardsTable td,
+table.genericLevelCardsTable td
+{
+	text-align: center;
+}
+
+.newRow {
+	padding-top: 30px;
+}
+
+
+/* ======= form elements ======= */
+input.btn1{
+	color:#262626;
+	font-family: lucida sans unicode, verdana, sans, arial, helvetica, sans-serif;
+	font-size:100%;
+	width: 135px;
+	font-weight:bold;
+	background-color:#B3B3B3;
+	border:1px solid;
+	border-top-color:#efefef;
+	border-left-color:#efefef;
+	border-right-color:#000363;
+	border-bottom-color:#000363;
+	filter:progid:DXImageTransform.Microsoft.Gradient(
+		GradientType=0,StartColorStr='#ffCCCCCC',EndColorStr='#ff999999');
+}
+
+input.btn1_hov{
+	color:#ffffff;
+	font-family: lucida sans unicode, verdana, sans, arial, helvetica, sans-serif;
+	font-size:100%;
+	width: 135px;
+	font-weight:bold;
+	background-color:#BFBFBF;
+	border:1px solid;
+	border-top-color:#efefef;
+	border-left-color:#efefef;
+	border-right-color:#000363;
+	border-bottom-color:#000363;
+	filter:progid:DXImageTransform.Microsoft.Gradient(
+		GradientType=0,StartColorStr='#ffCCCCCC',EndColorStr='#ff999999');
+}
+
+input.btn1_green{
+	color:#262626;
+	font-family: lucida sans unicode, verdana, sans, arial, helvetica, sans-serif;
+	font-size:100%;
+	width: 135px;
+	font-weight:bold;
+	background-color:#B6D9C1;
+	border:1px solid;
+	border-top-color:#efefef;
+	border-left-color:#efefef;
+	border-right-color:#000363;
+	border-bottom-color:#000363;
+	filter:progid:DXImageTransform.Microsoft.Gradient(
+		GradientType=0,StartColorStr='#ffB6D9C1',EndColorStr='#ff96B39F');
+}
+
+input.btn1_green_hov{
+	color:#ffffff;
+	font-family: lucida sans unicode, verdana, sans, arial, helvetica, sans-serif;
+	font-size:100%;
+	width: 135px;
+	font-weight:bold;
+	background-color:#B6D9C1;
+	border:1px solid;
+	border-top-color:#efefef;
+	border-left-color:#efefef;
+	border-right-color:#000363;
+	border-bottom-color:#000363;
+	filter:progid:DXImageTransform.Microsoft.Gradient(
+		GradientType=0,StartColorStr='#ffB6D9C1',EndColorStr='#ff96B39F');
+}
+
+input.btn1_scaled{
+	color:#262626;
+	font-family: lucida sans unicode, verdana, sans, arial, helvetica, sans-serif;
+	font-size:100%;
+	font-weight:bold;
+	background-color:#B3B3B3;
+	border:1px solid;
+	border-top-color:#efefef;
+	border-left-color:#efefef;
+	border-right-color:#000363;
+	border-bottom-color:#000363;
+	filter:progid:DXImageTransform.Microsoft.Gradient(
+		GradientType=0,StartColorStr='#ffCCCCCC',EndColorStr='#ff999999');
+}
+
+input.btn1_scaled_hov{
+	color:#ffffff;
+	font-family: lucida sans unicode, verdana, sans, arial, helvetica, sans-serif;
+	font-size:100%;
+	font-weight:bold;
+	background-color:#BFBFBF;
+	border:1px solid;
+	border-top-color:#efefef;
+	border-left-color:#efefef;
+	border-right-color:#000363;
+	border-bottom-color:#000363;
+	filter:progid:DXImageTransform.Microsoft.Gradient(
+		GradientType=0,StartColorStr='#ffCCCCCC',EndColorStr='#ff999999');
+}
+/* Non-full bleed image border display on \wwwroot\quantumweb\html\qm_bleed_selection.wcs - Added by PJK 2/1/2005 */
+table#fullbleedimage {
+	width: 220px;
+	border: 1px dashed #aaa;
+}
+table#fullbleedimage td {
+	padding: 6px;
+}
+
+div.step-heading {
+	font-size:12px;
+	font-weight:bold;
+	vertical-align:middle;
+	background-color: #EEEEEE;
+}
+
+td.step-heading {
+	padding-top: 12px;
+	padding-bottom: 6px;
+}
+/*****
+Styles to display plain (no border, no padding) thumb images 
+NOTE: I'm also putting these in default.css since not all pages contain this CSS file
+******/
+/* These set attributes at table level to size the container and center the image in the container */
+table.img-thumb-verysmall {
+	vertical-align: middle;
+	text-align: center;
+	height: 40px;
+	width: 40px;
+}
+table.image-thumb-small {
+	vertical-align: middle;
+	text-align: center;
+	height: 63px;
+	width: 63px;
+}
+table.img-thumb-mediumsmall	{
+	vertical-align: middle;
+	text-align: center;
+	height: 150px;
+	width: 150px;
+}
+table.img-thumb-medium {
+	vertical-align: middle;
+	text-align: center;
+	height: 235px;
+	width: 235px;
+}
+/* These set attributes on the image dynamically from the common.js function padThumb(), called on image onload */
+.img-thumb-border	{
+	position: relative;
+	border: 1px solid #000;
+}
+.img-thumb-verysmall-tall {	height: 40px; }
+.img-thumb-verysmall-wide {	width: 40px; }
+.img-thumb-small-tall {	height: 59px; }
+.img-thumb-small-wide {	width: 59px; }
+.img-thumb-mediumsmall-tall	{ height: 150px; }
+.img-thumb-mediumsmall-wide	{ width: 150px; }
+.img-thumb-medium-tall { height: 235px; }
+.img-thumb-medium-wide { width: 235px; }
+/* Custom thumbnail class names for integration partner banner images */
+.img-thumb-doublewide-tall {	height: 40px; }
+.img-thumb-doublewide-wide {	width: 80px; }

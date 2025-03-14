@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+#deleted {
+}
+
+
+
+/* Buttons */
+
+#deleted .home {
+	position: absolute;
+	left: 177px;
+	top: 586px;
+	z-index: 12;
+}
+
+
+#deleted .deletedHeader {
+	position: absolute;
+	left: 212px;
+	top: 580px;
+	z-index: 10;
+}
+
+
+
+#deleted .deleted-panel-1 {
+	display: block;
+}
+
+
+#deleted .deleted-panel-2 {
+	display: none;
+}
+
+
+
+#deleted .deletedOption1 {
+	position: absolute;
+	left: 388px;
+	top: 594px;
+	z-index: 20;
+}
+
+#deleted .deletedOption2 {
+	position: absolute;
+	left: 529px;
+	top: 578px;
+	z-index: 19;
+}
+
+#deleted .deletedOption3 {
+	position: absolute;
+	left: 459px;
+	top: 594px;
+	z-index: 18;
+}
+
+#deleted .deletedOption4 {
+	position: absolute;
+	left: 840px;
+	top: 594px;
+	z-index: 18;
+}
+
+
+
+#deleted .deletedArrowLeft {
+	position: absolute;
+	left: 332px;
+	top: 586px;
+	display: none;
+	z-index: 20;
+}
+
+#deleted .deletedArrowRight {
+	position: absolute;
+	left: 1077px;
+	top: 586px;
+	z-index: 20;
+}

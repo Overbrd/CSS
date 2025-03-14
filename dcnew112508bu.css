@@ -1,0 +1,284 @@
+<style type="text/css">
+
+body { 
+font-size: 0.7em; 
+}
+h3   { 
+font-size: 1.6em; margin: 0px; 
+}
+
+
+a.sample_attach, a.sample_attach:visited, div.sample_attach
+{
+  display: block;
+  width:  235px;
+
+  border:  1px solid black;
+  padding: 2px 2px;
+
+  background: #FFFFFF;
+
+  text-decoration: none;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: 900;
+  font-size: .8em;
+  color:   #333399;
+  text-align: center;
+}
+
+a.sample_attach, a.sample_attach:visited 
+{ 
+border-bottom: none;  
+background: #333399;
+color: #FFFFFF;
+font-size: 0.7em;
+  text-align: left;
+}
+div#sample_attach_menu_child             
+{ 
+border-bottom: 1px solid black; 
+color: #333399;
+
+}
+
+form.sample_attach
+{
+  position: absolute;
+  visibility: hidden;
+  border:  1px solid black;
+  padding: 0px 5px 0px 5px;
+  background: #FFFFFF;
+
+}
+
+form.sample_attach b
+{
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: 900;
+  font-size: 1.1em;
+}
+
+input.sample_attach 
+{ margin: 1px 0px; width: 170px; 
+}
+
+
+a.sample_attach2, a.sample_attach2:visited, div.sample_attach2
+{
+  display: block;
+  width:  235px;
+
+  border:  1px solid black;
+  padding: 2px 2px;
+
+  background: #FFFFFF;
+
+  text-decoration: none;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: 900;
+  font-size: .8em;
+  color:   #333399;
+  text-align: center;
+}
+
+a.sample_attach2, a.sample_attach2:visited 
+{ 
+border-bottom: none;  
+background: #333399;
+color: #FFFFFF;
+font-size: 0.7em;
+  text-align: left;
+}
+div#sample_attach_menu_child2             
+{ border-bottom: 1px solid black; 
+}
+
+form.sample_attach2
+{
+  position: absolute;
+  visibility: hidden;
+
+  border:  1px solid black;
+  padding: 0px 5px 0px 5px;
+
+  background: #FFFFFF;
+}
+
+form.sample_attach b2
+{
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: 900;
+  font-size: 1.1em;
+  text-align: center;
+}
+
+input.sample_attach2 
+{ margin: 1px 0px; width: 170px; 
+}
+
+a.sample_attach3, a.sample_attach3:visited, div.sample_attach3
+{
+  display: block;
+  width:  235px;
+
+  border:  1px solid black;
+  padding: 2px 2px;
+
+  background: #FFFFFF;
+
+  text-decoration: none;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: 900;
+  font-size: .8em;
+  color:   #333399;
+  text-align: center;
+}
+
+a.sample_attach3, a.sample_attach3:visited
+{ 
+border-bottom: none;  
+background: #333399;
+color: #FFFFFF;
+font-size: 0.7em;
+  text-align: left;
+}
+div#sample_attach_menu_child3             
+{ border-bottom: 1px solid black; 
+}
+
+form.sample_attach3
+{
+  position: absolute;
+  visibility: hidden;
+
+  border:  1px solid black;
+  padding: 0px 5px 0px 5px;
+  text-align: center;
+  background: #FFFFFF;
+}
+
+form.sample_attach b3
+{
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: 900;
+  font-size: 1.1em;
+  text-align: center;
+}
+
+input.sample_attach3 
+{ margin: 1px 0px; width: 170px; 
+}
+
+a.sample_attach4, a.sample_attach4:visited, div.sample_attach4
+{
+  display: block;
+  width:  235px;
+
+  border:  1px solid black;
+  padding: 2px 2px;
+
+  background: #FFFFFF;
+
+  text-decoration: none;
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: 900;
+  font-size: .8em;
+  color:   #333399;
+  text-align: center;
+}
+
+a.sample_attach4, a.sample_attach4:visited
+{ 
+border-bottom: none;  
+background: #333399;
+color: #FFFFFF;
+font-size: 0.7em;
+  text-align: left;
+}
+div#sample_attach_menu_child4             
+{ border-bottom: 1px solid black; 
+}
+
+form.sample_attach4
+{
+  position: absolute;
+  visibility: hidden;
+
+  border:  1px solid black;
+  padding: 0px 5px 0px 5px;
+
+  background: #FFFFFF;
+}
+
+form.sample_attach b4
+{
+  font-family: Arial, Verdana, Sans-Serif;
+  font-weight: 900;
+  font-size: 1.1em;
+  text-align: center;
+}
+
+input.sample_attach4 
+{ margin: 1px 0px; width: 170px; 
+}
+
+.toplinks
+
+{
+color: #333399;
+text-decoration: none;
+}
+
+a.toplinks
+{
+color: #333399;
+text-decoration: none;
+}
+a.toplinks:visited
+{
+color: #333399;
+text-decoration: none;
+}
+
+.homelinks {
+
+text-decoration: none;
+font-family: Arial, Verdana, Sans-Serif;
+font-weight: 900;
+font-size: 1.0em;
+color:   #0000FF;
+
+}
+
+a.homelinks
+{
+color: #0000FF;
+text-decoration: underline;
+}
+a.homelinks:visited
+{
+color: #0000FF;
+text-decoration: underline;
+}
+
+.bottom
+
+{
+color: #000000; 
+font-family: verdana, helvetica, sans-serif; 
+font-size: 13px; 
+background-color: #ffffff;
+text-align: center;
+
+}
+
+.tophome
+
+{
+color: #FF0000; 
+font-family: verdana, helvetica, sans-serif; 
+font-size: 14px; 
+text-align: center;
+
+}
+</style>

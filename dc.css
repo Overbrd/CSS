@@ -1,0 +1,49 @@
+/***********************************************/
+/* Cool CSS by Matthew Lind                           */
+/* www.delraycomputer.com        */
+/***********************************************/
+
+/***********************************************/
+/* God is great                             */
+/***********************************************/
+
+/***********************************************/
+/* USA number 1                            */
+/***********************************************/
+
+
+<style type="text/css">
+
+body {
+	font-family: Tahoma, Myriad, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	padding: 0px;
+	background-image: none;
+
+}
+
+.nav {
+	color: #758652;
+	font-family: Myriad, Tahoma, sans-serif;
+	font-size: 12px;
+	width: 735px;
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	border: none;
+	background-image: url('images/navbg.jpg');
+	height: 34px;
+
+}
+	a.nav {
+		color: #758652;
+		padding: 2px 0px 2px 0px;
+		margin: 2px;
+}
+	a.nav:hover {
+		color: #FFFFFF;
+		text-decoration: underline;
+}
+
+</style>

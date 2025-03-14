@@ -1,0 +1,728 @@
+body { 
+margin: 0px 0px 0px 0px;
+padding: 8px 0px 0px 0px;
+background-color:#f6f6f6;
+background-image:  none;
+}
+.homeflash { 
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 0px; 
+background-image: none;
+}
+.h3   { 
+font-size: 1.6em; margin: 0px; 
+}
+.topnavwhite
+{
+font-family: Tahoma, Helvetica, sans-serif; 
+color: #FFFFFF;
+font-size: 11px;
+padding-left: 14px;
+height: 18px;
+text-align: left;
+}
+a.topnavwhite
+{
+color: #FFFFFF;
+text-decoration: none;
+font-weight: bold;
+padding-left: 0px;
+}
+a.topnavwhite:hover
+{
+color: #FFFFFF;
+text-decoration: underline;
+}
+.topnavwhiteemail
+{
+font-family: Tahoma, Helvetica, sans-serif; 
+color: #FFFFFF;
+font-size: 13px;
+padding-left: 4px;
+height: 18px;
+text-align: left;
+}
+a.topnavwhiteemail
+{
+color: #FFFFFF;
+text-decoration: none;
+font-weight: bold;
+}
+a.topnavwhiteemail:hover
+{
+color: #FFFFFF;
+text-decoration: underline;
+}
+.topnavred
+{
+font-family: Tahoma, Helvetica, sans-serif; 
+color: #CCFFFF;
+font-size: 13px;
+margin-left: 34px;
+height: 18px;
+text-align: right;
+text-transform: uppercase;
+}
+a.topnavred
+{
+font-size: 11px;
+color: #CCFFFF;
+text-decoration: none;
+font-weight: bold;
+}
+a.topnavred:hover
+{
+color: #CCFFFF;
+text-decoration: underline;
+}
+a.topnavred:visited
+{
+color: #CCFFFF;
+}
+.toplinks
+{
+color: #333399;
+text-decoration: none;
+font-family: Tahoma, Helvetica, sans-serif;
+}
+a.toplinks
+{
+color: #333399;
+text-decoration: none;
+}
+a.toplinks:visited
+{
+color: #333399;
+text-decoration: none;
+}
+.homelinks {
+
+text-decoration: none;
+font-family: Tahoma, Helvetica, sans-serif;
+font-weight: bold;
+font-size: 12px;
+color:   #003366;
+}
+a.homelinks
+{
+color: #003366;
+text-decoration: underline;
+}
+a.homelinks:visited
+{
+color: #003366;
+text-decoration: underline;
+}
+.topbanner {
+
+text-decoration: none;
+font-family: Tahoma, Helvetica, sans-serif;
+font-weight: bold;
+font-size: 12px;
+color:   #0000FF;
+}
+
+.bottom
+{
+color: #000000; 
+font-family: Tahoma, Helvetica, sans-serif; 
+font-size: 13px; 
+text-align: center;
+}
+.tophome
+{
+color: #FF0000; 
+font-family: Tahoma, Helvetica, sans-serif; 
+font-size: 14px; 
+text-align: center;
+}
+/* *** onsite computer services */
+.head1t {
+font-family: Tahoma, Helvetica, sans-serif; 
+font-size: 11px; 
+color: #000000;
+text-align: left;
+vertical-align: bottom;
+text-transform: none;
+line-height: 11px;
+}
+/* *** web design services */
+.head2t {
+font-family: Tahoma, Helvetica, sans-serif; 
+font-size: 11px; 
+color: #000000;
+text-align: left;
+vertical-align: bottom;
+text-transform: none;
+line-height: 11px;
+}
+/* *** real estate services */
+.head3t {
+font-family: Tahoma, Helvetica, sans-serif; 
+font-size: 11px; 
+color: #000000;
+vertical-align: bottom;
+text-transform: none;
+line-height: 11px;
+text-align: left;
+}
+
+/* *** graphic design services */
+
+
+
+.head4t {
+font-family: Tahoma, Helvetica, sans-serif; 
+font-size: 11px; 
+color: #000000;
+text-align: left;
+vertical-align: bottom;
+text-transform: none;
+line-height: 12px;
+}
+
+/* *** postcard services */
+
+
+
+.head5t {
+font-family: Tahoma, Helvetica, sans-serif; 
+font-size: 11px; 
+color: #333333;
+text-align: left;
+vertical-align: middle;
+text-transform: none;
+line-height: 12px;
+}
+
+/* *** brochure services */
+
+
+
+.head6t {
+font-family: Tahoma, Helvetica, sans-serif; 
+font-size: 11px; 
+color: #333333;
+text-align: left;
+vertical-align: middle;
+text-transform: none;
+line-height: 12px;
+}
+
+
+/* *** computer training services */
+
+
+
+.head7t {
+font-family: Tahoma, Helvetica, sans-serif; 
+font-size: 11px; 
+color: #333333;
+text-align: left;
+vertical-align: middle;
+text-transform: none;
+line-height: 12px;
+}
+
+/* *** virtual tour services */
+
+
+.head8t {
+font-family: Tahoma, Helvetica, sans-serif; 
+font-size: 11px; 
+color: #333333;
+text-align: left;
+vertical-align: middle;
+text-transform: none;
+line-height: 12px;
+}
+
+.onsite
+
+{
+font-family: Tahoma, Helvetica, sans-serif; 
+color: #000000;
+font-size: 11px;
+}
+
+a.onsite
+{
+color: #000000;
+text-decoration: none;
+font-weight: bold;
+}
+a.onsite:hover
+{
+color: #0000FF;
+text-decoration: underline;
+}
+
+.onsiteall
+
+{
+font-family: Tahoma, Helvetica, sans-serif; 
+font-size: 12px;
+color: #1313fd;
+}
+
+a.onsiteall
+{
+color: #1313fd;
+text-decoration: none;
+font-weight: bold;
+}
+a.onsiteall:hover
+{
+color: #1313fd;
+text-decoration: underline;
+}
+
+
+.onsitebig
+
+{
+font-family: Tahoma, Helvetica, sans-serif; 
+color: #0000FF;
+padding: 0px;
+}
+
+a.onsitebig
+{
+color: #0000FF;
+text-decoration: none;
+font-weight: bold;
+}
+a.onsitebig:hover
+{
+color: #0000FF;
+text-decoration: underline;
+}
+
+
+.webdesign
+
+{
+font-family: Tahoma, Helvetica, sans-serif; 
+color: #FF0000;
+font-size: 11px;
+}
+
+a.webdesign
+{
+font-family: Tahoma, Helvetica, sans-serif; 
+color: #000000;
+text-decoration: none;
+font-weight: bold;
+}
+a.webdesign:hover
+{
+font-family: Tahoma, Helvetica, sans-serif; 
+color: #FF0000;
+text-decoration: underline;
+}
+
+.webdesignall
+
+{
+font-family: Tahoma, Helvetica, sans-serif; 
+color: #FF0000;
+font-size: 12px;
+}
+
+a.webdesignall
+{
+font-family: Tahoma, Helvetica, sans-serif; 
+color: #FF0000;
+text-decoration: none;
+font-weight: bold;
+}
+a.webdesignall:hover
+{
+font-family: Tahoma, Helvetica, sans-serif; 
+color: #FF0000;
+text-decoration: underline;
+}
+
+.webdesignbig
+
+{
+font-family: Tahoma, Helvetica, sans-serif; 
+color: #FF0000;
+}
+
+a.webdesignbig
+{
+font-family: Tahoma, Helvetica, sans-serif; 
+color: #FF0000;
+text-decoration: none;
+font-weight: bold;
+}
+a.webdesignbig:hover
+{
+font-family: Tahoma, Helvetica, sans-serif; 
+color: #FF0000;
+text-decoration: underline;
+}
+
+
+
+.realestate
+
+{
+font-family: Tahoma, Helvetica, sans-serif; 
+color: #009900;
+font-size: 13px;
+}
+
+a.realestate
+{
+font-family: Tahoma, Helvetica, sans-serif; 
+color: #000000;
+text-decoration: none;
+font-weight: bold;
+}
+a.realestate:hover
+{
+color: #009900;
+text-decoration: underline;
+}
+
+
+.realestateall
+
+{
+font-family: Tahoma, Helvetica, sans-serif; 
+color: #009900;
+font-size: 12px;
+}
+
+a.realestateall
+{
+font-family: Tahoma, Helvetica, sans-serif; 
+color: #009900;
+text-decoration: none;
+font-weight: bold;
+}
+a.realestateall:hover
+{
+color: #009900;
+text-decoration: underline;
+}
+
+.realestatebig
+
+{
+font-family: Tahoma, Helvetica, sans-serif; 
+color: #009900;
+}
+
+a.realestatebig
+{
+font-family: Tahoma, Helvetica, sans-serif;	 
+color: #009900;
+text-decoration: none;
+font-weight: bold;
+}
+a.realestatebig:hover
+{
+color: #009900;
+text-decoration: underline;
+}
+
+
+
+.graphicdesign
+
+{
+font-family: Tahoma, Helvetica, sans-serif; 
+color: #0000FF;
+font-size: 12px;
+}
+
+a.graphicdesign
+{
+color: #000000;
+text-decoration: none;
+font-weight: bold;
+}
+a.graphicdesign:hover
+{
+color: #0000FF;
+text-decoration: underline;
+}
+
+
+
+.graphicdesignall
+
+{
+font-family: Tahoma, Helvetica, sans-serif; 
+color: #0000FF;
+font-size: 12px;
+}
+
+a.graphicdesignall
+{
+color: #0000FF;
+text-decoration: none;
+font-weight: bold;
+}
+a.graphicdesignall:hover
+{
+color: #0000FF;
+text-decoration: underline;
+}
+
+.graphicdesignbig
+
+{
+font-family: Tahoma, Helvetica, sans-serif; 
+color: #0000FF;
+}
+
+a.graphicdesignbig
+{
+color: #0000FF;
+text-decoration: none;
+font-weight: bold;
+}
+a.graphicdesignbig:hover
+{
+color: #0000FF;
+text-decoration: underline;
+}
+
+
+
+.postcarddesign
+
+{
+font-family: Tahoma, Helvetica, sans-serif; 
+color: #00adef;
+font-size: 11px;
+}
+
+a.postcarddesign
+{
+color: #000000;
+text-decoration: none;
+font-weight: bold;
+}
+a.postcarddesign:hover
+{
+color: #00adef;
+text-decoration: underline;
+}
+
+
+.postcarddesignbig
+
+{
+font-family: Tahoma, Helvetica, sans-serif; 
+color: #00adef;
+}
+
+a.postcarddesignbig
+{
+color: #00adef;
+text-decoration: none;
+font-weight: bold;
+}
+a.postcarddesignbig:hover
+{
+color: #00adef;
+text-decoration: underline;
+}
+
+.brochuredesign
+
+{
+font-family: Tahoma, Helvetica, sans-serif; 
+color: #ec008c;
+font-size: 11px;
+}
+
+a.brochuredesign
+{
+color: #000000;
+text-decoration: none;
+font-weight: bold;
+}
+a.brochuredesign:hover
+{
+color: #ec008c;
+text-decoration: underline;
+}
+
+
+.brochuredesignbig
+
+{
+font-family: Tahoma, Helvetica, sans-serif; 
+color: #ec008c;
+}
+
+a.brochuredesignbig
+{
+color: #ec008c;
+text-decoration: none;
+font-weight: bold;
+}
+a.brochuredesignbig:hover
+{
+color: #ec008c;
+text-decoration: underline;
+}
+
+.computertraining
+
+{
+font-family: Tahoma, Helvetica, sans-serif; 
+color: #006600;
+font-weight: bold;
+font-size: 11px;
+}
+
+a.computertraining
+{
+color: #000000;
+text-decoration: none;
+font-weight: bold;
+}
+a.computertraining:hover
+{
+color: #000000;
+text-decoration: underline;
+}
+
+
+.computertrainingbig
+
+{
+font-family: Tahoma, Helvetica, sans-serif; 
+color: #ffcc00;
+font-weight: bold;
+}
+
+a.computertrainingbig
+{
+color: #ffcc00;
+text-decoration: none;
+font-weight: bold;
+}
+a.computertrainingbig:hover
+{
+color: #ffcc00;
+text-decoration: underline;
+}
+
+
+
+
+.virtualtours
+
+{
+font-family: Tahoma, Helvetica, sans-serif; 
+color: #000000;
+font-size: 12px;
+}
+
+a.virtualtours
+{
+color: #000000;
+text-decoration: none;
+font-weight: bold;
+}
+a.virtualtours:hover
+{
+color: #000000;
+text-decoration: underline;
+}
+
+
+.virtualtoursbig
+
+{
+font-family: Tahoma, Helvetica, sans-serif; 
+color: #000000;
+}
+
+a.virtualtoursbig
+{
+color: #000000;
+text-decoration: none;
+font-weight: bold;
+}
+a.virtualtoursbig:hover
+{
+color: #000000;
+text-decoration: underline;
+}
+
+
+.contentlinks
+
+{
+color: #0000FF;
+}
+
+a.contentlinks
+{
+color: #0000FF;
+text-decoration: none;
+}
+a.contentlinks:hover
+{
+color: #0000FF;
+text-decoration: underline;
+}
+a.contentlinks:visited
+{
+color: #0000FF;
+}
+
+.copyright 
+
+{ 
+
+color: #FFFFFF; 
+font-family: Tahoma, Helvetica, sans-serif; 
+font-size: 10px; 
+text-align: left; 
+} 
+
+a.copyright 
+
+{ color: #FFFFFF; 
+text-decoration: none; 
+background-image: none; 
+text-align: left;
+
+} a.copyright:hover 
+
+{ 
+
+color: #FFFFFF; 
+text-decoration: underline; 
+
+} 
+
+a.copyright:active 
+
+{ 
+
+color: #FFFFFF;
+
+} 
+
+a.copyright:visited 
+
+{ 
+
+color: #FFFFFF;
+
+}
+
+.bottomkeywords {
+	text-align: left;
+}

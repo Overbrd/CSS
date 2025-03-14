@@ -1,0 +1,887 @@
+
+body { 
+font-size: 0.7em;
+  margin: 0px 0px 0px 0px;
+background-color: #ffffff;
+padding: 0px 0px 0px 0px;
+height: 100%;
+}
+.homeflash { 
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 0px; 
+}
+h3   { 
+font-size: 1.6em; margin: 0px; 
+}
+
+
+a.sample_attach, a.sample_attach:visited, div.sample_attach
+{
+  display: block;
+  width:  210px;
+  border:  none;
+  padding: 0px 2px 2px 2px;
+  background: #FFFFFF;
+  text-decoration: none;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-weight: 900;
+  font-size: .8em;
+  color:   #333399;
+  text-align: center;
+  margin: 0px 0px 0px 5px;
+}
+
+a.sample_attach, a.sample_attach:visited 
+{ 
+border-bottom: 1px solid #000000; 
+border-left: 1px solid #000000; 
+border-right: 1px solid #000000;  
+background: #89b2ff;
+color: #003399;
+font-size: 0.7em;
+  text-align: left;
+}
+div#sample_attach_menu_child             
+{ 
+border-bottom: 1px solid black; 
+color: #333399;
+
+}
+
+form.sample_attach
+{
+  position: absolute;
+  visibility: hidden;
+  border:  1px solid black;
+  padding: 0px 5px 0px 5px;
+  background: #FFFFFF;
+
+}
+
+form.sample_attach b
+{
+  font-family: Tahoma, Geneva, sans-serif;
+  font-weight: 900;
+  font-size: 1.1em;
+}
+
+input.sample_attach 
+{ margin: 0px 0px 1px 0px; width: 170px; 
+}
+
+
+a.sample_attach2, a.sample_attach2:visited, div.sample_attach2
+{
+  display: block;
+  width:  210px;
+
+  border:  none;
+  padding: 0px 2px 2px 2px;
+
+  background: #FFFFFF;
+
+  text-decoration: none;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-weight: 900;
+  font-size: .8em;
+  color:   #333399;
+  text-align: center;
+}
+
+a.sample_attach2, a.sample_attach2:visited 
+{ 
+border-bottom: 1px solid #000000; 
+border-left: 1px solid #000000; 
+border-right: 1px solid #000000;   
+background: #89b2ff;
+color: #003399;
+font-size: 0.7em;
+  text-align: left;
+}
+div#sample_attach_menu_child2             
+{ border-bottom: 1px solid black; 
+}
+
+form.sample_attach2
+{
+  position: absolute;
+  visibility: hidden;
+
+  border:  1px solid black;
+  padding: 0px 5px 0px 5px;
+
+  background: #FFFFFF;
+}
+
+form.sample_attach b2
+{
+  font-family: Tahoma, Geneva, sans-serif;
+  font-weight: 900;
+  font-size: 1.1em;
+  text-align: center;
+}
+
+input.sample_attach2 
+{ margin: 0px 0px 1px 0px; width: 170px; 
+}
+
+a.sample_attach3, a.sample_attach3:visited, div.sample_attach3
+{
+  display: block;
+  width:  210px;
+
+  border:  none;
+  padding: 0px 2px 2px 2px;
+
+  background: #FFFFFF;
+
+  text-decoration: none;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-weight: 900;
+  font-size: .8em;
+  color:   #333399;
+  text-align: center;
+}
+
+a.sample_attach3, a.sample_attach3:visited
+{ 
+border-bottom: 1px solid #000000; 
+border-left: 1px solid #000000; 
+border-right: 1px solid #000000;   
+background: #89b2ff;
+color: #003399;
+font-size: 0.7em;
+  text-align: left;
+}
+div#sample_attach_menu_child3             
+{ border-bottom: 1px solid black; 
+}
+
+form.sample_attach3
+{
+  position: absolute;
+  visibility: hidden;
+
+  border:  1px solid black;
+  padding: 0px 5px 0px 5px;
+  text-align: center;
+  background: #FFFFFF;
+}
+
+form.sample_attach b3
+{
+  font-family: Tahoma, Geneva, sans-serif;
+  font-weight: 900;
+  font-size: 1.1em;
+  text-align: center;
+}
+
+input.sample_attach3 
+{ margin: 0px 0px 1px 0px; width: 170px; 
+}
+
+a.sample_attach4, a.sample_attach4:visited, div.sample_attach4
+{
+  display: block;
+  width:  210px;
+
+  border:  none;
+  padding: 0px 2px 2px 2px;
+
+  background: #FFFFFF;
+
+  text-decoration: none;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-weight: 900;
+  font-size: .8em;
+  color:   #333399;
+  text-align: center;
+}
+
+a.sample_attach4, a.sample_attach4:visited
+{ 
+border-bottom: 1px solid #000000; 
+border-left: 1px solid #000000; 
+border-right: 1px solid #000000;   
+background: #89b2ff;
+color: #003399;
+font-size: 0.7em;
+  text-align: left;
+}
+div#sample_attach_menu_child4             
+{ border-bottom: 1px solid black; 
+}
+
+form.sample_attach4
+{
+  position: absolute;
+  visibility: hidden;
+
+  border:  1px solid black;
+  padding: 0px 5px 0px 5px;
+
+  background: #FFFFFF;
+}
+
+form.sample_attach b4
+{
+  font-family: Tahoma, Geneva, sans-serif;
+  font-weight: 900;
+  font-size: 1.1em;
+  text-align: center;
+}
+
+input.sample_attach4 
+{ margin: 0px 0px 1px 0px; width: 170px; 
+}
+
+.toplinks
+
+{
+color: #333399;
+text-decoration: none;
+font-family: Tahoma, Geneva, sans-serif;
+}
+
+a.toplinks
+{
+color: #333399;
+text-decoration: none;
+}
+a.toplinks:visited
+{
+color: #333399;
+text-decoration: none;
+}
+
+.homelinks {
+
+text-decoration: none;
+font-family: Tahoma, Geneva, sans-serif;
+font-weight: bold;
+font-size: 12px;
+color:   #0000FF;
+
+}
+
+.topbanner {
+
+text-decoration: none;
+font-family: Tahoma, Geneva, sans-serif;
+font-weight: bold;
+font-size: 12px;
+color:   #0000FF;
+
+}
+
+a.homelinks
+{
+color: #0000FF;
+text-decoration: underline;
+}
+a.homelinks:visited
+{
+color: #0000FF;
+text-decoration: underline;
+}
+
+.bottom
+
+{
+color: #000000; 
+font-family: Tahoma, Geneva, sans-serif; 
+font-size: 13px; 
+text-align: center;
+}
+
+.tophome
+
+{
+color: #FF0000; 
+font-family: Tahoma, Geneva, sans-serif; 
+font-size: 14px; 
+text-align: center;
+
+}
+
+/* *** onsite computer services */
+
+.head1 {
+font-family: Tahoma, Geneva, sans-serif; 
+font-size: 17px; 
+font-weight: bold;
+color: #000000;
+text-align: center;
+text-transform: uppercase;
+padding: 4px 0px 0px 0px;
+}
+
+.head1t {
+font-family: Tahoma, Geneva, sans-serif; 
+font-size: 11px; 
+color: #000000;
+text-align: left;
+vertical-align: bottom;
+text-transform: none;
+line-height: 11px;
+}
+
+/* *** web design services */
+
+.head2 {
+font-family: Tahoma, Geneva, sans-serif; 
+font-size: 18px; 
+font-weight: bold;
+color: #FF0000;
+text-align: center;
+text-transform: uppercase;
+padding: 4px 0px 0px 0px;
+}
+
+.head2t {
+font-family: Tahoma, Geneva, sans-serif; 
+font-size: 11px; 
+color: #000000;
+text-align: left;
+vertical-align: bottom;
+text-transform: none;
+line-height: 11px;
+}
+
+/* *** real estate services */
+
+.head3 {
+font-family: Tahoma, Geneva, sans-serif; 
+font-size: 18px; 
+font-weight: bold;
+color: #009900;
+text-align: center;
+vertical-align: top;
+text-transform: uppercase;
+padding: 4px 0px 0px 0px;
+}
+
+.head3t {
+font-family: Tahoma, Geneva, sans-serif; 
+font-size: 11px; 
+color: #000000;
+text-align: left;
+vertical-align: bottom;
+text-transform: none;
+line-height: 11px;
+}
+
+/* *** graphic design services */
+
+.head4 {
+font-family: Georgia, Georgia, serif; 
+font-size: 18px; 
+font-weight: bold;
+color: #0000ff;
+text-align: center;
+vertical-align: top;
+text-transform: uppercase;
+padding: 4px 0px 0px 0px;
+}
+
+.head4t {
+font-family: Georgia, Georgia, serif; 
+font-size: 12px; 
+color: #000000;
+text-align: left;
+vertical-align: bottom;
+text-transform: none;
+line-height: 12px;
+}
+
+/* *** postcard services */
+
+.head5 {
+font-family: Verdana, Verdana, Geneva, sans-serif; 
+font-size: 18px;
+font-weight: bold; 
+color: #00adef;
+text-align: center;
+vertical-align: middle;
+text-transform: uppercase;
+line-height: 20px;
+}
+
+.head5t {
+font-family: Verdana, Verdana, Geneva, sans-serif; 
+font-size: 11px; 
+color: #333333;
+text-align: left;
+vertical-align: middle;
+text-transform: none;
+line-height: 12px;
+}
+
+/* *** brochure services */
+
+.head6 {
+font-family: "Courier New", "Courier New", Courier, monospace; 
+font-size: 18px; 
+font-weight: bold;
+color: #ec008c;
+text-align: center;
+vertical-align: middle;
+text-transform: uppercase;
+line-height: 19px;
+}
+
+.head6t {
+font-family: "Courier New", "Courier New", Courier, monospace; 
+font-size: 11px; 
+color: #333333;
+text-align: left;
+vertical-align: middle;
+text-transform: none;
+line-height: 11px;
+}
+
+
+/* *** computer training services */
+
+.head7 {
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; 
+font-size: 17px; 
+font-weight: bold;
+color: #ffcc00;
+text-align: center;
+vertical-align: top;
+text-transform: uppercase;
+}
+
+.head7t {
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; 
+font-size: 12px; 
+color: #333333;
+text-align: left;
+vertical-align: top;
+text-transform: none;
+line-height: 11px;
+}
+
+/* *** virtual tour services */
+
+.head8 {
+font-family: "Comic Sans MS", "Comic Sans MS", cursive; 
+font-size: 18px; 
+font-weight: bold;
+color: #000000;
+text-align: center;
+vertical-align: top;
+text-transform: uppercase;
+}
+
+.head8t {
+font-family: "Comic Sans MS", "Comic Sans MS", cursive; 
+font-size: 11px; 
+color: #333333;
+text-align: left;
+vertical-align: top;
+text-transform: none;
+line-height: 12px;
+}
+
+.onsite
+
+{
+font-family: Arial, Helvetica, sans-serif; 
+color: #000000;
+}
+
+a.onsite
+{
+color: #000000;
+text-decoration: none;
+font-weight: bold;
+}
+a.onsite:hover
+{
+color: #0000FF;
+text-decoration: underline;
+}
+
+
+.onsitebig
+
+{
+font-family: Arial, Helvetica, sans-serif; 
+color: #0000FF;
+padding: 0px;
+}
+
+a.onsitebig
+{
+color: #0000FF;
+text-decoration: none;
+font-weight: bold;
+}
+a.onsitebig:hover
+{
+color: #0000FF;
+text-decoration: underline;
+}
+
+
+.webdesign
+
+{
+font-family: Tahoma, Geneva, sans-serif; 
+color: #FF0000;
+}
+
+a.webdesign
+{
+font-family: Tahoma, Geneva, sans-serif; 
+color: #000000;
+text-decoration: none;
+font-weight: bold;
+}
+a.webdesign:hover
+{
+font-family: Tahoma, Geneva, sans-serif; 
+color: #FF0000;
+text-decoration: underline;
+}
+
+
+
+.webdesignbig
+
+{
+font-family: Tahoma, Geneva, sans-serif; 
+color: #FF0000;
+}
+
+a.webdesignbig
+{
+font-family: Tahoma, Geneva, sans-serif; 
+color: #FF0000;
+text-decoration: none;
+font-weight: bold;
+}
+a.webdesignbig:hover
+{
+font-family: Tahoma, Geneva, sans-serif; 
+color: #FF0000;
+text-decoration: underline;
+}
+
+
+
+.realestate
+
+{
+font-family: Tahoma, Geneva, sans-serif; 
+color: #009900;
+}
+
+a.realestate
+{
+font-family: Tahoma, Geneva, sans-serif; 
+color: #000000;
+text-decoration: none;
+font-weight: bold;
+}
+a.realestate:hover
+{
+color: #009900;
+text-decoration: underline;
+}
+
+
+.realestatebig
+
+{
+font-family: Tahoma, Geneva, sans-serif; 
+color: #009900;
+}
+
+a.realestatebig
+{
+font-family: Tahoma, Geneva, sans-serif;	 
+color: #009900;
+text-decoration: none;
+font-weight: bold;
+}
+a.realestatebig:hover
+{
+color: #009900;
+text-decoration: underline;
+}
+
+
+
+.graphicdesign
+
+{
+font-family: Tahoma, Geneva, sans-serif; 
+color: #0000FF;
+}
+
+a.graphicdesign
+{
+color: #000000;
+text-decoration: none;
+font-weight: bold;
+}
+a.graphicdesign:hover
+{
+color: #0000FF;
+text-decoration: underline;
+}
+
+
+.graphicdesignbig
+
+{
+font-family: Tahoma, Geneva, sans-serif; 
+color: #0000FF;
+}
+
+a.graphicdesignbig
+{
+color: #0000FF;
+text-decoration: none;
+font-weight: bold;
+}
+a.graphicdesignbig:hover
+{
+color: #0000FF;
+text-decoration: underline;
+}
+
+
+
+.postcarddesign
+
+{
+font-family: Verdana, Verdana, Geneva, sans-serif; 
+color: #00adef;
+}
+
+a.postcarddesign
+{
+color: #000000;
+text-decoration: none;
+font-weight: bold;
+}
+a.postcarddesign:hover
+{
+color: #00adef;
+text-decoration: underline;
+}
+
+
+.postcarddesignbig
+
+{
+font-family: Verdana, Verdana, Geneva, sans-serif; 
+color: #00adef;
+}
+
+a.postcarddesignbig
+{
+color: #00adef;
+text-decoration: none;
+font-weight: bold;
+}
+a.postcarddesignbig:hover
+{
+color: #00adef;
+text-decoration: underline;
+}
+
+.brochuredesign
+
+{
+font-family: "Courier New", "Courier New", Courier, monospace; 
+color: #ec008c;
+}
+
+a.brochuredesign
+{
+color: #000000;
+text-decoration: none;
+font-weight: bold;
+}
+a.brochuredesign:hover
+{
+color: #ec008c;
+text-decoration: underline;
+}
+
+
+.brochuredesignbig
+
+{
+font-family: "Courier New", "Courier New", Courier, monospace; 
+color: #ec008c;
+}
+
+a.brochuredesignbig
+{
+color: #ec008c;
+text-decoration: none;
+font-weight: bold;
+}
+a.brochuredesignbig:hover
+{
+color: #ec008c;
+text-decoration: underline;
+}
+
+.computertraining
+
+{
+font-family: "MS Sans Serif", helvetica, sans-serif; 
+color: #006600;
+font-weight: bold;
+}
+
+a.computertraining
+{
+color: #000000;
+text-decoration: none;
+font-weight: bold;
+}
+a.computertraining:hover
+{
+color: #000000;
+text-decoration: underline;
+}
+
+
+.computertrainingbig
+
+{
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; 
+color: #ffcc00;
+font-weight: bold;
+}
+
+a.computertrainingbig
+{
+color: #ffcc00;
+text-decoration: none;
+font-weight: bold;
+}
+a.computertrainingbig:hover
+{
+color: #ffcc00;
+text-decoration: underline;
+}
+
+
+
+
+.virtualtours
+
+{
+font-family: "Comic Sans MS", "Comic Sans MS", cursive; 
+color: #000000;
+}
+
+a.virtualtours
+{
+color: #000000;
+text-decoration: none;
+font-weight: bold;
+}
+a.virtualtours:hover
+{
+color: #000000;
+text-decoration: underline;
+}
+
+
+.virtualtoursbig
+
+{
+font-family: "Comic Sans MS", "Comic Sans MS", cursive; 
+color: #000000;
+}
+
+a.virtualtoursbig
+{
+color: #000000;
+text-decoration: none;
+font-weight: bold;
+}
+a.virtualtoursbig:hover
+{
+color: #000000;
+text-decoration: underline;
+}
+
+
+.contentlinks
+
+{
+color: #0000FF;
+}
+
+a.contentlinks
+{
+color: #0000FF;
+text-decoration: none;
+}
+a.contentlinks:hover
+{
+color: #0000FF;
+text-decoration: underline;
+}
+a.contentlinks:visited
+{
+color: #0000FF;
+}
+
+.copyright 
+
+{ 
+
+color: #000000; 
+font-family: Tahoma, Geneva, sans-serif; 
+font-size: 10px; 
+text-align: left; 
+
+} 
+
+a.copyright 
+
+{ color: #000000; 
+text-decoration: none; 
+background-image: none; 
+text-align: left;
+
+} a.copyright:hover 
+
+{ 
+
+color: #000000; 
+text-decoration: underline; 
+
+} 
+
+a.copyright:active 
+
+{ 
+
+color: #FF0000;
+
+} 
+
+a.copyright:visited 
+
+{ 
+
+color: #000000;
+
+}
+
+.bottomkeywords {
+	text-align: left;
+}
