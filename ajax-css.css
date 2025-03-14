@@ -1,0 +1,557 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    }
+
+    a {
+        color: #2e5fab;
+        font-family: Arial, Helvetica, sans-serif;
+}
+    a:hover {
+        color: #2e5fab;
+        text-decoration: underline;
+}
+
+    a:visited {
+        color: #2e5fab;
+        text-decoration: underline;
+}
+
+    a:active {
+        color: #2e5fab;
+        text-decoration: underline;
+}
+.content {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    padding: 6px 3px 3px 3px;
+    background-image: url(../images/contentbg.jpg);
+    background-repeat: repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-color: #FFFFFF;
+    vertical-align: top;
+    border-top: 3px groove #000000;
+    border-left: 2px groove #e1e1e1;
+    border-bottom: 3px groove #e1e1e1;
+}
+    a.content {
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+
+
+}
+    a.content:hover {
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    text-decoration: none;
+
+}
+    a.content:visited {
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    font-size: 12px;
+}
+    a.ul {
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+
+
+}
+    a.ul:hover {
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    text-decoration: none;
+
+}
+    a.ul:visited {
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.ulred {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FF0000;
+    font-size: 14px;
+}
+    a.ulred {
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FF0000;
+
+
+}
+    a.ulred:hover {
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FF0000;
+    text-decoration: none;
+
+}
+    a.ulred:visited {
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FF0000;
+}
+h1 {
+font-family: Arial, Helvetica, sans-serif; 
+color: #000000;
+font-size: 20px;
+padding: 3px 0px 2px 0px;
+margin: 0px 0px 0px 0px;
+}
+h2 {
+font-family: Arial, Helvetica, sans-serif; 
+color: #000000;
+font-size: 24px;
+padding: 2px 0px 0px 0px;
+margin: 0px 0px 0px 0px;
+}
+
+.topnav2 { 
+    font-size: 13px;
+    color: #0000FF;
+}
+
+    a.topnav2 {
+
+    font-size: 13px;
+    color: #0000FF;
+
+
+}
+    a.topnav2:hover {
+
+    font-size: 13px;
+    color: #0000FF;
+    text-decoration: none;
+
+}
+    a.topnav2:visited {
+
+    font-size: 13px;
+    color: #0000FF;
+}
+
+.topnavwhite
+{
+font-family: Arial, Helvetica, sans-serif; 
+color: #FFFFFF;
+font-size: 12px;
+padding-left: 14px;
+height: 24px;
+text-align: left;
+}
+a.topnavwhite
+{
+color: #FFFFFF;
+text-decoration: none;
+font-weight: bold;
+padding-left: 0px;
+}
+a.topnavwhite:hover
+{
+color: #FFFFFF;
+text-decoration: underline;
+}
+
+.banner1 {
+
+        background-image:  url('../images/banner0201.jpg');
+    background-repeat: no-repeat;
+    background-position: top left;
+    width: auto;
+    height: 118px;
+}
+.banner2 {
+
+    font-family: Arial, Helvetica, sans-serif;
+        color: #FFFFFF;
+        font-size:20px;
+    background-image:  url('../images/banner0201.jpg');
+    background-repeat: no-repeat;
+    background-position: top left;
+    width: 940px;
+    height: 118px;
+    text-align:left;
+    text-indent:30px;
+    vertical-align: top;
+}
+.banner3 {
+    background-image:  url('../images/banner0201.jpg');
+    background-repeat: no-repeat;
+    background-position: top left;
+    width: auto;
+    height: 118px;
+}
+
+.banner1home {
+
+        background-image:  url('http://www.delraycomputer.us/images/banner0201home.jpg');
+    background-repeat: no-repeat;
+    background-position: top left;
+    width: auto;
+    height: 118px;
+}
+.banner2home {
+
+    font-family: Arial, Helvetica, sans-serif;
+        color: #FFFFFF;
+        font-size:20px;
+    background-image:  url('http://www.delraycomputer.us/images/banner0201home.jpg');
+    background-repeat: no-repeat;
+    background-position: top left;
+    width: 940px;
+    height: 118px;
+    text-align:left;
+    text-indent:30px;
+    vertical-align: top;
+}
+.banner3home {
+    background-image:  url('http://www.delraycomputer.us/images/banner0201home.jpg');
+    background-repeat: no-repeat;
+    background-position: top left;
+    width: auto;
+    height: 118px;
+}
+.banner1gd {
+
+    background-image:  none;
+    width: auto;
+    height: 118px;
+    background-color: #000000;
+}
+.banner2gd {
+
+    font-family: Arial, Helvetica, sans-serif;
+        color: #FFFFFF;
+        font-size:20px;
+    background-image:  url('http://www.delraycomputer.us/graphic_design/images/banner.jpg');
+    background-repeat: no-repeat;
+    background-position: top left;
+    width: 940px;
+    height: 118px;
+    text-align:left;
+    text-indent:30px;
+    vertical-align: top;
+}
+
+.banner3gd {
+    background-image:  none;
+    width: auto;
+    height: 118px;
+    background-color: #000000;
+}
+
+.banner1b {
+    background-image:  url(../images/web_design_layout_01b.jpg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    width: 712px;
+    height: 16px;
+}
+.banner2b {
+
+    background-image:  url(../images/web_design_layout_02b.jpg);
+    background-repeat: repeat-x;
+    background-position: top left;
+    width: auto;
+    height: 16px;
+}
+.banner3b {
+    background-image:  url(../images/web_design_layout_03b.jpg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    width: 22px;
+    height: 16px;
+}
+
+.nav {
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    width: 230px;
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+    background-image:  none;
+    vertical-align: top;
+    height: auto;
+
+
+}
+    a.nav {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        font-weight: bold;
+        color: #FFFFFF;
+        padding: 0px 2px 2px 0px;
+        margin: 0px;
+        text-transform: uppercase;
+        text-decoration: none;
+        width: 150px;
+        height: 22px;
+        background-image:  none;
+        display: block;
+        border-top: 1px groove #666666;
+        border-right: 1px groove #999999;
+        border-bottom: 1px groove #333333;
+        border-left: 1px groove #999999;
+        line-height: 10px;
+
+}
+    a.nav:hover {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        font-weight: bold;
+        color: #00FF33;
+        padding: 0px 2px 2px 2px;
+        margin: 0px;
+        text-transform: uppercase;
+        text-decoration: underline;
+        width: 150px;
+        height: 22px;
+        background-image:  none;
+        display: block;
+        border: 1px solid #000000;
+        line-height: 12px;
+}
+    a.nav:visited {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        font-weight: bold;
+        padding: 0px 2px 2px 2px;
+        margin: 0px;
+        display: block;
+        border: 1px solid #000000;
+        line-height: 12px;
+        width: 150px;
+        height: 22px;
+}
+
+
+.topnav {
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+
+}
+    a.topnav {
+    text-decoration: none;
+    height: 12px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 0px 0px 0px 10px;
+    vertical-align: top;
+}
+    a.topnav:hover {
+    text-decoration: underline;
+    color: #FFFFFF;
+
+}
+    a.topnav:visited {
+    color: #E1E1E1;
+
+}
+
+.topnavgd {
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+
+}
+    a.topnavgd {
+    text-decoration: none;
+    height: 14px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 0px 0px 0px 10px;
+    vertical-align: top;
+}
+    a.topnavgd:hover {
+    text-decoration: underline;
+    color: #FFFFFF;
+
+}
+    a.topnavgd:visited {
+    color: #E1E1E1;
+
+}
+.contentlinks {
+    color: #0000ff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    a.contentlinks {
+        color: #0000ff;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+}
+    a.contentlinks:hover {
+        color: #0000ff;
+        text-decoration: underline;
+}
+
+    a.contentlinks:visited {
+        color: #0000ff;
+        text-decoration: underline;
+}
+
+    a.contentlinks:active {
+        color: #0000ff;
+        text-decoration: underline;
+}
+
+.nav3 {
+    color: #0000ff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    a.nav3 {
+        color: #0000ff;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 11px;
+}
+    a.nav3:hover {
+        color: #0000ff;
+        text-decoration: underline;
+}
+
+    a.nav3:visited {
+        color: #0000ff;
+        text-decoration: underline;
+}
+
+    a.nav3:active {
+        color: #0000ff;
+        text-decoration: underline;
+}
+
+.bottomnav {
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+}
+    a.bottomnav {
+        color: #FFFFFF;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+}
+    a.bottomnav:hover {
+        color: #FFFFFF;
+        text-decoration: underline;
+}
+
+    a.bottomnav:visited {
+        color: #FFFFFF;
+}
+
+    a.bottomnav:active {
+        color: #FFFFFF;
+}
+
+.copyright {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    font-size: 12px;
+}
+    a.copyright {
+        color: #FFFFFF;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+}
+    a.copyright:hover {
+        color: #FFFFFF;
+        text-decoration: underline;
+}
+
+    a.copyright:visited {
+        color: #FFFFFF;
+}
+
+    a.copyright:active {
+        color: #FFFFFF;
+}.copyrightblack {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    font-size: 12px;
+}
+    a.copyrightblack {
+        color: #000000;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+}
+    a.copyrightblack:hover {
+        color: #000000;
+        text-decoration: underline;
+}
+
+    a.copyrightblack:visited {
+        color: #000000;
+}
+
+    a.copyrightblack:active {
+        color: #000000;
+}
+
+
+.fielder {
+	font-family:  Arial,Helvetica, sans-serif;
+	font-size: 12pt;
+	color: #000;
+	border: 1px groove #333333;
+	background-color:#e1e1e1;
+	padding:3px;
+	margin-right: 12px;
+	height:auto;
+	width: 360px;
+    text-align: center;
+}
+.domainform {
+	font-family:  Arial,Helvetica, sans-serif;
+	font-size: 18pt;
+	color: #333333;
+	position: relative;
+	background-color: #ffffff;
+	border: 3px solid #FF0000;
+	margin: 3px 0 3px -10px;
+	padding: 7px 7px 1px 9px;
+	width: 300px;
+	visibility: visible;
+
+}
+
+.footer {
+	font-family:  Arial,Helvetica, sans-serif;
+	font-size: 9px;
+	color: #333333;	
+}
+
+.normaltext {
+	font-family:  Arial,Helvetica, sans-serif;
+	font-size: 18px;
+}
+
+.bookmarktext {
+	font-family:  Arial,Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+.result {
+	font-family:  Arial,Helvetica, sans-serif;
+	font-size: 14px;
+}
+

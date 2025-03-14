@@ -1,0 +1,213 @@
+body {
+	background: rgb(255, 255, 255); margin: 10px 25px;
+}
+a {
+	color: rgb(17, 0, 153); text-decoration: none;
+}
+a:link {
+	color: rgb(17, 0, 153); text-decoration: none;
+}
+a:visited {
+	color: rgb(17, 0, 153); text-decoration: none;
+}
+a:active {
+	color: rgb(17, 0, 153); text-decoration: none;
+}
+a:hover {
+	text-decoration: none; background-color: rgb(255, 255, 170);
+}
+h1 {
+	margin: 0px; padding: 0px;
+}
+h2 {
+	margin: 0px; padding: 0px;
+}
+h3 {
+	margin: 0px; padding: 0px;
+}
+.adz {
+	line-height: 0.7; font-size: 60%; margin-top: 7px;
+}
+.adz a {
+	color: rgb(51, 51, 51); font-weight: 300; text-decoration: none;
+}
+.adz a:link {
+	color: rgb(51, 51, 51); font-weight: 300; text-decoration: none;
+}
+.adz a:visited {
+	color: rgb(51, 51, 51); font-weight: 300; text-decoration: none;
+}
+.adz a:hover {
+	background-color: rgb(187, 187, 187);
+}
+#banner {
+	background: rgb(255, 255, 255); color: rgb(51, 0, 51); padding-left: 15px; font-family: verdana,arial,sans-serif; font-size: x-large; font-weight: bold;
+}
+#banner a {
+	color: rgb(51, 0, 51); font-family: verdana,arial,sans-serif; font-size: x-large; font-weight: bold; text-decoration: none;
+}
+#banner a:link {
+	color: rgb(51, 0, 51); font-family: verdana,arial,sans-serif; font-size: x-large; font-weight: bold; text-decoration: none;
+}
+#banner a:visited {
+	color: rgb(51, 0, 51); font-family: verdana,arial,sans-serif; font-size: x-large; font-weight: bold; text-decoration: none;
+}
+#banner a:active {
+	color: rgb(51, 0, 51); font-family: verdana,arial,sans-serif; font-size: x-large; font-weight: bold; text-decoration: none;
+}
+#banner a:hover {
+	color: rgb(51, 0, 51); font-family: verdana,arial,sans-serif; font-size: x-large; font-weight: bold; text-decoration: none;
+}
+.bloglinks a {
+	font-size: 75%;
+}
+.bloglinks a:link {
+	font-size: 75%;
+}
+.bloglinks a:visited {
+	font-size: 75%;
+}
+.bloglinks a:active {
+	font-size: 75%;
+}
+.bloglinks a:hover {
+	font-size: 75%;
+}
+.description {
+	background: rgb(255, 255, 255); color: rgb(102, 85, 102); text-transform: none; font-family: verdana,arial,sans-serif; font-size: x-small;
+}
+#content {
+	background: rgb(255, 255, 255); width: 75%; margin-right: 15px; margin-bottom: 20px; float: left;
+}
+#links {
+	background: rgb(255, 255, 255); color: rgb(153, 51, 153); margin-top: 35px;
+}
+.blog {
+	padding-top: 15px; padding-right: 15px; padding-left: 15px;
+}
+.blogbody {
+	background: rgb(255, 255, 255); padding: 10px; border-radius: 11px; border: 1px dotted rgb(102, 102, 102); color: rgb(51, 51, 51); line-height: 140%; font-family: verdana,arial,sans-serif; font-size: small; font-weight: normal; -moz-border-radius: 11px 11px 11px 11px; -webkit-border-radius: 11px 11px 11px 11px;
+}
+.blogbody a {
+	font-weight: normal; text-decoration: none;
+}
+.blogbody a:link {
+	font-weight: normal; text-decoration: none;
+}
+.blogbody a:visited {
+	font-weight: normal; text-decoration: none;
+}
+.blogbody a:active {
+	font-weight: normal; text-decoration: none;
+}
+.blogbody a:hover {
+	font-weight: normal; text-decoration: none;
+}
+.title {
+	color: rgb(51, 0, 102); text-transform: uppercase; font-family: verdana,arial; font-size: small; font-weight: bold;
+}
+#menu {
+	background: rgb(255, 255, 255); font-size: small; font-weight: bold; margin-bottom: 10px;
+}
+.date {
+	color: rgb(153, 153, 153); text-transform: uppercase; font-family: verdana,arial,sans-serif; font-weight: bold; margin-top: 10px; margin-left: 11px; border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+.posted {
+	color: rgb(153, 153, 153); font-family: verdana,arial,sans-serif; font-size: x-small;
+}
+.calendar {
+	padding: 5px; color: rgb(102, 102, 102); font-family: verdana,arial,sans-serif; font-size: x-small; font-weight: normal;
+}
+.calendarhead {
+	background: rgb(255, 255, 255); color: rgb(204, 153, 51); line-height: 140%; font-family: verdana,arial,sans-serif; font-size: x-small; font-weight: bold;
+}
+.side {
+	background: rgb(255, 255, 255); color: rgb(51, 34, 51); line-height: 140%; font-family: verdana,arial,sans-serif; font-size: x-small; font-weight: normal;
+}
+.sidetitle {
+	background: rgb(255, 255, 255); padding: 2px; color: rgb(85, 68, 85); text-transform: uppercase; line-height: 140%; letter-spacing: 0.2em; font-family: verdana,arial,sans-serif; font-size: x-small; font-weight: bold; margin-top: 10px; border-bottom-color: rgb(102, 102, 102); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+.syndicate {
+	background: rgb(255, 255, 255); padding: 2px; text-align: center; line-height: 140%; font-family: verdana,arial,sans-serif; font-size: xx-small; font-weight: bold; margin-top: 10px;
+}
+.powered {
+	padding: 2px; text-align: center; color: rgb(153, 153, 153); text-transform: uppercase; line-height: 140%; font-family: verdana,arial,sans-serif; font-size: xx-small; font-weight: bold; margin-top: 10px; border-top-color: rgb(102, 102, 102); border-bottom-color: rgb(102, 102, 102); border-top-width: 1px; border-bottom-width: 1px; border-top-style: dotted; border-bottom-style: dotted;
+}
+.comments-body {
+	background: rgb(255, 255, 255); color: rgb(102, 102, 102); line-height: 140%; padding-bottom: 10px; font-family: verdana,arial,sans-serif; font-size: small; font-weight: normal;
+}
+.comments-post {
+	background: rgb(255, 255, 255); color: rgb(153, 153, 153); font-family: verdana,arial,sans-serif; font-size: x-small; font-weight: normal; margin-top: 0px;
+}
+.comments-head {
+	color: rgb(153, 153, 153); text-transform: uppercase; font-family: verdana,arial,sans-serif; font-size: small; font-weight: bold; margin-top: 10px; border-bottom-color: rgb(102, 102, 102); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+.trackback-body {
+	background: rgb(255, 255, 255); color: rgb(51, 51, 51); line-height: 140%; padding-top: 15px; font-family: verdana,arial,sans-serif; font-size: small; font-weight: normal;
+}
+.trackback-url {
+	background: rgb(255, 255, 255); padding: 5px; border: 1px dashed rgb(102, 102, 102); color: rgb(102, 102, 102); line-height: 140%; font-family: verdana,arial,sans-serif; font-size: small; font-weight: normal;
+}
+.trackback-post {
+	background: rgb(255, 255, 255); color: rgb(153, 153, 153); font-family: verdana,arial,sans-serif; font-size: x-small; font-weight: normal; margin-bottom: 20px;
+}
+#banner-commentspop {
+	background: rgb(255, 255, 255); color: rgb(204, 153, 51); padding-left: 15px; font-family: verdana,arial,sans-serif; font-size: large; font-weight: bold;
+}
+.extended {
+	font-size: 80%; margin-top: 10px; margin-bottom: 10px;
+}
+.code {
+	background: rgb(221, 221, 221); padding: 5px 5px 5px 9px; border-radius: 4px; border: 1px solid rgb(51, 51, 51); color: rgb(0, 51, 0); font-size: 100%; margin-right: 15px; margin-left: 15px;
+}
+.nohover a:hover {
+	background-color: transparent;
+}
+.mycopyright {
+	width: 50%; color: rgb(51, 0, 153); padding-top: 3px; font-size: 50%; margin-top: 5px;
+}
+.mytextlinks {
+	padding: 3px; width: 80%; color: rgb(51, 0, 153); font-size: 80%; margin-top: 15px; border-top-color: rgb(51, 0, 153); border-bottom-color: rgb(51, 0, 153); border-top-width: 3px; border-bottom-width: 3px; border-top-style: double; border-bottom-style: double;
+}
+.mytlcolor {
+	color: rgb(51, 0, 153); font-style: normal; font-weight: 300;
+}
+#equation {
+	
+}
+.darkgreylinks a {
+	color: rgb(51, 51, 51); text-decoration: none;
+}
+.darkgreylinks a:link {
+	color: rgb(51, 51, 51); text-decoration: none;
+}
+.darkgreylinks a:visited {
+	color: rgb(51, 51, 51); text-decoration: none;
+}
+#konasapn0 {
+	top: 0px; position: absolute;
+}
+.blurb {
+	padding: 5px 25px; border-radius: 4px; border: 1px solid rgb(102, 102, 102); color: rgb(102, 102, 102); line-height: 1.6; font-family: verdana,arial,sans-serif; font-size: 85%; margin-bottom: 10px; background-color: rgb(255, 255, 255);
+}
+.sidetitlebox {
+	padding: 5px; border-radius: 2px; border: 1px solid rgb(102, 102, 102); color: rgb(102, 102, 102); font-family: verdana,arial,sans-serif; font-size: 90%; margin-bottom: 10px; background-color: rgb(255, 255, 255);
+}
+.sidetitle {
+	padding: 2px 2px 2px 4px; color: rgb(255, 255, 255); font-weight: normal; margin-top: -5px; margin-right: -5px; margin-left: -5px; background-color: rgb(17, 17, 153);
+}
+.blurbtitle {
+	padding: 2px 2px 2px 5px; color: rgb(255, 255, 255); text-transform: uppercase; font-family: verdana,arial,sans-serif; font-size: 120%; margin-top: -5px; margin-right: -25px; margin-left: -25px; background-color: rgb(17, 17, 153);
+}
+.blurbcat {
+	font-size: 80%; margin-bottom: 4px;
+}
+.posted {
+	color: rgb(153, 153, 153); font-size: 80%;
+}
+.postedright {
+	text-align: right; color: rgb(102, 102, 102); font-size: 90%; font-weight: bold;
+}
+.bio {
+	font-size: 90%; font-style: italic; margin-top: 10px; margin-bottom: 15px; border-top-color: rgb(102, 102, 102); border-top-width: 1px; border-top-style: solid;
+}
