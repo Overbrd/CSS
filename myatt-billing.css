@@ -1,0 +1,2492 @@
+@import url("myatt-common.css");
+
+/***** 1104 CSS Starts *****/
+.toggleRow {min-height:30px}
+.toggleRow p.abs.right{top:30px}
+#ie .toggleRow p.abs.right{top:27px}
+.price{font-size:2.0em; letter-spacing:-1px; color:#f27d00; margin-bottom:0; line-height:1em}
+.total .price{font-size:1.2em;}
+.overdue{color:red; line-height:1em}
+.orange{color:#f27d00;}
+.w146 img{margin-left:1px}
+.payment {float:right}
+.bigNumber {line-height:3.5em}
+.padding{padding: 10px 0 10px 20px;}
+.padding .row-seam-margins{margin-right: 18px}
+.total {border-bottom:dotted #CCC 1px ; padding-top:10px; width:675px; min-height:50px}
+.w25per .paperless {margin-left: -23px}
+p.inline-links a, .inline a {white-space:nowrap}
+p.inline-links a.paperless {padding-left:25px}
+dd.paperless {background-position:left top; white-space:normal !important}
+h3 {font-size:1.7em}
+h5 {font-size:1.3em; font-weight:bold}
+h6 {font-size:1.2em; float:left; display:inline}
+h2 a {font-size:0.6em; padding-left:5px; white-space:nowrap}
+h3 a {font-size:0.7em; padding-left:5px; white-space:nowrap}
+#globalNav h2 a, #globalNav h3 a {white-space:normal !important;}
+h4 a {font-size:0.75em; padding-left:5px; white-space:nowrap}
+.mod-accordion h4 a, a.tooltips {font-size:1em}
+a.toggle {color:#333; text-decoration:none; font-size:1em}
+.min, .date {width:25px}
+.charge {width:50px}
+.time {width:75px}
+.dateTime, .number {width:110px}
+.bottomButton {position:relative; top: 37px}
+.bottomNoButton {position:relative; top: 69px}
+.bottomNoButton4 {position:relative; top: 93px}
+.narrow {padding:0 !important}
+.radio {vertical-align:text-top; line-height:1.3 !important}
+.left-50 {margin-left: 50px}
+.noMarRight {margin-right:0 !important}
+.nowrapTD {white-space:nowrap}
+.billPeriod {font-size: 1.5em !important; font-weight:normal !important}
+.w25per dd {padding-right:5px}
+a.jumper {background-image:none; padding-left:0; color: #005B95 !important}
+.row-seam .productOwner, .row-seamless .productOwner {left:0}
+.radioGrp li {line-height:2em}
+#subsections .row-seam, #subsections .row-seamless, #subsections .row-seam-dotted, #subsections .row-seam-margins {height:100%;}
+.row-seam-margins {background:none}
+.separator .print { background: url(/olam/images/brand30/CSS_Billing_Sprite.png) -29px -72px no-repeat; padding:3px 20px }
+.right .end {margin-right:15px}
+.modalContent {width:93%}
+.terms {min-height:30px; height:90px; border:1px solid #e3e3e3; margin-bottom:15px}
+.modalContent .terms {min-height:20px; height:50px; border:1px solid #e3e3e3; margin-bottom:15px}
+.modalContent .styled_forms input {font-size:1em !important}
+.modalButtons .disclaimer {padding-left:20px; font-style:italic; vertical-align:middle}
+.section-title p {padding-top:20px; float:right}
+.section-title h4 {font-size:1.5em; margin-left:0}
+.radioLabel {text-align:right; padding-top:5px}
+#ie .radioLabel {text-align:right; padding-top:11px}
+.padRadio {padding-left:21px}
+.expand, .collapse {background-image:none; padding-left:0;}
+.userIcon {
+    float: left;
+    margin-right: 25px;
+}
+
+.table .vertDivide {background: url(//www.att.com/images/global/vertSeparator1x105.png) left no-repeat; padding:3px 0 0 40px; text-align:left }
+.table .subset {padding:0}
+.table .errorMsg span {
+    background: url(//www.att.com/images/global/iconError46x43.png) no-repeat scroll left top transparent;
+    color: #FD0200; padding: 14px 14px 15px 60px; line-height:3em !important}
+/* Removed per WUP00514882 */
+.table .last {/*text-align:right;*/}
+.padLeft {padding-left:25px}
+h4 + p {margin-left:5px}
+#ie .styled_forms .padBot10{top: -5px}
+.padTop5 {padding-top:5px}
+#ie .styled_forms .padTop5{padding-top:0}
+.styled_forms label {font-weight:bold; /* line-height:1.9em commented to fix defect WUP00637475*/}
+.styled_forms .botMar0 {margin-bottom:0 !important}
+.section-title .separator {line-height:1.3em; padding-top:15px}
+.usage-meter-table th {font-weight:bold}
+.usage-meter-table img {padding-bottom:10px}
+.meterDivider {margin-top:-18px; text-align:right;background: url(/olam/images/brand30/iconErrorDivider.png) right no-repeat; line-height:3.5em}
+.modalHeader h6 {padding: 0 0 0 25px; margin-top:-5px}
+.modalContent .radioLabel {padding-top:0}
+.disabled {color:#999}
+#ie .radio {padding-bottom:5px}
+.radioGrp a {vertical-align:middle}
+.padLine {line-height:2.1em !important}
+.padLine4 {line-height:4em !important}
+.modalButtons {padding-bottom:20px}
+
+#landing .row-seam-dotted {background:url(//www.att.com/images/global/row-seam-dotted.gif) left bottom repeat-x; margin:0; padding:14px 0 0 0;}
+#landing .row-seamless {margin:0; padding:10px 20px 0 0;}
+#landing .row-seamless .mod-service-landing {padding: 14px 24px 9px 25px;}
+#landing dd {line-height: 1.7em} 
+
+.row-seam-dotted .right,{margin-top: -20px;}
+.row-seam-dotted h2{
+	margin:0 10px 0 24px;
+	float:left;
+	display:inline;
+	font-size:2.0em; 
+	line-height:55px;
+	color:#333 }
+	
+/*.steps .row-seam {font-size:0.75em;background:#fff}
+.steps h4 {line-height: 1.4em; background-position: left; background-repeat: no-repeat}
+.number {color: #FFFFFF; display: block; float: left; font-weight: bold; padding: 0 0 0 1px; width: 20px; font-size:13px; line-height:20px !important }
+.current .number {color:#F27D00}
+.steps .current h4 {font-weight:bold;color:#FFF;}
+.steps .last {border: 0;}
+.steps .current {background:url(/images/on.jpg); background-repeat: no-repeat}
+.steps .past {background:url(/images/complete.jpg); background-repeat: no-repeat}*/
+/***** STEPS *****/ 
+.steps .row-seam { font-size:0.75em; background:#fff url(/olam/images/brand30/CSS-Sprite-Repeat-X.png) repeat-x left -692px} 
+.steps .current h4 { font-weight:bold; color:#FFF; } 
+.steps .current:first-child{ -webkit-border-radius:5px 5px 0 0; -moz-border-radius:5px 5px 0 0; border-radius:5px 5px 0 0; } 
+#ie .steps .row-seam{margin:0 !important; height:inherit;}
+.steps h4 {line-height: 1.45em}
+	
+.steps .last {border: 0;}
+	
+.steps .current {
+		background:#f27d00;
+}
+
+.step1 { background:url(/olam/images/brand30/step1.png) left no-repeat; padding-left:35px }
+.step2 { background:url(/olam/images/brand30/step2.png) left no-repeat; padding-left:35px }
+.step3 { background:url(/olam/images/brand30/step3.png) left no-repeat; padding-left:35px }
+.step4 { background:url(/olam/images/brand30/step4.png) left no-repeat; padding-left:35px }
+.current .step1 { background:url(/olam/images/brand30/step1-selected.png) left no-repeat; padding-left:35px }
+.current .step2 { background:url(/olam/images/brand30/step2-selected.png) left no-repeat; padding-left:35px }
+.current .step3 { background:url(/olam/images/brand30/step3-selected.png) left no-repeat; padding-left:35px }
+.current .step4 { background:url(/olam/images/brand30/step4-selected.png) left no-repeat; padding-left:35px }
+.past .step1, .past .step2, .past .step3 {background:url(/olam/images/brand30/checkmark.gif) left no-repeat; padding-left:35px; color:#005B95}
+	
+/************************************
+BOTTOM PROMOTIONAL TILES
+*************************************/
+.promoBottom3 { min-height:100px; background:url(/olam/images/brand30/CSS-Sprite-Repeat-X.png) left -1615px repeat-x ; float:left; width:228px;}
+.promoBottom2 { min-height:120px; background:url(/olam/images/brand30/CSS-Sprite-Repeat-X.png) left -1615px repeat-x ; float:left; width:345px;}
+.promoBottom3 .promoContent, .promoBottom2 .promoContent { padding:14px }
+.promoBottom3 h4, .promoBottom2 h4{font-size:1.6em; padding-bottom:.2em}
+.middlePromo{margin: 0 8px 0 8px}
+.lastPromo {margin-left:10px}
+
+/*****************
+ NOTE TREATMENT
+*****************/
+.note{background:#fff url(//www.att.com/images/global/note-header-bg.gif) 0 -6px repeat-x; border:1px solid #E3E3E3; margin:0 0 10px 0; padding:11px 14px 5px 14px}
+.note p{color:#333; line-height:normal}
+
+/*****************
+ SEARCH RESULTS TREATMENT
+*****************/
+.results{background:#e8f0f4; border:1px solid #cee5f0; margin:0 0 10px 0; padding:11px 14px 5px 14px}
+.results p{color:#333; line-height:normal}
+
+/*****************
+Service Landing
+*****************/
+.mod-service-landing .group{margin:20px 0 15px 0}
+.mod-service-landing h3{font-size:1.8em; color:#333; margin:0 0 0 0; line-height:1.3em}
+.mod-service-landing h4{font-size:1.6em; color:#333; margin:0 0 .2em 5px; line-height:1.27em}
+.mod-service-landing h6{font-size:1.2em; color:#333; margin:8px 0 0 5px; line-height:1.27em}
+.mod-service-landing a img{display:inline-block; position:relative; top:3px; margin-right:10px}
+.mod-service-landing .w146 img{margin-left:1px}
+
+/********************
+CALENDAR TREATMENT
+********************/
+.calendar {
+	position: relative;
+	left: 0.1em;
+	width: 83%;
+	height: 100%;
+	padding: 0 8% 4% 8%;
+	}
+
+.calendar table {border-collapse:separate !important;}
+.calendar th {
+	color: #646464; 
+	background: #fff;
+	font-weight: bold;
+	}
+
+.calendar td {
+	padding: .35em; 
+	font-weight: normal;
+	background: #e5e5e5;
+	border: 1px solid #fff;
+	}
+
+.calendar td.prevMonth {
+	padding: .35em;
+	color: #ccc; 
+	font-weight: normal;
+	background: #e5e5e5;
+	border: 1px solid #fff;
+	}
+
+.calendar td.arrangementPeriod {
+	padding: .35em;
+	color: #4a96de; 
+	font-weight: normal;
+	background: #fefecc;
+	border: 1px solid #e5e5e5;
+	}
+
+.calendar td.currentDate {
+	padding: .35em;
+	background: #0a94d6;
+	}
+
+.calendar td.currentDate a {
+	color: #fff !important; 
+	font-weight: bold;
+	}
+
+.calendar td.preDate {
+	padding: .35em;
+	color: #f60; 
+	font-weight: normal;
+	background: #fff;
+	border: 0px solid #f60;
+	}
+
+.calendar td.dueDate {
+	padding: .35em;
+	color: #f60; 
+	font-weight: normal;
+	background: #fff;
+	border: 2px solid #f60;
+	width:34px;
+	}
+
+.calendar td.currentDueDate-wrap {
+	padding: 0;
+	color: #f60; 
+	font-weight: normal;
+	background: #fff;
+	border: 1px solid #f60;
+	}
+
+.calendar .currentDueDate {
+	padding: .35em;	
+	background: #0a94d6;
+	border-top: 1px solid #fff;
+	border-right: 1px solid #fff;
+	border-bottom: 1px solid #0a94d6;
+	border-left: 1px solid #fff;
+	}
+
+.calendar .currentDueDate a {
+	color: #fff !important; 
+	font-weight: bold;
+	}
+	
+.calendar td.currentDatePastDueBalance {
+	padding: .35em;
+	background: #fefecc;
+	border: 1px solid #f60;
+	} /*ch*/
+
+.calendar.emphasized {
+	display: block;
+	border: 1px solid #fcef02;
+	padding: 8px;
+	margin: 10px 0 0 0;
+	text-align: left;
+	font-weight: normal;
+	background-color: #ffc;
+	}
+	
+.calendar-titleContainer {
+	position: relative;
+	left: 15px;
+	width: 90%;
+	height: 2.4em;
+	text-align: center;
+	background: #999;
+	}
+
+.calendar-titleText {
+	position: absolute;
+	top: .5em;
+	left: 0px;
+	width: 100%;
+	text-transform: uppercase; 
+	color: #fff;
+	font-weight: bold;
+	font-size: 1.1em;
+	}
+
+.calendar-titleText img {
+	position: relative;
+	top: .135em;
+	padding-left: .60em;
+	padding-right: 0em;
+	}
+
+.mod-accordion .accContent ul li a.arrowRt { font-size:12px;}
+
+
+/***** 1104 CSS Ends *****/
+
+
+/***** 1106 CSS Starts *****/
+/***** 1106 CSS Starts *****/
+.extend3o .price{font-size:2.0em; letter-spacing:-1px; color:#FF7200; margin-bottom:0; line-height:1em}
+.extend3o .overdue{color:#ff0000; line-height:1em}
+.extend3o .orange{color:#FF7200;}
+.extend3o .w146 img{margin-left:1px}
+.extend3o .payment {float:right}
+.extend3o .bigNumber {line-height:3.5em}
+.extend3o .padding{
+	padding: 10px 0 10px 20px;}
+.extend3o .padding .row-seam-margins{margin-right: 18px}
+.extend3o .total {min-height:50px;}
+.extend3o .w25per .paperless {margin-left: -23px}
+.extend3o p.inline-links a.paperless {padding-left:25px}
+.extend3o h3 {font-size:1.6em}
+.extend3o .fontsize16{font-size:16px ! important}
+.font16{font-size:16px}
+.extend3o h5 {font-size:1.3em; font-weight:bold}
+.extend3o h6 {font-size:1.2em; float:left; display:inline}
+.extend3o h3 a, .extend3o h2 a {font-size:12px; padding-left:5px}
+.extend3o table th, .extend3o table td {text-align:left !important}
+.extend3o a.toggle {color:#333; text-decoration:none}
+.extend3o .min, .extend3o .date {width:25px}
+.extend3o .charge {width:50px}
+.extend3o .time {width:75px}
+.extend3o .dateTime, .extend3o .number {width:110px}
+.extend3o .bottomButton {position:relative; top: 37px}
+.extend3o .bottomNoButton {position:relative; top: 69px}
+.extend3o .bottomNoButton4 {position:relative; top: 93px}
+.extend3o .narrow {padding:0 !important}
+.extend3o .radio {vertical-align:text-top; line-height:1.3 !important}
+.extend3o .size18{font-size: 18px !important;}
+.extend3o .statictextfpopup{ margin-left: 297px; margin-top: -8px;}
+.extend3o .group-title {
+    min-height: 55px;
+    position: relative;
+}
+.extend3o.calender_padding{padding: 0.34em 1.29em;}
+.extend3o .group-title h2, .extend3o .group-title h3, .extend3o .group-title h4, .extend3o .group-title h5, .extend3o .group-title h6{
+    color: #333333;
+    display: inline;
+    float: left;
+    font-size: 2em;
+    line-height: 55px;
+    margin: 0 10px 0 24px;
+}
+  .extend3o .group-title span 
+  {
+   color: #333333;
+    display: inline;
+    float: right;
+    font-size: 2em;
+    line-height: 55px;
+    margin: 0 10px 0 24px;
+ }
+.extend3o .radioGrp li {line-height:2em}
+.extend3o .radioGrp_new {
+    float: left;
+    margin-bottom: 4px;
+    padding: 0 !important;
+    position: relative;
+    top: 1px;
+    width: auto;
+}
+.extend3o #subsections .row-seam, .extend3o #subsections .row-seamless, .extend3o #subsections .row-seam-dotted, .extend3o #subsections .row-seam-margins {height:100%;}
+.extend3o .row-seam-margins {background:none}
+.extend3o .separator .print { background: url(/olam/images/brand30/CSS_Billing_Sprite.png) -29px -72px no-repeat; padding:3px 20px }
+.extend3o .right .end {margin-right:15px}
+.extend3o .modalContent {width:93%}
+.extend3o .dropDown216_new {
+    width: 120px;
+}
+.extend3o .terms {min-height:30px; height:90px; border:1px solid #e3e3e3; margin-bottom:15px}
+.extend3o .modalContent .terms {min-height:20px; height:50px; border:1px solid #e3e3e3; margin-bottom:15px}
+.extend3o .modalButtons .disclaimer {padding-left:20px; font-style:italic; vertical-align:middle}
+.extend3o .section-title p {padding-top:20px; float:right}
+.extend3o .section-title h4 {font-size:1.5em; margin-left:0}
+.extend3o .radioLabel {text-align:right; padding-top:5px}
+.extend3o #ie .radioLabel {text-align:right; padding-top:11px}
+.extend3o .expand, .extend3o .collapse {background-image:none; padding-left:0;}
+.extend3o .userIcon {
+    float: left;
+    margin-right: 25px;
+}
+
+.extend3o .table .vertDivide, .extend3o .div .vertDivide {background: url(//www.att.com/images/global/vertSeparator1x105.png) left no-repeat; padding:3px 0 0 40px; text-align:left }
+.extend3o .table .subset {padding:0}
+.extend3o .table .errorMsg span {
+    background: url(//www.att.com/images/global/iconError46x43.png) no-repeat scroll left top transparent;
+    color: #FD0200; padding: 14px 14px 15px 60px; line-height:3em !important}
+.extend3o .table .last {text-align:right}
+.extend3o .padLeft {padding-left:25px}
+.extend3o #PadLeft39{padding-left:39px}
+.extend3o #ie .styled_forms .padBot10{padding-bottom:10px}
+.extend3o .padTop5 {padding-top:5px}
+.extend3o #ie .styled_forms .padTop5{padding-top:0}
+.extend3o .styled_forms label {font-weight:bold; line-height:1.9em}
+.extend3o .styled_forms .botMar0 {margin-bottom:0 !important}
+.extend3o .section-title .separator {line-height:1.3em; padding-top:15px}
+.extend3o .usage-meter-table th {font-weight:bold;text-align: right !important;}
+.extend3o .usage-meter-table img {padding-bottom:10px}
+.extend3o .meterDivider {margin-top:-18px; text-align:right;background: url(/olam/images/brand30/iconErrorDivider.png) right no-repeat; line-height:3.5em}
+.extend3o .modalHeader h6 {padding: 0 0 0 25px; margin-top:-5px}
+.extend3o .modalContent .radioLabel {padding-top:0}
+.extend3o .modalContent div .botMar0{margin-bottom: 0 !important;}
+.extend3o .disabled {color:#999}
+.extend3o #ie .radio {padding-bottom:5px}
+.extend3o .radioGrp a {vertical-align:middle}
+.extend3o .padLine {line-height:2.1em !important}
+.extend3o .padLine4 {line-height:4em !important}
+.extend3o .modalButtons {padding-bottom:20px}
+
+.extend3o #landing .row-seam-dotted {background:url(//www.att.com/images/global/row-seam-dotted.gif) left bottom repeat-x; margin:0; padding:14px 0 0 0;}
+.extend3o #landing .row-seamless {margin:0; padding:10px 20px 0 0;}
+.extend3o #landing .row-seamless .mod-service-landing {padding: 14px 24px 9px 25px;}
+.extend3o #landing dd {line-height: 1.7em} 
+
+.extend3o #primary-content .botMar30{margin-bottom:30px;}
+.extend3o .row-seam-dotted .right,{margin-top: -20px;}
+.extend3o .row-seam-dotted h2{
+	margin:0 10px 0 24px;
+	float:left;
+	display:inline;
+	font-size:2.0em; 
+	line-height:55px;
+	color:#333 }
+	
+.extend3o .steps .row-seam {font-size:0.75em;background:#fff url(/olam/images/brand30/CSS-Sprite-Repeat-X.png) left -692px repeat-x;}
+.extend3o .steps h4 {line-height: 1.45em}
+.extend3o .steps .current h4 {font-weight:bold;color:#FFF;}
+.extend3o .steps .last {border: 0;}
+.extend3o .steps .current {background:#f27d00;}
+.extend3o .step1 { background:url(/olam/images/brand30/step1.png) }
+.extend3o .step2 { background:url(/olam/images/brand30/step2.png) }
+.extend3o .step3 { background:url(/olam/images/brand30/step3.png) }
+.extend3o .step4 { background:url(/olam/images/brand30/step4.png) }
+.extend3o .current .step1 { background:url(/olam/images/brand30/step1-selected.png)}
+.extend3o .current .step2 { background:url(/olam/images/brand30/step2-selected.png)}
+.extend3o .current .step3 { background:url(/olam/images/brand30/step3-selected.png)}
+.extend3o .current .step4 { background:url(/olam/images/brand30/step4-selected.png)}
+.extend3o .past .step1, .extend3o .past .step2, .extend3o .past .step3 {background:url(/olam/images/brand30/checkmark.gif); color:#005B95}
+.extend3o .step1, .extend3o .step2, .extend3o .step3, .extend3o .step4, .extend3o .current .step1, .extend3o .current .step2, .extend3o .current .step3, .extend3o .current .step4, .extend3o .past .step1, .extend3o .past .step2, .extend3o .past .step3 {padding-left:35px; background-position: left; background-repeat: no-repeat}
+
+.extend3o .dropdownwidth_129{width:130px;}
+
+	
+/************************************
+BOTTOM PROMOTIONAL TILES
+*************************************/
+.extend3o .promoBottom3 { min-height:100px; background:url(/olam/images/brand30/CSS-Sprite-Repeat-X.png) left -1615px repeat-x ; float:left; width:228px;}
+.extend3o .promoBottom2 { min-height:100px; background:url(/olam/images/brand30/CSS-Sprite-Repeat-X.png) left -1615px repeat-x ; float:left; width:345px;}
+.extend3o .promoBottom3 .promoContent, .extend3o .promoBottom2 .promoContent { padding:14px }
+.extend3o .promoBottom3 h4, .extend3o .promoBottom2 h4{font-size:1.6em; padding-bottom:.2em}
+.extend3o .middlePromo{margin: 0 8px 0 8px}
+.extend3o .lastPromo {margin-left:10px}
+
+
+
+/*****************
+ SEARCH RESULTS TREATMENT
+*****************/
+.extend3o .results{background:#e8f0f4; border:1px solid #cee5f0; margin:0 0 10px 0; padding:11px 14px 5px 14px}
+.extend3o .results p{color:#333; line-height:normal}
+
+/*****************
+Service Landing
+*****************/
+.extend3o .mod-service-landing .group{margin:20px 0 15px 0}
+.extend3o .mod-service-landing h3{font-size:1.8em; color:#333; margin:0 0 0 0; line-height:1.3em}
+.extend3o .mod-service-landing h4{font-size:1.6em; color:#333; margin:0 0 .2em 5px; line-height:1.27em}
+.extend3o .mod-service-landing h6{font-size:1.2em; color:#333; margin:8px 0 0 5px; line-height:1.27em}
+.extend3o .mod-service-landing a img{display:inline-block; position:relative; top:0px; margin-right:10px}
+.extend3o .mod-service-landing .w146 img{margin-left:1px}
+
+/********************
+CALENDAR TREATMENT
+********************/
+.extend3o .calendar {
+	position: relative;
+	left: 0.1em;
+	width: 83%;
+	height: 100%;
+	padding: 0 8% 4% 8%;
+	}
+
+.extend3o .calendar-table {
+	width: 95%;
+	padding: 0;
+	}
+
+	.extend3o .calendar th {
+	color: #646464; 
+	background: #fff;
+	font-weight: bold;
+	text-align:center !important;
+	padding:2px 0 2px 0;
+	}
+
+.extend3o .calendar td {
+	padding: .35em; 
+	font-weight: normal;
+	background: #e5e5e5;
+	border: 1px solid #fff;
+	position:static;
+	text-align:center !important;
+	}
+.extend3o .calendar td a{
+	font-size:1em;
+}
+.extend3o .calendar td.prevMonth {
+	padding: .35em;
+	color: #ccc; 
+	font-weight: normal;
+	background: #e5e5e5;
+	border: 1px solid #fff;
+	}
+
+.extend3o .calendar td.arrangementPeriod {
+	padding: .35em;
+	/*color: #4a96de; */
+	font-weight: normal;	
+	background: #fefecc;
+	border: 1px solid #e5e5e5;
+	}
+
+.extend3o .calendar td.currentDate {
+	padding: .35em;
+	background: #0a94d6;
+	}
+
+.extend3o .calendar td.currentDate a {
+	color: #fff !important; 
+	font-weight: bold;
+	}
+
+.extend3o .calendar td.preDate {
+	padding: .35em;
+	color: #f60; 
+	font-weight: normal;
+	background: #fff;
+	border: 0px solid #f60;
+	}
+
+.extend3o .calendar td.dueDate {
+	padding:0 !important;
+	color: #f60; 
+	font-weight: normal;
+	background: #fff;	
+	}
+.extend3o .calendar .dueDateBorder{
+	border: 1px solid #f60;
+	position:relative;	
+	line-height:1.6em;
+	}
+
+.extend3o .calendar td.currentDueDate-wrap {
+	padding: 0;
+	color: #f60; 
+	font-weight: normal;
+	background: #fff;
+	border: 1px solid #f60;
+	}
+
+.extend3o .calendar .currentDueDate {
+	padding: .35em;	
+	background: #0a94d6;
+	border-top: 1px solid #fff;
+	border-right: 1px solid #fff;
+	border-bottom: 1px solid #0a94d6;
+	border-left: 1px solid #fff;
+	}
+
+.extend3o .calendar .currentDueDate a {
+	color: #fff !important; 
+	font-weight: bold;
+	font-size:1.3em;
+	}
+	
+.extend3o .calendar td.currentDatePastDueBalance {
+	padding: .35em;
+	background: #fefecc;
+	border: 1px solid #f60;
+	} /*ch*/
+
+.extend3o .calendar.emphasized {
+	display: block;
+	border: 1px solid #fcef02;
+	padding: 8px;
+	margin: 10px 0 0 0;
+	text-align: left;
+	font-weight: normal;
+	background-color: #ffc;
+	}
+	
+.extend3o .calendar-title{
+	background: #999 !important;
+	color: #fff !important;
+	font-weight: bold !important;
+	font-size: 1.1em !important;
+	text-transform: uppercase !important;
+	text-align: center !important;
+}
+.extend3o .calendar-titleContainer {
+	position: relative;
+	left: 15px;
+	width: 90%;
+	height: 2.4em;
+	text-align: center;
+	background: #999;
+	}
+
+.extend3o .calendar-titleText {
+	position: absolute;
+	top: .5em;
+	left: 0px;
+	width: 100%;
+	text-transform: uppercase; 
+	color: #fff;
+	font-weight: bold;
+	font-size: 1.1em;
+	}
+
+.extend3o .calendar-titleText img {
+	position: relative;
+	top: .135em;
+	padding-left: .60em;
+	padding-right: 0em;
+	}
+
+.extend3o .marginsdropdown{margin-top: 2px; margin-left:4px; margin-bottom:2px;}
+
+.extend3o .modalContent .tableBorFull {
+    border: 1px solid #CCCCCC;
+}
+.extend3o .modalContent .botMar7{margin-bottom:7px !important;}
+.extend3o div#content div#primary-content div.box div.row-seamless form.styled_forms div label.lblwid {
+    width: 230px;
+}
+
+/*styled_forms div span.Top10{top:10px;}*/
+.extend3o .styled_forms div span.Top10{top:10px;}
+
+/*style for radio button*/
+.extend3o .radioformdiff {
+    margin-left: 264px;
+    margin-top: -12px;
+}
+
+.extend3o div#content div#primary-content div.box div.row-seamless form.styled_forms div label.lblwid {
+    width: 230px;
+}
+
+/*styled_forms div span.Top10{top:10px;}*/
+.extend3o .styled_forms div span.Top10{top:10px;}
+
+/*style for radio button*/
+.extend3o .radioformdiff {
+    margin-left: 289px;
+    margin-top: -12px;
+}
+
+.extend3o .styled_forms div.margintop label.top15{top:15px; width:258px;}
+.extend3o .styled_forms div label.nobold{font-weight:normal}
+.extend3o .styled_forms div.margintop span dl.radioformdiff dd.radio4px div.nobold{font-weight:normal}
+.extend3o .styled_forms div.margintop0 label.top0{top:0px; width:202px;}
+.extend3o .styled_forms div.marginleft{margin-left:55px;}
+.extend3o .padrig{padding-right:25px;}
+.extend3o .MarRight50{margin-right:50px;top:1px}
+.extend3o .Marleft65{margin-left:65px;}
+.extend3o .MarLeft21{margin-left:21px;}
+.extend3o .top1px{top:1px !important;}
+
+/*OC2PA Styles 03/22/2011*/
+.extend3o .oc2pahid  td div .selector span{ width:159px !important;}
+.extend3o .headingTip {float:left;margin-top:26px;}
+.extend3o .OC2PAprice {
+color:#FF7200;
+font-size:24px;
+letter-spacing:-1px;
+line-height:1em;
+margin-bottom:0;margin-right:3px;
+}
+.extend3o .OC2paTRPadtop0 {padding-top:0px;}
+.extend3o .styled_forms .OC2PAFormDiv > label:first-child  {
+	margin-right:5px !important;
+	width:160px;
+}
+.extend3o .OC2PAFormDiv div.selector {margin: 4px 0 3px 12px;}
+.extend3o #primary-content .botMarOCDPA0{margin-bottom:0px;}
+.extend3o .OC2PATab tbody tr td{padding-left:0px;padding-right:0px;}
+.extend3o .OC2PATab tbody tr td{padding-top:6px;vertical-align:middle;}
+.extend3o .OC2PATab tbody tr td.MarRightOC2PA40{padding-right:38px;}
+.extend3o .OC2PATab tbody tr td.MarRightOC2PA30{padding-right:30px;}
+.extend3o .OC2PATab tbody tr td.MarRightOC2PA0{padding-right:0px;}
+.extend3o .OC2PATab tbody tr td.PadLeftOC2PA0{padding-left:0px;}
+.extend3o .OC2PATab thead tr td{padding-bottom:0px;padding-top:9px;padding-left:0px;padding-right:0px;}
+.extend3o .OC2PATab thead tr td strong.OC2PAHeadMarg{margin-left:7px;}
+.extend3o .OC2PATab tbody tr.OC2paTRPadTop15 td{padding-top:15px;}
+.extend3o .OC2PATabImg{margin-left:2px;margin-top:3px;margin-right:2px;}
+.extend3o .styled_forms .OC2PARadioBot{margin-bottom:0px;}
+.extend3o .OC2PATab tbody tr.OC2paTRPadTop10 td{padding-top:10px;}
+.extend3o .OC2PATab tbody tr.OC2paTRPadTop20 td{padding-top:20px;}
+.extend3o .OC2PATab tbody tr.OC2paTRPadTop12 td{padding-top:12px;}
+.extend3o .OC2PATab tbody tr.OC2paTRPadTop0 td{padding-top:0px;}
+.extend3o .OC2PATab tbody tr.OC2paTRPadBot0 td{padding-bottom:0px;}
+.extend3o .OC2PATab tbody tr.OC2paTRPadBot3 td{padding-bottom:3px;}
+.extend3o .OC2PATab tbody tr.OC2paTRPadBot10 td{padding-bottom:10px;}
+.extend3o .OC2PATab tbody tr.OC2paTRPadBot7 td{padding-bottom:7px;}
+.extend3o .OC2PATab tbody tr.OC2paTRPadBot12 td{padding-bottom:12px;}
+.extend3o .OC2PATab tbody tr.OC2paTRPadBot15 td{padding-bottom:15px;}
+.extend3o .OC2PARowSeamless{padding: 0 0 0 25px;}
+.extend3o .OC2PAnopad,.extend3o .OC2PAnopad td{padding-bottom:0px !important;line-height:3px !important; }
+.extend3o #primary-content .botMar12{ margin-bottom:12px }
+.extend3o #primary-content .botMar20{ margin-bottom:20px }
+.extend3o #primary-content .botMar0{ margin-bottom:0px }
+.extend3o .styled_forms .OC2PATabItalic{font-style:italic;font-weight:normal;}
+.extend3o #content #primary-content .styled_forms div.selector select.OC2PATabSelWidth {width:190px;}
+.extend3o #content #primary-content .styled_forms div.selector select.OC2PATabSelWidth225 {
+	width:225px;
+}
+.fixspanOC2PA span{width:164px !important;}
+
+.extend3o .MarLeft65{margin-left:65px;}
+.extend3o .MarLeft22{margin-left:22px;}
+.extend3o .styled_forms label.OC2PARight{margin-right:3px;}
+.extend3o .OC2PATab tbody tr td a.LinkMarLeft{margin-left:6px;margin-right:2px;}
+.extend3o .OC2PAInvisible{opacity:0.4;filter: Alpha(opacity:40);zoom:1;}
+.grayout{opacity:0.3; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=30)"; filter: progid:DXImageTransform.Microsoft.Alpha(opacity=30);}
+.extend3o .OC2PAbtnBot {margin-bottom: 20px;}
+.extend3o .OC2PATermsROwSeam{padding:0 10px;}
+.extend3o .OC2PAterms {
+border:1px solid #E3E3E3;
+height:50px;
+overflow-y:scroll;
+padding:20px;
+}
+.extend3o .styled_forms .OC2PAFormlongDiv > label:first-child {
+margin-right:5px !important;
+width:166px;
+}
+.extend3o .OC2PATab th.right, .extend3o .table td.right {
+text-align:right !important;
+}
+/*OC2PA Styles 03/22/2011*/
+
+.extend3o .styled_forms .tipPad > label {
+    margin-right: 7px !important;
+}
+.extend3o div.selector_PadLeft8 {
+	overflow:hidden;
+	padding-left:5px;
+	position:relative;
+	top:3px;
+	vertical-align:top
+}
+
+
+/*Select dropdown*/
+.extend3o .wid130{width:130px;}
+
+.extend3o div .w25per dl.profileLinks dd {margin-bottom:9px}
+.extend3o .profileLinks dd.botMar0{margin-bottom:0px}
+
+.extend3o tbody tr.marleft td span.marleft140{margin-left:140px;}
+
+/*popup-what's this*/
+
+.extend3o .modalContent ul{display:inline; float:left; min-height:55px; line-height:55px }
+.extend3o .modalContent li{display:inline; white-space:nowrap; line-height:55px;}
+.extend3o .modalContent .leftalign{position:absolute; top:8px; line-height:55px; margin:0}
+.extend3o .modalContent .msg ul{list-style:disc; float:none;}
+.extend3o .modalContent .msg li{display:list-item; line-height:1.5em;}
+/*span class in section title*/
+.extend3o .section-title span.spanEdit {
+    float: left;
+    line-height: 55px;
+    margin-right: 5px;
+	margin-top:3px;
+}
+
+.extend3o .section-title span.spanViewProfile {
+    float: left;
+    line-height: 55px;
+    margin-left: 5px;
+	margin-top:3px;
+}
+
+.extend3o .styled_forms .billingPeriod {
+    border-bottom: 1px dotted #CCCCCC;
+    border-top: 1px dotted #CCCCCC;
+    font-size: 12px;
+    margin-left: 0px;
+    padding: 10px 0;
+}
+
+.extend3o .styled_forms .billingPeriod label:first-child {
+    margin: 0 0 2px 2px;
+    text-align: left;
+    top: 0;
+    width: 100px;
+}
+.extend3o .span span {
+float:left;
+    margin: 6px 0 0 10px;
+}
+
+.extend3o .group{margin:20px 0 15px 0}
+
+.extend3o .pagination.ptop {
+    margin-top: -17px;
+    top: -10px;
+}
+.extend3o .pagination ul {
+    float: right;
+    list-style: none outside none;
+}
+.extend3o .pagination ul li {
+    float: left;
+}
+
+.extend3o .pagination {
+    float: right;
+    position: relative;
+    width: 100%;
+}
+.extend3o .pagination ul li a.prev {
+    border-right: 1px dotted #CCCCCC;
+}
+
+.extend3o .pagination ul li a {
+    padding: 0 5px;
+}
+.extend3o .pagination ul li a.current {
+    border: 1px solid #CCCCCC;
+    color: #333333;
+}
+
+.extend3o .pagination ul li a.next {
+    border-left: 1px dotted #CCCCCC;
+}
+/*This style was commented to fix Sprint defect http://portalmigration.att.net/MyAtt_3.0/CR070-WF2a-screen5.0.6-wirelessIndividual_voice.html - This style was preventing table header's separator line from been shown
+.extend3o .table th {
+    background: none repeat scroll 0 0 transparent;
+}
+*/
+.extend3o .table th a {
+    color: #067AB4;
+}
+
+.extend3o .table th.right, .extend3o .table td.right {
+    text-align: right !important;
+}
+
+.extend3o .table th.thLast {
+    padding: 10px 0;
+}
+
+
+.extend3o .table th.thLast a {
+    /*padding-right: 0; commented to address defect WUP00565886 */
+}
+
+/*this class was added to address defect WUP00565886 but replaced it later for defect WUP00582543 -> see myatt-common.css*/
+/*.extend3o .table th.thLast .tooltips {
+    padding-right: 0; 
+}*/
+
+.extend3o .table th.thLast .tooltips {background:none}
+
+.extend3o div p.RightBorder a.RightDotBorderImage {border-right: 1px dotted #CCCCCC;}
+
+.extend3o .GreyColor {color: #808080;}
+
+.extend3o .portion1_spacing {
+    float: left;
+    margin-left: 16px;
+    margin-right: 2px;
+    margin-top: 5px;
+    overflow: hidden;
+    position: relative;
+    width: 100px;
+}
+.extend3o #portion1 {
+    width: 110px;
+}
+.extend3o .portion2_spacing {
+    float: left;
+    margin-right: 2px;
+    margin-top: 5px;
+    overflow: hidden;
+    position: relative;
+    width: 130px;
+}
+.extend3o #portion2 {
+    border-radius: 0 0 0 0;
+    margin-left: 0;
+    width: 140px;
+}
+.extend3o .portion3_spacing {
+    float: left;
+    margin-right: 2px;
+    margin-top: 5px;
+}
+.extend3o #portion3 {
+    border-radius: 0 15px 15px 0;
+    width: 170px;
+}
+
+/*For LTE CR */
+
+.extend3o .meterwrapper .expandImg,.extend3o .meterwrapper  .collapseImg {background-image:none; padding-left:0;}
+
+.extend3o #content #primary-content .styled_forms div.selector select.marleft10 {margin-left:10px;}
+
+/* For total in OC2AP*/
+.extend3o .OC2PATOT{margin-bottom:18px; padding-top: 15px; padding-left:25px;}
+.extend3o .sepsection{height:5px;margin-top:20px;}
+.extend3o .ht70{height:68px;}
+
+
+
+.extend3o #previouspayments{}
+
+/**** TITAN BILLING *****/
+.extend3o .bgFaded {background: url("/olam/images/brand30/global/box-faded.png") no-repeat scroll left top transparent;}
+.extend3o .bgGradient {background:url("/olam/images/brand30/global/bg-billing.png") repeat-x;}
+
+.extend3o .paperless-transparent {
+    background: url("/olam/Spanish/images/enroll_small_computer.png") no-repeat scroll left center transparent;
+    padding: 5px 0 5px 23px;
+}
+
+.extend3o .paperless-posTop {
+	background: url("/olam/Spanish/images/enroll_small_computer.png") no-repeat scroll left top transparent;
+	line-height:23px !important
+}
+.extend3o .expandImg, .extend3o .collapseImg{padding-left:30px}
+
+/***Added for RD2115_P71066_Enhance Bill Details page with Interactions_I54062_CR-1211-1699***/
+
+.extend3o .toggleUnderline:hover, .extend3o .toggleUnderline:focus{
+	text-decoration: underline !important;
+}
+.extend3o .collapseImg.collapseArrow.toggleUnderline{
+	padding-left: 17px !important;
+	padding-right: 0px !important;
+}
+.extend3o .expandImg.expandArrow.toggleUnderline{
+	padding-left:12px !important;
+}
+/***---------------------------------------------------------------------------------------***/
+
+.extend3o .toggleIndent{margin-left:30px}
+.extend3o .toggleHidden{position: relative; display: none;}
+
+.extend3o .vertical-sep{font-size:12px;color:#bfbfbf;margin:0px 10px }
+
+.extend3o .table-titan-billing{width:100%}
+.extend3o .table-titan-billing td{line-height:1.5em; padding:5px 0; position:relative;font-weight:normal}
+.extend3o .table-titan-billing th {border-top:1px dotted #cccccc;border-bottom:1px dotted #cccccc;line-height:normal; padding:10px 0px; position:relative;font-weight:normal}
+.extend3o .table-titan-billing tfoot td {border-top:1px dotted #cccccc;line-height:normal; padding:10px 0 20px 0px; position:relative;font-weight:normal;color:#666666}
+.extend3o .table-titan-billing tfoot .greyColor td{color:#666666}
+.extend3o .table-titan-billing tr td .PadLeft10, .extend3o .table-titan-billing tr th .PadLeft10{padding-left:10px !important}
+.extend3o .table-titan-billing .amount{text-align:right !important;padding-right:0px !important;white-space:nowrap;position:relative !important}
+.extend3o .table-titan-billing .center td:first-child, .table-titan-billing .center th:first-child{text-align:left !important;padding-left:5px}
+.extend3o .table-titan-billing .center td, .table-titan-billing .center th{text-align:center !important;padding-left:5px}
+
+.extend3o .botDotBorder{border-bottom:1px dotted #cccccc !important;}
+.extend3o .botDotBorLtGrey{border-bottom:1px dotted #cfcfcf !important;}
+.extend3o .botSolBorder{border-bottom:1px solid #cccccc !important;}
+.extend3o .topDotBorder{border-top:1px dotted #cccccc !important;} /**TopDotBodr**/
+.extend3o .topSolBorder{border-top:1px solid #cccccc !important;} /**TopSolidBorder**/
+.extend3o .noTopBorder{border-top:none !important}
+.extend3o .noBotBorder{border-bottom:none !important}
+
+.extend3o .serviceName img {margin-right:10px;vertical-align:middle}
+.extend3o .serviceName, .extend3o .serviceName a{font-size:16px}
+.extend3o .serviceName .font12{font-size:12px !important}
+.extend3o .serviceName .amount{font-size:16px;right:25px;margin-top:20px;white-space:nowrap;position:absolute}
+.extend3o .serviceDesc {margin-left:95px; margin-top:-20px;line-height:1.5em}
+
+.extend3o .CTNName, .extend3o .CTNName a{font-weight:bold;font-size:12px}
+.extend3o .CTNName .amount{float:right;margin-top:11px;font-weight:bold;font-size:12px;white-space:nowrap;position:relative !important}
+.extend3o .CTNName .amountNoImg{float:right;margin-top:4px;font-weight:bold;font-size:12px;white-space:nowrap;position:relative !important}
+.extend3o .categoryLabel, .extend3o .categoryLabel a{font-size:14px}
+.extend3o .categoryLabel .amount{float:right;font-size:14px;white-space:nowrap;position:relative !important}
+
+.extend3o .subCategoryLabel{border-top:1px solid #cccccc; padding:10px 0 5px 0;font-size:12px;font-weight:bold}
+.extend3o .subCategoryLabel h4{font-size:12px;font-weight:bold}
+.extend3o .subCategoryLabel h4 a, .extend3o .subCategoryLabel h4 span{font-weight:bold;font-size:12px}
+.extend3o .subCategoryLabel h4 .amount{float:right;font-size:12px;margin-top:3px;white-space:nowrap;position:relative !important}
+
+
+.extend3o .categoryTotal{border-top:2px solid #cccccc;margin-top:15px;width:100%}
+.extend3o .categoryTotal tfoot td{font-weight:bold;font-size:14px;/*color:#666666*/ color:#333333;padding:20px 0 30px 0}
+.extend3o .categoryTotal .amount{text-align: right !important;padding-right:0px !important;white-space:nowrap;position:relative !important}
+
+.extend3o .totalTable tfoot td{color:#333333!important;}
+.extend3o .totalTable {margin-top:0px!important;}
+
+.extend3o .footNote{color:#666666;font-style:italic;margin-top:10px}
+
+.extend3o .noBG{background:none !important}
+.extend3o .fullWidth{width:100% !important}
+.extend3o .noPadding{padding:0px !important;}
+.extend3o .noMargin{margin:0 !important} 
+
+.extend3o .tablePad5 th, .extend3o .tablePad5 td{line-height:normal; padding:5px 0px; position:relative}
+
+/**** /TITAN BILLING *****/
+
+
+.extend3o .width-auto{width:auto !important;}
+.extend3o .modalContent .styled_forms input {font-size:1.2em !important}
+
+.extend3o #landing .usmrowseamless {
+margin:0;
+padding:10px 20px 0 0;
+}
+
+.extend3o #UsmBox1_ctn {
+    float: left;
+    height: 50px;
+    padding-right: 10px !important;
+    position: relative;
+	width:100%;
+}
+
+.extend3o .UsmBox1_ctn {
+    float: left;
+    height: 50px;
+    padding-right: 10px !important;
+    position: relative;
+	width:100%;
+}
+
+.MarTop3 {
+    margin-top: 3px;
+}
+
+.extend3o .lineHeightTD {line-height:1.3em !important;}
+
+/*WUP00555215*/
+.secondaryModFixWidth{width:185px;}
+
+.extend3o .radioformdiff1 {
+    margin-left: 292px;
+    margin-top: -22px;
+}
+.extend3o .PadLeft80{padding-left:80px;}
+.extend3o h4 {font-size:14px;}
+/******* CCO ***********************/
+.extend3o .font38{font-size:38px;}
+.extend3o .PadLtRtTop10Bot0{padding-left:10px!important;padding-right:10px !important;padding-top:10px !important;padding-bottom:0px!important;}
+.extend3o .PadAll10{padding:10px 10px 10px 10px}
+.extend3o .PadLtRt20{padding-left:20px;padding-right:20px;}
+.extend3o .separatorpipe span{border-right: 1px solid #CCCCCC;padding: 0 0px;}
+.extend3o  #width80{ width:70px;}
+.extend3o .PadLeft105{padding-left:105px;}
+.extend3o .PadLeft108{padding-left:108px;}
+.extend3o .current1{background: none repeat scroll 0 0 #F47B20;padding:6px 25px; }
+.extend3o .current1 h4{color:#ffffff;}
+.extend3o .current1 h3{color:#ffffff;}
+.extend3o .font40{font-size:40px;}
+.extend3o .w258{float:left; width:258px; margin:0 14px 0 14px}
+.extend3o .greyTxt{font-size:15px; Color: #A0A0A0!important;}
+.extend3o .rewrdCrd{ position: relative; top: -7px;}
+.extend3o .font18imp{font-size:18px !important;}
+.extend3o .w359{float:left; width:359px;} 
+.extend3o .w258{float:left; width:258px; margin:0 14px 0 14px}
+.extend3o.rewrdCrd14{position: relative; top: -14px;}
+.extend3o.greyTxtColor {color: #A0A0A0;}
+.extend3o .font29imp{font-size:29px !important;}
+/*fix for WUP00672296*/
+.modalContent .errorMsg ul{display:block !important;float:none !important;top:0px !important}
+.modalContent .errorMsg li{display:list-item !important; line-height:1em !important;margin-bottom:5px !important}
+.extend3o .modalContent .errorMsg ul{display:block !important;float:none !important;top:0px !important}
+.extend3o .modalContent .errorMsg li{display:list-item !important; line-height:1em !important;margin-bottom:5px !important}
+/*SuperBill 1207 - STARTS*/
+.extend3o .BalanceAll {}
+.extend3o .payButton {width:185px;}
+.extend3o .paymentsSec {width:467px;}
+.extend3o .payButtonInnerDiv {padding-left:40px;padding-right:0px;}
+.extend3o .CPCinLineLinkLine{color:#cccccc;font-size:12px}
+.extend3o .CPCinLineLinkLine a.paperless{padding-left:23px;padding-bottom:0px;}
+.extend3o .CPCinLineLinkLine a.paperless.first{padding-left:23px;}
+.extend3o .CPCinLineLinkLine a.first{padding-left:0px;}
+.extend3o .CPCinLineLinkLine a{padding-left:6px;padding-right:8px}
+.extend3o #ie .CPCinLineLinkLine1 a{padding-top:5px;}
+.extend3o #ie .PadTop2ie{padding-top:2px;}
+.extend3o .CPCinLineLinkLine2,.extend3o .CPCinLineLinkLine1{padding-top:7px;}
+.extend3o .alertIconNew {background:url("/olam/images/brand30/iconErrorNew.png") no-repeat scroll left center transparent; padding-left:20px;}
+.extend3o .PadLeft52{padding-left:52px;}
+.extend3o .PayPerAddnlTable td{width:117px;}
+.extend3o .MarTopNeg15{margin-top:-15px;}
+.extend3o .boxNoTopBorder {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-bottom: 1px solid #E3E3E3;
+	border-left: 1px solid #E3E3E3;
+	border-right: 1px solid #E3E3E3;
+	min-height: inherit;
+    position: relative;
+}
+.extend3o .PayPerAddnlUseHeader td{width:117px !important;}
+.extend3o .PayPerUseValue td{width:117px !important;}
+.extend3o .RollOverIndefault{padding-top:10px;}
+.extend3o .SBboxTop{background:url(/olam/images/brand30/SB/SB_Top_Left.png) left top no-repeat; width:100%;height:13px;}
+.extend3o .SBboxTopRt{background:url(/olam/images/brand30/SB/SB_Top_Right.png) right top no-repeat;width:100%;height:13px;position:relative;}
+.extend3o .SBboxMiddle{background:url(/olam/images/brand30/SB/SB_Center_Left.png) left repeat-y;}
+.extend3o .SBboxMiddleRt{background:url(/olam/images/brand30/SB/SB_Center_Right.png) right repeat-y;}
+.extend3o .SBboxBottom{background:url(/olam/images/brand30/SB/SB_Bot_Left.png) left bottom no-repeat;width:100%;height:13px;}
+.extend3o .SBboxBottomRt{background:url(/olam/images/brand30/SB/SB_Bot_Right.png) right bottom no-repeat;width:100%;height:13px;position:relative;}
+.extend3o .SBboxTopCenter{background:url(/olam/images/brand30/SB/SB_Bot.png)   repeat-x;}
+.extend3o .SBboxBottomCenter{background:url(/olam/images/brand30/SB/SB_Bot.png)   repeat-x;}
+.extend3o .SBboxCenter{background:url(/olam/images/brand30/SB/SB_Bot.png)   repeat-x;}
+.extend3o .SBboxCenterTopNew{background:url(/olam/images/brand30/SB/SB_Top-1.png) repeat-x  0 bottom;}
+.extend3o .SBboxCenterBotNew{background:url(/olam/images/brand30/SB/SB_Bot-1.png) repeat-x  ;}
+.extend3o h4.CTNName.font14Normal a {font-weight:normal!important; font-size:14px!important;}
+.extend3o h4.CTNName.font14Normal {font-weight:normal!important; font-size:14px!important;}
+.extend3o .padTopBot10{padding-top:10px ;padding-bottom:10px;}
+.extend3o .w357{ width:357px;}
+.extend3o .w127{width:127px;}
+.extend3o .w327{ width:327px;}
+.extend3o .w542{width: 542px !important;;}
+.w400{width:400px;}
+.extend3o .MinHeight16 {min-height:16px }
+.extend3o #ie .PadBot4ie{padding-bottom:4px!important;}
+.extend3o #ie .padBottom23{padding-bottom:23px !important;}
+.extend3o  #ie .Padbot1ie{padding-bottom:1px }
+.extend3o .w309{ width:309px;}
+.extend3o .w307{ width:307px;}
+.extend3o .MarTopNeg15{margin-top:-15px;}
+.extend3o #ie .MarTopNegie18{margin-top:-18px;}
+.extend3o .w529{width: 529px }/*Dont Reuse this Class*/
+.extend3o .colorPipeSeparator{color:#cccccc !important;}
+.extend3o .lineHeight15imp{line-height:15px !important; }
+.extend3o .PadLeft22imp {padding-left:22px !important;}
+.extend3o .headStyle .table .vertDivide{background:url("//www.att.com/images/global/vertSeparator1x105.png") no-repeat scroll left top transparent; padding:3px 0px 0px 40px;}
+.extend3o .PersistentNavigation{padding-left:28px;padding-bottom:10px;top:-5px;position:relative;color:#cccccc;font-size:12px}
+.extend3o .PersistentNavigation a{padding-left:4px;padding-right:3px;}
+.extend3o .PersistentNavigation a.disabled{cursor:default;text-decoration:none; color:#666666;}
+.extend3o .PersistentNavigation a.disabled:focus {text-decoration:underline;}
+.extend3o #ie  .PersistentNavigation{margin-top:0px;}
+.extend3o .PersistentNavigation{margin-top:0px;}
+/*START: Styles added by hussain on Jun-6 to accomadate persistent navigation in the old pages without extend3o. These classes should be overidden by the classes with extend3o*/
+.PersistentNavigation a {padding-left: 4px;padding-right: 3px;font-size:12px;}
+.PersistentNavigation {color: #CCCCCC;font-size: 12px;padding-bottom: 10px;padding-left: 28px;position: relative;top: -5px;margin-top:-3px;}
+#ie  .PersistentNavigation{margin-top:-5px;}
+.PersistentNavigation a.disabled:hover {color: #999999;cursor: default;text-decoration: none;}
+.PersistentNavigation a.disabled{color: #999999;cursor: default;text-decoration: none;}
+/*END: Styles added by hussain on Jun-6 to accomadate persistent navigation in the old pages without extend3o. These classes should be overidden by the classes with extend3o*/
+.extend3o .rightRailDivider {background: url("//www.att.com/images/global/e3e3e3.gif") repeat-x scroll 0 0 #FFFFFF; clear:both;}
+.extend3o .toggleContainer{padding:14px 20px 8px 10px;}
+.extend3o .TopSolidBorder2px{border-top:2px solid #CCCCCC;}
+.noPDF{font-size:23px!important;}
+.extend3o .modalScrollY.height300 {height:300px!important;}
+.extend3o .fontSize17{font-size:17px!important;}
+.extend3o .table-titan-billing td.lineHeight9px{line-height:9px!important;}
+.extend3o .categoryTotal.PadBot20 tfoot td{padding-bottom:20px!important;}
+.extend3o .categoryTotal.PadBot10 tfoot td{padding-bottom:10px!important;}
+.extend3o .categoryTotal.PadBot8 tfoot td{padding-bottom:8px!important;}
+.extend3o .categoryTotal tfoot td.PadLeft10{padding-left:10px!important;}
+.extend3o .table .categoryTotal td.PadLeft10{padding-left:10px!important;}
+.extend3o #ie .categoryTotal td.Padbot3ie{padding-bottom:0px!important;}
+.extend3o .table-titan-billing tfoot td.Padbot0{padding-bottom:0px!important;}
+.CTNName  a.disabled{cursor:default;text-decoration:none; color:#666666;}
+.extend3o h4.serviceName{padding-left:2px;}
+
+.extend3o .top1px{top:1px !important;}
+#ie .top2pxie{top:2px !important;}
+.extend3o .MarTop-30{margin-top:-30px !important;}
+.extend3o .table th.PadLeft0{padding-left:0px!important}
+.extend3o .Padbot25{padding-bottom:25px!important}
+.extend3o #ie .top-4pxie{top:-4px !important; position:relative;}
+.extend3o #ie .MarTop10ie{margin-top:10px!important;}
+.extend3o .Padbot11{padding-bottom:11px !important;}
+
+.extend3o .MarLeft9{margin-left:9px!important;}
+.extend3o .MarLeft21{margin-left:21px!important;}
+.extend3o .MarLeft22 {margin-left: 22px!important;}
+.extend3o .MarLeft26 {margin-left: 26px!important;}
+.extend3o .MarLeft42{margin-left:42px!important;}
+.extend3o .MarLeft55{margin-left:55px!important;}
+.extend3o .Marleft65{margin-left:65px;}
+.extend3o .MarRight50{margin-right:50px;top:1px}
+.extend3o .PadLeft16{padding-left:16px!important;}
+.PadLR20Force{Padding-left:20px !important; Padding-right:20px !important;}
+.padright16{Padding-right:16px !important;}
+.PadBot13{padding-bottom:13px !important;}
+.extend3o #primary-content .botMar2{margin-bottom:2px!important;}
+.extend3o .left0px {left:0px!important;}
+.extend3o .right20px {right:20px!important;position:relative;}
+.extend3o #ie .PadRight17IE{padding-right:17px !important;} 
+.extend3o .ForcePadbot2{padding-bottom:2px !important;} 
+.extend3o .ForcePadBot8{padding-bottom:8px !important;} 
+.extend3o #ie .ietop17px{top:17px !important;}
+.extend3o #ie .ietop11px{top:11px !important;}
+/*SuperBill 1207 - ENDS*/
+
+/*Billing POD Starts*/
+.billingPODContent {
+padding:0 0 0!important;
+position:relative;
+top:-5px!important;
+	width:972px!important;
+}
+.extend3o  a, .extend3o a:active, .extend3o a:visited, .extend3o a:hover{color:#3381B7;} 
+
+.extend3o .bPOD-title{
+	position:relative;
+	background:#f5f5f5 url(/olam/images/brand30/bPODtitle.png) top left repeat-x; 
+	min-height:84px; 
+	max-height:98px;
+}
+.extend3o .bPOD-bill-title{
+	position:relative;
+	background-color:#f6f6f6 !important;
+	border-bottom: 1px solid #dedede;
+	padding:8px 10px 6px;
+}
+.extend3o .bPOD-bill-credit{
+	background-color:#f6f6f6 !important;
+	/*border-bottom: 1px solid #dedede;*/
+	padding-left:5px;
+}
+.extend3o .billingOrangeText{color:#F37D1F!important;}
+.extend3o .billingGreenText{color:#70940e}
+.extend3o .billingRedText{color:#E60000}
+.bPODOrangeLine{border-top:2px solid #F37D1F !important;}
+#ie .bPODOrangeLine{border-top:1px !important;}
+#ie .bPODOrangeLine .topRound{background-color:#F37D1F !important; height : 2px!important;}
+#ie .bPODOrangeLine .msg .topRound{background-color:#FCF7B8 !important; height:1px !important;}
+#ie .bPODOrangeLine .errorMsg .topRound{background-color:transparent!important; height:auto!important;}
+.extend3o .confirmMsg.msg{background:#fdfbc7; border:1px solid #faf06c; margin:0 0 20px 0;  padding:5px 8px;}
+
+.font13{font-size:13px!important;}
+.font21{font-size:21px!important;}
+.font32{font-size:32px!important;}
+.font36{font-size:36px!important;}
+.font46{font-size:46px!important;}
+.font48{font-size:48px!important;}
+.extend3o #landing .groupTabInd li a.currentTab{background:url(/olam/images/brand30/dashboardSelector.png) repeat-x center top;}
+.extend3o #landing .groupTabInd li a.current{background:url(/olam/images/brand30/dashboardSelector.png) repeat-x center top;}
+#ie .left2pxIE {left:2px;}
+.left3px {left:3px!important}
+.extend3o #ie .top-2pxIE {top:-2px!important; position:relative}
+.top18px{top:18px!important;position:relative;}
+.top15px{top:15px!important;position:relative;}
+.PadTop27{padding-top:27px!important;}
+.PadLeft39{padding-left:39px!important;}
+.extend3o .ForcePad15 {padding:15px !important;}
+.extend3o .pad10 {padding : 10px!important}
+.pad15{padding:15px!important;}
+.extend3o  table.pad1005 td{padding:10px 5px !important;}
+.extend3o  table.pad1010 td{padding:10px !important;}
+.extend3o  table tr.pad1510 td{padding:15px 10px !important;}
+.extend3o table.bPODTablePadding td, .extend3o table.bPODTablePadding th {padding:8px 5px 7px;}
+.extend3o table thead.bPODTableHeader tr td, .extend3o td.sortedTableHead,.extend3o th.sortedTableHead ,.extend3o table thead.bPODTableHeader tr th{padding:13px 5px 12px !important;}
+thead.bPODTableHeader td, .extend3o td.sortedTableHead, .extend3o th.sortedTableHead,thead.bPODTableHeader th {font-size:12px!important; font-weight:bold;background: url("/olam/images/brand30/shadowbox/gradient_small.png") repeat-x scroll left bottom #FFFFFF;}
+.extend3o td.sortedTableHead a{font: bold 12px arial !important; }
+.extend3o #ie .botMar8IE{margin-bottom:8px!important}
+.extend3o .row-seam .PadLeft16{padding-left:16px!important}
+.extend3o .row-seam .PadRight16{padding-right:16px!important}
+.extend3o .line-height16 {line-height:16px}
+.extend3o  .min-height{min-height: 26px!important}
+#ie .min-height.section-title{height: 26px!important}
+.extend3o .height0{height:0px;}
+.extend3o .w136{width:136px;}
+
+.extend3o .titleGradient{background: url("/olam/images/brand30/shadowbox/gradient_small.png") repeat-x scroll left bottom #FFFFFF;}
+.extend3o .noBillGradient{background: url("/olam/images/brand30/shadowbox/gradient_large.png") repeat-x scroll left bottom #FFFFFF;}
+.tableCellBorder td{border : 1px solid #E3E3E3;}
+.dashboardModal #cboxMiddleLeft div{background:none!important} 
+.dashboardModal #cboxMiddleRight div{background:none!important}
+.extend3o .modalContent.billingPODModalContent {width : 93%!important; padding-left:40px!important}
+.extend3o .bPODPRintIcon.print {
+    background: url("/olam/images/brand30/CSS_Billing_Sprite.png") no-repeat scroll -28px -118px transparent;
+    padding-top: 3px;
+}
+.extend3o .bPODPRintIconDisabled.print {
+    background: url("/olam/images/brand30/CSS_Billing_Sprite.png") no-repeat scroll -30px -168px transparent;
+    padding-top: 3px;
+}
+
+.billingPODContent  .tab-group .topRound-right{background : none!important; height:0px!important}
+
+.extend3o #viewDetailsPopup {position:absolute;z-index:9999;}
+.extend3o  .popupCloseIcon {
+    left: 10px;
+    line-height: 25px;
+    position: relative;
+    top: 33.5px !important;
+    z-index: 900 !important;
+}
+.extend3o #ie  .popupCloseIcon{top: 25px !important;}  
+
+.extend3o .popupNotchIcon{
+ background: url("/olam/images/brand30/shadowbox/top_notch.png") no-repeat scroll left bottom transparent;
+    left: 30px;
+    line-height: 8px;
+    position: relative;
+    top: 45px !important;  
+    z-index: 900 !important;
+}
+.extend3o #ie #viewDetailsPopup .popupNotchIcon{top: 37px !important;} 
+.extend3o .billingPODContent .bPODshadowTopLeft {
+    background: url("/olam/images/brand30/shadowbox/top-left_rounded.png") no-repeat scroll left top transparent;
+    border: medium none;
+    height: 11px;
+    left: 1px;
+    position: relative;
+    top: 8px;
+    width: 100%;
+}
+.extend3o .billingPODContent .bPODshadowTopLeft div  {
+    background: url("/olam/images/brand30/shadowbox/top_shadow.png") repeat-x scroll left top transparent;
+    height: 5px;
+    left: 6px;
+    position: relative;
+    top: 0; 
+}
+.extend3o .billingPODContent .bPODshadowTopLeft div.bPODshadowTop {
+	background:none no-repeat scroll right top transparent;
+    height: 10px;
+    left: 10px;
+    position: relative;
+    top: 0;
+}
+.extend3o .billingPODContent .bPODshadowLeft {
+    background: url("/olam/images/brand30/CSS-Sprite-Repeat-Y.png") repeat-y scroll -5710px top transparent;
+    border: medium none !important;
+    left: 3px;
+}
+.extend3o .billingPODContent .bPODshadowRight {
+    background: url("/olam/images/brand30/CSS-Sprite-Repeat-Y.png") repeat-y scroll -4770px top transparent;
+    border: medium none !important;
+    left: 1px;
+    position: relative;
+}
+.extend3o .billingPODContent .bPODshadowBotLeft {
+    background: url("/olam/images/brand30/shadowbox/bottom-left_rounded.png") no-repeat scroll left top transparent;
+    bottom: 6px;
+    height: 6px;
+    left: 1px;
+    position: relative;
+    width: 100%;
+    z-index: 0;
+}
+.extend3o .billingPODContent .bPODshadowBotLeft div {
+    background: url("/olam/images/brand30/shadowbox/bottom_shadow.png") repeat-x scroll left bottom transparent;
+    bottom: -3px;
+    height: 3px;
+    left: 6px;
+    position: relative;
+    z-index: -1;
+}
+.extend3o .billingPODContent .bPODshadowBotLeft div .bPODshadowBottom {
+    background: url("/olam/images/brand30/shadowbox/bottom-right_rounded.png") no-repeat scroll right top transparent;
+    bottom: 3px;
+    height: 17px;
+    left: 9px;
+    position: relative;
+    z-index: -1;
+}
+.extend3o .popupGradient-smallWidth {
+    background: url("/olam/images/brand30/shadowbox/gradient_small.png") repeat-x scroll left bottom #FFFFFF;
+    left: 2px;
+    position: relative;
+    width: 300px;	
+	padding-left:5px;
+}
+.extend3o #ie .popupGradient-smallWidth {width:302px;}
+.extend3o .popupGradient-MediumWidth {
+    background: url("/olam/images/brand30/shadowbox/gradient_medium.png") repeat-x scroll left bottom #FFFFFF;
+    left: 2px;
+    position: relative;
+    width: 580px;
+	padding-left:5px;
+}
+.extend3o #ie .popupGradient-MediumWidth {width: 582px;}
+.extend3o .popupGradient-LargeWidth {
+    background: url("/olam/images/brand30/shadowbox/gradient_large.png") repeat-x scroll left bottom #FFFFFF;
+    left: 2px;
+    position: relative;
+    width: 760px;
+	padding-left:5px;
+}
+.extend3o #ie .popupGradient-LargeWidth {width:762px;}
+.extend3o .alertBoxGrad{ background: url("/olam/images/brand30/bkg_alert.png") repeat-x scroll left bottom #FFFFFF;}
+.extend3o .billAlertIcon {
+    background: url("/olam/images/brand30/alertIcon.png") no-repeat scroll left top transparent;
+    line-height:20px;
+    padding-left:20px;
+    margin-bottom:5px;
+}
+.extend3o .billAlertIcon-inactive {
+	background: url("/olam/images/brand30/icn_redAlert_Inactive.png") no-repeat scroll left top transparent;
+	line-height: 20px;
+	padding-left:20px;
+	margin-bottom:5px;
+}
+.extend3o .billAlertIcon-yellow {
+    background: url("/olam/images/brand30/alertIcon-yellow.png") no-repeat scroll left top transparent;
+    line-height:20px;
+    padding-left:20px;
+    margin-bottom:5px;
+}
+.extend3o .billAlertIcon-yellow-inactive{
+	background: url("/olam/images/brand30/icn_yellowAlert_Inactive.png") no-repeat scroll left top transparent;
+	line-height: 20px;
+	padding-left:20px;
+	margin-bottom:5px;
+}
+.extend3o .billAlertIcon-green {
+	background:url("/olam/images/brand30/alertIcon-green.png") no-repeat scroll left top transparent;
+	line-height:20px;
+	padding-left:20px;
+	margin-bottom:5px;
+}
+.extend3o .billAlertIcon-green-inactive {
+	background: url("/olam/images/brand30/icn_greenAlert_Inactive.png") no-repeat scroll left top transparent;
+	line-height: 20px;
+	padding-left:20px;
+	margin-bottom:5px;
+}
+.extend3o .paymentStatusIcon{
+	background: url("/olam/images/brand30/alert_green_20.png") no-repeat scroll right center transparent; 
+	padding:5px 20px 5px 0px;
+}
+.MarLeftRight7 {margin-left:7px!important; margin-right:7px!important}
+.extend3o #arrowWidth {float:left; width: 26px; margin:0 14px 14px 0;position:relative} /* 1x26px */
+.extend3o .leftArr{float:left; width: 26px; margin:0 14px 14px 0; position:relative;}
+.extend3o .rightArr{float:left; width: 26px; margin:0 0px 14px 14px; position:relative;}
+
+#carouselWidth{width:785px!important}
+.tip-white-confirmMsg {
+	width:250px!important;
+	margin-left:-3px!important;
+}
+.extend3o #landing ul.groupTabInd.bPODTab li a.current {
+    background: url("/olam/images/brand30/orangeTabUpArrow.png") repeat-x scroll center top transparent!important;
+	/*margin-top:-2px!important;*/
+	border-bottom: 1px solid #FFFFFF;
+}
+.extend3o #landing ul.groupTabInd.bPODTab li a.currentTab {
+    background: url("/olam/images/brand30/orangeTabUpArrow.png") repeat-x scroll center top transparent;
+	/*margin-top:-1px!important;*/
+	border-bottom: 1px solid #FFFFFF;
+}
+.extend3o #landing ul.groupTabInd.bPODTab li{
+	height:52px!important; 
+	margin:-2px 0 0 -1px!important;
+}
+.extend3o #landing ul.groupTabInd.bPODTab li a{top:0px !important;}
+.extend3o #landing ul.groupTabInd.bPODTab li.first{
+	margin:-2px 0 0 0 !important;
+}
+.extend3o #landing .tabPadding {padding:17px 40px 3px 40px!important;}
+.extend3o .tabs a.current{border-bottom:0px;}
+.extend3o #landing ul.bPODTab  li a{font-size:16px; margin:0px!important}
+.extend3o #landing ul.bPODTab li a.current{font-size:16px;font-weight:bold!important; text-shadow: 1px 1px 2px #333;}
+.extend3o #landing ul.bPODTab li a.currentTab{font-size:16px;font-weight:bold!important; text-shadow: 1px 1px 2px #333;}
+.extend3o .billingPODContent .tabGroupDiv .tabcontent { padding: 20px 0;}
+.extend3o #ie .billingPODContent .tabGroupDiv .tabcontent { padding: 20px 0;}
+.extend3o #landing ul.bPODTab li a.current span{background:none!important}
+div.tab {font-size:1.2em!important; color:#333!important;}
+.tab div.cell{padding:10px; }
+.rows {width: 100%!important;}
+/*Included to get text shadow in IE*/
+a span.blr{display:none;}
+a span.first1{white-space:nowrap!important;}
+#ie8 a.currentTab span.first1, #ie8 a.current span.first1{
+	position:relative;
+	top:-15px;
+}
+a.current span {
+    color: #FFF;
+	font-weight:bold;
+	text-align:left!important;
+    zoom: 1!important;   
+	white-space:nowrap;	
+}
+a.currentTab span {
+    color: #FFF;
+	font-weight:bold;
+    zoom: 1!important; 
+	white-space:nowrap;
+}
+#ie a.current span.blr, #ie8 a.current span.blr, #ie a.currentTab span.blr, #ie8 a.currentTab span.blr{
+	white-space:nowrap;
+	display:block!important;
+    color: #000!important;
+	font-weight:bold;
+	zoom: 1;
+	background-color: ##f37d1f;
+	text-align:left!important;
+	filter: progid:DXImageTransform.Microsoft.Blur(pixelradius=2);
+}
+
+.extend3o .bPODTab .background-none{background:#F0F0F0!important;}
+.extend3o div.cell.rel span{font-size:12px;top:-4px;position:relative;}
+.extend3o li.CTNTab{overflow:hidden!important;}	
+.extend3o .accSummary div.accRow{
+	font-size:14px;
+	padding:10px 0 4px 0;
+	color: #333;
+	line-height:15px!important; 
+}
+.extend3o .colorBlueShade{color:#1569C7!important;}
+.extend3o .billingGreenText{color:#049900!important;}
+.extend3o .noBorders {border: medium none!important;}
+table.tableCellBorder.bPODTableBorder  td, table.tableCellBorder.bPODTableBorder th{
+    border-top: none!important;
+    border-bottom: 1px solid #E3E3E3!important;
+    border-right: 1px solid #E3E3E3!important;
+    border-left: none!important;
+    /* border-radius:5px 5px 0 0; */
+}
+table.tableCellBorder.bPODTableBorder td.radius-left,table.tableCellBorder.bPODTableBorder th.radius-left {border-radius:5px 0 0 0;}
+table.tableCellBorder.bPODTableBorder td.radius-right,table.tableCellBorder.bPODTableBorder th.radius-right {border-radius:0 5px 0 0;}
+table.tableCellBorder.bPODTableBorder tr.lastRow td{border-bottom: none!important;}
+table.tableCellBorder.bPODTableBorder td.lastCol{border-right: none!important;}
+.extend3o .PadRight35{padding-right:35px!important;}
+.extend3o .topRoundFF{ background: url("//www.att.com/images/global/top-round.gif") center no-repeat; }
+.accSummary sup{font-size:12px!important;}
+.extend3o .height12 {height:12px!important;}
+.extend3o #ie .Padbot2IE{padding-bottom:2px!important;}
+.extend3o #ie .PadBot3ie{padding-bottom:3px!important}
+.extend3o .PadBot3imp{padding-bottom:3px !important;}
+.extend3o .Padbot12imp{padding-bottom:12px !important;}
+.extend3o .alert-overage { background:url("/olam/images/brand30/alert_icon_overage_25.png") left top no-repeat; padding-left:23px!important; line-height:20px; }
+.extend3o .alert-overage-mid { background:url("/olam/images/brand30/alertIcon.png") left center no-repeat; padding-left:23px!important; line-height:16px; }
+.extend3o .left-6px{left:-6px; position:relative;}
+.extend3o .tileHeadHeight{height:67px;}
+.extend3o .line-top{background:none repeat scroll 0 0 #FF7D00; height:10px;}
+.extend3o .solidTitleGradient{background-color:#F5F5F5!important}
+.noReport{padding:150px 0px!important}
+.noReport div p{margin:0% 32% !important}
+.reportDisabled {opacity:0.4; filter: alpha(opacity = 40);}
+.reportDisabled  a{text-decoration:none!important; cursor:default!important; display:block; opacity:0.4; filter: alpha(opacity=40);}
+.extend3o .reportMessageBg {
+    background: url("/olam/images/brand30/CSS_Billing_Sprite.png") no-repeat scroll -32px -1248px transparent;
+    width: 300px;
+}
+.extend3o .reportDateBg {
+    background: url("/olam/images/brand30/CSS_Billing_Sprite.png") no-repeat scroll -32px -1027px transparent;
+    width: 198px;
+}
+.reportMenu.message {width:300px!important;}
+.reportMenu.date {width:198px!important;}
+.reportMenu{position:absolute; margin-top:-2px!important;}
+.reportMenu dl dd {padding-left: 20px;}
+.reportMenu dl dd.divider{line-height:2px!important;} 
+.reportMenu dl dd.divider:hover{background: none!important;} 
+.reportMenu.message dl dd {width:278px!important;}
+.reportMenu.date dl dd {width:176px!important;}
+.reportMenu dd.selected a {
+    color: #666!important;
+	text-decoration:none!important;
+	font-weight:bold;
+}
+.reportMenu dd.selected:hover a {
+	text-decoration:none!important;
+	cursor:default!important
+}
+.reportMenu dl dd.selected:hover {
+    background: none!important;
+}
+.reportMenu dl dd:hover {
+    background-color: #dedede!important;
+}
+.extend3o .bPODErrorMsg.errorMsg.box p{
+	color: #FD0200;
+    margin-bottom: 0;
+    /*padding: 8px 14px 8px 55px !important;*/
+}
+.extend3o .errorMsg.bPODErrorMsg.box p:first-child {
+    background: url("//www.att.com/images/global/iconError46x43.png") no-repeat scroll left top transparent;
+    color: #FD0200;
+    margin-bottom: 0;
+    /*padding: 8px 14px 8px 55px !important;*/
+}
+.extend3o .bPODErrorMsg.errorMsg.box {
+    border: 1px solid #FD0200;
+    margin: 0 0 10px;
+    padding: 5px !important;
+}
+.extend3o a.enabled {text-decoration:none!important}
+.ellipsis {white-space: nowrap;overflow: hidden;}
+.ellipsis.multiline {white-space: normal;}
+
+.billingblackText{color:#000000!important;}
+.extend3o  #ie  .MarRightNeg2ie{margin-right:-2px;}
+.extend3o  #ie  .botMar25ie{margin-bottom:25px; }
+.extend3o  #ie  .botMar22ie{margin-bottom:23px; }
+.extend3o  #ie  .PadTop4IE{padding-top:4px !important;}
+.extend3o  #ie  .MarTop13ie{margin-top:13px !important;}
+.extend3o  #ie .MarTopNeg2{margin-top:-2px !important;}
+.extend3o .lineHeight29{line-height:29px!important}
+.extend3o .PadTop8imp {padding-top: 8px !important;}
+.tileErrorBox {padding: 5px !important;}
+.extend3o .tilePdficon {
+    background: url("/olam/images/brand30/pdficon_small.png") no-repeat scroll right center transparent;
+    padding-top: 4px;
+    padding-right: 21px;
+}
+.tileErrorBox.errorMsg.box p:first-child  {min-height: 30px!important;}
+
+/* Overlay changes starts */
+#overlay-bg{
+	width:100%; 
+	position:absolute;
+	min-height:2220px;
+	z-index:999; 
+	display:block; 
+}
+#overlay-layer {
+	width:100%; 
+	position:absolute;
+	min-height:2320px;
+	z-index:999; 
+	display:block; 
+	background: #f4f4f4;
+
+	opacity: .7; /* Standard: FF gt 1.5, Opera, Safari */
+	filter: alpha(opacity=50); /* IE lt 8 */
+	-ms-filter: "alpha(opacity=50)"; /* IE 8 */
+	-khtml-opacity: .5; /* Safari 1.x */
+	-moz-opacity: .5; /* FF lt 1.5, Netscape */
+}
+#wrapperx,#globalNavx {
+	opacity: .15; /* Standard: FF gt 1.5, Opera, Safari */
+	filter: alpha(opacity=15); /* IE lt 8 */
+	-ms-filter: "alpha(opacity=15)"; /* IE 8 */
+	-khtml-opacity: .15; /* Safari 1.x */
+	-moz-opacity: .15; /* FF lt 1.5, Netscape */
+}
+.extend3o .w390{width:390px; margin:0 auto; text-align:center;} 
+.extend3o .w445{width:445px;}
+.extend3o .w974{width:974px; margin:0 auto;} 
+.extend3o .PadLeft50 {padding-left:50px;}
+.extend3o .PadTop30 {padding-top:30px;}
+.extend3o .PadTop45 {padding-top:45px;}
+.extend3o .PadTop65 {padding-top:65px;}
+.extend3o .PadTop75 {padding-top:75px;}
+.extend3o .PadTop90 {padding-top:90px !important;}
+.extend3o .PadBot100 {padding-bottom:100px !important;}
+.extend3o .PadRight80 {padding-right:80px;}
+.extend3o .MarTop35{margin-top:35px;}
+.extend3o .MarTop50{margin-top:50px;}
+.extend3o .MarLeft30 {margin-left:30px;}
+.extend3o .MarRight40 {margin-right:40px;}
+.extend3o .MarRight100 {margin-right:100px;}
+.extend3o .MarRight250 {margin-right:250px;}
+.extend3o #ie .ieMarLeft90{margin-left:90px !important;}
+.extend3o #ie .ieLeft-75{left:-75px;}
+.extend3o #ie .iePadLeft70 {padding-left: 70px;}
+.extend3o .Top-7{top:-7px;}
+.extend3o #ie .ieMarTop-70{ margin-top:-70px!important;}
+.extend3o .MarTop-50{margin-top:-50px;}
+.extend3o .MarTop-80{margin-top:-80px;}
+.extend3o .MarTop-150{margin-top:-150px;}
+.extend3o .MarTop-100{margin-top:-100px;}
+.extend3o .MarTop-120{margin-top:-120px;}
+.extend3o .MarTop-60{margin-top:-60px;}
+.extend3o .MarLeft-65{margin-left:-65px;}
+.extend3o .MarLeft50{margin-left:50px;}
+.extend3o .overlay-title{font:normal 32px Arial; color:#f47d1f;}
+.extend3o .overlay-close {font: bold 12px arial;}
+.extend3o .overlay-bg{
+	background: url("/olam/images/brand30/bkgGradient.png") no-repeat scroll right center transparent;
+	height:200px;}
+.extend3o .overlay-title-text{font:normal 18px Arial; color:#333333;}
+.extend3o .overlay-disp-title{font:bold 14px Arial; color:#f47d1f; text-align:left;}
+.extend3o .overlay-disp-text{font:normal 18px Arial; color:#333333; text-align:left;}
+.extend3o .MarLeft165{margin-left:165px!important;}
+.extend3o .MarLeft300{margin-left:300px!important;}
+.extend3o .bg-wight{background:#F7F7F7; opacity: 0.9;}
+.extend3o #overlay-wrapper {margin: 0 auto; width: 100%;}
+.extend3o .overlay-bg-usage{background-position: -30px -25px;}
+.extend3o .overlay-bg-report {background-position: 0 -40px;}
+.extend3o #ie .overlay-bg-report-ie {background-position: -25px -40px;}
+.extend3o .overlay-bg-bill { background-position: -40px -25px;}
+.extend3o .overlay-bg-alert {background-position: -30px -35px;}
+.extend3o .overlay-bg-history {background-position: -20px -35px; width:380px;}
+/*Overlay changes end */
+
+/*Billing POD Additional Usage CSS Starts*/
+
+.extend3o .additionalColLeft{ 
+float:left;
+padding:8px 10px 0 0;
+width:180px;
+ }
+
+ .extend3o .additionalColCenter{ 
+float:left;
+padding:8px 10px 0 0;
+text-align:right;
+border-right: 1px solid #CCCCCC;
+width:70px;
+height:16px;
+ }
+.extend3o .additionalColRight{ 
+float:left;
+padding: 8px 0 0 10px;
+width:55px;
+height:16px;
+white-space:nowrap;
+ }
+.extend3o .additional4ColLeft{ 
+float:left;
+padding:8px 10px 0 0;
+width:135px;
+ }
+.extend3o .additional4ColCenter{ 
+float:left;
+padding:8px 10px 0 0;
+text-align:right;
+border-right: 1px solid #CCCCCC;
+width:60px;
+height:16px;
+ }
+/*Billing POD Additional Usage CSS ends*/
+/*Billing POD HeadRow Usage CSS starts*/
+.extend3o .headRowLeft{ 
+float:left;
+padding:10px 10px 10px 0;
+width:192px;
+ }
+
+ .extend3o .headRowCenter{ 
+float:left;
+padding:10px;
+text-align:right;
+border-right: 1px solid #CCCCCC;
+width:48px;
+ }
+.extend3o .headRowRight{ 
+float:left;
+padding:10px 0 10px 10px; 
+width:60px;
+text-align: left;
+ }
+ 
+ .extend3o .headRow4colRight{ 
+float:left;
+padding:10px 0 10px 5px; 
+width:60px;
+text-align: right;
+ }
+
+ 
+ .extend3o .additionalColLeft sup {top: -0.6em;}
+.extend3o .w354{width:354px;}
+ .extend3o .headRow4ColLeft{ 
+float:left;
+padding:10px 10px 10px 0;
+width:135px;
+ }
+ 
+.extend3o .headRow4ColCenter{ 
+float:left;
+padding:10px 0px 10px 0px;
+text-align:center;
+border-right: 1px solid #CCCCCC;
+width:70px;
+ }/*Billing POD HeadRow Usage CSS ends*/
+
+/*Billing POD CSS ends*/
+
+/* START: Billing POD Styles added for Usage Tab and View details Modal Page*/
+.extend3o .borderLeftSolid-CCC{border-left: 1px Solid #CCCCCC;}
+.extend3o .MarLeft130{margin-left:130px;}
+.extend3o .MarBot9{margin-bottom:9px;}
+.extend3o .w130px{width:130px  !important;}
+.extend3o .w155{width:155px !important;}
+.w165{width:165px!important;}
+.w232{width:232px!important;}
+.w346 {float:left; width:346px; margin:0 0 0 0} 
+.extend3o .w429{width:429px;}
+.extend3o  .marTop38{margin-top:38px!important;}
+.orangeCheck {background:url("//www.att.com/images/global/usm/iconCheckMark.png") no-repeat right 0px;} 
+#billUsageHS dl .orangeCheck {background:url("/olam/images/brand30/checkmark.gif") no-repeat right center;} 
+.extend3o .csvIcon{ background:url("/olam/images/brand30/CSS_Billing_Sprite.png") no-repeat -901px -659px transparent; padding-left:22px; padding-bottom:1px;}
+.extend3o .excelIcon{ background:url("/olam/images/brand30/CSS_Billing_Sprite.png") no-repeat -900px -174px transparent; padding-left:22px; padding-bottom:1px;} 
+.extend3o .downloadIcon {
+    background: url("/olam/images/brand30/CSS_Billing_Sprite.png") no-repeat scroll -898px -15px transparent;
+    padding-bottom: 1px;
+    padding-left: 22px;
+}
+.extend3o .downloadIconDisabled {
+    background: url("/olam/images/brand30/CSS_Billing_Sprite.png") no-repeat scroll -448px -110px transparent;
+    padding-bottom: 1px;
+    padding-left: 22px;
+}
+.extend3o .outgoingCall{background: url("/olam/images/brand30/CSS_Billing_Sprite.png") no-repeat scroll -898px -74px transparent !important; padding-right: 20px;}
+.extend3o .incomingCall{background: url("/olam/images/brand30/CSS_Billing_Sprite.png") no-repeat scroll -900px -119px transparent !important; padding-right: 20px;}
+.extend3o .NegMarLeft5{margin-left: -5px !important;}
+.MyBillWDBg140 {
+    background: url("/olam/images/brand30/CSS_Billing_Sprite.png") no-repeat scroll -260px -1027px transparent;
+    width: 140px;
+}
+.MyBillWDBg430 {
+    background: url("/olam/images/brand30/CSS_Billing_Sprite.png") no-repeat scroll -32px -1163px transparent;
+    width: 430px;
+}
+.MyBillWDBg298 {
+    background: url("/olam/images/brand30/CSS_Billing_Sprite.png") no-repeat scroll -32px -1097px transparent;
+    width: 298px;
+}
+.MyBillWDBg370 {
+    background: url("/olam/images/brand30/CSS_Billing_Sprite.png") no-repeat scroll -360px -1097px transparent;
+    width: 370px;
+}
+.MyBillWDBg234 {
+    background: url("/olam/images/brand30/CSS_Billing_Sprite.png") no-repeat scroll -639px -1027px transparent;
+    width: 234px;
+}
+.MyBillWDBg179 {
+    background: url("/olam/images/brand30/CSS_Billing_Sprite.png") no-repeat scroll -430px -1026px transparent;
+    width: 179px;
+}
+.extend3o .box .bluebox{-webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px;margin:0 0 20px 0; padding:14px; background:#f1f8fd; border:1px solid #f1f5f8;}
+.extend3o .BarChartIcon{ background:url("/olam/images/brand30/CSS_Billing_Sprite.png") no-repeat -445px -69px transparent; padding-left:22px; padding-bottom:1px;}
+.extend3o .CalculatorIcon { background: url("/olam/images/brand30/iconCalculator_a.png") no-repeat scroll left center transparent; padding-bottom: 1px; padding-left: 18px;}
+.extend3o #ie .top25pxie {top:25px!important}
+.extend3o .MarTopNeg7 {margin-top:-7px!important;}
+.extend3o .expandBlueArrow{background : url("/olam/images/brand30/CSS_Billing_Sprite.png") no-repeat scroll -31px -219px transparent !important;}
+.extend3o .collapseBlueArrow{background : url("/olam/images/brand30/CSS_Billing_Sprite.png") no-repeat scroll -449px -220px transparent !important;}
+.extend3o #ie .PadRight0IE {padding-right:0px !important;}
+.extend3o #ie .MarTopNeg4IE {margin-top:-4px !important;}
+.extend3o #ie .ieLeft0 {left:0}
+
+.seeDetailsContent .Row .col {padding:3px 10px!important;}
+.extend3o .lineHeight29{line-height:29px!important;}
+.extend3o .font16Arial{font:16px Arial;}
+.extend3o  #ie  .MarTop13ie{margin-top:13px !important;}
+.extend3o .Padbot9imp {padding-bottom: 9px !important;}
+.extend3o .PadTop8imp {padding-top: 8px !important;}
+.extend3o .iconForwardBlue {
+    background: url("/olam/images/brand30/CSS_Billing_Sprite.png") no-repeat scroll -899px -220px transparent;
+}
+.extend3o .iconForwardGrey {
+    background: url("/olam/images/brand30/CSS_Billing_Sprite.png") no-repeat scroll -24px -262px transparent;
+}
+.extend3o .iconRewindBlue {
+    background: url("/olam/images/brand30/CSS_Billing_Sprite.png") no-repeat scroll -903px -266px transparent;
+}
+.extend3o .iconRewindGrey {
+    background: url("/olam/images/brand30/CSS_Billing_Sprite.png") no-repeat scroll -450px -265px transparent;
+}
+.extend3o.searchInputBlue{background:url('/olam/images/brand30/search-input-box-blue.png') no-repeat scroll 0 0 transparent;}
+.extend3o .newPopupNotchIcon{
+ background: url("/olam/images/brand30/shadowbox/top_notch.png") no-repeat scroll left bottom transparent;
+    left: 30px;
+    line-height: 8px;
+    position: relative;
+    top: 2px !important;  
+    z-index: 900 !important;
+	}
+.extend3o .newTempPopupNotchIcon{
+	background: url("/olam/images/brand30/shadowbox/top_notch.png") no-repeat scroll left bottom transparent;
+    left: 30px;
+    line-height: 8px;
+    position: relative;
+    top: 27px !important; 
+    z-index: 900 !important;
+	}	
+.extend3o  .newPopupCloseIcon {
+    left: 12px;
+    line-height: 0px;
+    position: relative;
+    top: 15.5px !important;	
+    z-index: 900 !important;
+	}	
+.extend3o .bluePopupNotchIcon{
+ background: url("/olam/images/brand30/blueTopNotch.png") no-repeat scroll right bottom transparent;
+    right: 5px;
+    line-height: 13px;
+    position: relative;
+    top: 0px !important;  
+	}
+.extend3o .WarningIconMsg.box{
+	background:#fefce1;
+  	border:1px solid #fcf7b8;
+    margin: 0;
+    padding: 18px 13px 11px 13px;
+}
+.extend3o .WarningIconMsg.box   p {
+    background: url("/olam/images/brand30/alert_icon_warning_32.png") no-repeat scroll left top transparent;
+    color: #000000;
+    padding: 3px 0px 14px 45px;
+	min-height:14px;
+	}
+.missingUsageInput-error-top-image200px{
+ background: url(/olam/images/brand30/200px_Error_Top.png) top left no-repeat;
+	height: 15px;
+	width: 200px;
+	left: 0px;
+	top: -6px;
+	position:relative; }
+.missingUsageInput-error-mid-image200px{
+	left:  0px;
+	top: -6px;
+	width:186px;
+	padding: 0px 7px !important;
+	background: url(/olam/images/brand30/CSS-Sprite-Repeat-Y.png) -459px top repeat-y;
+	position:relative;}
+.missingUsageInput-error-bot-image200px {
+    background: url(/olam/images/brand30/200px_Error_Bottom.png) no-repeat scroll left top transparent;
+    height: 15px;
+    left: 0;
+    margin-top: -6px !important;
+    position: relative;
+    width:200px;
+}	
+.extend3o td .styled_forms  .ForcePadLeft0{padding-left:0px !important;}	
+.extend3o .w146px{width:146px !important;}
+.extend3o .w51px{width:51px !important;}
+.extend3o .w222px{width:222px !important;}	
+.extend3o .MarLeft122{margin-left: 122px !important;}
+.extend3o .greenAlert19{background: url("/olam/images/brand30/CSS_Billing_Sprite.png") no-repeat scroll -447px -351px transparent !important; min-height:20px!important}
+.extend3o .yellowAlert19{background: url("/olam/images/brand30/CSS_Billing_Sprite.png") no-repeat scroll -445px -398px transparent !important; min-height:20px!important}
+.extend3o .h25{height:25px;}
+.extend3o .h133{height:133px;}
+.extend3o .h165{min-height:165px;}
+.extend3o .minHt12{min-height:12px !important;}
+.extend3o .closeModal.alignIE {
+	z-index:10000 !important;
+}
+.extend3o .lineHeight20 {line-height:20px;}
+/* Added for Web Accessibility issues */
+.extend3o .btnimg:focus, .extend3o .closeModal:focus, .extend3o .additional_usage:focus{ outline:1px dotted #000000 !important; text-decoration:none;}
+.extend3o .height22 {height:22px !important;}
+
+.extend3o .focusable:focus{
+  outline-width: 1px;
+  outline-style: dotted;
+  outline-color: #000000;
+}
+
+.extend3o #primary-content.sharedUsagePrimaryContent .table th{vertical-align:top !important; background:none;}/*Basic Plan usage table th alignment*/
+
+.extend3o .modalContent-withAdjest{width:96% !important; padding: 19px 17px!important;}
+/*Added for the collapse/expand section********/
+.extend3o .spl.expandImg {
+	background: none repeat scroll 0 0 transparent;
+	display: inline-block;
+	height: auto;
+	line-height: 20px;
+	margin-bottom: 5px;
+	padding-left: 0;
+	text-decoration: none;
+}
+.extend3o .spl.collapseImg {
+	background: none repeat scroll 0 0 transparent;
+	display: inline-block;
+	height: auto;
+	line-height: 20px;
+	margin-bottom: 5px;
+	padding-left: 0;
+	text-decoration: none;
+}
+.extend3o .spl:focus{text-decoration:underline;}
+.extend3o .spl.expandImg .accordminus{display:none;padding:0;}
+.extend3o .spl.collapseImg .accordplus{display:none;padding:0;}
+.extend3o .maxHeightNone{max-height:none;}
+.extend3o  #ie .MarRight29ie{margin-right:29px;}
+.extend3o .tabsOverlay{
+	background: none repeat scroll 0px 0px #ffffff; 
+	display:block;
+	height: 55px; 
+	left:0; 
+	position: absolute; 	
+	opacity: .5; 
+	filter: alpha(opacity = 50); 
+	-ms-filter:'progid:DXImageTransform.Microsoft.Alpha(Opacity=50)';
+	width: 100%; 
+	z-index: 10;
+}
+
+.extend3o .hide-caption {
+	font-size: 0;
+	overflow: hidden;
+	text-indent: -999999px;
+	height:1px;
+}
+
+.extend3o .hide-table {
+	position: absolute;
+	left: -999999px;
+}
+
+.extend3o .wordCount30{ 
+	padding-right: 35px;
+	word-break: break-all;
+}
+
+/* END: Billing POD Styles added for Usage Tab and View details Modal Page*/
+
+/* Payments POD changes*/
+.extend3o .PadLeft190{padding-left:190px;}
+.extend3o #ie .ieMarLeft15{margin-left:15px !important;}
+.extend3o #ie .paddingRight3{padding-right:3px !important;}
+.extend3o #ie .modalWidth{width:96%;}
+.extend3o #ie .w340-ie{width:340px;}
+.extend3o #ie .w350-ie{width:350px !important;}
+.extend3o .VertAlignTop{vertical-align:top !important;}
+.extend3o .w220-max{max-width:220px;}
+.extend3o .w155{width:155px;}
+
+.extend3o #primary-content #payCommonActionForm .row-seamless{padding-left:20px;padding-right:20px}
+.extend3o #primary-content #payCommonActionForm  .msg.box{margin-top:30px;margin-bottom:10px}
+
+.extend3o .uniPmtDD div>span:first-child{width:190px !important}
+.extend3o .uniPmtDD div>select{width:215px !important}
+
+.extend3o .modalContent a:focus, .extend3o .modalContent a:hover{text-decoration: underline !important;}
+.extend3o a.print:focus{outline: 1px dotted #000000;}
+.extend3o a.print:focus img{outline:none;}
+.error115 .topImage {
+    background: url("/olam/images/brand30/115px_Error_Top.png") no-repeat scroll left top transparent;
+    height: 15px;
+    left: 0;
+    position: relative;
+    top: -6px;
+    width: 115px;
+}
+.error115 .midImage {
+    background: url("/olam/images/brand30/CSS-Sprite-Repeat-Y.png") repeat-y scroll -168px top transparent;
+    padding: 0 7px;
+    left: 0;
+    position: relative;
+    top: -6px;
+    width: 115px;
+}
+.error115 .botImage {
+    background: url("/olam/images/brand30/115px_Error_Bottom.png") no-repeat scroll left top transparent;
+    height: 15px;
+    left: 0;
+    position: relative;
+    top: -6px;
+    width: 115px;
+}
+.error110 .topImage {
+    background: url("/olam/images/brand30/110px_Error_Top.png") no-repeat scroll left top transparent;
+    height: 15px;
+    left: 0;
+    position: relative;
+    top: -6px;
+    width: 110px;
+}
+.error110 .midImage {
+    background: url("/olam/images/brand30/CSS-Sprite-Repeat-Y.png") repeat-y scroll -23px top transparent;
+    padding: 0 7px;
+    left: 0;
+    position: relative;
+    top: -6px;
+    width: 110px;
+}
+.error110 .botImage {
+    background: url("/olam/images/brand30/110px_Error_Bottom.png") no-repeat scroll left top transparent;
+    height: 15px;
+    left: 0;
+    position: relative;
+    top: -6px;
+    width: 110px;
+}
+
+.extend3o #ie #paymentMethodForm  .radio{padding-bottom:0}
+.extend3o #paymentMethodForm  .ClearNew{background:none !important;height:0px !important;font-size:0 !important}
+.extend3o #ie #editPmtProfileForm  .radio,.extend3o #ie #commonPmtProfileForm{padding-bottom:0}
+.extend3o #editPmtProfileForm  .ClearNew, .extend3o #commonPmtProfileForm  .ClearNew{background:none !important;height:0px !important;font-size:0 !important}
+
+.extend3o .labelSplit{height:20px}
+.extend3o .labelSplit label{line-height:1.5em}
+
+/* End of Payments POD changes*/
+
+/*Installment Plan Billing Modal Begins*/
+
+.extend3o .txtBold {font-weight:bold;}
+.extend3o .instSection {padding:15px 0 30px;}
+table#InstPlanDet.tableCellBorder thead.bPODTableHeader tr td.frst{border-radius: 5px 0px 0px 0px;}
+table#InstPlanDet.tableCellBorder thead.bPODTableHeader tr td.lst{border-radius: 0px 5px 0px 0px;}
+table#InstPlanDet.tableCellBorder td{border-radius: 0px 0px 0px 0px;}
+.extend3o .instPlDropBg {
+    background: url("/olam/images/brand30/CSS_Billing_Sprite.png") no-repeat scroll -492px -1163px transparent;
+    min-height: 50px;
+    padding: 5px 0 0 5px;
+    width: 250px;
+}
+.extend3o .w175 {width:175px;}
+.extend3o .pad5{padding:5px;}
+.extend3o .padRight6{padding-right: 6px;}
+.extend3o .ForcePadTop12{padding-top:12px !important;}
+#ddInstPlansBox dl dd{border-bottom: 1px solid #dedede;}
+#ddInstPlansBox dl dd a{width: 100%; zoom: 1;}
+#ddInstPlansBox dl dd.lstCTN {border-bottom: 0px;}
+#ddInstPlansBox dl dd.optInstPlan p {color: #005B95;}
+#ddInstPlansBox dl dd.selected {background: url("http://www.att.com/images/global/usm/iconCheckMark.png") no-repeat scroll 225px 13px transparent;}
+#ddInstPlansBox dl dd.selected div.pad5{padding: 5px 25px 5px 5px;}
+/*#ddInstPlansBox dl dd.selected p {color: #333333;}*/
+#ddInstPlansBox p.instPlanDetTlte {padding: 5px; background-color: #F6F6F6 !important;}
+.extend3o .instPlanDetMenu{margin-top: -2px !important; position: absolute;}
+.extend3o #ie .modalContent.billingPODModalContent.instPlModal {width: 97% !important;padding-left: 20px !important;}
+.extend3o #ie #instPlanModal.billingPODModalContent .instPlanContent {padding-right: 10px !important;}
+.extend3o .instRightMsg {width: 520px; border-left: 1px solid #cccccc;}
+table#InstPlanDet.tableCellBorder thead.bPODTableHeader td {background: url("/olam/images/brand30/shadowbox/gradient_medium.png") repeat-x scroll left -1px transparent;}
+
+/*Installment Plan Billing Modal Ends*/
+
+/*Home Solutions Begins*/
+#viewDetailsPopup.UVerse ul li{list-style: disc outside none;}
+.extend3o .viewServSumLoading{position:relative; height: 120px; background: #fff; left: 2px; padding-left: 5px; width: 580px;}
+.extend3o .billingPODContent .UVerse .bPODshadowTopLeft{top: 7px;}
+
+.extend3o .domesticAlert {top: -3px; width: 30px;left: -32px;position: absolute;}
+.extend3o .domesticOverage {top: -5px; width: 30px;left: -32px;position: absolute;}
+.extend3o #primary-content #billUsageHS .radioText {position: relative;top: 0px;}
+.extend3o .billingPODContent #billUsageHS .bPODshadowLeft {background: url("/olam/images/brand30/shadowbox/gradient_small.png") repeat-x scroll left bottom #FFFFFF;
+    border: 1px solid #E3E3E3 !important;
+    left: 0px;
+}
+.extend3o .billingPODContent #billUsageHS .bPODshadowRight{background: none; left:0px;}
+.extend3o #billUsageHS .newPopupCloseIcon {top: 16px !important;}
+.extend3o div.srchUsageTopArrow {z-index: 5; background: url("/olam/images/brand30/blueTopNotch.png") no-repeat scroll left top transparent; position: absolute; left: 867px; float: right; padding: 9px 0px 0px 16px; top: -5px;}
+.extend3o #ie div.srchUsageTopArrow {z-index: 5; background: url("/olam/images/brand30/blueTopNotch.png") no-repeat scroll left top transparent; position: absolute; left: 867px; float: right; padding: 9px 0px 0px 16px; top: -5px; height: 0px !important;}
+.extend3o .usageTblMins{padding: 5px 50px 5px 0px; text-align: right !important; }
+.extend3o .usageTblAmt{padding: 5px 26px 5px 0px; text-align: right !important;}
+.extend3o .usageIMTCTblMins{padding: 5px 70px 5px 0px; text-align: right !important;}
+.extend3o .usageIMTCTblRate{padding: 5px 75px 5px 0px; text-align: right !important;}
+.extend3o .usageIMTCTblCalls{padding: 5px 125px 5px 0px; text-align: right !important;}
+.extend3o .usageTblAjxLoad{position:absolute; width:100%; height:100%; background: #efefef; opacity:0.9; z-index: 999; filter: alpha(opacity: 90);}
+.extend3o .usagePrntDisable{position:absolute; width:230px; height:40px; opacity:0.4; filter: alpha(opacity: 40);}
+.extend3o .usageSrchDisable{position: absolute; opacity: 0.4; filter: alpha(opacity: 40); height: 28px; width: 185px; z-index: 99}
+.extend3o .usageRadioDisable{position: absolute; opacity: 0.4; filter: alpha(opacity: 40); height: 35px; width: 470px; z-index: 99}
+.extend3o .usageNicknamesRadioDisable {
+    height: 35px;
+    opacity: 0.4;
+    position: absolute;
+    width: 114px;
+    z-index: 99;
+}
+.extend3o .usageSortDisTblRow{display: table-row;}
+.extend3o .usageSortMsg {width: 675px;display: table-cell; vertical-align: middle;}
+.extend3o .usageSortBtn {width: 185px;display: table-cell; vertical-align: middle; text-align: right;}
+.extend3o #ie .usageSortMsg {position: absolute; top:50%;}
+.extend3o #ie .usageSortMsg p {position: relative; top: -50%}
+.extend3o #ie .usageSortBtn {position:relative;}
+.extend3o #ie .billTotLnHt{line-height: 15px;}
+.extend3o #ie .billTotBarValues{padding-top: 2px;}
+.extend3o .vidPurTitle{width: 350px; overflow:hidden;}
+.extend3o #preventClick {
+	position:absolute; 
+	width:230px; 
+	height:40px; 
+	left: 55px; 
+	background:#fff; 
+	z-index: 6000 !important;
+	opacity:0.4; 
+	filter: alpha(opacity=40) !important;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)" !important;	
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=40) !important;
+}
+/* End of Home Solutions*/
+
+/* Payments POD - ATT Next- START For Page Off Installment Plan */
+	.extend3o .payments-chat{float:right;padding:6px 30px 0 0}
+	.extend3o .payments-chat .chatNow a img{position:relative;top:3px}
+	.extend3o .poip-account-header{padding:25px 20px 20px 20px !important;position:relative}
+	.extend3o .poip-account-header h2{font-size: 16px}
+	.extend3o .poip-account-number{font-size:14px !important;padding-left:5px;}
+	.extend3o .poip-main-container{padding:0 20px 20px 20px;overflow:hidden}
+	.extend3o .poip-main-container sup{margin:0 !important}
+	.extend3o .poip-main-container>h2{-padding-top:20px;padding-bottom:14px;} /*Isabel: added > since is causing issues with other h2s */
+	.extend3o .poip-left-container{padding-bottom:5px !important;width:51%;float:left;overflow:hidden}
+	.extend3o .poip-left-container>div{border-right:1px solid #e5e5e5 !important;padding-right:20px}
+	.extend3o .poip-right-container{float:left;width:49%}
+	.extend3o .poip-right-container>div{padding:0 20px}
+	.extend3o .poip-right-container .poip-note{margin:20px 0 18px 0;line-height: 1.3em !important;}
+	.extend3o .poip-installment-details h2{margin-bottom:19px}
+	.extend3o .poip-installment-details h2+p{margin-bottom:5px}
+	.extend3o .poip-user-info{font:bold 14px Arial;margin:0px 0 3px 0 }
+	.extend3o .poip-plan-info{margin-bottom:0}
+	.extend3o .poip-ShowDetails{overflow:hidden;padding-bottom:5px !important;padding-top:20px}
+	.extend3o .poip-ShowDetails a{font-size:14px !important}
+	.extend3o .poip-ShowDetails a img{padding-left:7px;top:-3px;position:relative}
+	.extend3o .poip-device-image{float:left;margin-right:10px}
+	.extend3o .poip-device-info{float:left;padding:10px 0 !important}
+	.extend3o .poip-device-info h4{font:bold 14px Arial;padding-bottom:13px}
+	.extend3o .poip-device-info p{overflow:hidden;margin-bottom:7px}
+	.extend3o .poip-device-info p label{float:left;width:165px}
+	.extend3o .poip-device-info p span{font-weight:bold; float:left}
+	.extend3o .poip-green{color:#6ea405}
+	.extend3o .poip-planHistory:first-child{border:none !important;padding-top:0 !important}
+	.extend3o .poip-planHistory{border-top: 1px solid #DBDBDB;padding:25px 45px 0 0 !important;overflow:hidden}
+	.extend3o .poip-planHistory h2{margin-bottom:20px}
+	.extend3o .poip-planHistory p{overflow:hidden;margin-bottom:13px;padding-right:8px}
+	.extend3o .poip-planHistory p label{float:left;width:300px;margin-bottom:0}
+	.extend3o .poip-planHistory p span{font-weight:bold;float:right}
+	.extend3o .poip-planHistory+p{padding-top:0 !important;margin-bottom:0 !important}
+	.extend3o .poip-paymentInfo{padding-left:20px !important;position:relative;overflow:hidden;padding-right:0 !important}
+	.extend3o .poip-paymentInfo .selectRow select{max-width: 225px!important;}
+	.extend3o .poip-paymentInfo .requiredtxt{position:absolute;right:0px;top:10px;font-size:12px;color:#FF0000 }
+	.extend3o .poip-paymentInfo h2{margin-bottom:17px}
+	.extend3o .poip-paymentInfo p{overflow:hidden;margin-bottom:6px;line-height:24px !important}
+	.extend3o .poip-paymentInfo p label,.extend3o .poip-paymentInfo>div>label{float:left;width:165px;margin:0 !important}
+	.extend3o .poip-paymentInfo p span{float:left}
+	.extend3o .poip-paymentInfo .selectRow{overflow:hidden;min-height:24px !important}
+	.extend3o .poip-paymentInfo-link{margin-left:173px;margin-top:7px;display:none}
+	.extend3o .poip-paymentInfo-link a.tooltips{top:0 !important}
+	.extend3o .poip-paymentInfo-link .rederr-text{padding-left:0;margin-bottom:0;margin-top:-6px}
+	.extend3o .poip-btn{width:auto !important;margin:0 20px !important;overflow:hidden}
+	
+	.extend3o .poip-reviewPaymentInfo{margin:20px 0 0 0px;overflow:hidden}
+	.extend3o .poip-reviewPaymentInfo h2{margin-bottom:20px}
+	.extend3o .poip-reviewPaymentInfo p{overflow:hidden;margin-bottom:15px;}
+	.extend3o .poip-reviewPaymentInfo p label{float:left;width:240px;margin:0 !important;font-weight:bold;}
+	.extend3o .poip-reviewPaymentInfo p span{float:left}
+	.extend3o .poip-reviewPaymentInfo .msg p{margin:0}
+	.extend3o .poip-reviewPaymentInfo .poip-review-note{margin-bottom: 20px;}
+	.extend3o .poip-reviewPaymentInfo .poip-reviewPaymentInfo-left{float:left;width:370px}
+	.extend3o .poip-reviewPaymentInfo .poip-reviewPaymentInfo-left label{width:140px}
+	.extend3o .poip-reviewPaymentInfo .poip-reviewPaymentInfo-right{float:left;margin-left:10px}
+	.extend3o .poip-reviewPaymentInfo .poip-reviewPaymentInfo-right label{width:140px}
+	.extend3o .terms-conditions {margin-top:5px;border-top: 1px solid #DBDBDB;padding-top:30px;margin-top:20px}
+	.extend3o .terms-conditions div{border:1px solid #E3E3E3;height:65px;overflow-y:scroll;padding:10px;margin-bottom: 20px;}
+	.extend3o .terms-conditions label{margin-bottom:20px;display:block;font-weight:bold;}
+	.extend3o .terms-conditions p{margin-bottom:5px !important;}
+	.extend3o .terms-conditions div p{margin-bottom:0px !important;}
+
+	
+	#primary-content.width100pct { width:942px;}
+
+	/* PROGRESS INDICATOR- PaymentsPOD(Shared from my services pod) BEGINS */	
+	.stepIndicatorContainer { margin:0 0 10px 0 !important; padding:0;}
+
+	.newStepIndicatorHor .steps2 .step { width:50%!important; }
+	.newStepIndicatorHor .steps3 .step { width:33.333%!important; }
+	.newStepIndicatorHor .steps4 .step { width:25%!important;}
+	.newStepIndicatorHor .steps5 .step { width:20%!important; }
+	.newStepIndicatorHor .steps6 .step { width:16.666%!important; }
+	.newStepIndicatorHor .steps7 .step { width:14.285%!important; }
+	.newStepIndicatorHor .step-current { font-weight: bold!important; color:#333;}
+	.newStepIndicatorHor .step-complete { font-weight: normal !important; color:#333;}
+	.newStepIndicatorHor .step-future { color:#333;}
+	.newStepIndicatorHor .step-current .step-number { background-position: 50% -100px!important; }
+	.newStepIndicatorHor .step-current.first .step-number { background-position: 50% -300px!important;}
+	.newStepIndicatorHor .step-current.last .step-number { background-position: 50% -700px!important; }
+	.newStepIndicatorHor .step-complete .step-number { background-position: 50% -200px!important; }
+	.newStepIndicatorHor .step-complete.first .step-number { background-position: 50% -400px!important; }
+	.newStepIndicatorHor .step-complete.last .step-number { background-position: 50% -800px!important; }
+	.newStepIndicatorHor .step-future .step-number { background-position: 50% 0px!important; font-size:11px; color:#808080; }
+	.newStepIndicatorHor .step-future.last .step-number { background-position: 50% -600px!important; }
+
+	.newStepIndicatorHor .steps2 .step-current.first .step-number{background-position: 72% -300px !important;}
+	.newStepIndicatorHor .steps2 .step-future.last .step-number{background-position: 27% -600px !important;}		
+	.newStepIndicatorHor .steps2 .step.first .step-number{background-position: 73% -500px !important;}		
+	.newStepIndicatorHor .steps2 .step.first.step-current .step-number{background-position: 72% -300px !important;}		
+	.newStepIndicatorHor .steps2 .step.first.step-current .step-number{background-position: 72% -300px !important;}		
+	.newStepIndicatorHor .step{padding-top:32px !important}
+	.step .step-text{font:normal 12px Arial;color:#666666}
+	.step.step-current .step-text{font-weight:bold; !important}
+	.newStepIndicatorHor .steps2 .step.first .step-text {padding-right: 175px !important;}
+	.newStepIndicatorHor .steps2 .step.last .step-text {padding-left: 165px !important;}
+	.newStepIndicatorHor .step-number span{font:bold 12px Arial !important;color:#666666 !important;}
+	.newStepIndicatorHor .steps2 .step.first .step-number span{margin-left: -173px;}
+	.newStepIndicatorHor .steps2 .step.last .step-number span{margin-left: 172px;}
+
+	/*Changes added by Ragul for step indicator starts**/
+	.newStepIndicatorHor .steps2 .step.first.step-complete .step-number {background-position: 72% -400px !important;}
+	.newStepIndicatorHor .steps2 .step-current.last .step-number {background-position: 20% -700px !important;margin-left: -25px;}
+	.newStepIndicatorHor .steps2 .step-complete.last .step-number{background-position:27% -800px !important}
+	.newStepIndicatorHor .steps2 .step.step-current .step-text/*.newStepIndicatorHor .steps2 .step.step-complete .step-text*/ {font-weight:bold;}
+	
+	/*Changes added by Ragul for step indicator ends**/
+	
+	.progress-steps{padding:20px 20px 16px 20px !important}
+
+	.extend3o .steps .last {border: 0;}
+	.extend3o .steps .current { background:#f27d00 }
+	.extend3o .step1 { background:url(/olam/images/brand30/step1.png) left no-repeat; padding-left:35px }
+	.extend3o .step2 { background:url(/olam/images/brand30/step2.png) left no-repeat; padding-left:35px }
+	.extend3o .step3 { background:url(/olam/images/brand30/step3.png) left no-repeat; padding-left:35px }
+	.extend3o .step4 { background:url(/olam/images/brand30/step4.png) left no-repeat; padding-left:35px }
+	.extend3o .current .step1 { background:url(/olam/images/brand30/step1-selected.png) left no-repeat; padding-left:35px }
+	.extend3o .current .step2 { background:url(/olam/images/brand30/step2-selected.png) left no-repeat; padding-left:35px }
+	.extend3o .current .step3 { background:url(/olam/images/brand30/step3-selected.png) left no-repeat; padding-left:35px }
+	.extend3o .current .step4 { background:url(/olam/images/brand30/step4-selected.png) left no-repeat; padding-left:35px }
+	.extend3o .past .step1, .extend3o .past .step2, .extend3o .past .step3 {background:url(/olam/images/brand30/checkmark.gif) left no-repeat; padding-left:35px; color:#005B95}
+	.extend3o .steps .current h4 {font-weight:bold;color:#FFF;}
+
+	.hidden-spoken {
+		position: absolute !important;
+		clip: rect(1px 1px 1px 1px)!important; /* IE6, IE7 */
+		clip: rect(1px, 1px, 1px, 1px)!important;
+		padding: 0 !important;
+		border: 0 !important;
+		height: 1px !important; 
+		width: 1px !important; 
+	}
+	.hidden-spoken { 
+		text-indent: -999em!important;
+		overflow: hidden!important;
+		display: inline-block!important; 
+	}
+	.hidden-silent { 
+		display: none!important;
+	}
+	.clearfix:before,
+	.clearfix:after {
+		content: ""!important;
+		display: table!important;
+	} 
+	.clearfix:after {
+		clear: both!important;
+	}
+
+	.step-list { position: relative!important; overflow:hidden}
+	.step {
+		position: relative!important;
+	}
+
+	.newStepIndicatorHor .step {
+		float: left!important;
+		padding-top: 36px!important;
+		text-align: center!important;
+	}
+
+	.step-number {
+		position: absolute!important;
+		top: 0!important;
+		left: 0!important;
+		background-image: url(/olam/images/new_progress_sprite.png)!important;
+		background-repeat: no-repeat!important;
+	}
+	.newStepIndicatorHor .step-number {
+		width: 100%!important;
+		height: 21px!important;
+		padding: 5px 0 0 0!important;
+		text-align: center!important;
+	}
+	/* PROGRESS INDICATOR - PaymentsPOD(Shared from my services pod) ENDS */
+	
+	/* Start Added by Nandhini*/
+	.extend3o .printimage {position:absolute;top:30px;right:20px;}
+	/* End Added by Nandhini*/
+
+/* Payments POD - ATT Next - END For Page Off Installment Plan */
+
+#cboxLoadingOverlay {background-position:50% 50% !important;}
+.extend3o .viewMoreLess {text-align: center; padding-top: 1px; border-top: 1px solid #ccc;}
+
+/**** Styles for Combined Bill starts *****/
+/*.extend3o  .dlCombined .orangeCheck {background: url("//www.att.com/images/global/usm/iconCheckMark.png") no-repeat scroll 225px 15px transparent;} */
+.extend3o  .dlCombined  .orangeCheck {background:url("/olam/images/brand30/checkmark.gif") no-repeat right center;} 
+.extend3o  .dlCombined dd a {text-decoration: none;}
+.extend3o  .dlCombined dd a:hover, .dlCombined dd a:focus {text-decoration: none; background: #E5EEF4;}
+.extend3o  .dlCombined dd a.sel, .dlCombined dd a.sel:focus {background: none;}
+.extend3o  .dlCombined dd a.sel{color: #333;}
+.extend3o  .comAcc{color: #666;} /*#A0A0A0*/
+.extend3o .asmDropBg{background: url("/olam/images/brand30/dropdown_251.png") no-repeat scroll 0 0 transparent; width: 251px; min-height: 43px;}
+.extend3o  .botThinBorder {border-bottom:dotted; border-color:#dcdcdc; border-bottom-width:thin;}
+.extend3o #linkdiv .UVerse .popupNotchIcon {
+	background: url("/olam/images/brand30/shadowbox/top_notch.png") no-repeat scroll left bottom transparent;
+	left: 270px;
+	line-height: 8px;
+	position: relative;
+	top: 45px !important;
+	z-index: 900 !important;
+}
+/**** Styles for Combined Bill ends *****/
+
+/**** Styles for Online Bill Disputes start *****/
+.extend3o .chatArrow { background: url("//www.att.com/styles/att/assets3.1.0/images/desktop-chat/chat-arrow.png") right no-repeat; padding:0 30px 0 0px ;}
+.extend3o .chatArrow_Grey { background: url("//www.att.com/styles/att/assets3.1.0/images/desktop-chat/arrow-g.png") right no-repeat; padding:0 30px 0 0px ;}
+.extend3o .modalGradient { background: url("/olam/images/brand30/modalBkg1x355.png") repeat-x scroll center bottom #FFFFFF; border: 1px solid #FFFFFF; border-radius: 5px 5px 5px 5px;}
+.extend3o #cboxContent {box-shadow:0 0 5px #818181;}
+.extend3o #chatDropDownBox .dlCombined .orangeCheck {background: url("//www.att.com/images/global/usm/iconCheckMark.png") no-repeat scroll 335px 10px transparent;}
+.extend3o #chatDropDown .MyBillWDBg370{height:36px;}
+.extend3o #chatDropDownDisp .visToggleHidden {visibility:visible !important;}
+.extend3o #toggleChat .toggHead {
+	padding-left:14px;
+	padding-top: 10px;
+	font-size:14px;
+	color: #005B95;
+	border-bottom:1px dotted #CCCCCC;
+}
+.extend3o #ie #toggleChat .toggHead {
+	padding-bottom:0px;
+}
+
+.extend3o #toggleChat .toggCont{
+	padding-left: 30px;
+	padding-bottom: 5px;
+	border-bottom:1px dotted #CCCCCC;
+}
+
+.extend3o #toggleChat .childtog .toggHead {
+	padding-left:24px !important;
+}
+.extend3o #toggleChat .toggHead:hover, .extend3o #toggleChat .toggHead:focus, .extend3o #toggleChat .toggCont:hover, .extend3o #toggleChat .toggCont:focus{
+	text-decoration: none; 
+	background: #E5EEF4;
+	cursor: pointer;
+	outline: 1px dotted #CCCCCC;
+}
+
+.extend3o .accSummary div.accRow a{
+	font-size:14px;
+	color: #005B95;
+	line-height:15px!important; 
+}
+
+.extend3o .noBgColor:hover, .extend3o .noBgColor:focus{
+	background: none !important;
+	cursor: inherit !important;
+}
+.extend3o #chatDropDown a:focus, .extend3o #chatDropDown  a:hover{text-decoration: none !important;}
+.extend3o #chatDropDown  a:hover{text-decoration: underline !important;}
+
+/**** Styles for Online Bill Disputes end *****/
+
+/*** Added this css for radio button style ***/
+[data-toggle="btn-radio"]{display:inline-block;}
+[data-toggle="btn-radio"] label.toggle_btn {
+	position: relative;
+	display: inline-block;
+	letter-spacing: .45px;
+	margin: 0 6px 0 0;
+	overflow: hidden;
+	vertical-align: middle;
+	cursor: pointer;
+	color: #067AB4;
+	-webkit-font-smoothing: antialiased;
+	font-family: Arial;
+	border: 1px solid #BBBBBB;
+	background-color: #F6F6F6;
+	text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+	border-radius: 4px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	line-height: 20px;
+	float:left;
+	position:relative;
+	margin-right: -1px;
+	font-size: 11px;
+	font-weight: bold;
+	height: 30px;
+	width: 44px;
+	padding: 5px;
+	text-align: center;
+}
+[data-toggle="btn-radio"] .toggle_btn:first-child {border-bottom-right-radius: 0;border-top-right-radius: 0;}
+[data-toggle="btn-radio"] .toggle_btn:last-child {border-bottom-left-radius: 0;border-top-left-radius: 0;}
+[data-toggle="btn-radio"] input {left: inherit;position: absolute;z-index: -1;opacity: 0;visibility:visible;filter: alpha(opacity=0);}
+[data-toggle="btn-radio"] label.active {background-color: #0081C2;border: 1px solid #27659B;color:#FFFFFF;}
+[data-toggle="btn-radio"] label.focused{outline: 1px dotted #000000;outline-offset: -2px;}
+
+/***End of radio button style ***/
+
+.extend3o .tooltips.focusable:focus img{outline:0} 
+
+/* Start: Payments POD chat*/
+	.payments-chat {float:right;margin:20px 30px 0 0;}
+	.extend3o .payments-chat{float:right;margin:6px 30px 0 0;}
+	.extend3o .btnChat, .btnChat {color:#3381B7 !important;line-height:15px;}
+	.extend3o .btnChat  img, .btnChat  img{float:left;;height:15px;width:auto;height:15px;margin-right:5px}	
+	.extend3o .chatOffline, .chatOffline{color:#666 !important}
+	.extend3o .chatOffline:hover, .chatOffline:hover{text-decoration:none;cursor:default}
+	.extend3o .chatBusy, .chatBusy{color:#666 !important;font-style:italic}
+	.extend3o .chatBusy:hover, .chatBusy:hover{text-decoration:none;cursor:default}	
+/* End: Payments POD chat*/
+
+.extend3o .select-ellipsis div.selector span{
+	padding:0px 15px 0px 2px;
+	text-overflow:ellipsis;
+}
+
+/* Payments fix for overflow DD */

@@ -1,0 +1,75 @@
+#layoutLogic {
+	
+}
+#globalnav {
+	BACKGROUND-POSITION: 53px 36px; Z-INDEX: 2; MARGIN-BOTTOM: 2px
+}
+#site-menu {
+	Z-INDEX: 3
+}
+#user-menu {
+	MIN-HEIGHT: 28px; MARGIN-RIGHT: 0px
+}
+#globalnav-cart .cart {
+	BACKGROUND-POSITION: center 1px
+}
+#user-menu .menu LI {
+	MARGIN-TOP: 2px
+}
+#user-menu .menu LI A {
+	PADDING-RIGHT: 0.9ex; PADDING-LEFT: 0.9ex
+}
+#site-menu {
+	CLEAR: right; TOP: 32px; TEXT-ALIGN: left
+}
+#search-input {
+	
+}
+#site-search {
+	Z-INDEX: -1; RIGHT: 8px; PADDING-TOP: 2px; HEIGHT: 32px
+}
+#site-search P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 6px
+}
+#site-search BUTTON {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; MARGIN-BOTTOM: -3px; PADDING-BOTTOM: 2px; PADDING-TOP: 0px
+}
+#globalnav-cart .cart {
+	MARGIN-TOP: 1px; WIDTH: 26px
+}
+#globalnav-cart .cart {
+	MARGIN-TOP: 1px
+}
+.d-dropdown .menu-title {
+	PADDING-RIGHT: 6px! important; PADDING-LEFT: 1px! important; PADDING-BOTTOM: 6px! important; PADDING-TOP: 3px! important
+}
+.compact {
+	DISPLAY: inline-block
+}
+.pullout-left {
+	CLEAR: both; MARGIN-LEFT: 0px
+}
+.pod .s {
+	DISPLAY: inline-block
+}
+.pod .e {
+	DISPLAY: inline-block
+}
+.pod .w {
+	DISPLAY: inline-block
+}
+.L2 {
+	MARGIN-TOP: 0px
+}
+#layoutLogic {
+	HEIGHT: auto
+}
+LI.hidePlatforms UL {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; FLOAT: none; BACKGROUND-IMAGE: none; PADDING-BOTTOM: 0px; MARGIN: 2px -10px 0px 8px; PADDING-TOP: 0px; POSITION: relative
+}
+LI.hidePlatforms UL LI {
+	BACKGROUND-IMAGE: none
+}
+LI.hidePlatforms UL LI A {
+	BACKGROUND-IMAGE: none
+}

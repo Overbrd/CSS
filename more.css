@@ -1,0 +1,175 @@
+@charset "utf-8";
+
+#more {
+}
+
+
+/* Buttons */
+
+#more .home {
+	position: absolute;
+	left: 177px;
+	top: 586px;
+	z-index: 12;
+}
+
+#more .moreArrowLeft {
+	position: absolute;
+	left: 351px;
+	top: 586px;
+	display: none;
+	z-index: 20;
+}
+
+#more .moreArrowRight {
+	position: absolute;
+	left: 1077px;
+	top: 586px;
+	display: none;
+	z-index: 20;
+}
+
+
+
+
+#more .moreHeader {
+	position: absolute;
+	left: 238px;
+	top: 593px;
+	z-index: 10;
+}
+
+
+#more .usa_panel {
+	display: none;
+}
+
+#more .can_panel {
+	display: none;
+}
+
+
+/* Links */
+
+#more .moreOption1 {
+	position: absolute;
+	left: 445px;
+	top: 578px;
+	z-index: 10;
+}
+
+#more .moreOption2 {
+	position: absolute;
+	left: 761px;
+	top: 578px;
+	z-index: 10;
+}
+
+#more .moreOption3 {
+	position: absolute;
+	left: 482px;
+	top: 578px;
+	z-index: 10;
+}
+
+#more .moreOption4 {
+	position: absolute;
+	left: 761px;
+	top: 578px;
+	z-index: 10;
+}
+
+#more .usa-more-panel-1 {
+	display: block;
+}
+
+#more .usa-more-panel-2 {
+	display: none;
+}
+
+
+
+#more .can_moreOption1 {
+	position: absolute;
+	left: 445px;
+	top: 578px;
+	z-index: 10;
+}
+
+#more .can_moreOption2 {
+	position: absolute;
+	left: 761px;
+	top: 578px;
+	z-index: 10;
+}
+
+#more .can_moreOption3 {
+	position: absolute;
+	left: 482px;
+	top: 578px;
+	z-index: 10;
+}
+
+#more .can-more-panel-1 {
+	display: block;
+}
+
+#more .can-more-panel-2 {
+	display: none;
+}
+
+
+
+
+
+/* ATV Message */
+
+#more .atv_message {
+	position: absolute;
+	left: 135px;
+	top: 160px;
+	display: none;
+	z-index: 8;
+}
+
+@media (-webkit-apple-tv) {
+	#more .atv_message {
+		display: block;
+	}
+}
+
+
+
+/* Country Codes */
+
+#more .currentCountry {
+	position: absolute;
+	left:978px;
+	top:53px;
+	z-index: 10;
+}
+
+
+
+#more .countryBG {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 100;
+}
+
+
+
+#more .country_usa {
+	position: absolute;
+	left:455px;
+	top:345px;
+	z-index: 120;
+}
+
+#more .country_can {
+	position: absolute;
+	left:661px;
+	top:345px;
+	z-index: 120;
+}

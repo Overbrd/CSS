@@ -1,0 +1,381 @@
+@CHARSET "UTF-8";
+hr {
+	margin: 0px;
+}
+p {
+	vertical-align: middle;
+	line-height:14px;
+	padding:2px;
+	margin:0;
+}
+a {
+	font-family: 'Arial Bold', Arial;
+	font-size: 14px;
+	color: #444;
+	margin-left: 5px;
+	text-decoration: none;
+}
+.fl {float:left;}
+.fr {float:right;}
+#content {
+	width: 960px;
+	margin: auto;
+	padding; 10px;
+}
+#headline {
+	border:black 1px solid;
+	text-align: left;
+	margin-top:20px;
+	width: 100%;
+	padding; 10px;
+	font-family: UnBatang, 'Times New Roman', 'Palladio Uralic Bold';
+	font-size: 34px;
+	-webkit-border-bottom-left-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	-moz-border-radius-bottomright: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	behavior: url(/public/third_party/pie/PIE.php);
+}
+#headline_name {
+	margin: 30px 0 10px 30px;
+	width:300px;
+}
+#headline_menu {
+	display:inline-block;
+	text-align:right;
+	width: 600px;
+	float:right;
+	margin-right:25px;
+}
+.header_second_line {
+	clear: left;
+	font-family:'Nimbus Roman No9 L';
+	font-size: 14px;
+	color: #555;
+}
+#kiresse {
+	display: inline-block;
+	margin: 5px 0 5px 20px;
+}
+#stkcs {
+	display: inline-block;
+	float:right;
+	margin: 5px 20px 5px 20px;
+}
+#holder {
+	width:100%;
+	min-height: 400px;
+	padding:0;
+	margin:0;
+}
+#left_side {
+	width:280px;
+	float:left;
+	text-align:left;
+	color: #515151;
+	position: relative;
+	top: -25px;
+}
+#left_side  img{
+	float:left;
+	text-align:left;
+	margin-top: 0px;
+	margin-left: -20px;
+}
+fieldset {
+	font-size: 18px;
+	font-family: Arial,helvetica,sans-serif;
+	margin: 10px;
+	padding: 10px;
+	font-weight: normal;
+	color: #515151;
+}
+legend {
+	font-size: 12px;
+	text-transform: uppercase;
+	font-family: "Georgia", Times New Roman, Times, serif;
+	letter-spacing: 2px;
+	font-weight: bold;
+	color: #515151;
+}
+.membtitl {
+	font-size: 12px;
+	text-transform: uppercase;
+	font-family: "Georgia", Times New Roman, Times, serif;
+	padding: 5px;
+	letter-spacing: 2px;
+	font-weight: bold;
+	color: #515151;
+    margin-top: 10px;
+	line-height: 30px;
+}
+.membmenu	{ 
+	font-size: 14px;
+	font-family: Arial,helvetica,sans-serif;
+	margin: 10px;
+	padding: 10px;
+	font-weight: bold;
+	color: #515151;
+	}
+.gohill {
+	float: right;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 266px;
+	height: 102px;
+}
+#name_span {
+	font-size: 18px;
+	font-family: Arial,helvetica,sans-serif;
+	font-weight: normal;
+	color: #515151;
+	line-height: 30px;
+}
+#last_login {
+	font-size: 10px;
+	font-weight: normal;
+	font-family: Arial,helvetica,sans-serif;
+	color: #515151;
+	line-height: 20px;
+}
+
+#right_side {
+	width:660px;
+	margin: 0;
+	float:right;
+	text-align:left;
+	position: relative;
+	top: -15px;
+}
+#right_side_hr {
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+#right_side_title_div {
+	padding:10px 20px;
+	color: #515151;
+}
+#right_side_title {
+	font-size: 140%; 
+	font-family: Arial, Helvetica, sans-serif; 
+	text-transform: uppercase; 
+	font-weight: lighter;
+	color: #515151;
+}
+#right_side_title_sub {
+	font-size:30px;
+	font-family: 'Century Schoolbook L Medium', georgia, 'Times New Roman Bold';
+}
+#right_side_title_date {
+	font-size: 22px;
+	font-family: "Georgia", Times New Roman, Times, serif;
+	line-height: 66px;
+}
+#opening_remarks {
+	border-top: gray solid 1px;
+	border-bottom: gray solid 1px;
+	padding: 2px;
+	line-height: 32px;
+	color: #515151;
+}
+.opening_remarks  p {
+	line-height: 22px;
+}
+.item_div {
+	border-top: gray solid 1px;
+	border-bottom: gray solid 1px;
+	padding: 2px;
+	height:350px;
+	margin-bottom: 5px;
+}
+.item_header {
+	background: #707070 url('/images/market-snapshot-listing-td.jpg') repeat;
+	text-align: left;
+	padding: 5px 15px;
+	text-transform: uppercase;
+	font-family: Arial;
+	font-size: 14px;
+	color: #eee;
+	display: block;
+	height: 22px;
+}
+#featured_item {
+	min-height:350px;
+	margin-bottom:5px;
+}
+.featured_img {
+	width: 450px;
+	height:300px;
+	float: left;
+}
+#featured_details {
+	height: 250px;
+	width: 200px;
+	float:right;
+}
+.pictext1 {
+	border-top: gray solid 1px;
+	padding: 2px;
+	margin-top: 2px;
+}
+.prcdbl {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #000000;
+	text-align: right;
+	width: 175px;
+}
+.detview {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #515151;
+	text-align: left;
+	margin-left: 22px;
+	width: 175px;
+	line-height: 16px;
+}
+.detviewltbg {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #515151;
+	text-align: left;
+	padding-left: 22px;
+	background-color: #d4d3d3;
+	width: 175px;
+	line-height: 16px;
+}
+.detviewind {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #515151;
+	text-align: left;
+	padding-left: 42px;
+	background-color: #d4d3d3;
+	width: 155px;
+	line-height: 16px;
+}
+.fl {
+	font-size: 110%; 
+	font-family: Arial, Helvetica, sans-serif; 
+	text-transform: none; 
+	font-weight: normal;
+	color: #eeeeee;
+	}
+.fr {
+	font-size: 110%; 
+	font-family: Arial, Helvetica, sans-serif; 
+	text-transform: none; 
+	font-weight: normal;
+	color: #eeeeee;
+	}
+.bestbuy_div {
+	border-top: gray solid 1px;
+	border-bottom: gray solid 1px;
+	padding: 2px;
+	height:350px;
+}
+.bestbuy_item_div {
+/*	background-image:url(/images/newsletter_background.png); */
+	border:black solid 1px;
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	behavior: url(/public/third_party/pie/PIE.php);
+	width:300px;
+	height:300px;
+	margin:10px;
+	font-size: 11px; 
+	font-family: Arial, Helvetica, sans-serif; 
+	color: #454545;
+	line-height: 16px;
+	font-weight: bold;
+}
+.bestbuy_item_img {
+	width:100%;
+	height:200px;
+	margin-top: 10px;
+}
+.bestbuy_item_div  a{
+	font-size: 10px;
+	color: #3891b1;
+	float: right;
+	font-family: "Georgia", Times New Roman, Times, serif;
+	font-size: 14px;
+}
+.bestbuy_item_div a:hover {
+	font-size: 10px;
+	color: #3891b1;
+	float: right;
+	font-family: "Georgia", Times New Roman, Times, serif;
+	font-size: 14px;
+}
+.bestbuy_item_div  a:visited {
+	font-size: 10px;
+	color: #3891b1;
+	float: right;
+	font-family: "Georgia", Times New Roman, Times, serif;
+	font-size: 14px;
+}
+.catind {
+	padding: 3px;
+}
+.charts_div {
+	margin: 5px;
+	display: block;
+}
+.chart_holder {
+	height: 170px;
+	margin: 5px;
+	border-top: gray solid 1px;
+}
+.chart_text {
+	display: inline-block;
+	margin: 5px;
+	width: 200px;
+	height:160px;
+}
+.chart {
+	float: right;
+	display: inline-block;
+	margin: 5px;
+	width: 410px;
+	height:160px;
+}
+.chart_holder1 {
+	text-align:center;
+	display: block;
+	height: 170px;
+	margin: 5px 5px 15px 5px;
+	border-top: gray solid 1px;
+	background: #707070 url('/images/market-snapshot-listing-td.jpg') repeat;
+	text-align: left;
+	padding: 5px 15px;
+	text-transform: uppercase;
+	font-family: Arial;
+	font-size: 14px;
+	color: #eee;
+	display: block;
+	height: 22px;
+}
+.chart_text1 {
+	text-align:left;
+	display: block;
+	margin: 5px;
+	width: 100%;
+}
+.chart1 {
+	text-align:center;
+	display: block;
+	margin: auto;
+	height:160px;
+}

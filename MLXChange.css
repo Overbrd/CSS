@@ -1,0 +1,1798 @@
+.AddClient {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/icoAddNewClient.gif', sizingMethod='image'); CURSOR: hand
+}
+A {
+	COLOR: black; FONT-WEIGHT: normal; TEXT-DECORATION: underline
+}
+A:active {
+	FONT-WEIGHT: normal
+}
+A:hover {
+	COLOR: #990000; TEXT-DECORATION: underline
+}
+A.Help_Detail_Link {
+	COLOR: black; FONT-SIZE: 11px; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+A.Help_Detail_Link:visited {
+	COLOR: #990000; FONT-SIZE: 11px; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+A.Help_Detail_Link:hover {
+	COLOR: #000099; FONT-SIZE: 11px; FONT-WEIGHT: normal; TEXT-DECORATION: underline
+}
+A.Text_Heading_Medium {
+	COLOR: #333399; FONT-SIZE: 11px; FONT-WEIGHT: bold
+}
+A.Text_Heading_Medium:active {
+	COLOR: #990000; FONT-SIZE: 11px; FONT-WEIGHT: bold
+}
+A.Text_Heading_Medium:hover {
+	COLOR: #990000; FONT-SIZE: 11px; FONT-WEIGHT: bold
+}
+TR.trClientDetailsHeaderInfo {
+	HEIGHT: 30px
+}
+A.RBLink {
+	FONT-FAMILY: Arial; COLOR: darkblue; FONT-SIZE: 9pt; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+A.RBLink:visited {
+	FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+A.RBLink:hover {
+	COLOR: darkblue; TEXT-DECORATION: none
+}
+A.RBLinkSelected {
+	FONT-FAMILY: Arial; COLOR: red; FONT-SIZE: 9pt; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+A.RBLinkSelected:hover {
+	COLOR: red; TEXT-DECORATION: none
+}
+A.RBLinkSelected:visited {
+	FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+#divUserRegPage {
+	BACKGROUND-IMAGE: url(/5.3.06.16975/Images/CLS/backgroundContainer.jpg); BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: center 0px; HEIGHT: 100%
+}
+#divUserRegArea {
+	POSITION: absolute; MARGIN-TOP: 10px; WIDTH: 200px; HEIGHT: 258px; MARGIN-LEFT: 60px; PADDING-TOP: 60px; LEFT: 30%
+}
+#divSubmitBtn {
+	MARGIN: 8px 0px 0px 95px; WIDTH: 101px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: 0px 0px; HEIGHT: 31px
+}
+#divUserRegCopyright {
+	BACKGROUND-IMAGE: url(/5.3.06.16975/Images/MLXchange logo-colour.gif); POSITION: absolute; PADDING-BOTTOM: 0px; PADDING-LEFT: 135px; WIDTH: 530px; BOTTOM: 10px; PADDING-RIGHT: 0px; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: Arial; BACKGROUND-POSITION: left 3px; HEIGHT: 36px; MARGIN-LEFT: -200px; FONT-SIZE: 9px; TOP: 565px; PADDING-TOP: 18px; LEFT: 50%
+}
+#divCreateArea {
+	POSITION: absolute; MARGIN-LEFT: -50px; TOP: 125px; LEFT: 48%
+}
+BODY {
+	BACKGROUND-COLOR: white; MARGIN: 7px; FONT-FAMILY: Arial, Sans-Serif; COLOR: black; FONT-SIZE: 11px
+}
+BODY.CoverPage {
+	MARGIN: 0px; OVERFLOW: hidden
+}
+BODY.MarginsNone {
+	MARGIN-TOP: 0px; MARGIN-LEFT: 0px; MARGIN-RIGHT: 0px
+}
+BODY.MultiImgViewerTop {
+	BACKGROUND: #f7f7f7
+}
+BODY.MultiImgViewerBottom {
+	BACKGROUND: url(/5.3.06.16975/Tools/MultiImageViewer/Multi_Image_bg.gif) fixed no-repeat right top
+}
+BODY.NoScroll {
+	OVERFLOW: hidden
+}
+BUTTON {
+	BACKGROUND-COLOR: #cccccc; HEIGHT: 21px; COLOR: black; FONT-SIZE: 11px; CURSOR: hand; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+DIV.Margins10px {
+	MARGIN-TOP: 10px; MARGIN-LEFT: 10px; MARGIN-RIGHT: 10px
+}
+FORM {
+	MARGIN: 0px
+}
+HR {
+	HEIGHT: 1px; COLOR: black
+}
+IFRAME.FeatureFrame {
+	POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; LEFT: 0px
+}
+OL {
+	LINE-HEIGHT: 18pt
+}
+SELECT {
+	LINE-HEIGHT: normal; FONT-FAMILY: Arial, Verdana; COLOR: black; FONT-SIZE: 9pt; FONT-WEIGHT: normal
+}
+SELECT.ViewList {
+	WIDTH: 130px; FONT-SIZE: 8pt
+}
+TD.TaskListPastDueHeader {
+	TEXT-ALIGN: left; FONT-FAMILY: Arial; BACKGROUND: #e4e4e4; HEIGHT: 20px; COLOR: #333366; FONT-SIZE: 9pt; BORDER-TOP: #003366 1px solid; FONT-WEIGHT: bold
+}
+TD.TaskListDueTodayHeader {
+	TEXT-ALIGN: left; FONT-FAMILY: Arial; BACKGROUND: #e4e4e4; HEIGHT: 20px; COLOR: #333366; FONT-SIZE: 9pt; FONT-WEIGHT: bold
+}
+TD.TaskListUrgentHeader {
+	TEXT-ALIGN: left; FONT-FAMILY: Arial; BACKGROUND: #e4e4e4; HEIGHT: 20px; COLOR: #333366; FONT-SIZE: 9pt; BORDER-TOP: #003366 1px solid; FONT-WEIGHT: bold
+}
+TABLE.CalculatorReport {
+	BORDER-BOTTOM-COLOR: white; BORDER-TOP-COLOR: gray; BORDER-COLLAPSE: collapse; BORDER-RIGHT-COLOR: white; BORDER-LEFT-COLOR: gray
+}
+.CalculatorReport TD {
+	BORDER-BOTTOM: gray 1px solid; BORDER-LEFT: white 1px solid; BORDER-TOP: white 1px solid; BORDER-RIGHT: gray 1px solid
+}
+TR.SummaryTitle {
+	TEXT-ALIGN: center; FONT-SIZE: 23px
+}
+TR.LabelTitle {
+	BACKGROUND-COLOR: #dddddd; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+TR.DataEntry {
+	FONT-SIZE: 12px; FONT-WEIGHT: normal
+}
+.PrintBar {
+	TEXT-ALIGN: right
+}
+UL {
+	LINE-HEIGHT: 18pt
+}
+.Action {
+	FONT-FAMILY: Arial, Verdana; COLOR: black; FONT-SIZE: 8.5pt; FONT-WEIGHT: bold; BEHAVIOR: url('/5.3.06.16975/Behaviors/action.htc')
+}
+.ActionCellImage {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+.ActionPadBackground {
+	BACKGROUND-COLOR: #6b89ad
+}
+.ActionPadLabel {
+	COLOR: #333366; FONT-SIZE: 9pt; FONT-WEIGHT: bold
+}
+.ActionPadIconBackground {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: black
+}
+.ActionPadIcon {
+	CURSOR: hand
+}
+.ActionPadIconContainer {
+	PADDING-TOP: 5px
+}
+.ActionPadLabelContainer {
+	PADDING-LEFT: 4px; PADDING-RIGHT: 4px; CURSOR: hand
+}
+.ActionPadMessage {
+	PADDING-LEFT: 4px; PADDING-RIGHT: 4px
+}
+.ActionPadSpacer {
+	CURSOR: default
+}
+#appframeNW {
+	DISPLAY: none
+}
+#appframeN {
+	DISPLAY: none
+}
+#appframeNE {
+	DISPLAY: none
+}
+#appFrameW {
+	DISPLAY: none
+}
+#appFrameE {
+	DISPLAY: none
+}
+#appFrameSW {
+	DISPLAY: none
+}
+#appFrameS {
+	DISPLAY: none
+}
+#appFrameSE {
+	DISPLAY: none
+}
+#trNetSheetFooter {
+	DISPLAY: none
+}
+#trNetSheetTabs {
+	DISPLAY: none
+}
+#trNetSheetTitle {
+	DISPLAY: none
+}
+#trSearchFooter {
+	DISPLAY: none
+}
+#trSearchTabs {
+	DISPLAY: none
+}
+#trSearchTitle {
+	DISPLAY: none
+}
+#FinancialFunctionBodyBorder {
+	BORDER-BOTTOM: #7aa3d5 2px solid; BORDER-LEFT: #7aa3d5 2px solid
+}
+#tdAddressBar {
+	BACKGROUND-COLOR: #668cb3; FONT-FAMILY: Arial, Verdana; COLOR: white; FONT-SIZE: 9pt; FONT-WEIGHT: bold
+}
+.ContentSectionBodyTaxChild {
+	BORDER-BOTTOM: #33478f 1px solid; BORDER-LEFT: #33478f 1px solid; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #ffffff; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; HEIGHT: 100%; BORDER-TOP: #33478f 0px solid; BORDER-RIGHT: #33478f 1px solid; PADDING-TOP: 0px
+}
+.tableTaxChild {
+	BACKGROUND-COLOR: #f5f5f5
+}
+#trStatReportCriteriaHeader {
+	HEIGHT: 80px
+}
+.BackgroundBox {
+	BACKGROUND-COLOR: white; FONT-FAMILY: Arial; FONT-SIZE: 9pt; FONT-WEIGHT: bold
+}
+.BlueBack {
+	BACKGROUND-COLOR: #5a7998; COLOR: white; FONT-SIZE: 9pt
+}
+.BlueBackLight {
+	BACKGROUND: url(/5.3.06.16975/Images/imgActionBarShadow_Strip.gif) #6d8bb0 repeat-x 0px 0px; COLOR: white
+}
+.BlueBackLightLeft {
+	WIDTH: 10px; BACKGROUND: url(/5.3.06.16975/Images/imgActionBarShadow_Left.gif) #6d8bb0 no-repeat 0px 0px
+}
+.BlueBackLightRight {
+	WIDTH: 10px; BACKGROUND: url(/5.3.06.16975/Images/imgActionBarShadow_Right.gif) #6d8bb0 no-repeat 0px 0px
+}
+.BlueBorder {
+	BORDER-BOTTOM: #668cb3 1px solid; BORDER-LEFT: #668cb3 1px solid; BORDER-TOP: #668cb3 1px solid; BORDER-RIGHT: #668cb3 1px solid
+}
+.BoldLabel {
+	TEXT-ALIGN: right; PADDING-RIGHT: 6px; FONT-FAMILY: Arial; COLOR: #003366; FONT-SIZE: 8pt; FONT-WEIGHT: bold
+}
+.CellActive {
+	BACKGROUND-COLOR: white; COLOR: #333366; FONT-SIZE: 11px; CURSOR: hand; FONT-WEIGHT: bold
+}
+.CellInactive {
+	BACKGROUND-COLOR: #7aa3d5; COLOR: white; FONT-SIZE: 11px; CURSOR: hand; FONT-WEIGHT: bold
+}
+.ClientManagerLink {
+	COLOR: #0000ff; FONT-WEIGHT: normal; TEXT-DECORATION: underline
+}
+.CommandLine {
+	BACKGROUND-COLOR: whitesmoke; FONT-FAMILY: Arial, 'Times New Roman', Verdana; COLOR: black; FONT-SIZE: 8.5pt; FONT-WEIGHT: normal
+}
+.CoolDrop {
+	BEHAVIOR: url('/5.3.06.16975/Behaviors/NVL_CoolDropDown.htc')
+}
+.CriteriaRow {
+	
+}
+.CriteriaRowAlt {
+	BORDER-BOTTOM-COLOR: #ebe1d1; BACKGROUND-COLOR: #f3edd9; BORDER-TOP-COLOR: #ebe1d1; BORDER-RIGHT-COLOR: #ebe1d1; BORDER-LEFT-COLOR: #ebe1d1
+}
+.CriteriaRowSelected {
+	BACKGROUND-COLOR: #b9cfe7
+}
+.CriteriaScreenFooter {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+.CriteriaScreenFooterRow {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+.CriteriaScreenFooterAction {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.CriteriaScreenFooterActionClick {
+	BACKGROUND-COLOR: #92b8e7
+}
+.CriteriaScreenFooterActionHover {
+	BACKGROUND-COLOR: #bcd7f1
+}
+.CriteriaScreenFooterAction {
+	BACKGROUND-IMAGE: none; BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BORDER-TOP: 0px; CURSOR: hand; BORDER-RIGHT: 0px
+}
+.CriteriaScreenFooterActionHover {
+	BACKGROUND-IMAGE: none; BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BORDER-TOP: 0px; CURSOR: hand; BORDER-RIGHT: 0px
+}
+.CriteriaScreenFooterActionClick {
+	BACKGROUND-IMAGE: none; BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BORDER-TOP: 0px; CURSOR: hand; BORDER-RIGHT: 0px
+}
+.CriteriaScreenFooterButtonDiv {
+	BORDER-BOTTOM: #333366 1px solid; BORDER-LEFT: #333366 1px solid; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #d4d0c8; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; HEIGHT: 100%; BORDER-RIGHT: #333366 1px solid; PADDING-TOP: 0px
+}
+.CriteriaScreenFooterLabel {
+	FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 8pt
+}
+.CriteriaScreenHeader {
+	BACKGROUND-IMAGE: url(/5.3.06.16975/Images/MLX3/searchCriteriaHeaderBackgrounds.gif); BORDER-LEFT: #638cb5 1px solid; COLOR: white; BORDER-TOP: #638cb5 1px solid; BORDER-RIGHT: #638cb5 1px solid
+}
+.CriteriaScreenSavedSearches {
+	BACKGROUND-COLOR: #efefef; COLOR: black; BORDER-TOP: #638cb5 1px solid
+}
+.CriteriaScreenTable {
+	BORDER-BOTTOM: #ebe1d1 1px solid; BORDER-LEFT: #ebe1d1 1px solid; BORDER-COLLAPSE: collapse; BORDER-TOP: #ebe1d1 1px solid; BORDER-RIGHT: #ebe1d1 1px solid
+}
+.Data {
+	TEXT-ALIGN: left; FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 8pt; FONT-WEIGHT: bold
+}
+.Data2 {
+	TEXT-ALIGN: left; FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 9pt; FONT-WEIGHT: normal
+}
+.DisabledLabel2 {
+	FONT-FAMILY: Arial; BACKGROUND: #e4e4e4; COLOR: gray; FONT-SIZE: 9pt; FONT-WEIGHT: bold
+}
+#DisabledLabel2 {
+	FONT-FAMILY: Arial; COLOR: gray; FONT-SIZE: 9pt; FONT-WEIGHT: bold
+}
+.DisabledLabel3 {
+	FONT-FAMILY: Arial; BACKGROUND: #e4e4e4; COLOR: gray; FONT-SIZE: 9pt; FONT-WEIGHT: bold
+}
+#DisabledLabel3 {
+	FONT-FAMILY: Arial; COLOR: gray; FONT-SIZE: 9pt; FONT-WEIGHT: bold
+}
+#divHotsheetCriteria {
+	BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid; BORDER-TOP: black 1px solid; BORDER-RIGHT: black 1px solid
+}
+.EmailTemplatesDrop {
+	WIDTH: 190px; FONT-FAMILY: Arial; FONT-SIZE: 9pt
+}
+.ExpandoView {
+	BACKGROUND-COLOR: #cccccc; FONT-FAMILY: Arial; FONT-SIZE: 9pt; FONT-WEIGHT: bold
+}
+.FlatButton {
+	BACKGROUND-COLOR: #cccccc; HEIGHT: 21px; COLOR: black; FONT-SIZE: 11px; CURSOR: hand; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+.XPButton {
+	HEIGHT: 21px; FONT-SIZE: 11px; CURSOR: hand; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+.Font_CritHomePage {
+	FONT-FAMILY: MS Shell Dlg; FONT-SIZE: 70%
+}
+.Font_Crit {
+	HEIGHT: 19px; FONT-SIZE: 9pt
+}
+.GoButton {
+	BEHAVIOR: url('/5.3.06.16975/Behaviors/GoButton.htc')
+}
+.GridReportColumnHeader {
+	BACKGROUND-COLOR: #c0c0c0; FONT: bold 8pt arial; COLOR: black
+}
+.GridReportDivIndent {
+	WIDTH: 100%
+}
+.GridReportFooterLine {
+	FONT: bold 8pt arial; COLOR: #000080
+}
+.GridReportHeader {
+	FONT: bold 12pt arial; COLOR: #000080
+}
+.GridReportSectionFooterLine {
+	FONT: bold 8pt arial; COLOR: #000080
+}
+.GridReportSectionHeaderLine {
+	FONT: bold 8pt arial; COLOR: #000080
+}
+.GridReportSectionInfoLine {
+	BACKGROUND-COLOR: #ebebeb; FONT: bold 8pt arial; COLOR: #000080
+}
+.GridReportSummaryColumnLine {
+	BACKGROUND-COLOR: #c0c0c0; FONT: bold 8pt arial; COLOR: black
+}
+.GridReportSummaryLine {
+	BACKGROUND-COLOR: #ebebeb; FONT: bold 8pt arial; COLOR: #000080
+}
+.GridReportTable {
+	WIDTH: 100%; BORDER-COLLAPSE: collapse; FONT: 8pt arial
+}
+.GridReportPreparedByLabel {
+	PADDING-RIGHT: 5px; FONT: bold 8pt arial
+}
+.GridReportPreparedBy {
+	FONT: 8pt arial
+}
+.GridReportDate {
+	FONT: 8pt arial
+}
+.HeaderTitle {
+	FONT-FAMILY: Arial, Verdana; COLOR: black; FONT-SIZE: 12pt; FONT-WEIGHT: bold
+}
+.hint {
+	PADDING-BOTTOM: 4px; MARGIN: 1.5em 0em; PADDING-LEFT: 20px; BACKGROUND: url(/5.3.06.16975/Images/ICO_Alert.gif) no-repeat; COLOR: #808080; FONT-SIZE: 8pt; FONT-WEIGHT: normal
+}
+.HomeLinkText {
+	FONT-SIZE: 9pt; TEXT-DECORATION: none
+}
+.HomeLists {
+	LIST-STYLE-POSITION: outside; LINE-HEIGHT: 14pt; MARGIN-TOP: 0px; PADDING-LEFT: 3px; MARGIN-BOTTOM: 0px; MARGIN-LEFT: 16px
+}
+.HomeListsFavorites {
+	LIST-STYLE-POSITION: outside; TEXT-ALIGN: left; LINE-HEIGHT: 11pt; MARGIN-TOP: 0px; PADDING-LEFT: 3px; MARGIN-BOTTOM: 0px; MARGIN-LEFT: 16px
+}
+.HomeQuickLinkText {
+	BACKGROUND: none transparent scroll repeat 0% 0%; FONT-SIZE: 10pt; FONT-WEIGHT: bold
+}
+.HomeQuickLinkImage {
+	PADDING-RIGHT: 8px; BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.HomeLeadsText {
+	FONT-SIZE: 9pt; FONT-WEIGHT: normal
+}
+.HomeSearchText {
+	BACKGROUND: none transparent scroll repeat 0% 0%; FONT-SIZE: 8pt; FONT-WEIGHT: normal
+}
+.HomeSearchAdvice {
+	COLOR: #808080; FONT-SIZE: 8pt; FONT-WEIGHT: normal
+}
+.HomeSectionHead {
+	FONT-FAMILY: Arial, Verdana, 'Times New Roman'; COLOR: #225d6d; FONT-SIZE: 9pt; FONT-WEIGHT: bold
+}
+.HomeTaskColumnHead {
+	BACKGROUND-COLOR: #b3c8dd; COLOR: #2f2f60; FONT-SIZE: 8pt; FONT-WEIGHT: normal
+}
+.HomeTaskIFrame {
+	BORDER-BOTTOM: #666699 1px solid; BORDER-LEFT: #666699 0px solid; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: white; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: #666699 0px solid; BORDER-RIGHT: #666699 0px solid; PADDING-TOP: 0px
+}
+.HomeTaskItem {
+	BACKGROUND-COLOR: white; COLOR: black; FONT-SIZE: 8pt; FONT-WEIGHT: normal
+}
+.HomeTaskItem_Over {
+	BACKGROUND-COLOR: #f6f7fb; COLOR: black; FONT-SIZE: 8pt; CURSOR: hand; FONT-WEIGHT: normal
+}
+.HomeTaskSectionHead {
+	BACKGROUND-COLOR: #638cb5; COLOR: white; FONT-SIZE: 9pt; FONT-WEIGHT: bold
+}
+.HomeSectionLeftBorder {
+	BORDER-LEFT: #668cb3 1px solid
+}
+.HomeSectionRightBorder {
+	BORDER-RIGHT: #668cb3 1px solid
+}
+.HomeSectionBorderLeft {
+	WIDTH: 9px; BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.HomeSectionBorderRight {
+	WIDTH: 9px; BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.HomeSectionTableTransparent {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.HomeSectionTableBackground {
+	BACKGROUND-IMAGE: url(/5.3.06.16975/Images/MLX3/homepage_component_background.gif); BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left top
+}
+.HomeSectionTable {
+	BORDER-BOTTOM: #708193 1px solid; BORDER-LEFT: #708193 1px solid; TABLE-LAYOUT: fixed; BORDER-TOP: #708193 1px solid; BORDER-RIGHT: #708193 1px solid
+}
+.HomeSectionTableBackground {
+	BORDER-BOTTOM: #708193 1px solid; BORDER-LEFT: #708193 1px solid; TABLE-LAYOUT: fixed; BORDER-TOP: #708193 1px solid; BORDER-RIGHT: #708193 1px solid
+}
+.HomeSectionHeader {
+	FONT-FAMILY: Arial; BACKGROUND: none transparent scroll repeat 0% 0%; HEIGHT: 20px; COLOR: #4f8174; FONT-SIZE: 10pt; VERTICAL-ALIGN: bottom; FONT-WEIGHT: bold
+}
+.HomeSectionEntry {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.HomeSectionHeaderSpacer {
+	BACKGROUND: none transparent scroll repeat 0% 0%; HEIGHT: 8px
+}
+.HomeSectionFooterSpacer {
+	BACKGROUND: none transparent scroll repeat 0% 0%; HEIGHT: 5px
+}
+.HomeResourceSpacer {
+	HEIGHT: 4px
+}
+.HomeResourceMOTD {
+	FONT-SIZE: 9pt
+}
+.HomeResourceSection {
+	FONT-WEIGHT: bold
+}
+.LeftBorder {
+	BORDER-LEFT: #668cb3 1px solid
+}
+.RightBorder {
+	BORDER-RIGHT: #668cb3 1px solid
+}
+.HotLinkSmall {
+	LINE-HEIGHT: normal; FONT-FAMILY: Arial, Verdana; COLOR: #003366; FONT-SIZE: 8pt; CURSOR: hand; FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+.HRThick {
+	BACKGROUND-COLOR: #0e3c70; HEIGHT: 2px
+}
+.HRThin {
+	BACKGROUND-COLOR: #0e3c70; HEIGHT: 1px; OVERFLOW: hidden
+}
+.hr_header_footer {
+	HEIGHT: 3px; COLOR: #0e3c70
+}
+.ImageButton {
+	BACKGROUND-COLOR: #cccccc; HEIGHT: 21px; COLOR: black; FONT-SIZE: 11px; CURSOR: hand; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+.GoButton {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BACKGROUND-COLOR: #b1c5d8; MARGIN: 0px; HEIGHT: 21px; COLOR: black; FONT-SIZE: 11px; BORDER-TOP: 0px; CURSOR: hand; FONT-WEIGHT: normal; BORDER-RIGHT: 0px; TEXT-DECORATION: none
+}
+.InnerBox {
+	BACKGROUND-COLOR: white; FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 10pt; FONT-WEIGHT: normal
+}
+.InnerBoxRow {
+	BORDER-BOTTOM: #003366 1px solid; BACKGROUND-COLOR: #ffffff; FONT-FAMILY: Arial; FONT-SIZE: 8pt; FONT-WEIGHT: normal
+}
+.InnerBoxHeader {
+	
+}
+.Label {
+	TEXT-ALIGN: left; PADDING-RIGHT: 0px; FONT-FAMILY: Arial; BACKGROUND: #e4e4e4; COLOR: #333366; FONT-SIZE: 8pt
+}
+.Label2 {
+	FONT-FAMILY: Arial; COLOR: #333366; FONT-SIZE: 9pt; FONT-WEIGHT: bold
+}
+#Label2 {
+	FONT-FAMILY: Arial; COLOR: #333366; FONT-SIZE: 9pt; FONT-WEIGHT: bold
+}
+.Label3 {
+	FONT-FAMILY: Arial; BACKGROUND: #e4e4e4; COLOR: #333366; FONT-SIZE: 9pt; FONT-WEIGHT: bold
+}
+#Label3 {
+	FONT-FAMILY: Arial; COLOR: #333366; FONT-SIZE: 9pt; FONT-WEIGHT: bold
+}
+.Label4 {
+	FONT-FAMILY: Arial; BACKGROUND: #e4e4e4; COLOR: #333366; FONT-SIZE: 9pt; FONT-WEIGHT: bold
+}
+#Label4 {
+	FONT-FAMILY: Arial; COLOR: #333366; FONT-SIZE: 9pt; FONT-WEIGHT: bold
+}
+.Label_blue {
+	TEXT-ALIGN: left; PADDING-RIGHT: 0px; FONT-FAMILY: Arial; BACKGROUND: #b3c8dd; COLOR: black; FONT-SIZE: 8pt
+}
+.Label_blue_NoAlign {
+	PADDING-RIGHT: 0px; FONT-FAMILY: Arial; BACKGROUND: #b3c8dd; COLOR: black; FONT-SIZE: 8pt
+}
+.LightBorder {
+	BACKGROUND-COLOR: white; COLOR: black; FONT-SIZE: 8pt; TEXT-DECORATION: none
+}
+TR.trClientDetailsHeaderInfo {
+	VISIBILITY: hidden
+}
+#tblClientInfo {
+	WIDTH: 90%; HEIGHT: 100%
+}
+IFRAME.ContactInfoFrame {
+	WIDTH: 100%; HEIGHT: 100%
+}
+.LinkedList {
+	FONT-FAMILY: Arial; COLOR: #333366; FONT-SIZE: 9pt; FONT-WEIGHT: bold
+}
+.LMMIconLocked {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/LMMLocked.gif', sizingMethod='image'); BACKGROUND-COLOR: #e4e4e4; WIDTH: 20px
+}
+.LMMIconRequiredComplete {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/LMMRequiredComplete.gif', sizingMethod='image'); BACKGROUND-COLOR: #e4e4e4; WIDTH: 20px
+}
+.LMMIconRequiredEmpty {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/LMMRequiredEmpty.gif', sizingMethod='image'); BACKGROUND-COLOR: #e4e4e4; WIDTH: 20px
+}
+#LMMRow {
+	BACKGROUND-COLOR: white; HEIGHT: 28px
+}
+#LMMRowAlt {
+	BACKGROUND-COLOR: #dde4eb; HEIGHT: 28px
+}
+.MapButtonActive {
+	BACKGROUND-COLOR: #f2f2d2; FONT-SIZE: 8pt
+}
+.MapButtonInactive {
+	BACKGROUND-COLOR: #104a7b; COLOR: white; FONT-SIZE: 8pt; CURSOR: hand
+}
+.map_icon {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/Tempo/icons/map/ShowMap.png', sizingMethod='image')
+}
+.map_icon_center {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/Tempo/icons/map/Xpan.gif', sizingMethod='image')
+}
+.map_icon_clear {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/Tempo/icons/16x16/delete.png', sizingMethod='image')
+}
+.map_icon_drawrect {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/Tempo/icons/map/simplesearch.gif', sizingMethod='image')
+}
+.map_icon_drawcirc {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/Tempo/icons/map/radiussearch.gif', sizingMethod='image')
+}
+.map_icon_drawpoly {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/Tempo/icons/map/polygonsearch.gif', sizingMethod='image')
+}
+.map_icon_legend {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/Tempo/icons/map/Xlegend.gif', sizingMethod='image')
+}
+.map_icon_setdefault {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/Tempo/icons/map/small_map.gif', sizingMethod='image')
+}
+.map_icon_zoomin {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/Tempo/icons/map/Xzoom_in.gif', sizingMethod='image')
+}
+.map_icon_zoomout {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/Tempo/icons/map/Xzoom_out.gif', sizingMethod='image')
+}
+.map_overlay {
+	BORDER-BOTTOM: gray 1px solid; POSITION: absolute; FILTER: progid:DXImageTransform.Microsoft.Alpha(opacity=90); BORDER-LEFT: gray 1px solid; BACKGROUND-COLOR: white; VERTICAL-ALIGN: middle; BORDER-TOP: gray 1px solid; TOP: 30px; BORDER-RIGHT: gray 1px solid; LEFT: 20px
+}
+.map_overlay_expander_down {
+	BACKGROUND-IMAGE: url(/5.3.06.16975/Images/Mapping/icn_expander_down.gif); BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: center center
+}
+.map_overlay_expander_down:hover {
+	BACKGROUND-IMAGE: url(/5.3.06.16975/Images/Mapping/icn_expander_down_hover.gif); BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: center center
+}
+.map_overlay_expander_up {
+	BACKGROUND-IMAGE: url(/5.3.06.16975/Images/Mapping/icn_expander_up.gif); BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: center center
+}
+.map_overlay_expander_up:hover {
+	BACKGROUND-IMAGE: url(/5.3.06.16975/Images/Mapping/icn_expander_up_hover.gif); BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: center center
+}
+.map_overlay_layer_text {
+	TEXT-ALIGN: left; FONT-FAMILY: Arial; COLOR: black; MARGIN-LEFT: 3px; FONT-SIZE: 9pt
+}
+.map_overlay_layer_list {
+	BORDER-BOTTOM: gray 1px solid; TEXT-ALIGN: left; BORDER-LEFT: gray 1px solid; OVERFLOW-Y: auto; BACKGROUND-COLOR: #fefed0; WIDTH: 100%; FONT-FAMILY: Arial; MARGIN-BOTTOM: 3px; HEIGHT: 100px; COLOR: black; MARGIN-LEFT: 3px; FONT-SIZE: 9pt; BORDER-TOP: gray 1px solid; MARGIN-RIGHT: 3px; BORDER-RIGHT: gray 1px solid
+}
+.map_overlay_text {
+	TEXT-ALIGN: center; FONT-FAMILY: Arial; COLOR: gray; FONT-SIZE: 9pt; CURSOR: hand
+}
+.map_overlay_text_selected {
+	TEXT-ALIGN: center; FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 9pt; CURSOR: default; FONT-WEIGHT: bold
+}
+.map_overlay_zoom {
+	BACKGROUND-IMAGE: url(/5.3.06.16975/Images/Mapping/zoom_bar.gif); BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: center center; HEIGHT: 25px; CURSOR: hand
+}
+.map_overlay_zoom_slider {
+	BACKGROUND-IMAGE: url(/5.3.06.16975/Images/Mapping/zoom_slider.gif); WIDTH: 7px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: center center; HEIGHT: 25px; CURSOR: hand
+}
+.MultiImgViewerTextSmall {
+	FONT: 8pt/16pt Arial, Sans-Serif
+}
+.MultiImgViewerTextHeading {
+	FONT: italic 12pt Arial, Sans-Serif
+}
+.NSGridColumnHeader {
+	BORDER-BOTTOM: 1px outset; TEXT-ALIGN: center; BORDER-LEFT: 2px outset; BACKGROUND-COLOR: #668cb3; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; COLOR: white; FONT-SIZE: 11px; BORDER-TOP: 1px outset; FONT-WEIGHT: 300; BORDER-RIGHT: 2px outset; TEXT-DECORATION: none; ALIGN: center; VALIGN: middle; VERTICALALIGN: middle
+}
+.NSGridColumnLeft {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 2px; PADDING-TOP: 0px
+}
+.NSGridColumnRight {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 2px; PADDING-RIGHT: 20px; PADDING-TOP: 0px
+}
+.NSExpenseItem {
+	FONT-FAMILY: Arial, Verdana, 'Times New Roman'; COLOR: black; FONT-SIZE: 12px; FONT-WEIGHT: normal
+}
+.NSRowHighlight {
+	BACKGROUND-COLOR: #dde4eb; COLOR: black; FONT-SIZE: 12px
+}
+.OuterBox {
+	BACKGROUND-COLOR: white; FONT-FAMILY: Arial; COLOR: #333366; FONT-SIZE: 12px; FONT-WEIGHT: bold
+}
+.PaddedRow {
+	BORDER-BOTTOM: #003366 1px solid; BACKGROUND-COLOR: white; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; FONT-FAMILY: Arial; FONT-SIZE: 8pt; FONT-WEIGHT: normal
+}
+.ClassMlxchangeOnly {
+	
+}
+.ClassTempoOnly {
+	DISPLAY: none
+}
+.ClassMlxTempo {
+	DISPLAY: none
+}
+.PMFormSectionHeader {
+	TEXT-INDENT: 10px; FONT-FAMILY: Arial; FONT-WEIGHT: bold
+}
+.PMDrop {
+	WIDTH: 150px; FONT-FAMILY: Arial; FONT-SIZE: 9pt
+}
+.PMNotes {
+	FONT-FAMILY: Arial; FONT-SIZE: 9pt
+}
+.PMText {
+	FONT-FAMILY: Arial; FONT-SIZE: 9pt
+}
+.Reorder {
+	BACKGROUND-COLOR: transparent; PADDING-LEFT: 3px; FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 8pt; FONT-WEIGHT: normal
+}
+.RequiredLabel {
+	COLOR: black
+}
+.RequiredLabel2 {
+	FONT-FAMILY: Arial; COLOR: red; FONT-SIZE: 9pt; FONT-WEIGHT: bold
+}
+#RequiredLabel2 {
+	FONT-FAMILY: Arial; COLOR: red; FONT-SIZE: 9pt; FONT-WEIGHT: bold
+}
+.RequiredLabel3 {
+	BACKGROUND-COLOR: #e4e4e4; FONT-FAMILY: Arial; COLOR: red; FONT-SIZE: 9pt; FONT-WEIGHT: bold
+}
+#RequiredLabel3 {
+	FONT-FAMILY: Arial; COLOR: red; FONT-SIZE: 9pt; FONT-WEIGHT: bold
+}
+.RequiredLabel4 {
+	BACKGROUND-COLOR: #e4e4e4; FONT-FAMILY: Arial; COLOR: red; FONT-SIZE: 9pt; FONT-WEIGHT: bold
+}
+#RequiredLabel4 {
+	FONT-FAMILY: Arial; COLOR: red; FONT-SIZE: 9pt; FONT-WEIGHT: bold
+}
+.ContentSectionFooter {
+	BORDER-BOTTOM: #33478f 1px solid; BORDER-LEFT: #33478f 1px solid; BACKGROUND-COLOR: silver; BORDER-RIGHT: #33478f 1px solid
+}
+.ContentSectionFooterTable {
+	BACKGROUND-COLOR: #d4d0c8
+}
+.Saving {
+	DISPLAY: none; COLOR: #003366; FONT-SIZE: 12pt; FONT-WEIGHT: bold
+}
+.Sidebar {
+	
+}
+.SidebarClose {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; WIDTH: 11px; BACKGROUND: url(/5.3.06.16975/Images/MLX3/sidebar_expanded.gif); HEIGHT: 400px; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+.SidebarContent {
+	BACKGROUND-IMAGE: url(/5.3.06.16975/Images/MLX3/sidebar_body_bottom_background.gif); BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: 50% bottom; HEIGHT: 100%
+}
+.SidebarHeader {
+	BORDER-BOTTOM: #195295 1px solid; BACKGROUND-COLOR: #cfd7e2; PADDING-LEFT: 2px; FONT-FAMILY: Tahoma; COLOR: #333333; FONT-SIZE: 8pt; BORDER-TOP: #195295 2px solid; FONT-WEIGHT: bold
+}
+.SidebarLink {
+	BACKGROUND-COLOR: #ffffff; PADDING-LEFT: 4px; FONT-FAMILY: Tahoma; FONT-SIZE: 10pt
+}
+.SidebarLink A {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.SidebarLink A:hover {
+	COLOR: #0000ff; TEXT-DECORATION: underline
+}
+.SidebarOpen {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; WIDTH: 11px; BACKGROUND: url(/5.3.06.16975/Images/MLX3/sidebar_collapsed.gif); HEIGHT: 400px; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+.SidebarSection {
+	BACKGROUND-IMAGE: url(/5.3.06.16975/Images/MLX3/sidebar_categories_header_Background.gif); BORDER-BOTTOM: #7d7d7d 1px solid; BORDER-LEFT: #f0f0f0 1px solid; BACKGROUND-COLOR: #d6d6d6; PADDING-LEFT: 3px; FONT-FAMILY: Verdana; HEIGHT: 25px; FONT-SIZE: xx-small; VERTICAL-ALIGN: middle; BORDER-TOP: #f0f0f0 1px solid; CURSOR: hand; FONT-WEIGHT: bold; BORDER-RIGHT: #7d7d7d 1px solid; PADDING-TOP: 3px
+}
+.SidebarSections {
+	
+}
+.SidebarTab {
+	BACKGROUND-IMAGE: url(/5.3.06.16975/Images/MLX3/sidebar_bar_background.gif); DISPLAY: none; CURSOR: hand
+}
+.SidebarTitle {
+	BACKGROUND-IMAGE: url(/5.3.06.16975/Images/MLX3/sidebar_title_background.gif); PADDING-LEFT: 10px; FONT-FAMILY: Arial; HEIGHT: 30px; COLOR: white; FONT-SIZE: 18pt
+}
+.FCList {
+	LIST-STYLE-POSITION: outside; LINE-HEIGHT: 14pt; MARGIN-TOP: 0px; PADDING-LEFT: 0px; MARGIN-BOTTOM: 0px; MARGIN-LEFT: 0px
+}
+.FCListItem {
+	BACKGROUND-IMAGE: url(/5.3.06.16975/Images/icoRBCalculator.gif); PADDING-LEFT: 16px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: -3px 2px
+}
+.ContentSectionButtonsTop {
+	DISPLAY: none
+}
+.ContentSectionSubTypeName {
+	DISPLAY: none
+}
+.ContentSectionFooter {
+	BACKGROUND-COLOR: #cccccc; WIDTH: 100%; FONT-SIZE: 10pt; BORDER-TOP: #8f8f8f 1px solid
+}
+.ContentSectionHeaderFirst {
+	BACKGROUND-IMAGE: url(/5.3.06.16975/Images/Tempo/ContentSectionHeaderBG.gif); BORDER-BOTTOM: #8f8f8f 1px solid; BACKGROUND-COLOR: #eef0f1; BACKGROUND-REPEAT: repeat-x; BACKGROUND-POSITION: 50% top; BORDER-TOP: #9fadb6 0px solid; PADDING-TOP: 2px
+}
+.ContentSectionHeader {
+	BACKGROUND-IMAGE: url(/5.3.06.16975/Images/Tempo/ContentSectionHeaderBG.gif); BORDER-BOTTOM: #8f8f8f 1px solid; BACKGROUND-COLOR: #eef0f1; BACKGROUND-REPEAT: repeat-x; BACKGROUND-POSITION: 50% top; BORDER-TOP: #33478f 2px solid; PADDING-TOP: 2px
+}
+#SearchResultTableFooterX {
+	
+}
+#SearchResultTableFooterT {
+	DISPLAY: none
+}
+#SearchResultReviseSearchIcon {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/Tempo/icons/32x32/revisesearch.png', sizingMethod='image')
+}
+#SearchResultBackIcon {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/Tempo/icons/32x32/back.png', sizingMethod='image')
+}
+#SearchResultSaveSearchIcon {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/Tempo/icons/32x32/save.png', sizingMethod='image')
+}
+#SearchResultEmailSearchIcon {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/Tempo/icons/32x32/send_email.png', sizingMethod='image')
+}
+#SearchResultSendSearchIcon {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/Tempo/icons/32x32/sendtoprospect.png', sizingMethod='image')
+}
+#SearchResultPrintSearchIcon {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/Tempo/icons/32x32/print.png', sizingMethod='image')
+}
+#SearchResultSortToggleExpandIcon {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/Tempo/icons/16/expand.gif', sizingMethod='image'); DISPLAY: inline-block
+}
+#SearchResultSortToggleCollapseIcon {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/Tempo/icons/16/collapse.gif', sizingMethod='image'); DISPLAY: inline-block
+}
+#SearchResultComboViewIcon {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/Tempo/icons/32x32/ComboView.png', sizingMethod='image')
+}
+#SearchResultStatsIcon {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/Tempo/icons/32x32/statistics.png', sizingMethod='image')
+}
+#SearchResultCmaIcon {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/Tempo/icons/32x32/CMA.png', sizingMethod='image')
+}
+#SearchResultDownloadIcon {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/Tempo/icons/32x32/download.png', sizingMethod='image')
+}
+#SearchResultMaqResultsIcon {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/Tempo/icons/32x32/map.png', sizingMethod='image')
+}
+#SearchResultCheckAllIcon {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/Tempo/icons/16x16/checkall.png', sizingMethod='image')
+}
+#SearchResultUncheckAllIcon {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/Tempo/icons/16x16/uncheckall.gif', sizingMethod='image')
+}
+#SearchResultNarrowListIcon {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/Tempo/icons/16x16/cut.png', sizingMethod='image')
+}
+#SearchResultRestoreListIcon {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/Tempo/icons/16x16/restore.png', sizingMethod='image')
+}
+#SearchResultMoveUpIcon {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/Tempo/icons/16x16/up.png', sizingMethod='image')
+}
+#SearchResultMoveDownIcon {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/Tempo/icons/16x16/down.png', sizingMethod='image')
+}
+#DeleteResultIcon {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/Tempo/icons/16x16/delete.png', sizingMethod='image')
+}
+#SearchResultShowCritIcon {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/Tempo/icons/16x16/view.gif', sizingMethod='image')
+}
+#SearchResultHideCritIcon {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/Tempo/icons/16/collapse.gif', sizingMethod='image')
+}
+#icon_assocToClient {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/icoRBNotes.gif', sizingMethod='image')
+}
+#icon_reject {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/Tempo/icons/16x16/reject_btn.gif', sizingMethod='image')
+}
+#icon_clear {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/Tempo/icons/16/delete.png', sizingMethod='image')
+}
+#icon_marknew {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/Tempo/icons/16x16/MarkAsNew.png', sizingMethod='image')
+}
+#icon_markviewed {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/Tempo/icons/16x16/MarkAsViewed.png', sizingMethod='image')
+}
+#icon_print_16 {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/Tempo/icons/16/print.gif', sizingMethod='image')
+}
+#icon_refresh_16 {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/Tempo/icons/16/refresh.png', sizingMethod='image')
+}
+#BillingManagerCancelIcon {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/Tempo/icons/32x32/cancel.png', sizingMethod='image')
+}
+#BillingManagerContinueIcon {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/Tempo/icons/32x32/add.png', sizingMethod='image')
+}
+#icon_search {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/Tempo/icons/32x32/search.png', sizingMethod='image')
+}
+#icon_modify_search_notification_settings {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/Tempo/icons/32x32/search_edit.png', sizingMethod='image')
+}
+#icon_new_prospect {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/Tempo/icons/32x32/prospect_new.png', sizingMethod='image')
+}
+#icon_extendexpirydate {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/Tempo/expand.gif', sizingMethod='image')
+}
+#icon_edit_search_criteria {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/Tempo/icons/32x32/search_open.png', sizingMethod='image')
+}
+#icon_delete_prospect {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/Tempo/icons/16x16/delete.png', sizingMethod='image')
+}
+#icon_MarkDone {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/MLX3/markDone16x16.png', sizingMethod='image')
+}
+#iconMlxSaveContactChanges {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/Tempo/icons/32x32/save.png', sizingMethod='image')
+}
+#iconMlxAddNewSearch {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/Tempo/icons/32x32/search_new.png', sizingMethod='image')
+}
+#iconMlxViewDetails {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/Tempo/icons/32x32/view.png', sizingMethod='image')
+}
+#iconMlxNewProperty {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/Tempo/icons/32x32/add.png', sizingMethod='image')
+}
+#iconMlxAddNewCMA {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/Tempo/icons/32x32/CMA_add.png', sizingMethod='image')
+}
+#iconEditCMA {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/Tempo/icons/32x32/CMA_edit.png', sizingMethod='image')
+}
+#iconMlxCopyCMA {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/Tempo/icons/32x32/CMA_copy.png', sizingMethod='image')
+}
+#iconMlxRenameCMA {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/Tempo/icons/32x32/rename.png', sizingMethod='image')
+}
+#iconMlxAddNewNetSheet {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/Tempo/icons/32x32/add.png', sizingMethod='image')
+}
+#iconMlxSaveGatewayChanges {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/Tempo/icons/32x32/save.png', sizingMethod='image')
+}
+#iconMlxEmailLinktoClientGateway {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/Tempo/icons/32x32/email.png', sizingMethod='image')
+}
+#iconMlxAccessClientGateway {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/Tempo/icons/32x32/gateway.png', sizingMethod='image')
+}
+#iconMlxAddClientEvent {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/icoApplicationManager.gif', sizingMethod='image')
+}
+#iconDeleteClient {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/Tempo/icons/32x32/delete.png', sizingMethod='image')
+}
+#iconMlxEmailLink {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/MLX3/ico_emailHover.gif', sizingMethod='image')
+}
+#ico_changestatus_client {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/MLX3/ico_status.gif', sizingMethod='image')
+}
+#ico_merge_client {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/MLX3/ico_merge.gif', sizingMethod='image')
+}
+#ico_reassign_client {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/MLX3/ico_reassign.gif', sizingMethod='image')
+}
+#ico_outlooksync {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/MLX3/ico_howToSync.gif', sizingMethod='image')
+}
+#icon_export {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/Tempo/icons/32x32/export.png', sizingMethod='image')
+}
+#icon_import {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/Tempo/icons/32x32/import.png', sizingMethod='image')
+}
+#icon_eraser {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/Tempo/icons/16x16/eraser.png', sizingMethod='image')
+}
+#icon_Neweraser {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/btnEraser_pnk.gif', sizingMethod='image')
+}
+.SearchStatTable {
+	BORDER-BOTTOM: #c0c0c0 1px solid; BORDER-LEFT: #c0c0c0 1px solid; PADDING-BOTTOM: 2px; MARGIN: 1px 0px 2px; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; FONT: 9pt Veradana; BORDER-TOP: #c0c0c0 1px solid; BORDER-RIGHT: #c0c0c0 1px solid; PADDING-TOP: 0px
+}
+TH.SearchStatTable {
+	BORDER-BOTTOM: #c0c0c0 1px solid; BORDER-LEFT: #c0c0c0 1px solid; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #e0e0e0; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: #c0c0c0 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #c0c0c0 1px solid; PADDING-TOP: 0px
+}
+TD.SearchStatTable {
+	BORDER-BOTTOM: 0px; TEXT-ALIGN: center; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+TD.SearchStatRowHeader {
+	BORDER-BOTTOM: 0px; TEXT-ALIGN: left; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; FONT-WEIGHT: bold; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+.SearchStatSectionHeader {
+	TEXT-ALIGN: left; BACKGROUND-COLOR: #e0e0e0; WIDTH: 100%; FONT: bold 10pt Arial
+}
+.SearchStatTableHeaderLeft {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: 1px; PADDING-RIGHT: 0px; HEIGHT: 18px; PADDING-TOP: 0px
+}
+.SearchStatTableHeaderMiddle {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #668cb3; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; FONT-FAMILY: Verdana; HEIGHT: 18px; COLOR: white; FONT-SIZE: 12pt; FONT-WEIGHT: bold; PADDING-TOP: 0px
+}
+.SearchStatTableHeaderRight {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: 1px; PADDING-RIGHT: 0px; HEIGHT: 18px; PADDING-TOP: 0px
+}
+.ContentSectionTitleTab {
+	TEXT-ALIGN: center
+}
+#CriteriaBlock {
+	OVERFLOW-Y: auto
+}
+TABLE.CriteriaBlock {
+	BORDER-BOTTOM: #c0c0c0 1px solid; BORDER-LEFT: #c0c0c0 1px solid; PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; BORDER-COLLAPSE: collapse; FONT-SIZE: 9pt; BORDER-TOP: #c0c0c0 1px solid; BORDER-RIGHT: #c0c0c0 1px solid; PADDING-TOP: 2px
+}
+TH.CriteriaBlock {
+	BORDER-BOTTOM: #c0c0c0 1px solid; BORDER-LEFT: #c0c0c0 1px solid; PADDING-BOTTOM: 2px; BACKGROUND-COLOR: #e0e0e0; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; BORDER-TOP: #c0c0c0 1px solid; BORDER-RIGHT: #c0c0c0 1px solid; PADDING-TOP: 2px
+}
+TD.CriteriaBlock {
+	BORDER-BOTTOM: #c0c0c0 1px solid; BORDER-LEFT: #c0c0c0 1px solid; PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; BORDER-TOP: #c0c0c0 1px solid; BORDER-RIGHT: #c0c0c0 1px solid; PADDING-TOP: 2px
+}
+.FilterLabel {
+	FONT-FAMILY: Arial, Verdana; COLOR: black; FONT-SIZE: 8.5pt; FONT-WEIGHT: bold
+}
+.FilterInput {
+	FONT-FAMILY: Arial, Verdana, 'Times New Roman'; COLOR: black; FONT-SIZE: 11px; FONT-WEIGHT: normal
+}
+.StdText {
+	LINE-HEIGHT: normal; FONT-FAMILY: Arial, Verdana; COLOR: black; FONT-SIZE: 9pt; FONT-WEIGHT: normal
+}
+.StdTextInactive {
+	LINE-HEIGHT: normal; FONT-FAMILY: Arial, Verdana; COLOR: #999999; FONT-SIZE: 9pt
+}
+.StdText_bold {
+	FONT-FAMILY: Arial, Verdana; COLOR: black; FONT-SIZE: 9pt; FONT-WEIGHT: bold
+}
+.Table_Heading {
+	BACKGROUND-COLOR: #cccccc; FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 10pt; FONT-WEIGHT: 600
+}
+.TaskListIFrame {
+	BORDER-BOTTOM: #666699 1px solid; BORDER-LEFT: #666699 1px solid; BACKGROUND-COLOR: white; MARGIN: 0px; BORDER-TOP: #666699 1px solid; BORDER-RIGHT: #666699 1px solid
+}
+.TextAdvice {
+	COLOR: #808080; FONT-SIZE: 8pt
+}
+.TextBox {
+	WIDTH: 60pt; HEIGHT: 17pt
+}
+.TextHeading {
+	COLOR: #003366; FONT-SIZE: 18pt; FONT-WEIGHT: bold
+}
+.Text_Heading_14_blue {
+	FONT-FAMILY: Arial; COLOR: blue; FONT-SIZE: 14pt; FONT-WEIGHT: bold
+}
+.TextHeadingMedium {
+	COLOR: #000000; FONT-SIZE: 10pt; FONT-WEIGHT: bold
+}
+.TextHeadingSmall {
+	COLOR: #000000; FONT-SIZE: 9pt
+}
+.TextHeadingTiny {
+	COLOR: black; FONT-SIZE: 8pt
+}
+.TextInactive {
+	COLOR: #999999; FONT-SIZE: 8pt; FONT-WEIGHT: bold
+}
+.TextLink {
+	FONT-FAMILY: Arial, Verdana, 'Times New Roman'; COLOR: black; FONT-SIZE: 9pt; CURSOR: hand; FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+.TextSmall {
+	FONT-FAMILY: Arial; COLOR: #003366; FONT-SIZE: 9pt
+}
+.TextTiny {
+	FONT-FAMILY: Arial; COLOR: #003366; FONT-SIZE: 8pt
+}
+.Text_Heading {
+	COLOR: #333366; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+.Text_HeaderTitle {
+	FONT-FAMILY: Tahoma, Arial; COLOR: white; FONT-SIZE: 11px; FONT-WEIGHT: bold
+}
+.Text_Heading_Medium {
+	FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 12px; FONT-WEIGHT: bold
+}
+.Text_Heading_Register {
+	FONT-FAMILY: Arial; COLOR: #999999; FONT-SIZE: 12pt; FONT-WEIGHT: bold
+}
+.Text_Normal {
+	FONT-FAMILY: Arial, Verdana, 'Times New Roman'; COLOR: black; FONT-SIZE: 10pt
+}
+.Text_Normal_Inactive {
+	FONT-FAMILY: Arial, Verdana, 'Times New Roman'; COLOR: #999999; FONT-SIZE: 10pt
+}
+.Text_Normal_bold {
+	FONT-FAMILY: Arial, Verdana, 'Times New Roman'; COLOR: black; FONT-SIZE: 10pt; FONT-WEIGHT: bold
+}
+.Text_Normal_blue {
+	FONT-FAMILY: Arial, Verdana, 'Times New Roman'; COLOR: #333366; FONT-SIZE: 10pt
+}
+.Text_Link {
+	FONT-FAMILY: Arial, Verdana, 'Times New Roman'; COLOR: #333399; FONT-SIZE: 10pt; FONT-WEIGHT: normal
+}
+.Text_Small {
+	FONT-FAMILY: Arial, Verdana, 'Times New Roman'; COLOR: black; FONT-SIZE: 11px; FONT-WEIGHT: normal
+}
+.Text_Small_Blue {
+	FONT-FAMILY: Arial, Verdana, 'Times New Roman'; COLOR: #333366; FONT-SIZE: 9pt; FONT-WEIGHT: normal
+}
+.Text_Small_Bold {
+	FONT-FAMILY: Arial, Verdana; COLOR: black; FONT-SIZE: 8.5pt; FONT-WEIGHT: bold
+}
+.Text_Small_Normal {
+	FONT-FAMILY: Arial, Verdana; COLOR: black; FONT-SIZE: 8.5pt; FONT-WEIGHT: normal
+}
+.InfoText {
+	FONT-FAMILY: Arial; COLOR: #333366; FONT-SIZE: 10pt; FONT-WEIGHT: bold
+}
+.ErrorText {
+	FONT-FAMILY: Arial; COLOR: red; FONT-SIZE: 10pt
+}
+.TitleText {
+	FONT-FAMILY: Arial; COLOR: #333366; FONT-SIZE: 30pt
+}
+.ErrorDetails {
+	BORDER-BOTTOM: thin inset; BORDER-LEFT: thin inset; OVERFLOW-Y: scroll; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; BORDER-TOP: thin inset; BORDER-RIGHT: thin inset
+}
+INPUT.picklist {
+	BORDER-BOTTOM: #bcccf3 1px solid; BORDER-LEFT: #bcccf3 1px solid; MARGIN-TOP: 2px; WIDTH: 285px; HEIGHT: 19px; BORDER-TOP: #bcccf3 1px solid; BORDER-RIGHT: #bcccf3 1px solid
+}
+DIV.picklist {
+	BORDER-BOTTOM: #bcccf3 1px solid; POSITION: absolute; BORDER-LEFT: #bcccf3 1px solid; BACKGROUND-COLOR: #ffffff; WIDTH: 300px; HEIGHT: 120px; OVERFLOW: auto; BORDER-TOP: #bcccf3 1px solid; BORDER-RIGHT: #bcccf3 1px solid
+}
+TD.picklist {
+	whitespace: nowrap
+}
+DIV.picklistOptionOff {
+	BORDER-BOTTOM: #bcccf3 0px; BORDER-LEFT: #bcccf3 0px; WIDTH: 280px; DISPLAY: inline; HEIGHT: 17px; BORDER-TOP: #bcccf3 0px; BORDER-RIGHT: #bcccf3 0px; whitespace: nowrap
+}
+DIV.picklistOptionOn {
+	BORDER-BOTTOM: #bcccf3 0px; BORDER-LEFT: #bcccf3 0px; BACKGROUND-COLOR: #3169c6; WIDTH: 280px; DISPLAY: inline; HEIGHT: 17px; COLOR: white; BORDER-TOP: #bcccf3 0px; BORDER-RIGHT: #bcccf3 0px; whitespace: nowrap
+}
+.CMA_SPa {
+	PADDING-LEFT: 2px; FONT-WEIGHT: bold
+}
+.CMA_SPb {
+	PADDING-RIGHT: 2px; FLOAT: right
+}
+.CMA_HelpBtn_Down {
+	BORDER-BOTTOM: #256cb4 1px solid; BORDER-LEFT: #256cb4 1px solid; BACKGROUND-COLOR: #bcd7f1; BORDER-TOP: #256cb4 1px solid; CURSOR: hand; BORDER-RIGHT: #256cb4 1px solid
+}
+.CMA_HelpBtn_Off {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BORDER-TOP: 0px; CURSOR: hand; BORDER-RIGHT: 0px
+}
+.CMA_HelpBtn_On {
+	BORDER-BOTTOM: #256cb4 1px solid; BORDER-LEFT: #256cb4 1px solid; BACKGROUND-COLOR: #bcd7f1; BORDER-TOP: #256cb4 1px solid; CURSOR: hand; BORDER-RIGHT: #256cb4 1px solid
+}
+.CMAText {
+	FONT-FAMILY: Arial; FONT-SIZE: 8pt
+}
+.CMAText_Bold {
+	FONT-FAMILY: Arial; FONT-SIZE: 8pt; FONT-WEIGHT: bold
+}
+.CMAText {
+	FONT-FAMILY: Arial; FONT-SIZE: 8pt
+}
+.CMAText_Bold {
+	FONT-FAMILY: Arial; FONT-SIZE: 8pt; FONT-WEIGHT: bold
+}
+TABLE.CMACompList {
+	BORDER-BOTTOM: #aaaaaa 2px solid; BORDER-LEFT: #aaaaaa 2px solid; BORDER-TOP: #aaaaaa 2px solid; BORDER-RIGHT: #aaaaaa 2px solid
+}
+TD.CMACompList {
+	BORDER-BOTTOM: #111111 1px solid; BORDER-LEFT: #111111 1px solid; BORDER-TOP: #111111 1px solid; BORDER-RIGHT: #111111 1px solid
+}
+TABLE.CMACompList .liner {
+	BACKGROUND-COLOR: #aaaaaa; HEIGHT: 1px
+}
+.CMACompListRowHead {
+	BORDER-BOTTOM-COLOR: #aca899; BACKGROUND-COLOR: #eeeeee; BORDER-TOP-COLOR: #ffffff; BORDER-COLLAPSE: collapse; WHITE-SPACE: nowrap; BORDER-RIGHT-COLOR: #ffffff; BORDER-LEFT-COLOR: #ffffff; FONT-WEIGHT: bold
+}
+.CMACompListGray {
+	BORDER-BOTTOM-COLOR: #aca899; PADDING-BOTTOM: 2px; BACKGROUND-COLOR: #eeeeee; BORDER-TOP-COLOR: #ffffff; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; BORDER-COLLAPSE: collapse; WHITE-SPACE: nowrap; BORDER-RIGHT-COLOR: #ffffff; BORDER-LEFT-COLOR: #ffffff; FONT-WEIGHT: bold; PADDING-TOP: 2px
+}
+.CMACompListOdd {
+	BORDER-BOTTOM-COLOR: #aca899; PADDING-BOTTOM: 2px; BACKGROUND-COLOR: #dfedfb; BORDER-TOP-COLOR: #ffffff; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; BORDER-COLLAPSE: collapse; WHITE-SPACE: nowrap; BORDER-RIGHT-COLOR: #ffffff; VERTICAL-ALIGN: bottom; BORDER-LEFT-COLOR: #ffffff; PADDING-TOP: 2px
+}
+.CMACompListEven {
+	BORDER-BOTTOM-COLOR: #aca899; PADDING-BOTTOM: 2px; BACKGROUND-COLOR: #ffffff; BORDER-TOP-COLOR: #ffffff; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; BORDER-COLLAPSE: collapse; WHITE-SPACE: nowrap; BORDER-RIGHT-COLOR: #ffffff; VERTICAL-ALIGN: bottom; BORDER-LEFT-COLOR: #ffffff; PADDING-TOP: 2px
+}
+#head A {
+	PADDING-LEFT: 8px; BACKGROUND: url(/5.3.06.16975/Images/backbullet.gif) no-repeat left 50%; FLOAT: right; COLOR: #009; FONT-SIZE: 8pt; FONT-WEIGHT: bold
+}
+#imgCMAPricePickList {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/DropDown.bmp', sizingMethod='scale'); MARGIN-TOP: 2px; WIDTH: 14px; DISPLAY: inline-block; HEIGHT: 16px; VERTICAL-ALIGN: top
+}
+#imgCMAPriceHelp {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/ICO_Question.gif', sizingMethod='scale'); MARGIN-TOP: 2px; WIDTH: 16px; DISPLAY: inline-block; HEIGHT: 16px; VERTICAL-ALIGN: top
+}
+#head A {
+	PADDING-LEFT: 8px; BACKGROUND: url(/5.3.06.16975/Images/backbullet.gif) no-repeat left 50%; FLOAT: right; COLOR: #009; FONT-SIZE: 8pt; FONT-WEIGHT: bold
+}
+#head H1 {
+	PADDING-BOTTOM: 4px; MARGIN: 0px; PADDING-LEFT: 40px; PADDING-RIGHT: 0px; FONT-FAMILY: Arial,Verdana; COLOR: #000; FONT-SIZE: 12pt; FONT-WEIGHT: bold; PADDING-TOP: 8px
+}
+#head H1#settings {
+	BACKGROUND: url(/5.3.06.16975/Images/icosettings_small.gif) no-repeat
+}
+#head HR {
+	MARGIN: 0px 0px 8px; HEIGHT: 2px; COLOR: #0e3c70
+}
+.TabControl {
+	BEHAVIOR: url('/5.3.06.16975/Behaviors/TabControl/TabControl.htc')
+}
+.TabActiveLeft {
+	WIDTH: 3px; BACKGROUND: url(/5.3.06.16975/Images/imgTabSelected_left.jpg) no-repeat; HEIGHT: 21px; CURSOR: default
+}
+.TabActiveMiddle {
+	BACKGROUND-IMAGE: url(/5.3.06.16975/Images/imgTabSelected_strip.jpg); PADDING-BOTTOM: 0px; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; BACKGROUND-REPEAT: repeat-x; FONT-FAMILY: Arial,Verdana; HEIGHT: 21px; FONT-SIZE: 9pt; CURSOR: default; FONT-WEIGHT: bold; PADDING-TOP: 4px
+}
+.TabActiveRight {
+	WIDTH: 3px; BACKGROUND: url(/5.3.06.16975/Images/imgTabSelected_right.jpg) no-repeat; HEIGHT: 21px; CURSOR: default
+}
+.TabInactiveLeft {
+	WIDTH: 3px; BACKGROUND: url(/5.3.06.16975/Images/imgTabActive_left.jpg) no-repeat; HEIGHT: 21px; CURSOR: hand
+}
+.TabInactiveMiddle {
+	BACKGROUND-IMAGE: url(/5.3.06.16975/Images/imgTabActive_strip.jpg); PADDING-BOTTOM: 0px; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; BACKGROUND-REPEAT: repeat-x; FONT-FAMILY: Arial,Verdana; HEIGHT: 21px; FONT-SIZE: 9pt; CURSOR: hand; FONT-WEIGHT: bold; PADDING-TOP: 4px
+}
+.TabInactiveRight {
+	WIDTH: 3px; BACKGROUND: url(/5.3.06.16975/Images/imgTabActive_right.jpg) no-repeat; HEIGHT: 21px; CURSOR: hand
+}
+.TabDisabledLeft {
+	WIDTH: 3px; BACKGROUND: url(/5.3.06.16975/Images/imgTabDisabled_left.jpg) no-repeat; HEIGHT: 21px; CURSOR: default
+}
+.TabDisabledMiddle {
+	BACKGROUND-IMAGE: url(/5.3.06.16975/Images/imgTabDisabled_strip.jpg); PADDING-BOTTOM: 0px; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; BACKGROUND-REPEAT: repeat-x; FONT-FAMILY: Arial,Verdana; HEIGHT: 21px; COLOR: gray; FONT-SIZE: 9pt; CURSOR: default; FONT-WEIGHT: bold; PADDING-TOP: 4px
+}
+.TabDisabledRight {
+	WIDTH: 3px; BACKGROUND: url(/5.3.06.16975/Images/imgTabDisabled_right.jpg) no-repeat; HEIGHT: 21px; CURSOR: default
+}
+#spanMOTD {
+	BACKGROUND-COLOR: #608fb0
+}
+.divMOTD {
+	MARGIN: 10px; FONT-SIZE: 10pt
+}
+A.HeaderLink {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: white; FONT-SIZE: 8pt; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+A.HeaderLink:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: white; TEXT-DECORATION: underline
+}
+A.HeaderLink:active {
+	COLOR: white
+}
+#Divsignout .HeaderLink:hover SPAN {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+#divsettings .HeaderLink:hover SPAN {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+#divhelp .HeaderLink:hover SPAN {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+A.MenuText {
+	COLOR: white; FONT-SIZE: 11px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+A.MenuText:active {
+	COLOR: #333366; FONT-SIZE: 11px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+A.MenuText:hover {
+	COLOR: #333366; FONT-SIZE: 11px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+A.MenuTextSelected {
+	COLOR: white; FONT-SIZE: 11px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+A.MenuTextSelected:active {
+	COLOR: white; FONT-SIZE: 11px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+A.MenuTextSelected:hover {
+	COLOR: white; FONT-SIZE: 11px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+#trHeader {
+	HEIGHT: 47px
+}
+#divBanner {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; MARGIN-TOP: 0px; PADDING-LEFT: 0px; MARGIN-BOTTOM: 0px; BACKGROUND: url(/5.3.06.16975/Images/MLX3/sef_HeaderWallpaper_gold.png) #24a5e0 no-repeat; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+#divHeaderMainLogo {
+	BACKGROUND: none transparent scroll repeat 0% 0%; HEIGHT: 47px
+}
+#divHeaderHotSpot {
+	POSITION: absolute; BACKGROUND: none transparent scroll repeat 0% 0%; OVERFLOW: auto; TOP: 7px; RIGHT: 0px
+}
+#divHeaderUserName {
+	POSITION: absolute; PADDING-LEFT: 230px; COLOR: white; OVERFLOW: auto; TOP: 7px; LEFT: 0px
+}
+#divHeaderSignInAsLink {
+	VISIBILITY: hidden
+}
+#divPassportSignout {
+	BACKGROUND-IMAGE: url(/5.3.06.16975/Images/MLX3/ico_signout.gif); DISPLAY: inline; BACKGROUND-REPEAT: no-repeat
+}
+#Divsignout {
+	BACKGROUND-IMAGE: url(/5.3.06.16975/Images/MLX3/ico_signout.gif); DISPLAY: inline; BACKGROUND-REPEAT: no-repeat
+}
+#divPassportSignout SPAN {
+	BACKGROUND-IMAGE: url(/5.3.06.16975/Images/icoHeaderSignout.gif); PADDING-LEFT: 13px; DISPLAY: none; BACKGROUND-REPEAT: no-repeat
+}
+#Divsignout SPAN {
+	PADDING-LEFT: 18px; PADDING-RIGHT: 18px; BACKGROUND: none transparent scroll repeat 0% 0%
+}
+A.imgExpanded {
+	VISIBILITY: hidden
+}
+#divsettings {
+	BACKGROUND-IMAGE: url(/5.3.06.16975/Images/MLX3/ico_settings.gif); DISPLAY: inline; BACKGROUND-REPEAT: no-repeat
+}
+#divsettings SPAN {
+	PADDING-LEFT: 18px; PADDING-RIGHT: 18px; BACKGROUND: none transparent scroll repeat 0% 0%
+}
+#divhelp {
+	BACKGROUND-IMAGE: url(/5.3.06.16975/Images/MLX3/ico_help.gif); DISPLAY: inline; BACKGROUND-REPEAT: no-repeat
+}
+#divhelp SPAN {
+	PADDING-LEFT: 18px; PADDING-RIGHT: 18px; BACKGROUND: none transparent scroll repeat 0% 0%
+}
+#divHeaderShadow {
+	DISPLAY: none
+}
+#divDateTime {
+	DISPLAY: none
+}
+#MenuBar {
+	BACKGROUND-IMAGE: url(/5.3.06.16975/Images/MLX3/mlx_banner_bg2.png); Z-INDEX: 2; POSITION: absolute; BACKGROUND-REPEAT: repeat-x; HEIGHT: 17px; TOP: 30px; LEFT: 208px
+}
+#menu {
+	WIDTH: 100%; HEIGHT: 17px
+}
+.MenuCellImage {
+	DISPLAY: none
+}
+.MenuCellInactive {
+	WIDTH: 100%; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #333366; FONT-SIZE: 11px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.MenuCellInactive {
+	PADDING-BOTTOM: 1px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 1px
+}
+.MenuCellActive {
+	PADDING-BOTTOM: 1px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 1px
+}
+.MenuCellInactive {
+	BORDER-BOTTOM: #183e6b 1px solid
+}
+#divHeaderMainLogo {
+	BORDER-BOTTOM: #183e6b 1px solid
+}
+.MenuCellInactive:active {
+	FONT-WEIGHT: bold
+}
+.MenuCellActive:active {
+	FONT-WEIGHT: bold
+}
+.MenuCellInactive:hover {
+	BACKGROUND-IMAGE: url(/5.3.06.16975/Images/MLX3/sef_menu_bg_hover.gif); COLOR: #211d70; FONT-SIZE: 11px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.MenuCellActive {
+	BORDER-LEFT: #183e6b 1px solid; BACKGROUND-COLOR: white; WIDTH: 100%; COLOR: #333366; FONT-SIZE: 11px; BORDER-TOP: #183e6b 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #183e6b 1px solid; TEXT-DECORATION: none
+}
+.MenuCellActive:hover {
+	COLOR: #333366; FONT-SIZE: 11px; TEXT-DECORATION: none
+}
+.Text_HeaderLoginUser {
+	FONT-FAMILY: Tahoma, Arial; COLOR: white; FONT-SIZE: 11px; FONT-WEIGHT: bold
+}
+BODY.LoginPage {
+	MARGIN: 0px; OVERFLOW: auto
+}
+#divLoginPage {
+	BACKGROUND-IMAGE: url(/5.3.06.16975/Images/MLX3/backgroundContainer.jpg); BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: center 0px; HEIGHT: 100%
+}
+.divDropDownContainer {
+	BORDER-BOTTOM: #656565 1px solid; BORDER-LEFT: #656565 1px solid; MARGIN: 0px; OVERFLOW: hidden; BORDER-TOP: #656565 1px solid; BORDER-RIGHT: #656565 1px solid
+}
+.aArrowUp {
+	BACKGROUND-IMAGE: url(/5.3.06.16975/Images/arrow_up.gif); POSITION: absolute; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #6688bb; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: center center; PADDING-TOP: 0px
+}
+.aArrowDown {
+	BACKGROUND-IMAGE: url(/5.3.06.16975/Images/arrow_open.gif); POSITION: absolute; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #668cb3; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: center center; PADDING-TOP: 0px
+}
+.divDropdown {
+	BACKGROUND-IMAGE: none; POSITION: absolute; FILTER: none; BACKGROUND-COLOR: #678dc9; BACKGROUND-REPEAT: repeat-y; BACKGROUND-POSITION: left top; OVERFLOW: hidden; TOP: 0px
+}
+.divDropdown A {
+	BORDER-BOTTOM: #a0c3e7 1px solid; PADDING-BOTTOM: 4px; PADDING-LEFT: 4px; WIDTH: 100%; PADDING-RIGHT: 14px; DISPLAY: block; FONT-FAMILY: Arial; COLOR: #ffffff; FONT-SIZE: 12px; TEXT-DECORATION: none; PADDING-TOP: 2px
+}
+.divDropdown A:hover {
+	BACKGROUND-COLOR: #eba818; COLOR: #342406; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.divDropdown A.aDropdownBranch {
+	BACKGROUND-IMAGE: url(/5.3.06.16975/Images/MenuArrow.gif); BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: right center
+}
+.divDropdown A.aDropdownBranch:hover {
+	BACKGROUND-IMAGE: url(/5.3.06.16975/Images/MenuArrowWhite.gif)
+}
+#divLoginArea {
+	POSITION: absolute; MARGIN-LEFT: -50px; TOP: 155px; LEFT: 50%
+}
+#divLoginPubPriv {
+	Z-INDEX: 1; WIDTH: 295px; MARGIN-BOTTOM: 10px; HEIGHT: 109px
+}
+#divLoginPubPriv SPAN {
+	POSITION: relative; PADDING-BOTTOM: 1px; FLOAT: left; TOP: 4px
+}
+#spanLoginDesc {
+	MARGIN-TOP: -30px; WIDTH: 500px; MARGIN-BOTTOM: 66px; COLOR: #eceff5; MARGIN-LEFT: -50px; FONT-SIZE: 120%
+}
+#spanLoginUserID {
+	BACKGROUND-IMAGE: url(/5.3.06.16975/Images/MLX3/icoUserid.jpg); PADDING-LEFT: 40px; WIDTH: 300px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left center; MARGIN-BOTTOM: 22px; HEIGHT: 50px; MARGIN-LEFT: 25px; FONT-WEIGHT: bold
+}
+#spanLoginUserID INPUT {
+	BORDER-BOTTOM: #2e327f 1px solid; POSITION: relative; BORDER-LEFT: #2e327f 1px solid; BACKGROUND-COLOR: #ffffff; BORDER-TOP: #2e327f 1px solid; TOP: 20px; BORDER-RIGHT: #2e327f 1px solid; LEFT: -42px
+}
+#spanLoginPwd {
+	BACKGROUND-IMAGE: url(/5.3.06.16975/Images/MLX3/icoPassword.jpg); PADDING-LEFT: 40px; WIDTH: 300px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left center; MARGIN-BOTTOM: 50px; HEIGHT: 50px; MARGIN-LEFT: 25px; FONT-WEIGHT: bold
+}
+#spanLoginPwd INPUT {
+	BORDER-BOTTOM: #2e327f 1px solid; POSITION: relative; BORDER-LEFT: #2e327f 1px solid; BACKGROUND-COLOR: #ffffff; BORDER-TOP: #2e327f 1px solid; TOP: 20px; BORDER-RIGHT: #2e327f 1px solid; LEFT: -60px
+}
+#aLoginPwdReminder {
+	POSITION: relative; MARGIN: 20px 0px 2px 5px; WIDTH: 120px; WHITE-SPACE: nowrap; HEIGHT: 10px; COLOR: #eeeeee; FONT-WEIGHT: bold
+}
+#aLoginBtn {
+	BACKGROUND-IMAGE: url(/5.3.06.16975/Images/MLX3/ImgSignInBtn.gif); POSITION: relative; MARGIN: -55px 0px 2px 191px; WIDTH: 95px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: right bottom; HEIGHT: 31px
+}
+#aLoginBtn:hover {
+	BACKGROUND-IMAGE: url(/5.3.06.16975/Images/MLX3/ImgSignInBtn.gif); BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: right bottom
+}
+#aLoginBtn:active {
+	BACKGROUND-IMAGE: url(/5.3.06.16975/Images/MLX3/ImgSignInBtn.gif); BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: right bottom
+}
+#aLoginBtn:link {
+	BACKGROUND-IMAGE: url(/5.3.06.16975/Images/MLX3/ImgSignInBtn.gif); BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: right bottom
+}
+#divLoginPubPassDivider {
+	BACKGROUND-IMAGE: url(/5.3.06.16975/Images/LoginOr.gif); Z-INDEX: 2; WIDTH: 295px; DISPLAY: none; BACKGROUND-REPEAT: no-repeat; MARGIN-BOTTOM: 7px; HEIGHT: 11px
+}
+#divLoginPP {
+	Z-INDEX: 2; WIDTH: 295px; DISPLAY: none; HEIGHT: 48px
+}
+#spanLoginPPDesc {
+	BACKGROUND-IMAGE: url(/5.3.06.16975/Images/netPassportLogo.gif); POSITION: relative; TEXT-ALIGN: left; PADDING-BOTTOM: 0px; PADDING-LEFT: 3px; WIDTH: 215px; PADDING-RIGHT: 0px; DISPLAY: none; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: right center; HEIGHT: 29px; PADDING-TOP: 7px; LEFT: 80px
+}
+#spanLoginPPDesc {
+	DISPLAY: none; FONT-WEIGHT: bold
+}
+#aLoginPPBtn {
+	BACKGROUND-IMAGE: url(/5.3.06.16975/Images/signin.gif); Z-INDEX: 1; MARGIN-TOP: 6px; WIDTH: 295px; DISPLAY: none; BACKGROUND-REPEAT: no-repeat; FLOAT: right; HEIGHT: 46px
+}
+#spanLoginPPUnavail {
+	Z-INDEX: 1; BORDER-BOTTOM: lightgrey 2px solid; TEXT-ALIGN: center; BORDER-LEFT: lightgrey 2px solid; MARGIN-TOP: 13px; WIDTH: 295px; DISPLAY: none; FLOAT: right; HEIGHT: 50px; COLOR: red; FONT-SIZE: 11px; BORDER-TOP: lightgrey 2px solid; FONT-WEIGHT: bold; BORDER-RIGHT: lightgrey 2px solid; PADDING-TOP: 2px
+}
+#divLoginBrandingImage {
+	POSITION: absolute; WIDTH: 750px; BACKGROUND: none transparent scroll repeat 0% 0%; HEIGHT: 337px; MARGIN-LEFT: -378px; TOP: 30px; LEFT: 50%
+}
+#divConnecting {
+	BACKGROUND-IMAGE: url(/5.3.06.16975/Images/MLX3/Connecting.gif); Z-INDEX: 1; POSITION: absolute; TEXT-ALIGN: left; PADDING-LEFT: 8px; WIDTH: 245px; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: Tahoma; BACKGROUND-POSITION: left top; HEIGHT: 185px; COLOR: #ffffff; MARGIN-LEFT: 145px; FONT-SIZE: 130%; TOP: 317px; FONT-WEIGHT: normal; PADDING-TOP: 53px; LEFT: 50%
+}
+#divLoginCopyrightIcon {
+	DISPLAY: none
+}
+#divLoginCopyright {
+	POSITION: absolute; WIDTH: 730px; BOTTOM: 10px; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: Arial; MARGIN-LEFT: -370px; FONT-SIZE: 9px; TOP: 530px; LEFT: 50%
+}
+#divLoginHeader {
+	BACKGROUND-IMAGE: url(/5.3.06.16975/Images/MLX3/welcome.jpg); POSITION: absolute; WIDTH: 270px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 42px; MARGIN-LEFT: -100px; TOP: 93px; LEFT: 50%
+}
+#divLoginLinks {
+	POSITION: absolute; TEXT-ALIGN: center; PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; WIDTH: 754px; PADDING-RIGHT: 10px; BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN-LEFT: -377px; TOP: 442px; PADDING-TOP: 10px; LEFT: 50%
+}
+#divLoginLinks A {
+	FILTER: progid:DXImageTransform.Microsoft.BasicImage(opacity=1); PADDING-BOTTOM: 0px; PADDING-LEFT: 20px; PADDING-RIGHT: 5px; FONT-FAMILY: Tahoma, Verdana; BACKGROUND: url(/5.3.06.16975/Images/mlx2/linkBullet.gif) no-repeat left 10px; COLOR: #808080; FONT-SIZE: 12px; TEXT-DECORATION: none; PADDING-TOP: 10px
+}
+#divLoginLinks A:hover {
+	BACKGROUND: url(/5.3.06.16975/Images/mlx2/aniBulletlink.gif) no-repeat left 10px; COLOR: #000
+}
+#divLoginLinks A:link {
+	BACKGROUND: url(/5.3.06.16975/Images/mlx2/linkBullet.gif) no-repeat left 10px
+}
+#divLoginLinks A:active {
+	BACKGROUND: url(/5.3.06.16975/Images/mlx2/linkBullet.gif) no-repeat left 10px
+}
+#divLoginMLXLogo {
+	BACKGROUND-IMAGE: url(/5.3.06.16975/Images/mlxlogo.gif); POSITION: absolute; WIDTH: 165px; DISPLAY: none; BACKGROUND-REPEAT: no-repeat; HEIGHT: 43px; TOP: 10px; LEFT: 10px
+}
+#divLoginSpecialMessage {
+	BORDER-BOTTOM: red 1px dashed; POSITION: absolute; TEXT-ALIGN: center; BORDER-LEFT: red 1px dashed; PADDING-BOTTOM: 10px; BACKGROUND-COLOR: white; PADDING-LEFT: 10px; WIDTH: 740px; PADDING-RIGHT: 10px; FONT-FAMILY: Arial; COLOR: red; MARGIN-LEFT: -370px; FONT-SIZE: 13px; BORDER-TOP: red 1px dashed; TOP: 380px; BORDER-RIGHT: red 1px dashed; PADDING-TOP: 10px; LEFT: 50%
+}
+#divReAuthMessage {
+	Z-INDEX: 500; BORDER-BOTTOM: #000040 1px solid; POSITION: absolute; TEXT-ALIGN: center; BORDER-LEFT: #000040 1px solid; PADDING-BOTTOM: 10px; BACKGROUND-COLOR: #f5f8e0; PADDING-LEFT: 10px; WIDTH: 758px; PADDING-RIGHT: 10px; HEIGHT: 79px; VISIBILITY: hidden; MARGIN-LEFT: -379px; BORDER-TOP: #000040 1px solid; TOP: 10px; BORDER-RIGHT: #000040 1px solid; PADDING-TOP: 10px; LEFT: 50%
+}
+.WizLogo {
+	TEXT-ALIGN: center; COLOR: #000066; FONT-SIZE: 14pt; verical-align: bottom
+}
+.wizard_nav_controls {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: white; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 2px
+}
+.wizard_nav_button {
+	BORDER-TOP: #4466aa 2px solid
+}
+.wizard_menu {
+	PADDING-BOTTOM: 7px; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BORDER-COLLAPSE: collapse; FONT-SIZE: 9pt; PADDING-TOP: 7px
+}
+.wizard_menu_spacer {
+	BACKGROUND-COLOR: #afcafd; BORDER-RIGHT: #4466aa 1px solid
+}
+.wizard_step {
+	MARGIN-TOP: 0px; TEXT-INDENT: -12px; MARGIN-BOTTOM: 0px; COLOR: #000000; MARGIN-LEFT: 12px
+}
+.WizMenuButtonACTIVE {
+	BACKGROUND-IMAGE: url(/5.3.06.16975/Images/WizButtonBG_6.gif); BORDER-BOTTOM: #4466aa 1px solid; POSITION: relative; BORDER-LEFT: #e5e5e5 1px solid; PADDING-RIGHT: 2px; FONT-FAMILY: tahoma; HEIGHT: 27px; COLOR: #000000; FONT-SIZE: 8pt; BORDER-TOP: #e5e5e5 1px solid; CURSOR: hand; FONT-WEIGHT: bold; MARGIN-RIGHT: 2px; BORDER-RIGHT: #4466aa 1px solid; TEXT-DECORATION: none
+}
+.WizMenuButtonOVER {
+	BACKGROUND-IMAGE: url(/5.3.06.16975/Images/WizButtonBG_6over.gif); BORDER-BOTTOM: #4466aa 1px solid; POSITION: relative; BORDER-LEFT: #e5e5e5 1px solid; PADDING-RIGHT: 2px; FONT-FAMILY: tahoma; HEIGHT: 27px; COLOR: #000099; FONT-SIZE: 8pt; BORDER-TOP: #e5e5e5 1px solid; CURSOR: hand; FONT-WEIGHT: bold; MARGIN-RIGHT: 2px; BORDER-RIGHT: #4466aa 1px solid; TEXT-DECORATION: underline
+}
+.WizMenuButtonDOWN {
+	BACKGROUND-IMAGE: url(/5.3.06.16975/Images/WizButtonBG_6down.gif); BORDER-BOTTOM: #e5e5e5 0px solid; POSITION: relative; BORDER-LEFT: #4466aa 2px solid; BACKGROUND-COLOR: #ffffff; PADDING-RIGHT: 2px; FONT-FAMILY: tahoma; HEIGHT: 26px; COLOR: #000099; FONT-SIZE: 8pt; BORDER-TOP: #4466aa 2px solid; CURSOR: hand; FONT-WEIGHT: bold; MARGIN-RIGHT: 2px; BORDER-RIGHT: #4466aa 1px solid; TEXT-DECORATION: none
+}
+.WizMenuButtonON {
+	POSITION: relative; BORDER-LEFT: #4466aa 1px solid; BORDER-RIGHT-WIDTH: 0px; BACKGROUND-COLOR: #ffffff; MARGIN-TOP: 1px; PADDING-RIGHT: 2px; FONT-FAMILY: tahoma; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 26px; COLOR: #000099; MARGIN-LEFT: 1px; FONT-SIZE: 8pt; BORDER-TOP: #4466aa 1px solid; CURSOR: hand; FONT-WEIGHT: normal; MARGIN-RIGHT: 2px; TEXT-DECORATION: none
+}
+.WizMenuButtonINACTIVE {
+	BACKGROUND-IMAGE: url(/5.3.06.16975/Images/WizButtonBG_5.gif); BORDER-BOTTOM: #999999 1px solid; POSITION: relative; BORDER-LEFT: #cccccc 1px solid; PADDING-RIGHT: 2px; FONT-FAMILY: tahoma; HEIGHT: 27px; COLOR: #444444; FONT-SIZE: 8pt; BORDER-TOP: #4466aa 1px solid; FONT-WEIGHT: bold; MARGIN-RIGHT: 2px; BORDER-RIGHT: #4466aa 1px solid; TEXT-DECORATION: none
+}
+
+@media Print    
+{
+.PrintBar {
+	DISPLAY: none
+}
+    }
+TR.liner {
+	BACKGROUND-COLOR: #aaaaaa; HEIGHT: 1px
+}
+TR.liner {
+	BACKGROUND-COLOR: #aaaaaa; HEIGHT: 1px
+}
+.Confirmation_Body {
+	BACKGROUND-IMAGE: url(/5.3.06.16975/Images/Tempo/bodyBG.gif); BACKGROUND-COLOR: #ffffff; MARGIN: 8px 0px 2px 8px; BACKGROUND-REPEAT: repeat-x; FONT-FAMILY: arial; BACKGROUND-POSITION: 50% bottom; FONT-SIZE: 9pt; VERTICAL-ALIGN: top
+}
+.Confirmation_successMSG {
+	BACKGROUND-IMAGE: url(/5.3.06.16975/Images/Tempo/success_BG.png); BORDER-BOTTOM: #077412 1px solid; BORDER-LEFT: #077412 1px solid; BACKGROUND-COLOR: #ffff8f; MARGIN: 4px 4px 8px; PADDING-LEFT: 5px; WIDTH: 98%; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left top; TABLE-LAYOUT: fixed; COLOR: #000000; VERTICAL-ALIGN: middle; BORDER-TOP: #077412 1px solid; BORDER-RIGHT: #077412 1px solid
+}
+.Confirmation_successMSG TD {
+	PADDING-BOTTOM: 2px; MIN-HEIGHT: 32px; PADDING-LEFT: 38px; PADDING-RIGHT: 8px; FONT-FAMILY: Arial; FONT-SIZE: 9pt; PADDING-TOP: 2px
+}
+.Confirmation_ContentSectionBody {
+	BORDER-BOTTOM: #33478f 1px solid; BORDER-LEFT: #33478f 1px solid; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #f8fafb; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; BORDER-TOP: #33478f 1px solid; BORDER-RIGHT: #33478f 1px solid; PADDING-TOP: 0px
+}
+.Confirmation_PageHeading {
+	FONT-FAMILY: arial; COLOR: #000000; FONT-SIZE: 14pt
+}
+.Confirmation_HR {
+	HEIGHT: 3px; COLOR: #003366
+}
+.Confirmation_MultiRows {
+	PADDING-BOTTOM: 5px; BACKGROUND-COLOR: #ffffff; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; BORDER-COLLAPSE: collapse; FONT-SIZE: 9pt; PADDING-TOP: 5px
+}
+.Confirmation_ScrollDivBG {
+	WIDTH: 100%; HEIGHT: 300px; OVERFLOW: auto
+}
+.Confirmation_ScrollDivBG TABLE.MultiRows {
+	BACKGROUND-COLOR: #ffffff
+}
+TR.Confirmation_liner {
+	BACKGROUND-COLOR: #aaaaaa; HEIGHT: 1px
+}
+TABLE.MultiRows .Confirmation_liner {
+	PADDING-BOTTOM: 5px; BACKGROUND-COLOR: #aaaaaa; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; BORDER-COLLAPSE: collapse; HEIGHT: 1px; FONT-SIZE: 9pt; PADDING-TOP: 5px
+}
+.Confirmation_ContentSectionButtonsBottom {
+	PADDING-BOTTOM: 2px; MARGIN-TOP: 4px
+}
+.MultiSelect {
+	DISPLAY: none; BEHAVIOR: url('/5.3.06.16975/Behaviors/MultiSelect/MultiSelect.htc')
+}
+.MultiSelectTable {
+	FONT-FAMILY: arial; FONT-SIZE: 10pt
+}
+.iconButtonON {
+	BORDER-BOTTOM: #256cb4 1px solid; POSITION: relative; BORDER-LEFT: #256cb4 1px solid; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #bcd7f1; MARGIN: 0px 2px 0px 0px; PADDING-LEFT: 2px; PADDING-RIGHT: 6px; FONT-FAMILY: tahoma; HEIGHT: 34px; COLOR: #000000; FONT-SIZE: 9pt; VERTICAL-ALIGN: middle; BORDER-TOP: #256cb4 1px solid; CURSOR: hand; FONT-WEIGHT: normal; BORDER-RIGHT: #256cb4 1px solid; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+.iconButtonDOWN {
+	BORDER-BOTTOM: #256cb4 1px solid; POSITION: relative; BORDER-LEFT: #256cb4 1px solid; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #92b8e7; MARGIN: 0px 2px 0px 0px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; FONT-FAMILY: tahoma; HEIGHT: 34px; COLOR: #000000; FONT-SIZE: 9pt; VERTICAL-ALIGN: middle; BORDER-TOP: #256cb4 1px solid; CURSOR: hand; FONT-WEIGHT: normal; BORDER-RIGHT: #256cb4 1px solid; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+.iconButtonOFF {
+	POSITION: relative; PADDING-BOTTOM: 1px; MARGIN: 0px 2px 0px 0px; PADDING-LEFT: 3px; PADDING-RIGHT: 7px; FONT-FAMILY: tahoma; HEIGHT: 34px; COLOR: #000000; FONT-SIZE: 9pt; VERTICAL-ALIGN: middle; FONT-WEIGHT: normal; TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+.iconButtonDISABLED {
+	POSITION: relative; PADDING-BOTTOM: 1px; MARGIN: 0px 2px 0px 0px; PADDING-LEFT: 3px; PADDING-RIGHT: 7px; FONT-FAMILY: tahoma; HEIGHT: 34px; COLOR: #808080; FONT-SIZE: 9pt; VERTICAL-ALIGN: middle; FONT-WEIGHT: normal; TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+.iconButtonSELECTED {
+	BORDER-BOTTOM: #256cb4 1px solid; POSITION: relative; BORDER-LEFT: #256cb4 1px solid; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #92b8e7; MARGIN: 0px 2px 0px 0px; PADDING-LEFT: 2px; PADDING-RIGHT: 6px; FONT-FAMILY: tahoma; HEIGHT: 34px; COLOR: #000000; FONT-SIZE: 9pt; VERTICAL-ALIGN: middle; BORDER-TOP: #256cb4 1px solid; CURSOR: hand; FONT-WEIGHT: normal; BORDER-RIGHT: #256cb4 1px solid; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+.icon16ButtonON {
+	BORDER-BOTTOM: #256cb4 1px solid; POSITION: relative; BORDER-LEFT: #256cb4 1px solid; PADDING-BOTTOM: 1px; BACKGROUND-COLOR: #bcd7f1; MARGIN: 0px 2px 0px 0px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; FONT-FAMILY: tahoma; HEIGHT: 18px; COLOR: #000000; FONT-SIZE: 8pt; BORDER-TOP: #256cb4 1px solid; CURSOR: hand; FONT-WEIGHT: normal; BORDER-RIGHT: #256cb4 1px solid; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+.icon16ButtonDOWN {
+	BORDER-BOTTOM: #256cb4 1px solid; POSITION: relative; BORDER-LEFT: #256cb4 1px solid; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #92b8e7; MARGIN: 0px 2px 0px 0px; PADDING-LEFT: 3px; PADDING-RIGHT: 1px; FONT-FAMILY: tahoma; HEIGHT: 18px; COLOR: #000000; FONT-SIZE: 8pt; BORDER-TOP: #256cb4 1px solid; CURSOR: hand; FONT-WEIGHT: normal; BORDER-RIGHT: #256cb4 1px solid; TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+.icon16ButtonOFF {
+	POSITION: relative; PADDING-BOTTOM: 2px; MARGIN: 0px 2px 0px 0px; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; FONT-FAMILY: tahoma; HEIGHT: 18px; COLOR: #000000; FONT-SIZE: 8pt; FONT-WEIGHT: normal; TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+.icon16ButtonDISABLED {
+	POSITION: relative; PADDING-BOTTOM: 2px; MARGIN: 0px 2px 0px 0px; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; FONT-FAMILY: tahoma; HEIGHT: 18px; COLOR: #808080; FONT-SIZE: 8pt; CURSOR: default; FONT-WEIGHT: normal; TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+IMG.icon {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; WIDTH: 24px; HEIGHT: 24px; VERTICAL-ALIGN: middle; BORDER-TOP: 0px; MARGIN-RIGHT: 1px; BORDER-RIGHT: 0px
+}
+#APEToDoIcon {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/event_todo_v1.gif', sizingMethod='scale'); WIDTH: 24px; DISPLAY: inline-block; HEIGHT: 24px; VERTICAL-ALIGN: middle
+}
+#APECallIcon {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/event_phone_v1.gif', sizingMethod='scale'); WIDTH: 24px; DISPLAY: inline-block; HEIGHT: 24px; VERTICAL-ALIGN: middle
+}
+#APEEmailIcon {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/event_email_v1.gif', sizingMethod='scale'); WIDTH: 24px; DISPLAY: inline-block; HEIGHT: 24px; VERTICAL-ALIGN: middle
+}
+#APEAppointmentIcon {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/event_appointment_v1.gif', sizingMethod='scale'); WIDTH: 24px; DISPLAY: inline-block; HEIGHT: 24px; VERTICAL-ALIGN: middle
+}
+.Confirmation_Body {
+	BACKGROUND-IMAGE: url(/5.3.06.16975/Images/Tempo/bodyBG.gif); BACKGROUND-COLOR: #ffffff; MARGIN: 8px 0px 2px 8px; BACKGROUND-REPEAT: repeat-x; FONT-FAMILY: arial; BACKGROUND-POSITION: 50% bottom; FONT-SIZE: 9pt; VERTICAL-ALIGN: top
+}
+.Confirmation_successMSG {
+	BACKGROUND-IMAGE: url(/5.3.06.16975/Images/Tempo/success_BG.png); BORDER-BOTTOM: #077412 1px solid; BORDER-LEFT: #077412 1px solid; BACKGROUND-COLOR: #ffff8f; MARGIN: 4px 4px 8px; PADDING-LEFT: 5px; WIDTH: 98%; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left top; TABLE-LAYOUT: fixed; COLOR: #000000; VERTICAL-ALIGN: middle; BORDER-TOP: #077412 1px solid; BORDER-RIGHT: #077412 1px solid
+}
+.Confirmation_successMSG TD {
+	PADDING-BOTTOM: 2px; MIN-HEIGHT: 32px; PADDING-LEFT: 38px; PADDING-RIGHT: 8px; FONT-FAMILY: Arial; FONT-SIZE: 9pt; PADDING-TOP: 2px
+}
+.Confirmation_ContentSectionBody {
+	BORDER-BOTTOM: #33478f 1px solid; BORDER-LEFT: #33478f 1px solid; BACKGROUND-COLOR: #f8fafb; BORDER-TOP: #33478f 1px solid; BORDER-RIGHT: #33478f 1px solid
+}
+.Confirmation_PageHeading {
+	FONT-FAMILY: arial; COLOR: #000000; FONT-SIZE: 14pt
+}
+.Confirmation_HR {
+	HEIGHT: 3px; COLOR: #003366
+}
+.Confirmation_MultiRows {
+	PADDING-BOTTOM: 5px; BACKGROUND-COLOR: #ffffff; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; BORDER-COLLAPSE: collapse; FONT-SIZE: 9pt; PADDING-TOP: 5px
+}
+.Confirmation_ScrollDivBG {
+	BORDER-BOTTOM: #33478f 1px solid; BORDER-LEFT: #33478f 1px solid; BACKGROUND-COLOR: #f8fafb; WIDTH: 100%; HEIGHT: 100%; OVERFLOW: auto; BORDER-TOP: #33478f 1px solid; BORDER-RIGHT: #33478f 1px solid
+}
+.Confirmation_ScrollDivBG TABLE.MultiRows {
+	BACKGROUND-COLOR: #ffffff
+}
+TR.Confirmation_liner {
+	BACKGROUND-COLOR: #aaaaaa; HEIGHT: 1px
+}
+TABLE.MultiRows .Confirmation_liner {
+	PADDING-BOTTOM: 5px; BACKGROUND-COLOR: #aaaaaa; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; BORDER-COLLAPSE: collapse; HEIGHT: 1px; FONT-SIZE: 9pt; PADDING-TOP: 5px
+}
+.Confirmation_ContentSectionButtonsBottom {
+	PADDING-BOTTOM: 2px; MARGIN-TOP: 4px
+}
+BODY.HotSheetGridEditor {
+	MARGIN-TOP: 2px
+}
+.LinedTable {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.LinedTable TD {
+	BORDER-BOTTOM: #aaaaaa 1px solid
+}
+.FavRow {
+	LINE-HEIGHT: 12pt; BACKGROUND: #66cc66; COLOR: black; FONT-SIZE: 10pt; FONT-WEIGHT: bold
+}
+.PosRow {
+	LINE-HEIGHT: 12pt; BACKGROUND: #ccffff; FONT-SIZE: 10pt; FONT-WEIGHT: bold
+}
+.RecRow {
+	LINE-HEIGHT: 12pt; BACKGROUND: #3399ff; COLOR: #ffffff; FONT-SIZE: 10pt; FONT-WEIGHT: bold
+}
+.RejRow {
+	LINE-HEIGHT: 12pt; BACKGROUND: #ff0000; FONT-SIZE: 10pt; FONT-WEIGHT: bold
+}
+.OtherRow {
+	LINE-HEIGHT: 12pt; BACKGROUND: #bbbbbb; FONT-SIZE: 10pt; FONT-WEIGHT: bold
+}
+.StatReportInfoHeader {
+	BORDER-BOTTOM: #808080 1px solid; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; FONT-FAMILY: Arial, Verdana; COLOR: #003366; FONT-SIZE: 9pt; FONT-WEIGHT: bold; VERTICAL-AIGN: bottom
+}
+.StatReportSidebar {
+	BACKGROUND-COLOR: whitesmoke; FONT-FAMILY: Arial, 'Times New Roman', Verdana; COLOR: black; FONT-SIZE: 8.5pt; FONT-WEIGHT: normal
+}
+.StatReportTitle {
+	FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 14pt; FONT-WEIGHT: bold
+}
+.StatReportVerticalSpacer {
+	WIDTH: 5%
+}
+TD.StatReportData {
+	TEXT-ALIGN: center; PADDING-LEFT: 20px; WIDTH: 10%; PADDING-RIGHT: 20px; FONT-FAMILY: Arial, Verdana; FONT-SIZE: 9pt
+}
+TD.StatReportData2 {
+	TEXT-ALIGN: center; PADDING-LEFT: 20px; WIDTH: 5%; PADDING-RIGHT: 20px; FONT-FAMILY: Arial, Verdana; FONT-SIZE: 9pt
+}
+TD.StatReportData3 {
+	TEXT-ALIGN: left; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; FONT-FAMILY: Arial, Verdana; FONT-SIZE: 8pt
+}
+TD.StatReportData4 {
+	TEXT-ALIGN: center; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; FONT-FAMILY: Arial, Verdana; FONT-SIZE: 8pt
+}
+TD.StatReportGroupHeader {
+	TEXT-INDENT: 4px; FONT-FAMILY: Arial, Verdana; HEIGHT: 25px; COLOR: #003366; FONT-SIZE: 9pt; FONT-WEIGHT: bold
+}
+TD.StatReportSpacer {
+	FONT-FAMILY: Arial, Verdana; HEIGHT: 10px; FONT-SIZE: 5pt
+}
+TH.StatReportColumnHeader {
+	TEXT-ALIGN: center; BACKGROUND-COLOR: #d9d9d9; WIDTH: 10%; FONT-FAMILY: Arial, Verdana; COLOR: #000000; FONT-SIZE: 9pt; FONT-WEIGHT: bold
+}
+TH.StatReportColumnHeader2 {
+	TEXT-ALIGN: center; BACKGROUND-COLOR: #d9d9d9; WIDTH: 5%; FONT-FAMILY: Arial, Verdana; COLOR: #000000; FONT-SIZE: 9pt; FONT-WEIGHT: bold
+}
+TH.StatReportRowHeader {
+	TEXT-ALIGN: right; BORDER-LEFT: #808080 1px solid; BACKGROUND-COLOR: #e6e6e6; WIDTH: 10%; PADDING-RIGHT: 8px; FONT-FAMILY: Arial, Verdana; COLOR: #000000; FONT-SIZE: 9pt; FONT-WEIGHT: bold; BORDER-RIGHT: #808080 1px solid
+}
+TH.StatReportRowHeader2 {
+	TEXT-ALIGN: right; BORDER-LEFT: #808080 1px solid; BACKGROUND-COLOR: #e6e6e6; WIDTH: 5%; PADDING-RIGHT: 8px; FONT-FAMILY: Arial, Verdana; COLOR: #000000; FONT-SIZE: 9pt; FONT-WEIGHT: bold; BORDER-RIGHT: #808080 1px solid
+}
+#CancelIcon {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/Tempo/icons/32x32/~cancel.png', sizingMethod='image')
+}
+.resizeHandler {
+	BACKGROUND-IMAGE: url(/5.3.06.16975/Images/icoResizeBarGrip.gif); BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BACKGROUND-COLOR: #cccccc; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: 50% 50%; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+.HeToolbar {
+	BACKGROUND-IMAGE: url(/5.3.06.16975/Images/Tempo/RichTextToolBar.jpg); BORDER-BOTTOM: medium none; BORDER-LEFT: lightgrey 1px solid; PADDING-BOTTOM: 2px; MARGIN: 1px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 1px; BACKGROUND-REPEAT: repeat-x; FONT-FAMILY: Arial, Verdana, 'Times New Roman'; HEIGHT: 100%; FONT-SIZE: 13px; BORDER-TOP: lightgrey 1px solid; BORDER-RIGHT: lightgrey 1px solid; PADDING-TOP: 1px
+}
+.HeToolbar A {
+	BORDER-BOTTOM: #aec9fe 1px solid; BORDER-LEFT: #aec9fe 1px solid; BORDER-TOP: #aec9fe 1px solid; BORDER-RIGHT: #aec9fe 1px solid; TEXT-DECORATION: none
+}
+.HeToolbar A:hover {
+	BORDER-BOTTOM: #ffffff 1px solid; BORDER-LEFT: #ffffff 1px solid; BORDER-TOP: #ffffff 1px solid; BORDER-RIGHT: #ffffff 1px solid; TEXT-DECORATION: none
+}
+.HeToolbar SELECT {
+	FONT-FAMILY: Tahoma; FONT-SIZE: 11px
+}
+.HeToolbar BUTTON {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BACKGROUND-COLOR: transparent; WIDTH: 16px; FONT-FAMILY: MS Sans Serif; HEIGHT: 16px; FONT-SIZE: 11px; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+.HeToolbar INPUT {
+	FONT-SIZE: 9px
+}
+.HeToolBarSeparator {
+	POSITION: relative; BORDER-LEFT: #777777 1px solid; MARGIN: 0px 4px 0px 0px; WIDTH: 0px; TOP: 1px; BORDER-RIGHT: white 1px solid
+}
+#tblWaitIconBanner {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+#tblWaitMsgInner {
+	BORDER-BOTTOM: #6da2d3 1px solid; BORDER-LEFT: #6da2d3 1px solid; BACKGROUND-COLOR: #ffffff; BORDER-TOP: #6da2d3 1px solid; BORDER-RIGHT: #6da2d3 1px solid
+}
+#tdWaitImage {
+	WIDTH: 106px; BACKGROUND: url(/5.3.06.16975/Images/WaitDlg/Image18.gif) no-repeat left top; HEIGHT: 120px; PADDING-TOP: 3px
+}
+#tdWaitImageBanner {
+	WIDTH: 100%; BACKGROUND: url(/5.3.06.16975/Images/WaitDlg/txtBackground.gif) no-repeat left center; HEIGHT: 120px
+}
+#tdWaitMessageTop {
+	PADDING-LEFT: 30px; FONT-FAMILY: Arial; HEIGHT: 50px; COLOR: #000000; FONT-SIZE: 14pt
+}
+#tdWaitMessageBottom {
+	PADDING-LEFT: 30px; WIDTH: 307px; FONT-FAMILY: Arial; COLOR: #ffffff; FONT-SIZE: 11pt; FONT-WEIGHT: bold
+}
+#trWaitBanner {
+	WIDTH: 100%; HEIGHT: 120px
+}
+.ascbtn_on {
+	POSITION: relative; PADDING-BOTTOM: 2px; MARGIN: 0px 2px 0px 0px; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; FONT-FAMILY: tahoma; HEIGHT: 18px; COLOR: #000000; FONT-SIZE: 8pt; FONT-WEIGHT: normal; TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+.ascbtn_off {
+	DISPLAY: none
+}
+.descbtn_on {
+	POSITION: relative; PADDING-BOTTOM: 2px; MARGIN: 0px 2px 0px 0px; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; FONT-FAMILY: tahoma; HEIGHT: 18px; COLOR: #000000; FONT-SIZE: 8pt; FONT-WEIGHT: normal; TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+.descbtn_off {
+	DISPLAY: none
+}
+.search_results_sort_asc_icon {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/sort_ascending.png', sizingMethod='image'); DISPLAY: inline-block
+}
+.search_results_sort_desc_icon {
+	FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/5.3.06.16975/Images/sort_descending.png', sizingMethod='image'); DISPLAY: inline-block
+}
+INPUT.btnMultiFieldSort {
+	BORDER-BOTTOM: #000066 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #cfcfcf 1px solid; LINE-HEIGHT: 9px; BACKGROUND-COLOR: #eeeeee; FONT-FAMILY: verdana; HEIGHT: 18px; FONT-SIZE: 8pt; BORDER-TOP: #cfcfcf 1px solid; CURSOR: hand; BORDER-RIGHT: #000066 1px solid
+}
+.HSCountCell {
+	OVERFLOW-X: auto; WHITE-SPACE: nowrap
+}
+.date_range_cell {
+	BORDER-BOTTOM: #646464 1px solid; BORDER-LEFT: #646464 1px solid; WIDTH: 28px; BORDER-TOP: #646464 1px solid; BORDER-RIGHT: #646464 1px solid
+}
+.date_range_table {
+	TEXT-ALIGN: center; BORDER-COLLAPSE: collapse; FONT-FAMILY: Arial, Helvetica, Verdana; HEIGHT: 18px; FONT-SIZE: 8pt; FONT-WEIGHT: bold
+}
