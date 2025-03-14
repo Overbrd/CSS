@@ -1,0 +1,225 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	padding: 0px;
+	background-image: none;
+	margin: 10px 0px 0px 0px;
+}
+
+
+.banner {
+
+	background-image: url('images/banner.jpg');
+	background-repeat: no-repeat;
+	background-position: top left;
+	width: 760px;
+	height: 181px;
+}
+
+
+
+.nav {
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	width: 155px;
+	margin: 5px;
+	padding: 5px;
+	text-align: center;
+	border: none;
+	background-image: none;
+	background-color: #e0ae57;
+	display: block;
+	vertical-align: top;
+
+}
+	a.nav {
+		color: #000000;
+		padding: 2px 0px 2px 0px;
+		margin: 2px;
+		background-image: url('images/navbg.jpg');
+		background-repeat: repeat-x;
+		background-position: top left;		
+		text-transform: uppercase;
+		text-decoration: none;
+		border: 1px solid #000000;
+		width: 135px;
+}
+	a.nav:hover {
+		color: #000000;
+		text-decoration: none;
+		background-image: url('images/navbg2.jpg');
+		background-repeat: repeat-x;
+		background-position: top left;
+		border: 1px solid #FFFFFF;
+
+}
+
+	a.nav:visited {
+		color: #000000;
+		text-decoration: none;
+}
+
+	a.nav:active {
+		color: #FFFFFF;
+		text-decoration: none;
+}
+
+
+.content {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	padding: 3px 3px 3px 7px;
+	background-image: url('images/contenttopleft.jpg');
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-color: #FFFFFF;
+	vertical-align: top;
+
+}
+
+.contentbg {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	padding: 3px 3px 3px 7px;
+	margin: 0px 0px 0px 0px;
+	background-image: url('images/contentbg.jpg');
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-color: #FFFFFF;
+	vertical-align: top;
+	text-align: justify;
+
+}
+
+
+.contentbottom {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #000000;
+	padding: 3px 3px 3px 7px;
+	background-image: url('images/contentbottomleft.jpg');
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-color: #FFFFFF;
+	text-align: center;
+	text-decoration: none;
+	text-transform: none;
+
+}
+
+	a.contentbottom {
+		color: #000000;
+		padding: 2px 0px 2px 0px;
+		margin: 2px;
+		background-image: none;		
+		text-transform: none;
+		text-decoration: none;
+}
+	a.contentbottom:hover {
+		color: #000000;
+		text-transform: none;
+		text-decoration: none;
+
+}
+
+	a.contentbottom:visited {
+		color: #000000;
+		text-decoration: none;
+		text-transform: none;
+}
+
+	a.contentbottom:active {
+		color: #FF0000;
+		text-decoration: none;
+		text-transform: none;
+}
+
+
+.bottom {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #FFFFFF;
+	padding: 3px 3px 3px 7px;
+	background-image: url('images/bottom.jpg');
+	background-repeat: no-repeat;
+	background-position: top left;
+	width: 760px;
+	height: 25px;
+	text-align: center;
+
+}
+
+
+.copyright {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #FFFFFF;
+	padding: 0px 0px 0px 4px;
+	margin: 30px 0px 0px 0px;
+	background-image: none;
+	text-align: center;
+	background-image: none;
+	height: 17px;
+
+
+}
+
+	a.copyright {
+		color: #FFFFFF;
+		text-decoration: none;
+}
+	a.copyright:hover {
+		color: #FFFFFF;
+		text-decoration: none;
+}
+
+	a.copyright:visited {
+		color: #FFFFFF;
+		text-decoration: none;
+}
+
+	a.copyright:active {
+		color: #FFFFFF;
+		text-decoration: none;
+}
+
+
+.bookmark {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #000000;
+	padding: 0px 0px 0px 4px;
+	margin: 30px 0px 0px 0px;
+	background-image: none;
+	text-align: center;
+	background-image: none;
+	height: 17px;
+
+
+}
+
+	a.bookmark {
+		color: #000000;
+		text-decoration: none;
+}
+	a.bookmark:hover {
+		color: #000000;
+		text-decoration: none;
+}
+
+	a.bookmark:visited {
+		color: #000000;
+		text-decoration: none;
+}
+
+	a.bookmark:active {
+		color: #000000;
+		text-decoration: none;
+}
