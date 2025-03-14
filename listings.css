@@ -1,0 +1,47 @@
+@CHARSET "UTF-8";
+
+fieldset.test {
+border-radius: 8px;-webkit-border-radius: 8px;-moz-border-radius: 8px;
+}
+
+.default_table td, .default_table th {
+	padding: 2px 0 1px 0;
+}
+.default_table .col1 {
+	width:5%;
+}
+.default_table .col2 {
+	width:15%;
+}
+.default_table .col3 {
+	width:7%;
+}
+.default_table .col4 {
+	width:7%;
+}
+.default_table .col5 {
+	width:7%;
+}
+.default_table .col6 {
+	text-align:center;
+	width:10%;
+}
+.default_table .col7 {
+	text-align:center;
+	width:10%;
+}
+.default_table .col8 {
+	text-align:center;
+	width:10%;
+}
+.default_table .col9 {
+	text-align:center;
+	width:10%;
+}
+.default_table .col10 {
+	text-align:center;
+	width:10%;
+}
+.default_table .col11 {
+	width:5%;
+}

@@ -1,0 +1,245 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #000000;
+	background-image: none;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #000000;
+
+}
+
+h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: italic;
+	color: #000000;
+
+}
+
+
+.banner1 {
+	background-image:  url('../images/bannerflat_01.jpg');
+	background-repeat: no-repeat;
+	background-position: top left;
+	width: 653px;
+	height: 175px;
+	background-color: #000000;
+}
+.banner2 {
+
+	background-image:  url('../images/bannerflat_02.jpg');
+	background-repeat: repeat-x;
+	background-position: top left;
+	width: auto;
+	height: 175px;
+	background-color: #000000;
+}
+.banner3 {
+	background-image:  url('../images/bannerflat_03.jpg');
+	background-repeat: no-repeat;
+	background-position: top left;
+	width: 326px;
+	height: 175px;
+	background-color: #000000;
+}
+.nav {
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #FFFFFF;
+	font-weight: bold;
+	width: 210px;
+	padding: 22px 0px 2px 0px;
+	text-align: left;
+	border: none;
+	background-image: url('../images/navbg.jpg');
+	background-repeat: repeat-y;
+	background-position: top left;
+	vertical-align: top;
+
+}
+	a.nav {
+		color: #ffffff;
+		padding: 0px 0px 0px 10px;
+		margin: 2px;
+		background-image: none;
+		text-transform: uppercase;
+		text-decoration: none;
+}
+	a.nav:hover {
+		color: #ffffff;
+		text-decoration: underline;
+}
+
+	a.nav:visited {
+		color: #ffffff;
+}
+
+	a.nav:active {
+		color: #ffffff;
+}
+
+.contentnav {
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #0000FF;
+	font-weight: bold;
+
+}
+	a.contentnav {
+		color: #0000ff;
+		text-decoration: none;
+}
+	a.contentnav:hover {
+		color: #0000ff;
+		text-decoration: underline;
+}
+
+	a.contentnav:visited {
+		color: #0000ff;
+}
+
+	a.contentnav:active {
+		color: #0000ff;
+}
+
+.content {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #000000;
+	background-image: none;
+	vertical-align: top;
+	background-color: #d2b48c;
+}
+
+
+.content1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #000000;
+	background-image: none;
+	vertical-align: top;
+	background-color: #ffffff;
+	padding: 13px;
+	border: 2px groove #e6e6e6;
+}
+
+
+
+.bottom {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	background-color:#c6b879;
+	width: 100%;
+	height: 25px;
+	text-align: center;
+	border-top: 2px groove #5083aa;
+	border-right: 4px groove #5083aa;
+	border-bottom: none;
+	border-left: 4px groove #5083aa;
+	background-image: url('../images/bottombg.jpg');
+	background-repeat: repeat-x;
+	background-position: top left;	
+
+}
+
+
+.copyright {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333;
+	text-align: center;
+	background-image: none;
+	height: 17px;
+
+
+}
+
+	a.copyright {
+		color: #333;
+		text-decoration: none;
+}
+	a.copyright:hover {
+		color: #333;
+		text-decoration: underline;
+}
+
+	a.copyright:visited {
+		color: #333;
+}
+
+	a.copyright:active {
+		color: #333;
+}
+
+
+.bottomnav {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #FFFFFF;
+	background-image: none;
+	text-align: center;
+	background-image: none;
+	vertical-align: bottom;
+
+
+}
+
+	a.bottomnav {
+		color: #FFFFFF;
+		text-decoration: none;
+}
+	a.bottomnav:hover {
+		color: #FFFFFF;
+		text-decoration: underline;
+}
+
+	a.bottomnav:visited {
+		color: #FFFFFF;
+}
+
+	a.bottomnav:active {
+		color: #FFFFFF;
+}
+
+
+.bookmark {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #000000;
+	background-image: none;
+	text-align: center;
+	background-image: none;
+	height: 17px;
+
+
+}
+
+	a.bookmark {
+		color: #000000;
+		text-decoration: none;
+}
+	a.bookmark:hover {
+		color: #000000;
+		text-decoration: none;
+}
+
+	a.bookmark:visited {
+		color: #000000;
+		text-decoration: none;
+}
+
+	a.bookmark:active {
+		color: #000000;
+		text-decoration: none;
+}

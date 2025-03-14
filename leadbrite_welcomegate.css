@@ -1,0 +1,286 @@
+.help-ico {
+    height: 16px;
+    width: 16px;
+    line-height: 18px;
+    display: inline-block;
+    margin-left: 4px;
+    background: url(../img/sprites.png) no-repeat;
+    cursor: pointer;
+    text-decoration: none !important;
+}
+.help-ico:hover {
+    background-position: 0 -16px;
+}
+.help-ico.check-style {
+    vertical-align: top;
+    position: relative;
+    margin-top: 6px;
+}
+.btn-group {
+    display: inline-block;
+}
+.btn-group .active {
+    color: #ffffff !important;
+}
+legend {
+    font-size: 18.5px !important;
+    border-bottom: none !important;
+    margin-left: 10px !important;
+    margin-top: 5px !important;
+}
+.tab-content {
+    border-left: 1px solid #DDD !important;
+    border-right: 1px solid #DDD !important;
+    border-top: 1px solid #DDD !important;
+    border-top-left-radius: 5px !important;
+    border-top-right-radius: 5px !important;
+    padding-bottom: 10px;
+}
+.nav-tabs {
+    margin-bottom: 0 !important;
+}
+.nav li {
+    margin-bottom: 0 !important;
+}
+.navbar {
+    margin-top: 10px !important;
+}
+.tab-pane {
+    margin-bottom: 0 !important;
+}
+.form-actions {
+    border-top: none !important;
+    margin: 0 !important;
+    border-bottom-left-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;
+    border-bottom: 1px solid #DDD !important;
+    border-left: 1px solid #DDD !important;
+    border-right: 1px solid #DDD !important;
+}
+.lbkey {
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+    padding-left: 0px !important;
+}
+label[class=checkbox] {
+    background: none !important;
+}
+.lb-remove-icon {
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    background: url(../img/sprites.png) no-repeat;
+    background-position: -16px 0;
+    cursor: pointer;
+    text-decoration: none !important;
+    line-height: 20px;
+}
+.lb-remove-icon:hover {
+    background-position: -16px -18px;
+}
+.lb-combo-list span {
+    height: 33px !important;
+    width: 650px !important;
+    display: inline-block;
+}
+.color-picker {
+    margin-right: 6px !important;
+}
+.wg-font-demo {
+    font-size: 22px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    width: 350px;
+    margin-bottom: 0px !important;
+    margin-top: 5px !important;
+}
+.font-a {
+    font-family: 'Oswald', sans-serif;
+}
+.font-b {
+    font-family: 'Jockey One', sans-serif;
+}
+.font-c {
+    font-family: 'Ubuntu', sans-serif;
+}
+.font-d {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.font-e {
+    font-family: 'Droid Sans', sans-serif;
+}
+.wg-button-demo {
+    padding-top: 0px;
+    padding-bottom: 10px;
+    width: 350px;
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+    display: block;
+}
+.wg-button-demo .wg-button-example {
+    float: left !important;
+	background: url("../../templates/default/images/email-button-mask.png") no-repeat top center;
+    text-align: center;
+    line-height: 45px;
+    display: block !important;
+    height: 45px !important;
+    width: 250px !important;
+    border: none !important;
+    margin: 0 auto !important;
+    color: #ffffff !important;
+    font-weight: bold !important;
+	font-size: 17px !important;
+    text-shadow: 1px 1px 1px #000000 !important;
+    overflow: hidden;
+}
+.wg-arrow-demo {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: 450px;
+    height: 66px;
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+    display: block;
+}
+.wg-arrow-demo .wg-arrow-example {
+    float: left !important;
+    display: block !important;
+    height: 66px !important;
+    width: 170px !important;
+    border: none !important;
+    margin: 0 auto !important;
+}
+.wg-arrow-demo .wg-arrow-example.arr-right {
+    background-position: top right !important; 
+}
+.arrow-type-a .wg-arrow-example {
+	background: url("../../templates/default/images/email-background.png") no-repeat top left;
+}
+.arrow-type-b .wg-arrow-example {
+	background: url("../../templates/default/images/email-background-sharp.png") no-repeat top left;
+}
+.arrow-type-c .wg-arrow-example {
+	background: url("../../templates/default/images/email-background-classy.png") no-repeat top left;
+}
+.arrow-type-d .wg-arrow-example {
+	background: url("../../templates/default/images/email-background-thin.png") no-repeat top left;
+}
+.arrow-type-x .wg-arrow-example {
+    background: none !important;
+}
+.arrow-type-x {
+    display: none;
+}
+.wg-headline_bg-demo {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: 550px;
+    height: 50px;
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+    display: block;
+    line-height: 50px;
+    text-align: center;
+    text-indent: 30px;
+	font-size: 26px;
+	color: #FFFFFF;
+	-moz-text-shadow: 1px 2px 0px #000000;
+	-webkit-text-shadow: 1px 2px 0px #000000;
+	text-shadow: 1px 2px 0px #000000;
+}
+.wg-headline_bg-demo .wg-headline_bg-example {
+    float: left !important;
+    display: block !important;
+    height: 50px !important;
+    width: 550px !important;
+    border: none !important;
+    margin: 0 auto !important;
+    border-radius: 3px;
+}
+.headline_bg-type-a .wg-headline_bg-example {
+	background: url("../../templates/default/images/subheader-background.png") no-repeat center center;
+}
+.headline_bg-type-b .wg-headline_bg-example {
+	background: url("../../templates/default/images/subheader-background-decent.png") repeat-x center center;
+}
+.headline_bg-type-c .wg-headline_bg-example {
+	background: url("../../templates/default/images/subheader-background-skew.png") repeat;
+}
+.btn-group.but-nums {
+    margin-bottom: 3px;
+}
+.label {
+    vertical-align: baseline !important;
+}
+.wg-hline-demo {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: 350px;
+    height: 7px;
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+    display: block;
+}
+.wg-hline-demo .wg-hline-example {
+    float: left !important;
+    display: block !important;
+    height: 7px !important;
+    width: 350px !important;
+    border: none !important;
+    margin: 0 auto !important;
+}
+.wg-hline-demo .wg-hline-example.arr-right {
+    background-position: top right !important; 
+}
+.hline-type-a .wg-hline-example {
+	background: url("../../templates/default/images/content-brush.png") no-repeat top left;
+}
+.hline-type-b .wg-hline-example {
+	background: url("../../templates/default/images/content-brush-decent.png") no-repeat top left;
+}
+.hline-type-c .wg-hline-example {
+	background: url("../../templates/default/images/content-brush-dashed.png") no-repeat top left;
+}
+.hline-type-d .wg-hline-example {
+	background: url("../../templates/default/images/content-brush-bold.png") no-repeat top left;
+}
+.hline-type-x .wg-hline-example {
+    background: none !important;
+}
+.hline-type-x {
+    display: none;
+}
+.lb-foot {
+    color: #666666;
+    font-size: 12px;
+    margin: -10px 0 0 20px;
+    display: block;
+}
+.lb-foot i {
+    color: #999999;
+    font-size: 11px !important;
+}
+.control-group > label {
+    cursor: default;
+}
+.lb-nofollow.active {
+    color: #ffffff !important;
+}
+.lb-nofollow {
+    width: 60px !important;
+}
+.leadbrite-wpadmin div.error {
+    border: none !important;
+    background: none !important;
+}
+.yt-video {
+    margin: 0 0 30px 40px;
+    width: 530px;
+}
+#get-leadplayer {
+    margin-left: 150px;
+    margin-bottom: 20px;
+}
+#wpfooter {
+    display: none !important;
+}

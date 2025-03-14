@@ -1,0 +1,156 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+  height: 100%;
+}
+header {
+    background-image: -webkit-linear-gradient(top,#3c3c3c 0,#222 100%);
+	background-image: linear-gradient(to bottom,#3c3c3c 0,#222 100%);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3c3c3c', endColorstr='#ff222222', GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+    position: fixed;
+    top: 0;
+    transition: top 0.5s ease-in-out;
+    width: 100%;
+	height: 50px;
+}
+
+.nav-up {
+    top: -50px;
+}
+.img-responsive {float: left;padding: 0 10px 0 0}
+main {
+/*    background:url(
+data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAPklEQVQYV2O8dOnSfwYg0NPTYwTRuAAj0QqxmYBNM1briFaIzRbi3UiRZ75uNgUHGbfvabgfsHqGaIXYPAMAD8wgC/DOrZ4AAAAASUVORK5CYII=
+   ) repeat; */
+    height: 2000px;
+}
+
+footer { background: #ddd;}
+/* * { color: transparent} */
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+@media (min-width:768px){
+	li.closemenu {
+    display: none;
+  }
+}
+.a {
+    height: auto;
+    width: 100%;
+    background-color: transparent;
+}
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+.closemenu {
+		text-align: center;
+		font-weight: bold;
+}
+
+/* form css */
+
+.signup {
+  width: 30%;
+  margin: 0 auto;
+  border: 1px solid #333;
+  padding: 1em;
+  text-align: center;
+}
+
+.signup h1 {
+  margin-top: 0;
+}
+
+.signup label {
+  display: inline-block;
+  margin-top: 1em;
+}
+
+.signup label span {
+  display: inline-block;
+  width: 5em;
+  text-align: right;
+}
+
+.signup input.ng-invalid.ng-touched {
+  border-color: red;
+}
+
+.signup .pending {
+  font-style: italic;
+}
+
+.signup .pending .spinner {
+  animation: spin 0.5s linear infinite;
+  display: inline-block;
+  height: 0.3em;
+}
+
+@keyframes spin { 100% { transform: rotate(360deg); } }
+
+.signup .error {
+  color: red;
+}
+
+.signup button {
+  margin-top: 1em;
+  padding: 0.5em;
+  font-size: 1em;
+}
+.spicons {
+    color: #4b77be;
+    font-size: 36px;
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+}
+.fa-2x {
+    font-size: 2em;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 soft;
+        font-size: 14px;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+[class^="sai-"], [class*=" sai-"] {
+    font-family: 'soft';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
