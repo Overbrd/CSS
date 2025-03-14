@@ -1,0 +1,115 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.fieldfill { color:gray; }
+
+.formTable {
+    width: 240px;
+}
+.formPhoneBox {
+    width: 150px;
+    margin-top:4px;
+}
+.formTitleCell {
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+.formCheckboxCell {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-top:8px;
+}
+.formCheckboxLabel {
+    width: 205px;
+    padding-left: 5px;
+    font-size: 12px;
+}
+.formTag {
+    margin: 0px;
+    padding: 0px;
+}
+.formLabelCell {
+    padding-top: 7px;
+    font-size: 12px;
+}
+.formCityBox {
+    width: 127px;
+    margin-right: 5px;
+    margin-top:4px;
+}
+.formStateBox {
+    width: 30px;
+    margin-right: 5px;
+    padding: 0px;
+    margin-left: 0px;
+    margin-top:4px;
+}
+.formZipBox {
+    width: 50px;
+    margin-left: 0px;
+    margin-top:4px;
+}
+.formTextboxCell {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.formStandardTextbox {
+    width: 230px;
+	margin-top:8px;
+}
+.formStandardTextbox.questionsForm {
+	width: 172px; 
+	border-right:1px solid gray;
+	border-top:none;
+	border-left:none;
+	border-bottom:1px solid gray;
+}
+.formDiv {
+    background-color: #F7F4EF;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    width: 520px;
+    border: 1px solid #DDDCE8;
+    float: left;
+    margin: 15px;
+}
+
+.first_name {
+	width:100px;
+}
+.last_name {
+	width:120px;
+	margin-left:4px;
+}
+.formQuestionsLabel {
+    padding-top: 15px;
+    font-size: 12px;
+}
+.formTextarea {
+	overflow: auto;
+    width: 230px;
+}
+.formTextarea.questionsForm {
+	width: 172px;
+	margin-top:8px;
+	border-right:1px solid gray;
+	border-top:none;
+	border-left:none;
+	border-bottom:1px solid gray;
+ 
+}
+.formSubmitCell {
+    padding-top: 20px;
+}
+
+#contact_errors ul {
+	list-style-type:square;
+	margin-top: 0px;
+}
+
+#contact_errors ul li {
+	color: red;
+}
