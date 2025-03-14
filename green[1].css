@@ -1,0 +1,93 @@
+
+/* Normal links ---*/
+a { color: #578813; }
+a:hover, a:active, a:focus { color: #578813; }
+
+a.readon { background-image: url(../../images/green/arrow-readon.png) }
+
+ul.pagination a:hover, ul.pagination a:active, ul.pagination a:focus { background: #578813; border: 1px solid #578813; }
+
+.counter span { background: #578813; border: 1px solid #578813; }
+
+/* Sub nav ---*/
+#ja-subnav ul li a:hover, #ja-subnav ul li.hover a { color: #578813; }
+
+#ja-subnav ul.active li a:hover { color: #578813; }
+
+#ja-subnav ul li.active a,
+#ja-subnav ul li.active a:hover,
+#ja-subnav ul li.active a:active,
+#ja-subnav ul li.active a:focus { color: #578813; }
+
+#ja-subnav ul li ul li a:hover {	color: #578813 !important; }
+
+#ja-subnav ul li ul li a.active { color: #578813; !important; }
+
+/* Default Joomla! Menu ---*/
+#ja-container ul.menu li a:hover,
+#ja-container ul.menu li a:active,
+#ja-container ul.menu li a:focus { color: #578813; }
+
+#ja-container ul.menu li.active a { color: #578813; }
+
+#ja-container ul.menu li li a:hover,
+#ja-container ul.menu li li a:active,
+#ja-container ul.menu li li a:focus { color: #578813 !important; }
+
+#ja-container ul.menu li.active > a { color: #578813 !important; }
+
+/* Highlight Module --- */
+div.module_hilite h3 { background-image: url(../../images/green/h3-hilite.gif); text-shadow: 1px 1px 0 #487010;}
+div.module_hilite h3 span { background-image: url(../../images/green/h3-hilite.gif); }
+
+/* Split menu ---*/
+#ja-splitmenu a:hover,
+#ja-splitmenu a:active,
+#ja-splitmenu a:focus,
+#ja-splitmenu li.active a,
+#ja-splitmenu li.active a:hover,
+#ja-splitmenu li.active a:active,
+#ja-splitmenu li.active a:focus,
+#ja-splitmenu li.first-item a:hover,
+#ja-splitmenu li.first-item a:active,
+#ja-splitmenu li.first-item a:focus,
+#ja-splitmenu li.active.first-item a,
+#ja-splitmenu li.active.first-item a:hover,
+#ja-splitmenu li.active.first-item a:active,
+#ja-splitmenu li.active.first-item a:focus {
+	background-image: url(../../images/green/mainnav-bg.gif);
+}
+
+/* CSS + MOO Menu ---*/
+#ja-cssmenu li a:hover,
+#ja-cssmenu li a:active,
+#ja-cssmenu li a:focus,
+#ja-cssmenu li:hover,
+#ja-cssmenu li.sfhover,
+#ja-cssmenu li.havechildsfhover,
+#ja-cssmenu li.havechild-activesfhover,
+#ja-cssmenu li a.active,
+#ja-cssmenu li a.active:hover,
+#ja-cssmenu li a.active:active,
+#ja-cssmenu li a.active:focus {
+	background-image: url(../../images/green/mainnav-bg.gif);
+}
+
+/* Mega menu ---*/
+ul.level0 li.over, ul.level0 li.haschild-over,
+ul.level0 li.over.first, ul.level0 li.haschild-over.first,
+ul.level0 li.active, ul.level0 li.active.first {
+	background-image: url(../../images/green/mainnav-bg.gif);
+}
+
+ul.level1 li.over, ul.level1 li.haschild-over { background: #333; }
+
+ul.level1 li.over.first, ul.level1 li.haschild-over.first { background: #333; }
+
+ul.level1 li.active, ul.level1 li.active.first { background: none; color: #fff; }
+
+#ja-search a {
+    color: #578813;
+    font-weight: bold;
+}
+

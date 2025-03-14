@@ -1,43 +1,27 @@
-/*
-Theme Name: Twenty Seventeen
-Description: IE9 specific styles.
-*/
-
-.has-header-image.twentyseventeen-front-page .custom-header,
-.has-header-video.twentyseventeen-front-page .custom-header,
-.has-header-image.home.blog .custom-header,
-.has-header-video.home.blog .custom-header {
-	height: 300px;
+* {
+	zoom: 1;
 }
 
-.has-header-image .custom-header-media img,
-.has-header-video .custom-header-media video,
-.has-header-video .custom-header-media iframe {
-	min-width: 100%;
+#filepath {
+	height: 27px;
+	line-height: 1.6em;
 }
 
-@media screen and (min-width: 30em) {
-
-	.has-header-image.twentyseventeen-front-page .custom-header,
-	.has-header-video.twentyseventeen-front-page .custom-header,
-	.has-header-image.home.blog .custom-header,
-	.has-header-video.home.blog .custom-header,
-	.twentyseventeen-front-page.has-header-image .custom-header-media,
-	.home.blog.has-header-image .custom-header-media,
-	.panel-image {
-		height: 700px;
-	}
+#file-input-container {
+	width: 205px;
+	top: 14px;
 }
 
-@media screen and (min-width: 48em) {
-
-	.has-header-image.twentyseventeen-front-page .custom-header,
-	.has-header-video.twentyseventeen-front-page .custom-header,
-	.has-header-image.home.blog .custom-header,
-	.has-header-video.home.blog .custom-header,
-	.twentyseventeen-front-page.has-header-image .custom-header-media,
-	.home.blog.has-header-image .custom-header-media,
-	.panel-image {
-		height: 1000px;
-	}
+#file-input-container * {
+	box-sizing: border-box;
+	-ms-box-sizing: border-box;
 }
+
+#newfile {
+	width: 205px;
+}
+
+#uploader {
+	min-height: 32px;
+}
+#q {width:192px;}

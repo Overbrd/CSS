@@ -1,0 +1,179 @@
+@CHARSET "UTF-8";
+.search_list {
+	width: 100%;
+	margin: 5px;
+}
+
+.search_list_item {
+	height:55px;
+	width: 200px;
+	text-align: center;
+	border-bottom: black solid 1px;
+}
+.search_list_left, .search_list_right {
+	width: 100%;
+	height: 50px;
+	display:block;
+}
+
+.search_list_left {
+	width: 60%;
+	float: left;
+}
+
+.search_list_right {
+	width: 40%;
+	float: right;
+}
+
+
+/* recent viewed*/
+#recent_favorite_container {
+	text-align:center;
+	width:250px;
+	margin:auto;
+}
+.recent_favorite_div {
+	border:black solid 1px;
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	behavior: url(/public/third_party/pie/PIE.php);
+	width:225px;
+	height:250px;
+	margin:10px;
+	font-size: 11px; 
+	font-family: Arial, Helvetica, sans-serif; 
+	color: #454545;
+	line-height: 16px;
+	font-weight: bold;
+}
+.recent_favorite_img {
+	width:100%;
+	height:200px;
+	margin-top: 10px;
+}
+.recent_favorite_div  a{
+	font-size: 10px;
+	color: #3891b1;
+	float: right;
+	font-family: "Georgia", Times New Roman, Times, serif;
+	font-size: 14px;
+}
+.recent_favorite_div a:hover {
+	font-size: 10px;
+	color: #3891b1;
+	float: right;
+	font-family: "Georgia", Times New Roman, Times, serif;
+	font-size: 14px;
+}
+<style>
+#recent_alert {
+        z-index: 100;
+        font-family: Arial;
+        font-size: 10pt;
+        font-family: normal;
+        color: #333;
+    	float: none;
+        padding: 5px;
+        vertical-align: top;
+        position: fixed;
+        top: 0px;
+        right:0px;
+        width:100%;
+        text-align: left;
+        display: none;
+        background-color:green;
+        border: green solid 4px;
+}
+
+
+.recent_favorite_div  a:visited {
+	font-size: 10px;
+	color: #3891b1;
+	float: right;
+	font-family: "Georgia", Times New Roman, Times, serif;
+	font-size: 14px;
+}
+
+/* search details page*/
+.search-div {
+	width: 450px;
+	height: 90px;
+	margin: auto;
+	margin-bottom: 5px;
+	border: black solid 1px;
+}
+.search-left {
+	width: 150px;
+	height: 90px;
+	float: left;
+	margin: 5px;
+}
+.search-details {
+	height: 80px;
+	float:left;
+	margin: 5px;
+}
+
+/* favorites page*/
+.favorite-div {
+	width: 450px;
+	height: 120px;
+	margin: auto;
+	margin-bottom: 5px;
+	border: black solid 1px;
+}
+.favorite-img {
+	width: 150px;
+	height: 100px;
+	float:left;
+	margin:10px;
+}
+.favorite-details {
+	height: 100px;
+	float:left;
+	margin-left: 15px;
+}
+
+
+/* sidebar */
+.catind {
+	padding: 3px;
+}
+
+.profile_link {
+	display: block;
+	width: 250px;
+	height: 35px;
+	vertical-align: top;
+}
+.profile_link:hover {
+	background: url('/img/nav/but-gkm-rollover.png') repeat-x ;
+}
+.profile_link img {
+	width:32px;
+	height:30px;
+}
+.profile_link_span {
+	display:inline-block;
+	height:20px;
+	line-height: 8px; 
+	margin-left: 10px;
+	font-size: 12pt;
+	font-family: 'Arial Bold';
+}
+.profile_link_div {
+	display: inline-block;	
+	float:right;
+	height:20px;
+	width: 210px;
+	margin-top:5px;
+	font-size: 12pt;
+	font-family: 'Arial Bold';
+}
+
+

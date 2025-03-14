@@ -1,0 +1,63 @@
+#pre_content ul.menu ul {
+  left: 12px;
+}
+#pre_content ul {
+  display: inline;
+}
+#pre_content ul.menu {
+	display:block;
+	float:right;
+	right:50%;
+}
+#pre_content ul.menu ul {
+	float:none;
+}
+#pre_content ul.menu li {
+	left:50%;
+}
+
+#pre_content ul.menu li ul{
+	display:none;
+	left:12px;
+	right: 0px;
+}
+#pre_content ul.menu li ul li {
+	left:0px;
+}
+/**
+ * fix for proper submit button positioning in news section
+ */
+#comment-form div.form-item {
+  float: none;
+}
+/**
+ * Fixes for the Whitepaper/SF form
+ */
+#sf-contact-form #industry-target,
+#sf-contact-form #industry-target * .form-item {
+	float:none;
+	
+}
+#sf-contact-form #industry-target div#edit-industry-wrap-Industry-Other-wrapper,
+#sf-contact-form #industry-target div#edit-industry-wrap-Interest--c-Other-wrapper {
+	float:left;
+	margin-right: 5px;
+}
+
+#sf-contact-form #industry-target > fieldset > div.form-item > label {
+	margin-top: 10px;
+	clear: both;
+}
+#sf-contact-form div#edit-industry-wrap-sf-title-sf-title-wrapper {
+	display: inline;
+}
+#sf-contact-form div#edit-industry-wrap-sf-title-other-input-wrapper {
+	display: inline;
+}
+#sf-contact-form div#edit-industry-wrap-sf-title-other-input-wrapper input {
+	display: inline;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+#hero_wide {margin-bottom:-3px;}
+#header_right #block-block-3 {margin-top: 8px;}

@@ -1,0 +1,6 @@
+.content IMG {
+	Z-INDEX: -1; MAX-WIDTH: 640px
+}
+.sidebar {
+	WIDTH: 300px
+}

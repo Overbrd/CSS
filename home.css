@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+#home .menu {
+	position: absolute;
+	left: -1280px;
+	top: 0px;
+	opacity: 0;
+	-webkit-transition-property: opacity;
+    -webkit-transition-timing-function: linear;
+    -webkit-transition-duration: 1s;
+}
+
+#home .menu > .play {
+	position: absolute;
+	left:291px;
+	top: 594px;
+	z-index: 20;
+}
+
+#home .menu > .bonus {
+	position: absolute;
+	left: 451px;
+	top: 580px;
+	z-index: 18;
+}
+
+#home .menu > .scenes {
+	position: absolute;
+	left: 675px;
+	top: 579px;
+	z-index: 19;
+}
+
+#home .menu > .more {
+	position: absolute;
+	left: 911px;
+	top: 593px;
+	z-index: 17;
+}
+
+
+
+@media (-webkit-apple-tv) {
+	#home .menu > .homePanel {
+		-webkit-transition-duration: 0s;
+	}
+}
