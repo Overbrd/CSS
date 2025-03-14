@@ -1,0 +1,33 @@
+#testelem0 {
+	LEFT: -9999px; VISIBILITY: hidden; FONT: 1px/1 monospace; OVERFLOW: hidden; WIDTH: 1px; POSITION: absolute; TOP: 0px; HEIGHT: 1px
+}
+#testelem1 {
+	HEIGHT: 2px
+}
+#testelem2 {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; PADDING-BOTTOM: 0px; WIDTH: 2px; PADDING-TOP: 0px; HEIGHT: 10px
+}
+#testelem3:unknown {
+	CLEAR: both; DISPLAY: block; HEIGHT: 5px; content: "."
+}
+#testelem4:unknown {
+	CLEAR: both; DISPLAY: block; HEIGHT: 4px; content: "."
+}
+#testelem4 {
+	FLOAT: left
+}
+*[id='testelem1'] {
+	CURSOR: crosshair
+}
+#testelem1 > * {
+	OVERFLOW: hidden
+}
+#testelem1 DIV + DIV {
+	CLEAR: right
+}
+#testelem1 *:first-child {
+	DIRECTION: rtl
+}
+#testelem1 *:unknown {
+	DIRECTION: rtl
+}

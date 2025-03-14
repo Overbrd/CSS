@@ -1,0 +1,1177 @@
+/***********
+QuantumMail.com - Generic/Non-Branded CSS (media = screen)
+Author(s): Philip Klauzinski (PJK), Chris Kendall (CDK)
+Last Modified: 11.01.2006 - jim
+
+PLEASE NOTE:
+This document contains changes necessary to differentiate the generic/non-branded internal pages of all
+QuantumMail.com websites from the branded pages, as well as any styles specific to pages which are only
+visible when logged in.
+Please refer to the Online Style Guide for more information.
+***********/
+
+/* Main Template changes */
+#mastHeadContainer h1#siteTitle {
+	display: none;
+}
+#mastHeadContainer #qm_header {
+	background-image: url(/assets/images/newstyle/backgrounds/qm_header_generic.gif);
+}
+#mastHeadContainer #qc_header {
+	background-image: url(/assets/images/newstyle/backgrounds/qc_header_generic.gif);
+}
+#expandContent, #mastHeadContainer, #qm_templateContainer #footerContainer {
+	background-image: url(/assets/images/newstyle/backgrounds/template_generic_bg.jpg);
+}
+#qm_templateContainer #footerContainer p {
+	background-image: url(/assets/images/newstyle/backgrounds/footerContainer_generic_bg.jpg);
+}
+#topMenu {
+	background: #f6f6f6;
+	border-bottom: 1px solid #ddd;
+}
+
+/* Standard content styles */
+#printContent h2.pageTitle {
+	color: #444;
+}
+h2.fitted {
+	background-image: url(/assets/images/newstyle/h2_generic_bg.jpg);
+	color: #000;
+}
+h2.fitted a {
+	background-image: url(../../images/newstyle/h2_generic_a_bg.jpg);
+}
+.content h3, #printContent .content h3 {
+	color: #333;
+	background-image: url(../../images/newstyle/h3_gray_bg.jpg);
+}
+.content h4, #printContent .content h4 {
+	color: #444;
+	background: #f0f0f0;
+}
+.content h4 .titleComment {
+	font-weight: normal;
+	font-size: 10px;
+}
+#printContent h4, #printContent h2.pageTitle {
+	color: #333;
+}
+h5 {
+	clear: left;
+	background: url(/assets/images/arrow_newfeat.jpg) no-repeat 0 8px;
+	padding-left: 27px;
+	color: #003366;
+	font: bold 15px "Luxi Sans", "Bitstream Vera Sans", "Lucida Grande", "Trebuchet MS", helvetica, verdana, arial, sans-serif;
+	margin-bottom: 8px;
+}
+div.content small, div.content .fullWrap small {
+	line-height: 15px;
+	font-size: 10px;
+}
+#printContent a.learnMore {
+	background: none;
+	border: 0;
+	text-decoration: underline;
+	padding: 0;
+	color: #235BBA;
+	line-height: 25px;
+}
+#printContent a.learnMore:hover {
+	background: none;
+	color: #d21034;
+}
+input.button, #printContent a.button, #printContent .button_blue, #printContent .button_green {
+	color: #333;
+	cursor: pointer;
+}
+input.cancel {
+	color: #fff;
+}
+/* QM Registration Form Elements */
+input#agent_phone1, input#agent_phone2, input#agent_phone_home {
+	margin-top: 10px;
+}
+/* Registration form navigation menu for switching between subsections */
+#registrationNav {
+	margin: 10px 10px 10px 21px;
+}
+#registrationNav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#registrationNav li {
+	display: block;
+	margin: 0;
+	padding: 0;
+	height: 20px;
+}
+#registrationNav li a {
+	display: block;
+	height: 17px;
+	line-height: 17px;
+	color: #999;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	text-decoration: none;
+	text-indent: 24px;
+	background: url(../../images/newstyle/registrationNav_box_empty.gif) no-repeat 2px 2px;
+}
+#registrationNav li a:hover, #registrationNav li .current {
+	background: #eee url(../../images/newstyle/registrationNav_box_empty.gif) no-repeat 2px 2px;
+}
+#registrationNav li .current, #registrationNav li .current:hover {
+	background: #eee url(../../images/newstyle/registrationNav_arrow_current.gif) no-repeat 2px 2px;
+}
+#registrationNav li a.completed {
+	background: url(../../images/newstyle/registrationNav_box_checked.gif) no-repeat 2px 1px;
+	color: #444;
+}
+#registrationNav li a.completed:hover {
+	background: #eee url(../../images/newstyle/registrationNav_box_checked.gif) no-repeat 2px 1px;
+}
+#registrationNav li a.completedCurrent, #registrationNav li a.completedCurrent:hover {
+	background: #eee url(../../images/newstyle/registrationNav_arrow_current.gif) no-repeat 2px -15px;
+	color: #444;
+}
+#registrationNav a#anchor_displayAll, #registrationNav a#anchor_compactView {
+	display: block;
+	width: 122px;
+	height: 20px;
+	background: url(../../images/newstyle/registrationNav_displayAll.gif) 0 0;
+	text-align: center;
+	color: #444;
+	font: bold 10px/20px Verdana, Arial, Helvetica, sans-serif;
+	margin: 7px 0 0 50px;
+	padding-right: 10px;
+	text-decoration: none;
+}
+* html #registrationNav a#anchor_displayAll, #registrationNav a#anchor_compactView { /* IE only */
+	width: 132px;
+	w\idth: 122px;
+}
+#registrationNav a#anchor_displayAll:hover, #registrationNav a#anchor_compactView:hover {
+	background: url(../../images/newstyle/registrationNav_displayAll.gif) 0 -20px;
+	text-decoration: none;
+	color: #666;
+}
+div.registrationTip h6 {
+	color: #d21034;
+}
+#contactLines {
+	float: left;
+	width: 250px;
+}
+table#logoInfo {
+	width: 100%;
+	border-collapse: collapse;
+	text-align: left;
+	float: left;
+}
+table#logoInfo th {
+	padding: 3px 0;
+	width: 30%;
+	font-weight: normal;
+}
+table#logoInfo a {
+	color: #d21034;
+}
+/* Classes for showing/hiding layers */
+.hidden {
+	height: 0;
+	line-height: 0;
+	width: 0;
+	position: absolute;
+	top: -9999px;
+	left: -9999px;
+	text-indent: -9999px;
+}
+.visible {
+	display: block;
+}
+#reg_1, #reg_2, #reg_3, #reg_4, #reg_5, #reg_6, #officeAddresses {
+	float: left;
+	height: 100%;
+}
+#reg_1_nav, #reg_2_nav, #reg_3_nav, #reg_4_nav, #reg_5_nav {
+	float: left;
+	padding-bottom: 5px;
+}
+* html #reg_1, * html #reg_2, * html #reg_3, * html #reg_4, * html #reg_5
+* html #reg_1_nav, * html #reg_2_nav, * html #reg_3_nav, * html #reg_4_nav, * html #reg_5_nav { /* IE only */
+	float: none;
+}
+#eho, #eho_img {
+	float: left;
+}
+#eho_disclaimer {
+	float: left;
+	margin-left: 20px;
+	padding-left: 25px;
+	margin-top: 20px;
+	border-left: 1px dashed #bbb;
+	clear: none;
+	width: 50%;
+}
+a#hideMessage, a#showMessage {
+	text-decoration: none;
+}
+
+/* Table class for displaying details on informational pages */
+table.details {
+	width: 500px;
+	border: 0;
+	border-collapse: collapse;
+}
+table.details th, table.details td {
+	border: 1px solid #ccc;
+	padding: 2px 5px;
+	vertical-align: top;
+}
+table.details th {
+	background: #e6e6e6;
+}
+table.details th.item {
+	width: 315px;
+}
+table.details td.highlight {
+	background: #ff9;
+}
+
+/************
+QM Start Page
+************/
+#printContent .startPage .contentWrapper, #contentContainer_wide .content .contentWrapper {
+	margin-right: 0;
+	padding-right: 0;
+	width: 90%;
+	margin-left: 30px;
+}
+.startPage #customerInfo {
+	width: 138px;
+	float: left;
+	display: inline;
+	left: 0;
+	top: 0;
+	padding-bottom: 5px;
+	text-align: center;
+}
+.startPage #startPageContent {
+	float: right;
+	display: inline;
+	width: 370px;
+	margin-right: 0;
+	padding: 0;
+	height: 1%;
+	padding-bottom: 15px;
+}
+.startPage #companyLogo {
+	margin-bottom: 3px;
+}
+.startPage #companyLogo img {
+	width: 138px;
+}
+.startPage #customerPhoto {
+	float: left;
+	width: 138px;
+	background: url(/assets/images/newstyle/backgrounds/custPhoto_img_bg.gif) repeat-y right top;
+	font-size: 0;
+	line-height: 0;
+}
+.startPage #customerPhoto img {
+	width: 130px;
+	padding: 0 8px 0 0;
+	background: url(/assets/images/newstyle/backgrounds/custPhoto_top_bg.gif) no-repeat right top;
+}
+.startPage #customerPhoto #shadowBottom {
+	display: block;
+	width: 138px;
+	height: 8px;
+	float: left;
+	background: #fff url(/assets/images/newstyle/backgrounds/custPhoto_bottom_bg.gif) no-repeat;
+}
+.startPage #customerInfo p {
+	width: 138px;
+	font: 10px/14px Verdana, Arial, Helvetica, sans-serif;
+}
+.startPage #startPageContent p.services {
+	font: bold 10px/14px Verdana, Arial, Helvetica, sans-serif;
+	margin-top: 5px;
+	display: inline;
+	width: 100%;
+}
+.startPage #startPageContent p.top {
+	margin-top: 10px;
+}
+.startPage #startPageContent p.services strong {
+	display: block;
+	margin: 0;
+	padding: 0 30px 0 0;
+}
+.startPage #startPageContent a.serviceLink {
+	float: left;
+	display: inline;
+	width: 90px;
+	margin-left: 25px;
+	padding-top: 60px;
+	font: bold 11px/12px Verdana, Arial, Helvetica, sans-serif;
+	text-align: center;
+	color: #1b468e;
+	text-decoration: none;
+}
+.startPage #startPageContent a.qm {
+	background: url(/assets/images/newstyle/qm_icon_bg.jpg) no-repeat center top;
+}
+.startPage #startPageContent a.qm:hover {
+	background: url(/assets/images/newstyle/qm_icon_hover_bg.jpg) no-repeat center top;
+	color: #d21034;
+}
+.startPage #startPageContent a.qc {
+	background: url(/assets/images/newstyle/qc_icon_bg.jpg) no-repeat center top;
+}
+.startPage #startPageContent a.qc:hover {
+	background: url(/assets/images/newstyle/qc_icon_hover_bg.jpg) no-repeat center top;
+	color: #009430;
+}
+.startPage #startPageContent a.qi {
+	background: url(/assets/images/newstyle/qi_icon_bg.jpg) no-repeat center top;
+}
+.startPage #startPageContent a.qi:hover {
+	background: url(/assets/images/newstyle/qi_icon_hover_bg.jpg) no-repeat center top;
+	color: #d21034;
+}
+.startPage #startPageContent a.qa {
+	background: url(/assets/images/newstyle/qa_icon_bg.jpg) no-repeat center top;
+}
+.startPage #startPageContent a.qa:hover {
+	background: url(/assets/images/newstyle/qa_icon_hover_bg.jpg) no-repeat center top;
+	color: #d21034;
+}
+.startPage #startPageContent a.qe {
+	background: url(/assets/images/newstyle/qe_icon_bg.jpg) no-repeat center top;
+}
+.startPage #startPageContent a.qe:hover {
+	background: url(/assets/images/newstyle/qe_icon_hover_bg.jpg) no-repeat center top;
+	color: #d21034;
+}
+.startPage #startPageContent a.mc {
+	background: url(/assets/images/newstyle/mclane_icon_bg.jpg) no-repeat center top;
+}
+.startPage #startPageContent a.mc:hover {
+	background: url(/assets/images/newstyle/mclane_icon_hover_bg.jpg) no-repeat center top;
+	color: #d21034;
+}
+.startPage #startPageContent a.qcde {
+	background: url(/assets/images/newstyle/qcde_icon_bg.jpg) no-repeat center top;
+}
+.startPage #startPageContent a.qcde:hover {
+	background: url(/assets/images/newstyle/qcde_icon_hover_bg.jpg) no-repeat center top;
+	color: #009430;
+}
+#optionsMenu {
+	margin: 0;
+	clear: both;
+	width: 582px;
+	clear: both;
+	background: url(/assets/images/newstyle/backgrounds/startPage_optionsMenu_bg.jpg) repeat-y 3px;
+	float: left;
+	display: inline;
+	width: 582px;
+	position: relative;
+	z-index: 0;
+}
+#optionsMenu #optionsMenuTop {
+	display: block;
+	float: left;
+	clear: both;
+	height: 7px;
+	width: 582px;
+	line-height: 0;
+	font-size: 0;
+	background: url(/assets/images/newstyle/backgrounds/startPage_optionsMenu_top_bg.jpg) 3px;
+}
+#optionsMenu ul {
+	margin: -8px 0 -3px;
+	padding: 0;
+	list-style-type: none;
+	float: left;
+	width: 50%;
+}
+#optionsMenu ul li {
+	float: left;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	z-index: 0;
+}
+#optionsMenu ul li a {
+	display: block;
+	padding-bottom: 34px;
+	width: 65px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: lowercase;
+	font: bold 9px/10px Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	color: #1b468e;
+}
+#optionsMenu ul li a:hover {
+	color: #d21034;
+}
+#optionsMenu ul li a.changeInfo {
+	background: url(/assets/images/newstyle/backgrounds/optionsMenu_changeInfo_bg.gif) no-repeat center bottom;
+}
+#optionsMenu ul li a.changeInfo:hover {
+	background-image: url(/assets/images/newstyle/backgrounds/optionsMenu_changeInfo_hover_bg.gif);
+}
+#optionsMenu ul li a.recentOrders {
+	margin-left: 3px;
+	background: url(/assets/images/newstyle/backgrounds/optionsMenu_recentOrders_bg.gif) no-repeat center bottom;
+}
+#optionsMenu ul li a.recentOrders:hover {
+	background-image: url(/assets/images/newstyle/backgrounds/optionsMenu_recentOrders_hover_bg.gif);
+}
+#optionsMenu ul li a.myLibrary {
+	width: 48px;
+	margin-left: 5px;
+	background: url(/assets/images/newstyle/backgrounds/optionsMenu_myLibrary_bg.gif) no-repeat center bottom;
+}
+#optionsMenu ul li a.myLibrary:hover {
+	background-image: url(/assets/images/newstyle/backgrounds/optionsMenu_myLibrary_hover_bg.gif);
+}
+#optionsMenu #assistance {
+	float: right;
+	display: inline;
+	width: 260px;
+	margin: -3px -120px -5px 0;
+	position: relative;
+}
+#optionsMenu #assistance h6 {
+	font: bold 10px/14px Verdana, Arial, Helvetica, sans-serif;
+	color: #e68597;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+}
+#optionsMenu #assistance p {
+	font: 10px/14px Verdana, Arial, Helvetica, sans-serif;
+	color: #999;
+	margin: 0;
+	padding: 0;
+}
+#contentContainer_wide #optionsMenuBottom {
+	float: left;
+	clear: both;
+	display: inline;
+	font-size: 0;
+	line-height: 0;
+	width: 582px;
+	margin: 0 0 15px;
+	height: 24px;
+	background: url(/assets/images/newstyle/backgrounds/startPage_optionsMenu_bottom_bg.jpg) 3px;
+}
+/* View contact info popup window */
+#customer_logo {
+	float: left;
+}
+#customer_signature {
+	float: right;
+	margin-top: 20px;
+}
+/* Order status (view recent orders) page table display */
+#orderStatus table {
+	border-collapse: collapse;
+	border: 0;
+	margin-bottom: 15px;
+	border: 1px solid #ccc !important;
+	width: 100%;
+}
+#orderStatus table a {
+	font-weight: bold;
+	text-decoration: none;
+	display: block;
+	padding: 2px 0;
+	width: 100%;
+	background: url(/assets/images/newstyle/backgrounds/order_status_bg.png) no-repeat 5px 2px;
+	text-indent: 25px;
+	text-align: left;
+}
+#orderStatus table a:hover {
+	background-color: #fff;
+}
+#orderStatus table th {
+	border: 1px solid #fff;
+	background: #ccc;
+	color: #d21034;
+	padding: 4px 3px;
+}
+#orderStatus table td {
+	border: 1px solid #fff;
+	font: 11px Verdana, Arial, Helvetica, sans-serif;
+	text-transform: capitalize;
+	background: #eee;
+	padding: 2px 3px;
+	vertical-align: middle;
+	text-align: center;
+}
+.contentArea #orderStatus table {
+	width: 94%;
+	margin: 15px 3% 10px;
+}
+/* END QM Start Page */
+
+/****************
+EasiFarm Pages
+****************/
+/* Main Page: qm_streetmail.wcs */
+table.mailing_list, table.easifarm_table, table.mapmail_table  {
+	border-collapse: collapse !important;
+	width: 550px;
+	margin: 0 auto 15px;
+	padding: 0;
+	border: 1px solid #ccc;
+}
+table.mailing_list th, table.easifarm_table th, table.mapmail_table th {
+	background: #eee;
+	border: 2px solid #fff;
+	padding: 3px 5px;
+}
+table.mailing_list td, table.easifarm_table td, table.mapmail_table td {
+	border: 2px solid #fff;
+	background: #f9f9f9;
+	padding: 3px 5px;
+}
+table.mailing_list td select, table.easifarm_table td select , table.mapmail_table td select {
+	width: 98%;
+}
+table.mailing_list .plist_ready {
+	color: #009430;
+	font-weight: bold;
+}
+table.mailing_list .plist_not_ready {
+	color: #d21034;
+	font-weight: bold;
+}
+/* Add an EasiFarm: qm_street_selection.wcs */
+#printContent .content p.instructions {
+	background: #f9f9f9;
+	border: 1px solid #ddd;
+	padding: 3px 0 3px 5px;
+	line-height: 17px;
+	width: 99%;
+	margin-bottom: 8px;
+}
+#printContent .content #streetIndex {
+	text-align: center;
+	font-weight: bold;
+	line-height: 18px;
+	border-top: 2px dotted #e3e3e3;
+	padding-top: 8px;
+}
+#streetIndexTable {
+	float: left;
+}
+table.StreetTableStyle {
+	width: 100%;
+	border-collapse: collapse;
+	margin-bottom: 15px;
+	border: 1px solid #ddd;
+	float: left;
+}
+table.StreetTableStyle caption, #printContent .content table.StreetTableStyle caption p {
+	margin: 15px 0 0;
+	padding: 0;
+	text-align: left;
+	position: relative;
+	left: -3px;
+}
+#printContent .content p.SelectedStreets {
+	border-top: 2px dotted #e3e3e3;
+	padding-top: 6px;
+	margin-top: 2px;
+}
+#printContent .content p.SelectedStreets a {
+	font-weight: bold;
+}
+table.StreetTableStyle caption input {
+	background: #efefef;
+	color: #245EBD;
+	border: 1px solid #ddd;
+	border-bottom: 0;
+	padding-left: 0;
+	text-indent: 0;
+	text-decoration: underline;
+	font-weight: bold;
+	margin: 0 0 -1px;
+	padding: 2px 3px;
+	position: relative;
+	left: 0;
+}
+table.StreetTableStyle th {
+	background: #efefef;
+	padding: 4px;
+	border: 1px solid #fff;
+	line-height: 12px;
+	vertical-align: middle;
+}
+table.StreetTableStyle th.Select, table.StreetTableStyle th.Delete {
+	width: 2%;
+}
+table.StreetTableStyle th.Streetname {
+	width: 40%;
+}
+table.StreetTableStyle th.Street {
+	width: 98%;
+}
+table.StreetTableStyle th.LowAddress, table.StreetTableStyle th.HighAddress {
+	width: 15%;
+}
+table.StreetTableStyle th.Street {
+	width: 30%;
+}
+table.StreetTableStyle th.StartAddress, table.StreetTableStyle th.EndAddress {
+	width: 15%;
+}
+table.StreetTableStyle th.EditStreetOptions {
+	width: 35%;
+}
+table.StreetTableStyle td div.EditOptions {
+	padding: 5px;
+	margin: 5px 12px;
+	background: #fff;
+	border: 1px dashed #ccc;
+	line-height: 2em;
+	float: left;
+	display: inline;
+	width: 85%;
+	position: relative;
+}
+* html table.StreetTableStyle td div.EditOptions { /* IE only */
+	float: none;
+	position: relative;
+	z-index: 1;
+}
+table.StreetTableStyle td div.EditOptions span {
+	float: left;
+	line-height: 140%;
+	position: relative;
+}
+table.StreetTableStyle td div.EditOptions span.AvailableAddresses {
+	position: relative;
+	left: -236px;
+	margin-top: -30px;
+}
+* html table.StreetTableStyle td div.EditOptions span.AvailableAddresses { /* IE only */
+	left: -234px;
+}
+table.StreetTableStyle td div.EditOptions label {
+	width: 95px;
+	float: left;
+	display: inline;
+	clear: left;
+	text-align: right;
+	margin-right: 8px;
+	line-height: 140%;
+	font-weight: bold;
+	padding-top: 2px;
+}
+table.StreetTableStyle td div.EditOptions .input {
+	float: left;
+	margin-top: 2px;
+	line-height: 140%;
+}
+table.StreetTableStyle td {
+	padding: 4px;
+	line-height: 12px;
+	border: 1px solid #fff;
+	background: #f9f9f9;
+	vertical-align: top;
+}
+
+/** New Additions **/
+table.PListTableStyle {
+	border: 2px solid #bbb;
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 10px;
+	width: 100%;
+}
+table.PListTableStyle th {
+	color: #000;
+	background-color: #ddd;
+	text-align: left;
+	line-height: 1.5em;
+}
+table.PListTableStyle td {
+	background-color: #F9F9F9;
+	text-align: left;
+	line-height: 1em;
+	padding: 2px 2px 2px 2px;
+	vertical-align: top;
+}
+table.PListTableStyle caption {
+	font-size: 10pt; 
+	font-weight: bold;
+	caption-side: top;
+	text-align: left;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+/** End New Additions **/
+
+/* QM Scheduled Mail (qm_autoplan.wcs) table styles */
+.date-hid {
+	display: none;
+}
+.tr-hide {
+	display:none;
+}
+.td-dest {
+	width: 20%;
+	display: none;
+}
+.td-sched {
+    width: 20%;
+}
+.line_dark {
+	background-color: #ddd;
+}
+.line_light {
+	background-color: #eee;
+}
+#block_table, #table_all {
+	border-collapse: collapse;
+	width: 578px;
+	text-align: left;
+	margin: 0 auto;
+	clear: both;
+}
+#block_table th, #table_all th {
+	background-color: #eee;  
+	color: #666;
+	padding: 8px 3px;
+	line-height: 1.2em;
+}
+#block_table th {
+	text-align: left;
+	border-top: 1px solid #ccc;
+	text-align: left;
+	padding: 3px 3px 2px;
+}
+#block_table th.showlist {
+	width: 50%;
+	text-indent: 5px;
+	text-align: left;
+}
+#block_table th.addresscount {
+	width: 10%;
+}
+#block_table th.remaining {
+	width: 10%;
+}
+#block_table th.edit, th.cancel {
+	width: 15%;
+	text-align: right;
+}
+#table_all th {
+	width: 20%;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+}
+#block_table tr {
+	background-color: #eee;
+}
+#block_table td { 
+	padding: 4px 3px; 
+	width: 20%;
+	text-indent: 5px;
+	overflow: hidden;
+}
+#block_table td a {
+	/* text-decoration: none; */
+}
+#block_table td.numbers a {
+	text-decoration: underline;
+}
+#block_table td a img {
+	margin-right: 5px;
+}
+#block_table td.smallred {
+	color: #d21034;
+	padding: 0 8px 15px;
+	background-color: #fff;
+	line-height: 15px;
+}
+#block_table td.smallred a {
+	text-decoration: underline;
+}
+#block_table td.small red br {
+	font-size: 0;
+	line-height: 0;
+}
+#block_table tr.farm_row {
+	background: #fafafa;
+}
+#block_table td.farm_name {
+	padding-left: 20px;
+}
+#block_table td.mailing_name {
+	padding-left: 50px;
+	background: #f4f4f4 url(/assets/images/newstyle/backgrounds/order_status_bg.png) no-repeat 40px 4px;
+}
+#block_table td.numbers-dark { 
+	background-color: #ddd;
+	text-align: center;
+}
+#block_table td.numbers-light { 
+	background-color: #eee;  
+	text-align: center;
+}
+#block_table td.edit, #table_all td.edit, #block_table td.cancel, #table_all td.cancel {
+	text-align: left;
+	text-indent: 0;
+	padding-right: 10px;
+	width: 50px;
+}
+#table_all td.edit a, #block_table td.edit a {
+	background: url(/assets/images/newstyle/backgrounds/edit_bg.gif) no-repeat left center;
+	padding-left: 14px;
+	display: block;
+	height: 1.5em;
+	line-height: 1.5em;
+	text-align: left;
+}
+#block_table td.blankline {
+	height: 1px;
+	padding: 0;
+	max-height: 1px;
+	background: #fff;
+	font-size: 0;
+	line-height: 0;
+}
+#block_table td.edit {
+	padding-right: 5px;
+}
+#block_table tr.campaign_row {
+	background: #fff;
+}
+#block_table tr.campaign_row td {
+	border-top: 1px solid #ccc;
+}
+#block_table tr.block_row {
+	background: #f4f4f4;
+}
+#table_all td.cancel a, #block_table td.cancel a {
+	background: url(/assets/images/newstyle/backgrounds/cancel_bg.gif) no-repeat left center;
+	padding-left: 13px;
+	display: block;
+	height: 1.5em;
+	line-height: 1.5em;
+	color: #d21034;
+}
+#table_all td.cancel a:hover, #block_table td.cancel a:hover {
+	font-weight: bold;
+}
+#block_table, #table_all td {
+	padding: 4px 3px;
+	overflow: hidden;
+}
+#table_all th.scheduled, td.scheduled {
+	width: 30%;
+	text-indent: 5px;
+}
+#table_all th.td-sched, td.td-sched {
+	width: 50%;
+	text-indent: 0;
+	overflow: hidden;
+}
+table.schedline	{
+	width: 605px;
+	background-color: #fff;
+}
+table.schedline	tr {
+	vertical-align: middle;
+}
+/* Sortable tables */
+table.sortable	{
+	border-collapse: collapse;
+	width: 592px;
+}
+
+table.sortable a.sortheader {
+	font-weight: bold;
+	text-decoration: none;
+}
+table.sortable span.sortarrow {
+	text-decoration: none;
+	font-size: 13px;
+	font-weight: bold;
+}
+table.sortable .sorted_up {
+	background: url(/assets/images/newstyle/backgrounds/sort_arrow_up.gif) no-repeat right center;
+	text-decoration: none;
+}
+table.sortable .sorted_down {
+	background: url(/assets/images/newstyle/backgrounds/sort_arrow_down.gif) no-repeat right center;
+	text-decoration: none;
+}
+th.ez_select, th.ez_mailed	{
+	width: 8%;
+}
+
+th.ez_zipcode	{
+	width: 10%;
+}
+
+th.ez_used	{
+	width: 12%;
+}
+th.ez_name, th.ez_count	{
+	width: 14%;
+}
+
+th.ez_homeown	{
+	width: 34%;
+}
+
+th.pl_status	{
+	width: 8%;
+}
+
+th.pl_used, th.pl_count	{
+	width: 11%;
+}
+
+th.pl_name	{
+	width: 30%;
+}
+
+th.pl_status	{
+	width: 40%;
+}
+
+/* DGS 03/03/08 Added for MapMail maintenance */
+
+th.mm_select	{
+	width: 8%;
+}
+
+th.mm_name	{
+	width: 44%;
+}
+
+th.mm_count	{
+	width: 14%;
+}
+
+/*
+th.mm_mailed	{
+	width: 8%;
+}
+th.mm_used	{
+	width: 12%;
+}
+*/
+
+th.mm_homeown	{
+	width: 34%;
+}
+
+/*****************
+QM My Library » /html/wc.wc?QC~filelibrary~&website=quantummail » qc.prg
+*****************/
+#myLibrary table.fileViewer {
+	width: 90%;
+	margin: 0 5% 10px;
+}
+#myLibrary table.fileViewer td {
+	width: 50%;
+	vertical-align: top;
+	padding-top: 15px;
+	font: 11px Tahoma;
+}
+#myLibrary table.fileViewer td#list, #myLibrary table.fileViewer td#list_image {
+	border-right: 1px dashed #ccc;
+}
+#myLibrary table.fileViewer td#file, #myLibrary table.fileViewer td#file_image {
+	padding-left: 10px;
+	text-align: center;
+}
+#printContent table.fileViewer td p.edit {
+	margin: 5px 0 0;
+	padding: 0;
+	clear: both;
+}
+#printContent table.fileViewer td p.delete {
+	margin: 3px 0 0;
+	padding: 0;
+	clear: both;
+}
+#printContent table.fileViewer td p.renameLink {
+	margin: 6px 0 5px;
+	padding: 0;
+}
+#printContent table.fileViewer td p.renameInput {
+	margin: 3px 0 5px;
+	font: 10px Verdana;
+}
+#printContent table.fileViewer input#renameEntry {
+	position: relative;
+	left: 6px;
+	top: 4px;
+}
+#printContent table.fileViewer td p.renameInput form {
+	position: relative;
+	width: 200px;
+	padding: 3px 0 5px;
+	background: #f3f3f3;
+	border: 1px solid #ccc;
+}
+#printContent table.fileViewer td p.delete img {
+	margin: 0 1px -3px -3px;
+}
+#myLibrary table.fileViewer td p.edit img {
+	margin: 0 3px 0 0;
+}
+#myLibrary table.fileViewer td p.edit a, #myLibrary table.fileViewer td p.delete a, 
+#myLibrary table.fileViewer td a.renameLink, #myLibrary table.fileViewer td p.orderFile a {
+	display: block;
+	text-align: left;
+	text-decoration: none;
+	margin-left: 70px;
+	font: bold 10px Verdana, Arial, Helvetica, sans-serif;
+	line-height: 105%;
+	position: relative;
+}
+#myLibrary table.fileViewer td#file p {
+	margin: 5px 0 3px;
+}
+#myLibrary table.fileViewer td#file p a {
+	text-decoration: none;
+	font: bold 10px Verdana, Arial, Helvetica, sans-serif;
+}
+#myLibrary table.fileViewer td a.renameLink {
+	margin-left: 67px;
+}
+#myLibrary table.fileViewer td p.orderFile {
+	margin-bottom: 0;
+}
+#myLibrary table.fileViewer td p.orderFile a {
+	margin-left: 50px;
+	background: url(/assets/images/newstyle/backgrounds/library_orderFile_bg.gif) no-repeat 0 0;
+	padding: 7px 0 7px 25px;
+}
+#myLibrary .newDesign {
+	border: 1px solid #ddd;
+	background: #fafafa;
+	margin: 0 14px 14px;
+	width: 550px;
+	float: left;
+	display: inline; /* IE fix */
+	padding: 3px 0;
+}
+#myLibrary .newDesign ul {
+	float: left;
+	display: inline; /* IE fix */
+	margin: 0 5px;
+	padding: 4px 0 4px 50px;
+	background: url(/assets/images/newstyle/icons/icon_onlinedesign.gif) no-repeat 0 4px;
+	list-style-type: none;
+}
+#myLibrary .newDesign li {
+	float: left;
+	clear: left;
+	margin: 0;
+	padding: 0;
+	width: 90%;
+	font: 10px Verdana, Arial, Helvetica, sans-serif;
+}
+#myLibrary .newDesign li a {
+	font-size: 12px;
+	line-height: 22px;
+	font-weight: bold;
+}
+#thumbViewer {
+	float: left;
+	width: 100%;
+	margin-top: 3px;
+}
+#myLibrary table.fileViewer td#file h4.fileTitle {
+	font-size: 12px;
+	margin-bottom: 3px;
+}
+/*	//dgs 03/16/07 raw thumbs 
+#myLibrary table.fileViewer #thumbNail img {
+	width: 180px;
+	border: 1px solid #ddd;
+	padding: 3px 10px;
+}
+*/
+#printContent #thumbViewer h5.infoTitle {
+	float: left;
+	width: 50%;
+	text-align: right;
+	height: 1.4em;
+	line-height: 100%;
+	font: bold 10px Verdana, Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	background: none;
+}
+#thumbViewer div.fileInfo {
+	float: left;
+	height: 1.4em;
+	width: 40%;
+	font: 10px Verdana, Arial, Helvetica, sans-serif;
+	line-height: 100%;
+	margin-left: 5px;
+	text-align: left;
+}
+body#printContent {
+	margin-left: 6px;
+	width: 545px;
+}
+#menuContainer #liveChatLink {
+	padding-left: 13px;
+}
+#menuContainer.override div#liveChatLink {
+	padding-left: 5px;
+}
+/* Rounded corner stypes */
+.rContainer {display:block;}
+.rContainer * {display: block; height: 1px; overflow: hidden}
+                                                                                                                                                             /* Instructional blocks in order process */
+.progressContainer{                                                                                                                                              border:1px solid #8d9394;
+    border-top:0;
+    border-bottom:0;
+    background:#e0e2e4;
+    padding:0px 0px 7px 10px;
+    font-size:13px;
+    color:#000000;
+    font-weight:bold;
+}
+.progressContainer span.step{
+    color:#8b0b04;
+    font-size:14px;
+}
+.progressInstructions{
+    border:1px solid #8d9394;
+    border-bottom:0;
+    padding:8px 20px 2px 20px;
+    font-size:12px;
+    color:#000000;
+}
+a#quickinfo_chain{
+	float:right;
+	width:75px;
+	height:17px;
+	margin-right:5px;
+	font-size: 10px;
+	font-weight: bold;
+/*	background: transparent url(/assets/images/newstyle/quickinfo_chain.gif) center center no-repeat;*/
+	display:block;
+}
+.wide .topPad a#quickinfo_chain{
+	margin-right:40px;
+	margin-top:7px;
+}

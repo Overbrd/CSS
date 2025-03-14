@@ -1,0 +1,213 @@
+<style type="text/css">
+
+body {
+	font-family: Arial, Helvetica, "sans-serif";
+	font-size: 14px;
+	color: #000000;
+	background-color: #0099cc;
+	margin: 28px 5px 5px 5px;
+}
+h4 {
+	font-family: Arial, Helvetica, "sans-serif";
+	font-weight: bold;
+	font-size: 26px;
+	color: #FF0000;
+	margin: 5px;
+	display: blink;
+}
+.banner1 {
+	background-image: url('../images/banner.jpg');
+	background-repeat: no-repeat;
+	background-position: top left;
+	font-family: Arial, Helvetica, "sans-serif";
+	font-weight: bold;
+	font-size: 10px;
+	height: 147px;
+	width: 780px;
+	text-align: left;
+}
+
+
+.logo {
+	font-family: Arial, Helvetica, "sans-serif";
+	font-weight: bold;
+	color: #003366;
+	font-style: italic;
+	font-size: 18px;
+	vertical-align: middle;
+	background-image: none;
+	text-align: center;
+	background-color: #FFFFFF;
+}
+.columntopleft {
+	vertical-align: top;
+	background-image: url('../images/globetop.jpg');
+	background-repeat: no-repeat;
+	background-position: top left;
+	width: 56px;
+	height: 46px;
+}
+.columntopright {
+	vertical-align: top;
+	background-image: url('../images/globetopright.jpg');
+	background-repeat: no-repeat;
+	background-position: top left;
+	width: 56px;
+	height: 46px;
+}
+.columnleft {
+	vertical-align: top;
+	background-image: url('../images/globemiddle.jpg');
+	background-repeat: repeat-y;
+	background-position: top left;
+	width: 56px;
+}
+.columnright {
+	vertical-align: top;
+	background-image: url('../images/globemiddleright.jpg');
+	background-repeat: repeat-y;
+	background-position: top left;
+	width: 56px;
+}
+.columnbottomleft {
+	vertical-align: top;
+	background-image: url('../images/globebottom.jpg');
+	background-repeat: no-repeat;
+	background-position: top left;
+	width: 56px;
+	height: 46px;
+}
+.columnbottomright {
+	vertical-align: top;
+	background-image: url('../images/globebottomright.jpg');
+	background-repeat: no-repeat;
+	background-position: top left;
+	width: 56px;
+	height: 46px;
+}
+.bottomcenter {
+	vertical-align: top;
+	background-image: url('../images/bottom.jpg');
+	background-repeat: no-repeat;
+	background-position: top left;
+	width: 780px;
+	height: 17px;
+}
+.nav {
+	color: #000000;
+	font-family: Arial, Helvetica, "sans-serif";
+	font-size: 13px;
+	text-align: center;
+	width: 134px;
+	padding: 5px 3px 0px 3px;
+	display: inline;
+	background-color: #e1e1e1;
+	display: block;
+	vertical-align: top;
+	border: 1px groove #006699;
+	height: 100%;
+}
+	a.nav {
+		color: #ffffff;
+		text-decoration: none;
+		border: none;
+		background-color: #006699;
+		border: 1px groove #0000FF;
+		padding: 3px 1px 3px 1px;
+		margin: 1px;
+		width: 127px;
+}
+	a.nav:hover {
+		color: #ffffff;
+		text-decoration: underline;
+		background-color: #006699;
+		border: 1px groove #0000FF;
+}
+	a.nav:active {
+		color: #FF0000;
+		border: 1px groove #0000FF;
+}
+	a.nav:visited {
+		color: #cccccc;
+		border: 1px groove #0000FF;
+}
+
+.nav2 {
+	color: #006699;
+	font-family: Arial, Helvetica, "sans-serif";
+	font-size: 10px;
+	text-align: left;
+	text-transform: uppercase;
+	background-color: #e1e1e1;
+
+}
+	a.nav2 {
+		color: #006699;
+		text-decoration: none;
+}
+	a.nav2:hover {
+		color: #006699;
+		text-decoration: underline;
+}
+	a.nav2:active {
+		color: #006699;
+}
+	a.nav2:visited {
+		color: #006699;
+}
+
+.bottomnav {
+	color: #003366;
+	font-family: Arial, Helvetica, "sans-serif";
+	font-size: 11px;
+	text-align: center;
+}
+	a.bottomnav {
+		color: #003366;
+		text-decoration: none;
+}
+	a.bottomnav:hover {
+		color: #003366;
+		text-decoration: underline;
+}
+	a.bottomnav:active {
+		color: #003366;
+}
+	a.bottomnav:visited {
+		color: #003366;
+}
+
+.content {
+	font-family: Arial, Helvetica, "sans-serif";
+	font-size: 14px;
+	color: #000000;
+	padding: 5px 5px 5px 5px;
+	text-align: left;
+	background-color: #FFFFFF;
+	background-image: url('../images/pagebg.jpg');
+	background-repeat: no-repeat;
+	background-position: top left;
+	vertical-align: top;
+}
+	
+.bottomcenter {
+	font-family: Arial, Helvetica, "sans-serif";
+	font-size: 11px;
+	color: #000000;
+	padding: 5px 5px 5px 5px;
+	vertical-align: bottom;
+	background-image: url('../images/bottom.jpg');
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+.copyright {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 9px;
+	color: #0000FF;
+}
+.lowend {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 9px;
+	color: #000000;
+}
+</style>

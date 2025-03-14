@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+
+.gallery_title{
+	background:url(../images/gallery_title.jpg) no-repeat;
+	padding: 15px 0px 0px 193px;
+	height: 23px;
+	color: #333;
+	font-size:18px;
+}
+.middle_separator{
+	height: 6px;
+	margin: 20px 0px;
+}
+
+/*Gallary */
+.gallery_background{
+	background:url(../images/sub-page-gallery.png) no-repeat; 
+	width:240px; 
+	height: 100px;
+	padding: 0px 35px 0px 35px;
+}
+.stepcarousel{
+	position: relative;
+	border: 0;
+	overflow: scroll;
+	width: 450px;
+	height: 120px;
+	margin-left:35px;
+}
+
+.stepcarousel .belt{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.stepcarousel .panel{
+	float: left;
+	overflow: hidden;
+	padding-top:0px;
+	width: 201px;
+	height: 101px;
+	text-align: center;
+	margin-top:20px;
+	color: #0ba2aa;
+	font-weight:bold;
+}
+.galleryThumb {
+	width: 150px;
+	height: 160px;
+	border: 0;
+}
+
+/* Image Gallery Pup up Window Styles */
+#thumbBox { /*Outermost DIV for thumbnail viewer*/
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding: 5px;
+	padding-bottom: 0;
+	background: #acbddb;
+	visibility: hidden;
+	z-index: 2009;
+	cursor: hand;
+	cursor: pointer;
+}
+#thumbBox .footerbar { /*Footer DIV of thumbbox that contains "close" link */
+	font: bold 14px Arial;
+	line-height: 1.1em;
+	color: #fff;
+	padding: 5px 0;
+	text-align: right;
+}
+#thumbBox #thumbImage { /*DIV within thumbbox that holds the enlarged image */
+	background: #fff;
+	padding: 0px;
+}
+
+
+#thumbLoading { /*DIV for showing "loading" status while thumbbox is being generated*/
+	position: absolute;
+	visibility: hidden;
+	border: 2px solid #acbddb;
+	background-color: #f5f5f5;
+	padding: 5px;
+	z-index: 2008;
+	color: #4b5566;
+}
+
+.dr-name {
+	font-size: 18px;
+	color: #004ba1;
+}

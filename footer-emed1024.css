@@ -1,0 +1,125 @@
+/* ******************************************************
+	LAYOUT STYLES 
+****************************************************** */
+
+/* medscape footer */
+#medscapefooter {
+	padding: 0 0 5px 0;
+	}
+
+/* search */
+#footersearch {
+	padding: 6px 0 1px 14px;
+	background-image: url(../images/bg-search-footer.gif); 
+	background-position: bottom left; 
+	background-repeat: no-repeat;
+	border-bottom: 1px solid #9ea1a2;
+	}
+
+/* main footer contents */
+#footercontents {
+	border: 1px solid #d4d4d4;
+	background-color: #fff;
+	}
+#footerbar {
+	margin: 6px 0 10px 14px;
+	padding: 0;
+	}
+#footerbar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none inside none;
+	}
+
+#emedfooterlegal {
+	margin: 10px 0 0 0;
+	padding: 0;
+	width: 980px;
+	}
+
+/* ******************************************************
+	ELEMENTS 
+****************************************************** */
+
+/* search */
+#footertextinput {
+	margin: 0;
+	padding: 2px 0 0 3px;
+	cursor: text;
+	height: 16px;
+	width: 465px;
+	background-color: #fff;
+	border: 2px solid #999;
+	border-right-color: #e4e4e4;
+	border-bottom-color: #e4e4e4;
+    font-size: 11px;
+    }
+input#footersubmit {
+	margin: 0 0 4px 0;
+	padding: 0;
+	vertical-align: middle;
+	}
+#radioformfooter {
+	font-size: 0.95em;
+	}
+.inactiveradio {
+    display: none;
+    }
+.activeradio {
+    display: block;
+    }
+
+/* footer marquee ad */
+#adtagfooter {
+	margin: 3px 0 0 125px;
+	}
+
+/* footer nav */
+#footerbar a {
+	font-weight: bold;
+	}
+.footernavstart {
+	padding-right: 8px;
+	font-size: 0.85em;
+	display: inline;
+	border-right: 1px solid #666;
+	font-weight: normal;
+	}
+.footernav {
+	padding-right: 8px;
+	padding-left: 7px;
+	font-size: 0.85em;
+	display: inline;
+	border-right: 1px solid #666;
+	border-left: 1px solid #b6b5b4;
+	font-weight: normal;
+	}
+.footernavend {
+	padding-left: 8px;
+	font-size: 0.85em;
+	display: inline;
+	border-left: 1px solid #b6b5b4;
+	font-weight: normal;
+	}
+
+/* legal */
+.legaltext {
+	margin: 8px 0 10px 0;
+	font-size: 0.85em;
+	color: #444;
+	}
+
+
+#emedfooterlegal p {
+	margin: 0 0 8px 0;
+	padding: 0;
+	font-size: 0.85em;
+	}
+.footericons {
+	margin: 10px 4px 0 20px;
+	float: right;
+	width: 200px;
+	}
+.footericon {
+	margin: 0 5px 0 4px;
+	}

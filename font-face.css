@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'DroidSansRegular';
+    src: url('fonts/DroidSans-webfont.eot?') format('eot'), url('fonts/DroidSans-webfont.woff') format('woff'), url('fonts/DroidSans-webfont.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'DroidSansBold';
+    src: url('fonts/DroidSansMono-webfont.eot?') format('eot'), url('fonts/DroidSansMono-webfont.woff') format('woff'), url('fonts/DroidSansMono-webfont.ttf') format('truetype');
+    font-weight: bold;
+}

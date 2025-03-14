@@ -1,0 +1,39 @@
+.leftnavbar {
+	DISPLAY: none
+}
+#map #legend-box {
+	DISPLAY: none
+}
+.middle {
+	MARGIN-TOP: 0px; Z-INDEX: 1; RIGHT: 0px; MARGIN-LEFT: 0px; MARGIN-RIGHT: 0px
+}
+.middlenoright {
+	MARGIN-TOP: 12px; Z-INDEX: 1; RIGHT: 0px; LEFT: 0px; MARGIN-LEFT: 10px; MARGIN-RIGHT: 0px; TOP: 0px
+}
+.menubar {
+	DISPLAY: none
+}
+.rightnav {
+	DISPLAY: none
+}
+.navigation {
+	DISPLAY: none
+}
+.lighttable {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid
+}
+.darktable {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid
+}
+.satfloat {
+	DISPLAY: none; BACKGROUND-IMAGE: url(http://i.flhurricane.com/images/printheader.png)
+}
+.cfhcfloat {
+	Z-INDEX: 1; RIGHT: 10px; LEFT: 10px; FLOAT: right; BACKGROUND-IMAGE: url(http://i.flhurricane.com/images/printheader.png); OVERFLOW: hidden; WIDTH: 210px; POSITION: absolute; TOP: -15px; HEIGHT: 34px
+}
+.modname {
+	COLOR: #00aa00
+}
+.adminname {
+	COLOR: #ff0000
+}
